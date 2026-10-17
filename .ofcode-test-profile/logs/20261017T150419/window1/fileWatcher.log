@@ -292,3 +292,213 @@
 2026-10-17 15:08:43.385 [trace] [File Watcher (node.js)] [raw] ["change"] QuickActionsDataModel.dll
 2026-10-17 15:08:43.385 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\QuickActionsDataModel.dll
 2026-10-17 15:08:43.472 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\QuickActionsDataModel.dll
+2026-10-17 15:08:52.425 [trace] [File Watcher (node.js)] [raw] ["change"] Temp
+2026-10-17 15:08:52.426 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\Temp
+2026-10-17 15:08:52.510 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\Temp
+2026-10-17 15:08:56.635 [trace] [File Watcher (node.js)] [raw] ["change"] profext.dll
+2026-10-17 15:08:56.635 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\profext.dll
+2026-10-17 15:08:56.712 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\profext.dll
+2026-10-17 15:09:12.918 [trace] [File Watcher (node.js)] [raw] ["change"] WmiPerfClass.dll
+2026-10-17 15:09:12.918 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\WmiPerfClass.dll
+2026-10-17 15:09:12.932 [trace] [File Watcher (node.js)] [raw] ["change"] ncobjapi.dll
+2026-10-17 15:09:12.933 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ncobjapi.dll
+2026-10-17 15:09:12.951 [trace] [File Watcher (node.js)] [raw] ["change"] pdh.dll
+2026-10-17 15:09:12.951 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\pdh.dll
+2026-10-17 15:09:12.962 [trace] [File Watcher (node.js)] [raw] ["change"] hvhostsvc.dll
+2026-10-17 15:09:12.962 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\hvhostsvc.dll
+2026-10-17 15:09:12.965 [trace] [File Watcher (node.js)] [raw] ["change"] azroles.dll
+2026-10-17 15:09:12.966 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\azroles.dll
+2026-10-17 15:09:12.966 [trace] [File Watcher (node.js)] [raw] ["change"] lsasrv.dll
+2026-10-17 15:09:12.966 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\lsasrv.dll
+2026-10-17 15:09:12.967 [trace] [File Watcher (node.js)] [raw] ["change"] vmwp.exe
+2026-10-17 15:09:12.967 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\vmwp.exe
+2026-10-17 15:09:12.969 [trace] [File Watcher (node.js)] [raw] ["change"] mispace.dll
+2026-10-17 15:09:12.969 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mispace.dll
+2026-10-17 15:09:12.970 [trace] [File Watcher (node.js)] [raw] ["change"] cscsvc.dll
+2026-10-17 15:09:12.970 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\cscsvc.dll
+2026-10-17 15:09:12.973 [trace] [File Watcher (node.js)] [raw] ["change"] iphlpsvc.dll
+2026-10-17 15:09:12.973 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\iphlpsvc.dll
+2026-10-17 15:09:12.975 [trace] [File Watcher (node.js)] [raw] ["change"] bthserv.dll
+2026-10-17 15:09:12.975 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\bthserv.dll
+2026-10-17 15:09:12.975 [trace] [File Watcher (node.js)] [raw] ["change"] microsoft-windows-mptf-events.dll
+2026-10-17 15:09:12.976 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\microsoft-windows-mptf-events.dll
+2026-10-17 15:09:12.977 [trace] [File Watcher (node.js)] [raw] ["change"] umpoext.dll
+2026-10-17 15:09:12.978 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\umpoext.dll
+2026-10-17 15:09:12.980 [trace] [File Watcher (node.js)] [raw] ["change"] PSEvents.dll
+2026-10-17 15:09:12.980 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\WindowsPowerShell\v1.0\PSEvents.dll
+2026-10-17 15:09:12.981 [trace] [File Watcher (node.js)] [raw] ["change"] WinMgmtR.dll
+2026-10-17 15:09:12.981 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\WinMgmtR.dll
+2026-10-17 15:09:12.982 [trace] [File Watcher (node.js)] [raw] ["change"] rdpcorets.dll
+2026-10-17 15:09:12.982 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\rdpcorets.dll
+2026-10-17 15:09:12.983 [trace] [File Watcher (node.js)] [raw] ["change"] vmcompute.exe
+2026-10-17 15:09:12.983 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\vmcompute.exe
+2026-10-17 15:09:12.984 [trace] [File Watcher (node.js)] [raw] ["change"] ReFsDedupSvc.exe
+2026-10-17 15:09:12.984 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ReFsDedupSvc.exe
+2026-10-17 15:09:12.985 [trace] [File Watcher (node.js)] [raw] ["change"] netlogon.dll
+2026-10-17 15:09:12.985 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\netlogon.dll
+2026-10-17 15:09:12.988 [trace] [File Watcher (node.js)] [raw] ["change"] advapi32res.dll
+2026-10-17 15:09:12.988 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\advapi32res.dll
+2026-10-17 15:09:12.989 [trace] [File Watcher (node.js)] [raw] ["change"] w32time.dll
+2026-10-17 15:09:12.989 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\w32time.dll
+2026-10-17 15:09:12.990 [trace] [File Watcher (node.js)] [raw] ["change"] wecsvc.dll
+2026-10-17 15:09:12.990 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wecsvc.dll
+2026-10-17 15:09:12.990 [trace] [File Watcher (node.js)] [raw] ["change"] appvetwclientres.dll
+2026-10-17 15:09:12.991 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\appvetwclientres.dll
+2026-10-17 15:09:12.991 [trace] [File Watcher (node.js)] [raw] ["change"] wevtsvc.dll
+2026-10-17 15:09:12.991 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wevtsvc.dll
+2026-10-17 15:09:12.991 [trace] [File Watcher (node.js)] [raw] ["change"] Taskmgr.exe
+2026-10-17 15:09:12.992 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Taskmgr.exe
+2026-10-17 15:09:12.992 [trace] [File Watcher (node.js)] [raw] ["change"] PeerDistSvc.dll
+2026-10-17 15:09:12.992 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\PeerDistSvc.dll
+2026-10-17 15:09:12.993 [trace] [File Watcher (node.js)] [raw] ["change"] WsmRes.dll
+2026-10-17 15:09:12.993 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\WsmRes.dll
+2026-10-17 15:09:12.993 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\WmiPerfClass.dll
+2026-10-17 15:09:12.993 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\WinMgmtR.dll
+2026-10-17 15:09:12.994 [trace] [File Watcher (node.js)] [raw] ["change"] vid.dll
+2026-10-17 15:09:12.994 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\vid.dll
+2026-10-17 15:09:12.994 [trace] [File Watcher (node.js)] [raw] ["change"] mprddm.dll
+2026-10-17 15:09:12.995 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mprddm.dll
+2026-10-17 15:09:12.995 [trace] [File Watcher (node.js)] [raw] ["change"] Wldap32.dll
+2026-10-17 15:09:12.995 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Wldap32.dll
+2026-10-17 15:09:13.016 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ncobjapi.dll
+2026-10-17 15:09:13.017 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\pdh.dll
+2026-10-17 15:09:13.017 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\hvhostsvc.dll
+2026-10-17 15:09:13.017 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\azroles.dll
+2026-10-17 15:09:13.017 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\lsasrv.dll
+2026-10-17 15:09:13.017 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\vmwp.exe
+2026-10-17 15:09:13.017 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mispace.dll
+2026-10-17 15:09:13.018 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\cscsvc.dll
+2026-10-17 15:09:13.018 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\iphlpsvc.dll
+2026-10-17 15:09:13.018 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\bthserv.dll
+2026-10-17 15:09:13.018 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\microsoft-windows-mptf-events.dll
+2026-10-17 15:09:13.019 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\umpoext.dll
+2026-10-17 15:09:13.019 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\rdpcorets.dll
+2026-10-17 15:09:13.019 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\vmcompute.exe
+2026-10-17 15:09:13.019 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ReFsDedupSvc.exe
+2026-10-17 15:09:13.019 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\netlogon.dll
+2026-10-17 15:09:13.020 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\advapi32res.dll
+2026-10-17 15:09:13.020 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\w32time.dll
+2026-10-17 15:09:13.020 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wecsvc.dll
+2026-10-17 15:09:13.020 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\appvetwclientres.dll
+2026-10-17 15:09:13.020 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wevtsvc.dll
+2026-10-17 15:09:13.021 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Taskmgr.exe
+2026-10-17 15:09:13.021 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\PeerDistSvc.dll
+2026-10-17 15:09:13.021 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\WsmRes.dll
+2026-10-17 15:09:13.021 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\vid.dll
+2026-10-17 15:09:13.021 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mprddm.dll
+2026-10-17 15:09:13.021 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Wldap32.dll
+2026-10-17 15:09:13.064 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\WindowsPowerShell\v1.0\PSEvents.dll
+2026-10-17 15:09:13.127 [trace] [File Watcher (node.js)] [raw] ["change"] perfc009.dat
+2026-10-17 15:09:13.127 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfc009.dat
+2026-10-17 15:09:13.145 [trace] [File Watcher (node.js)] [raw] ["change"] perfh009.dat
+2026-10-17 15:09:13.145 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfh009.dat
+2026-10-17 15:09:13.200 [trace] [File Watcher (node.js)] [raw] ["change"] netfxperf.dll
+2026-10-17 15:09:13.200 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\netfxperf.dll
+2026-10-17 15:09:13.203 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfc009.dat
+2026-10-17 15:09:13.203 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfh009.dat
+2026-10-17 15:09:13.203 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\netfxperf.dll
+2026-10-17 15:09:13.260 [trace] [File Watcher (node.js)] [raw] ["change"] bitsperf.dll
+2026-10-17 15:09:13.260 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\bitsperf.dll
+2026-10-17 15:09:13.264 [trace] [File Watcher (node.js)] [raw] ["change"] BitsProxy.dll
+2026-10-17 15:09:13.264 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\BitsProxy.dll
+2026-10-17 15:09:13.267 [trace] [File Watcher (node.js)] [raw] ["change"] perfts.dll
+2026-10-17 15:09:13.267 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfts.dll
+2026-10-17 15:09:13.267 [trace] [File Watcher (node.js)] [raw] ["change"] utildll.dll
+2026-10-17 15:09:13.267 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\utildll.dll
+2026-10-17 15:09:13.291 [trace] [File Watcher (node.js)] [raw] ["change"] msdtcuiu.dll
+2026-10-17 15:09:13.291 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\msdtcuiu.dll
+2026-10-17 15:09:13.292 [trace] [File Watcher (node.js)] [raw] ["change"] mtxclu.dll
+2026-10-17 15:09:13.292 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mtxclu.dll
+2026-10-17 15:09:13.292 [trace] [File Watcher (node.js)] [raw] ["change"] msdtcprx.dll
+2026-10-17 15:09:13.293 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\msdtcprx.dll
+2026-10-17 15:09:13.293 [trace] [File Watcher (node.js)] [raw] ["change"] clusapi.dll
+2026-10-17 15:09:13.293 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\clusapi.dll
+2026-10-17 15:09:13.293 [trace] [File Watcher (node.js)] [raw] ["change"] resutils.dll
+2026-10-17 15:09:13.294 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\resutils.dll
+2026-10-17 15:09:13.294 [trace] [File Watcher (node.js)] [raw] ["change"] mi.dll
+2026-10-17 15:09:13.294 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mi.dll
+2026-10-17 15:09:13.294 [trace] [File Watcher (node.js)] [raw] ["change"] miutils.dll
+2026-10-17 15:09:13.295 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\miutils.dll
+2026-10-17 15:09:13.300 [trace] [File Watcher (node.js)] [raw] ["change"] perfdisk.dll
+2026-10-17 15:09:13.300 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfdisk.dll
+2026-10-17 15:09:13.303 [trace] [File Watcher (node.js)] [raw] ["change"] perfnet.dll
+2026-10-17 15:09:13.303 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfnet.dll
+2026-10-17 15:09:13.304 [trace] [File Watcher (node.js)] [raw] ["change"] browcli.dll
+2026-10-17 15:09:13.304 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\browcli.dll
+2026-10-17 15:09:13.305 [trace] [File Watcher (node.js)] [raw] ["change"] perfos.dll
+2026-10-17 15:09:13.305 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfos.dll
+2026-10-17 15:09:13.306 [trace] [File Watcher (node.js)] [raw] ["change"] perfproc.dll
+2026-10-17 15:09:13.306 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\perfproc.dll
+2026-10-17 15:09:13.307 [trace] [File Watcher (node.js)] [raw] ["change"] rasctrs.dll
+2026-10-17 15:09:13.308 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\rasctrs.dll
+2026-10-17 15:09:13.309 [trace] [File Watcher (node.js)] [raw] ["change"] rasman.dll
+2026-10-17 15:09:13.309 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\rasman.dll
+2026-10-17 15:09:13.316 [trace] [File Watcher (node.js)] [raw] ["change"] msscntrs.dll
+2026-10-17 15:09:13.316 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\msscntrs.dll
+2026-10-17 15:09:13.318 [trace] [File Watcher (node.js)] [raw] ["change"] usbperf.dll
+2026-10-17 15:09:13.318 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\usbperf.dll
+2026-10-17 15:09:13.320 [trace] [File Watcher (node.js)] [raw] ["change"] WmiApRpl.dll
+2026-10-17 15:09:13.320 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\WmiApRpl.dll
+2026-10-17 15:09:13.321 [trace] [File Watcher (node.js)] [raw] ["change"] Temp
+2026-10-17 15:09:13.321 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\Temp
+2026-10-17 15:09:13.323 [trace] [File Watcher (node.js)] [raw] ["change"] WmiApSrv.exe
+2026-10-17 15:09:13.324 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\WmiApSrv.exe
+2026-10-17 15:09:13.332 [trace] [File Watcher (node.js)] [raw] ["change"] loadperf.dll
+2026-10-17 15:09:13.332 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\loadperf.dll
+2026-10-17 15:09:13.344 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\bitsperf.dll
+2026-10-17 15:09:13.345 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\BitsProxy.dll
+2026-10-17 15:09:13.345 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfts.dll
+2026-10-17 15:09:13.345 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\utildll.dll
+2026-10-17 15:09:13.345 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\msdtcuiu.dll
+2026-10-17 15:09:13.346 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mtxclu.dll
+2026-10-17 15:09:13.346 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\msdtcprx.dll
+2026-10-17 15:09:13.346 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\clusapi.dll
+2026-10-17 15:09:13.346 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\resutils.dll
+2026-10-17 15:09:13.346 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mi.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\miutils.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfdisk.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfnet.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\browcli.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfos.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\perfproc.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\rasctrs.dll
+2026-10-17 15:09:13.347 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\rasman.dll
+2026-10-17 15:09:13.348 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\msscntrs.dll
+2026-10-17 15:09:13.348 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\usbperf.dll
+2026-10-17 15:09:13.348 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\loadperf.dll
+2026-10-17 15:09:13.362 [trace] [File Watcher (node.js)] [raw] ["change"] wmiprov.dll
+2026-10-17 15:09:13.362 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\wmiprov.dll
+2026-10-17 15:09:13.363 [trace] [File Watcher (node.js)] [raw] ["change"] esscli.dll
+2026-10-17 15:09:13.363 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\esscli.dll
+2026-10-17 15:09:13.370 [trace] [File Watcher (node.js)] [raw] ["change"] acpimof.dll
+2026-10-17 15:09:13.370 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\acpimof.dll
+2026-10-17 15:09:13.406 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\WmiApRpl.dll
+2026-10-17 15:09:13.406 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\WmiApSrv.exe
+2026-10-17 15:09:13.406 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\wmiprov.dll
+2026-10-17 15:09:13.406 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\esscli.dll
+2026-10-17 15:09:13.407 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\Temp
+2026-10-17 15:09:13.407 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\acpimof.dll
+2026-10-17 15:09:13.517 [trace] [File Watcher (node.js)] [raw] ["change"] tquery.dll
+2026-10-17 15:09:13.517 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\tquery.dll
+2026-10-17 15:09:13.518 [trace] [File Watcher (node.js)] [raw] ["change"] SearchIndexerCore.dll
+2026-10-17 15:09:13.518 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\SearchIndexerCore.dll
+2026-10-17 15:09:13.594 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\tquery.dll
+2026-10-17 15:09:13.594 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\SearchIndexerCore.dll
+2026-10-17 15:09:14.003 [trace] [File Watcher (node.js)] [raw] ["change"] WmiPerfInst.dll
+2026-10-17 15:09:14.003 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\System32\Wbem\WmiPerfInst.dll
+2026-10-17 15:09:14.080 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\System32\Wbem\WmiPerfInst.dll
+2026-10-17 15:09:15.317 [trace] [File Watcher (node.js)] [raw] ["change"] win32kbase.sys
+2026-10-17 15:09:15.317 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\win32kbase.sys
+2026-10-17 15:09:15.394 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\win32kbase.sys
+2026-10-17 15:09:16.710 [trace] [File Watcher (node.js)] [raw] ["change"] apppatch
+2026-10-17 15:09:16.710 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\apppatch
+2026-10-17 15:09:16.786 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\apppatch
+2026-10-17 15:09:17.611 [trace] [File Watcher (node.js)] [raw] ["change"] adtschema.dll
+2026-10-17 15:09:17.611 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\adtschema.dll
+2026-10-17 15:09:17.630 [trace] [File Watcher (node.js)] [raw] ["change"] AppxPackaging.dll
+2026-10-17 15:09:17.630 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\AppxPackaging.dll
+2026-10-17 15:09:17.687 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\adtschema.dll
+2026-10-17 15:09:17.687 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\AppxPackaging.dll
+2026-10-17 15:09:17.689 [trace] [File Watcher (node.js)] [raw] ["change"] sdbinst.exe
+2026-10-17 15:09:17.689 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sdbinst.exe
+2026-10-17 15:09:17.765 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sdbinst.exe
