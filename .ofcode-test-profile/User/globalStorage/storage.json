@@ -3,12 +3,7 @@
     "telemetry.sqmId": "{A5E98D93-3E2B-4422-8CEF-1094F19139EF}",
     "telemetry.devDeviceId": "38967825-30d1-463a-a0b1-af8eba09902c",
     "backupWorkspaces": {
-        "workspaces": [
-            {
-                "id": "b240a2bc34db31fa01a3d9259ad96835",
-                "configURIPath": "file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/agent-sessions.code-workspace"
-            }
-        ],
+        "workspaces": [],
         "folders": [],
         "emptyWindows": [
             {
@@ -16,7 +11,7 @@
             }
         ]
     },
-    "windowControlHeight": 44,
+    "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
@@ -94,10 +89,10 @@
                     }
                 },
                 "panel": {
-                    "top": 787.328125,
+                    "top": 788,
                     "left": 52,
                     "width": 1114,
-                    "height": 258.65625,
+                    "height": 258,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -109,7 +104,7 @@
                     "top": 35,
                     "left": 52,
                     "width": 1114,
-                    "height": 748.328125,
+                    "height": 749,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -125,8 +120,8 @@
             "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332",
             "uiState": {
                 "mode": 0,
-                "x": -1861,
-                "y": 540,
+                "x": -1646,
+                "y": 89,
                 "width": 1200,
                 "height": 800
             }
@@ -136,7 +131,17 @@
     "userDataProfiles": [
         {
             "location": "builtin/agents",
-            "name": "Agents"
+            "name": "Agents",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "prompts": true,
+                "mcp": true,
+                "languageModels": true,
+                "snippets": true,
+                "tasks": true,
+                "extensions": true
+            }
         }
     ],
     "windowSplashWorkspaceOverride": {

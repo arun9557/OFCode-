@@ -30,3 +30,3372 @@ Total sessions: 0
 Total stored states: 0
 
 === End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:49.286Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:49.286Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:49:49.285Z
+    Last Request Ended: 2026-10-17T08:49:52.475Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Getting chat ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Getting chat ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: InProgress
+  Icon: chat-sparkle
+  Description: Chat is almost ready
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T08:59:32.400Z
+    Last Request Ended: 2026-10-17T08:59:32.400Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===

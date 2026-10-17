@@ -70,3 +70,130 @@
 2026-10-17 14:19:34.083 [trace] Scanned user extensions: 0
 2026-10-17 14:19:34.097 [trace] Scanned dev system extensions: 3
 2026-10-17 14:19:34.101 [trace] Scanned system extensions: 96
+2026-10-17 14:19:36.014 [debug] User data changed
+2026-10-17 14:19:39.197 [debug] User data changed
+2026-10-17 14:19:41.087 [trace] [logs cleanup]: Starting to clean up old logs.
+2026-10-17 14:19:48.762 [debug] User data changed
+2026-10-17 14:19:51.933 [debug] User data changed
+2026-10-17 14:20:01.087 [trace] [storage cleanup]: Starting to clean up workspace storage folders for unused empty workspaces.
+2026-10-17 14:20:03.024 [debug] User data changed
+2026-10-17 14:20:04.986 [debug] User data changed
+2026-10-17 14:20:05.090 [debug] User data changed
+2026-10-17 14:20:06.196 [debug] User data changed
+2026-10-17 14:20:06.257 [debug] User data changed
+2026-10-17 14:20:08.325 [debug] User data changed
+2026-10-17 14:20:11.569 [trace] PolicyConfiguration#onDidChangePolicies []
+2026-10-17 14:20:11.572 [trace] PolicyConfiguration#update []
+2026-10-17 14:20:11.892 [debug] User data changed
+2026-10-17 14:20:11.927 [trace] [Marketplace] Setting manifest unavailable
+2026-10-17 14:20:11.928 [trace] Started scanning system extensions
+2026-10-17 14:20:11.929 [trace] Started scanning dev system extensions
+2026-10-17 14:20:11.929 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:20:12.032 [trace] Scanned user extensions: 0
+2026-10-17 14:20:12.041 [trace] Scanned dev system extensions: 3
+2026-10-17 14:20:12.053 [trace] Scanned system extensions: 96
+2026-10-17 14:20:12.558 [trace] Started scanning system extensions
+2026-10-17 14:20:12.558 [trace] Started scanning dev system extensions
+2026-10-17 14:20:12.559 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:20:12.564 [trace] Scanned user extensions: 0
+2026-10-17 14:20:12.588 [trace] Scanned dev system extensions: 3
+2026-10-17 14:20:12.600 [trace] Scanned system extensions: 96
+2026-10-17 14:20:12.692 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:20:12.695 [trace] Scanned user extensions: 0
+2026-10-17 14:20:12.734 [debug] User data changed
+2026-10-17 14:20:12.888 [trace] resolveShellEnv(): skipped (Windows)
+2026-10-17 14:20:14.313 [debug] User data changed
+2026-10-17 14:20:14.314 [debug] User data changed
+2026-10-17 14:20:30.318 [debug] User data changed
+2026-10-17 14:20:30.319 [debug] User data changed
+2026-10-17 14:20:39.843 [debug] User data changed
+2026-10-17 14:20:39.952 [debug] User data changed
+2026-10-17 14:20:41.604 [debug] User data changed
+2026-10-17 14:20:43.175 [debug] User data changed
+2026-10-17 14:20:43.423 [debug] User data changed
+2026-10-17 14:20:44.265 [debug] User data changed
+2026-10-17 14:20:46.367 [debug] User data changed
+2026-10-17 14:20:49.577 [debug] User data changed
+2026-10-17 14:21:07.414 [debug] User data changed
+2026-10-17 14:21:07.415 [debug] User data changed
+2026-10-17 14:21:07.989 [debug] User data changed
+2026-10-17 14:21:13.895 [trace] Started scanning system extensions
+2026-10-17 14:21:13.895 [trace] Started scanning dev system extensions
+2026-10-17 14:21:13.896 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:21:13.902 [trace] Scanned user extensions: 0
+2026-10-17 14:21:13.937 [trace] Scanned dev system extensions: 3
+2026-10-17 14:21:13.957 [trace] Scanned system extensions: 96
+2026-10-17 14:21:14.100 [debug] User data changed
+2026-10-17 14:21:15.160 [debug] User data changed
+2026-10-17 14:21:20.829 [trace] Started scanning system extensions
+2026-10-17 14:21:20.829 [trace] Started scanning dev system extensions
+2026-10-17 14:21:20.830 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:21:20.833 [trace] Scanned user extensions: 0
+2026-10-17 14:21:20.849 [trace] Scanned dev system extensions: 3
+2026-10-17 14:21:20.854 [trace] Scanned system extensions: 96
+2026-10-17 14:21:25.816 [debug] User data changed
+2026-10-17 14:21:31.149 [debug] User data changed
+2026-10-17 14:21:37.608 [debug] User data changed
+2026-10-17 14:21:41.831 [debug] User data changed
+2026-10-17 14:21:46.831 [debug] User data changed
+2026-10-17 14:21:47.282 [debug] User data changed
+2026-10-17 14:21:49.979 [debug] User data changed
+2026-10-17 14:21:51.483 [debug] User data changed
+2026-10-17 14:21:53.615 [debug] User data changed
+2026-10-17 14:21:53.697 [debug] User data changed
+2026-10-17 14:21:53.792 [debug] User data changed
+2026-10-17 14:21:53.933 [debug] User data changed
+2026-10-17 14:21:55.836 [debug] User data changed
+2026-10-17 14:22:02.519 [trace] Started scanning system extensions
+2026-10-17 14:22:02.519 [trace] Started scanning dev system extensions
+2026-10-17 14:22:02.519 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:22:02.526 [trace] Scanned user extensions: 0
+2026-10-17 14:22:02.558 [trace] Scanned dev system extensions: 3
+2026-10-17 14:22:02.572 [trace] Scanned system extensions: 96
+2026-10-17 14:22:02.631 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:22:02.633 [trace] Scanned user extensions: 0
+2026-10-17 14:22:02.799 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:22:02.801 [trace] Scanned user extensions: 0
+2026-10-17 14:22:03.489 [debug] User data changed
+2026-10-17 14:22:25.985 [debug] User data changed
+2026-10-17 14:24:31.357 [trace] ExtensionManagementService.updateControlCache
+2026-10-17 14:24:31.357 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-17 14:25:44.329 [debug] User data changed
+2026-10-17 14:29:01.554 [trace] Started scanning system extensions
+2026-10-17 14:29:01.554 [trace] Started scanning dev system extensions
+2026-10-17 14:29:01.554 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:29:01.558 [trace] Scanned user extensions: 0
+2026-10-17 14:29:01.574 [trace] Scanned dev system extensions: 3
+2026-10-17 14:29:01.581 [trace] Scanned system extensions: 96
+2026-10-17 14:29:13.434 [debug] User data changed
+2026-10-17 14:29:15.065 [debug] User data changed
+2026-10-17 14:29:31.367 [trace] ExtensionManagementService.updateControlCache
+2026-10-17 14:29:31.367 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-17 14:30:01.427 [trace] Started scanning system extensions
+2026-10-17 14:30:01.427 [trace] Started scanning dev system extensions
+2026-10-17 14:30:01.427 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-17 14:30:01.432 [trace] Scanned user extensions: 0
+2026-10-17 14:30:01.444 [trace] Scanned dev system extensions: 3
+2026-10-17 14:30:01.448 [trace] Scanned system extensions: 96
+2026-10-17 14:30:10.985 [debug] User data changed
+2026-10-17 14:30:20.519 [debug] User data changed
+2026-10-17 14:30:44.340 [debug] User data changed
+2026-10-17 14:34:00.323 [debug] User data changed
+2026-10-17 14:34:01.508 [debug] User data changed
+2026-10-17 14:34:02.304 [debug] User data changed
+2026-10-17 14:34:31.381 [trace] ExtensionManagementService.updateControlCache
+2026-10-17 14:34:31.381 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-17 14:35:22.350 [debug] User data changed
+2026-10-17 14:35:29.982 [debug] User data changed
+2026-10-17 14:35:32.227 [debug] User data changed
+2026-10-17 14:35:44.342 [debug] User data changed
+2026-10-17 14:37:30.696 [debug] User data changed
+2026-10-17 14:37:33.670 [debug] User data changed
+2026-10-17 14:39:13.428 [debug] User data changed
+2026-10-17 14:39:13.570 [debug] User data changed
+2026-10-17 14:39:16.554 [debug] User data changed
+2026-10-17 14:39:31.386 [trace] ExtensionManagementService.updateControlCache
+2026-10-17 14:39:31.386 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-17 14:40:44.357 [debug] User data changed
+2026-10-17 14:41:23.711 [debug] User data changed
+2026-10-17 14:41:24.661 [debug] User data changed

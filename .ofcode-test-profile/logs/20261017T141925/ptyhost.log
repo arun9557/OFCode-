@@ -3,3 +3,1193 @@
 2026-10-17 14:20:43.882 [trace] [RPC Response] PtyService#refreshIgnoreProcessNames undefined
 2026-10-17 14:20:43.882 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"3defa113","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[]}],"background":[]})
 2026-10-17 14:20:43.882 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:21:05.789 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"3defa113","tabs":[],"background":null})
+2026-10-17 14:21:05.789 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:21:46.530 [trace] [RPC Request] PtyService#getDefaultSystemShell(1)
+2026-10-17 14:21:46.534 [trace] [RPC Response] PtyService#getDefaultSystemShell C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+2026-10-17 14:21:46.631 [trace] [RPC Request] PtyService#createProcess({"shellIntegrationEnvironmentReporting":true,"icon":{"id":"terminal","defaults":{"fontCharacter":"\\ea85"}},"executable":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","color":null,"useShellEnvironment":true}, "C:\\Users\\USER", 144, 12, "11", {"=C:":"C:\\Users\\USER\\vscode\\.build\\electron","=ExitCode":"00000000","ALLUSERSPROFILE":"C:\\ProgramData","AMDRMSDKPATH":"C:\\Program Files\\AMD\\RyzenMasterSDK\\","ANTIGRAVITY_CLI_ALIAS":"agy-ide","APPDATA":"C:\\Users\\USER\\AppData\\Roaming","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_37612_RRJEQPPADKECTFSO","CODE":"\".build\\electron\\OFCode.exe\"","COLORTERM":"truecolor","COMPUTERNAME":"DESKTOP-NVCTCID","ChocolateyInstall":"C:\\ProgramData\\chocolatey","ChocolateyLastPathUpdate":"134221119638504624","ComSpec":"C:\\Windows\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DATA_CLOUD_CURR_IDE_NAME":"antigravityide","DISABLE_TEST_EXTENSION":"\"--disable-extension=vscode.vscode-api-tests\"","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_7316_1592913036":"1","EFC_7316_344590478":"1","EFC_7316_4126798990":"1","GIT_ASKPASS":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass.sh","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\USER","LANG":"en_US.UTF-8","LOCALAPPDATA":"C:\\Users\\USER\\AppData\\Local","LOGONSERVER":"\\\\DESKTOP-NVCTCID","NAMESHORT":"OFCode.exe","NODE_ENV":"development","NUMBER_OF_PROCESSORS":"16","OS":"Windows_NT","OneDrive":"C:\\Users\\USER\\OneDrive","OneDriveConsumer":"C:\\Users\\USER\\OneDrive","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD","PROCESSOR_LEVEL":"25","PROCESSOR_REVISION":"6102","PROMPT":"$P$G","PSModulePath":"C:\\Users\\USER\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","PYTHONSTARTUP":"c:\\Users\\USER\\AppData\\Roaming\\Antigravity IDE\\User\\workspaceStorage\\0f4d4f4d4ddb2f8d2a18f9e65de621f6\\ms-python.python\\pythonrc.py","PYTHON_BASIC_REPL":"1","Path":"C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\playit_gg\\bin\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\USER\\AppData\\Local\\hermes\\bin;C:\\Users\\USER\\anaconda3;C:\\Users\\USER\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\anaconda3\\Library\\usr\\bin;C:\\Users\\USER\\anaconda3\\Library\\bin;C:\\Users\\USER\\anaconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\jcode\\bin;C:\\Program Files\\Git\\bin;C:\\Program Files\\Vim\\vim92;C:\\Users\\USER\\miniconda3;C:\\Users\\USER\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\miniconda3\\Library\\usr\\bin;C:\\Users\\USER\\miniconda3\\Library\\bin;C:\\Users\\USER\\miniconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Local\\Programs\\Windsurf\\bin;C:\\Users\\USER\\AppData\\Local\\Python\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama;C:\\Users\\USER\\.local\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links;","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\Windows","TEMP":"C:\\Users\\USER\\AppData\\Local\\Temp","TERM_PROGRAM":"vscode","TERM_PROGRAM_VERSION":"1.143.0","TMP":"C:\\Users\\USER\\AppData\\Local\\Temp","USERDOMAIN":"DESKTOP-NVCTCID","USERDOMAIN_ROAMINGPROFILE":"DESKTOP-NVCTCID","USERNAME":"USER","USERPROFILE":"C:\\Users\\USER","windir":"C:\\Windows"}, {"=C:":"C:\\Users\\USER\\vscode\\.build\\electron","=ExitCode":"00000000","ALLUSERSPROFILE":"C:\\ProgramData","AMDRMSDKPATH":"C:\\Program Files\\AMD\\RyzenMasterSDK\\","ANTIGRAVITY_CLI_ALIAS":"agy-ide","APPDATA":"C:\\Users\\USER\\AppData\\Roaming","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_37612_RRJEQPPADKECTFSO","CODE":"\".build\\electron\\OFCode.exe\"","COLORTERM":"truecolor","COMPUTERNAME":"DESKTOP-NVCTCID","ChocolateyInstall":"C:\\ProgramData\\chocolatey","ChocolateyLastPathUpdate":"134221119638504624","ComSpec":"C:\\Windows\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DATA_CLOUD_CURR_IDE_NAME":"antigravityide","DISABLE_TEST_EXTENSION":"\"--disable-extension=vscode.vscode-api-tests\"","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_7316_1592913036":"1","EFC_7316_344590478":"1","EFC_7316_4126798990":"1","ELECTRON_ENABLE_LOGGING":"1","ELECTRON_ENABLE_STACK_DUMPING":"1","GIT_ASKPASS":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass.sh","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\USER","LANG":"en_US.UTF-8","LOCALAPPDATA":"C:\\Users\\USER\\AppData\\Local","LOGONSERVER":"\\\\DESKTOP-NVCTCID","NAMESHORT":"OFCode.exe","NODE_ENV":"development","NUMBER_OF_PROCESSORS":"16","OS":"Windows_NT","OneDrive":"C:\\Users\\USER\\OneDrive","OneDriveConsumer":"C:\\Users\\USER\\OneDrive","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD","PROCESSOR_LEVEL":"25","PROCESSOR_REVISION":"6102","PROMPT":"$P$G","PSModulePath":"C:\\Users\\USER\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","PYTHONSTARTUP":"c:\\Users\\USER\\AppData\\Roaming\\Antigravity IDE\\User\\workspaceStorage\\0f4d4f4d4ddb2f8d2a18f9e65de621f6\\ms-python.python\\pythonrc.py","PYTHON_BASIC_REPL":"1","Path":"C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\playit_gg\\bin\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\USER\\AppData\\Local\\hermes\\bin;C:\\Users\\USER\\anaconda3;C:\\Users\\USER\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\anaconda3\\Library\\usr\\bin;C:\\Users\\USER\\anaconda3\\Library\\bin;C:\\Users\\USER\\anaconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\jcode\\bin;C:\\Program Files\\Git\\bin;C:\\Program Files\\Vim\\vim92;C:\\Users\\USER\\miniconda3;C:\\Users\\USER\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\miniconda3\\Library\\usr\\bin;C:\\Users\\USER\\miniconda3\\Library\\bin;C:\\Users\\USER\\miniconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Local\\Programs\\Windsurf\\bin;C:\\Users\\USER\\AppData\\Local\\Python\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama;C:\\Users\\USER\\.local\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links;","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\Windows","TEMP":"C:\\Users\\USER\\AppData\\Local\\Temp","TERM_PROGRAM":"vscode","TERM_PROGRAM_VERSION":"1.107.0","TMP":"C:\\Users\\USER\\AppData\\Local\\Temp","USERDOMAIN":"DESKTOP-NVCTCID","USERDOMAIN_ROAMINGPROFILE":"DESKTOP-NVCTCID","USERNAME":"USER","USERPROFILE":"C:\\Users\\USER","VSCODE_CLI":"1","VSCODE_CODE_CACHE_PATH":"","VSCODE_CWD":"C:\\Users\\USER\\vscode","VSCODE_DEV":"1","VSCODE_GIT_ASKPASS_EXTRA_ARGS":"","VSCODE_GIT_ASKPASS_MAIN":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass-main.js","VSCODE_GIT_ASKPASS_NODE":"C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe","VSCODE_GIT_IPC_HANDLE":"\\\\.\\pipe\\vscode-git-f766bf6e5e-sock","VSCODE_INJECTION":"1","VSCODE_IPC_HOOK":"\\\\.\\pipe\\a39ed721-1.143.0-main-sock","VSCODE_NLS_CONFIG":"{\"userLocale\":\"en-us\",\"osLocale\":\"en-us\",\"resolvedLanguage\":\"en\",\"defaultMessagesFile\":\"C:\\\\Users\\\\USER\\\\vscode\\\\out\\\\nls.messages.json\",\"locale\":\"en-us\",\"availableLanguages\":{}}","VSCODE_NODE_COMPILE_CACHE_ROOT":"C:\\Users\\USER\\vscode\\out\\vs\\base\\node-compile-cache","VSCODE_PID":"48068","VSCODE_PYTHON_AUTOACTIVATE_GUARD":"1","windir":"C:\\Windows"}, {"shellIntegration":{"enabled":true,"suggestEnabled":true,"nonce":"7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96"},"windowsUseConptyDll":true,"environmentVariableCollections":[],"isScreenReaderOptimized":false}, true, "1792226966332", "")
+2026-10-17 14:21:46.632 [debug] MutationLogger "Persistent process "1" interaction state" set to "None", reason: initialized
+2026-10-17 14:21:46.636 [trace] [RPC Response] PtyService#createProcess 1
+2026-10-17 14:21:46.641 [trace] [RPC Request] PtyService#start(1)
+2026-10-17 14:21:46.641 [trace] [RPC Event] PtyService#_onDidChangeProperty.fire({"id":1,"property":{"type":"initialCwd","value":"C:\\Users\\USER"}})
+2026-10-17 14:21:46.645 [trace] [RPC Event] PtyService#_onDidChangeProperty.fire({"id":1,"property":{"type":"usedShellIntegrationInjection","value":true}})
+2026-10-17 14:21:46.645 [trace] node-pty.IPty#spawn C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe ["-noexit","-command","try { . \"c:\\Users\\USER\\vscode\\out\\vs\\workbench\\contrib\\terminal\\common\\scripts\\shellIntegration.ps1\" } catch {}"] {"name":"powershell.exe","cwd":"C:\\Users\\USER","env":{"=C:":"C:\\Users\\USER\\vscode\\.build\\electron","=ExitCode":"00000000","ALLUSERSPROFILE":"C:\\ProgramData","AMDRMSDKPATH":"C:\\Program Files\\AMD\\RyzenMasterSDK\\","ANTIGRAVITY_CLI_ALIAS":"agy-ide","APPDATA":"C:\\Users\\USER\\AppData\\Roaming","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_37612_RRJEQPPADKECTFSO","CODE":"\".build\\electron\\OFCode.exe\"","COLORTERM":"truecolor","COMPUTERNAME":"DESKTOP-NVCTCID","ChocolateyInstall":"C:\\ProgramData\\chocolatey","ChocolateyLastPathUpdate":"134221119638504624","ComSpec":"C:\\Windows\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DATA_CLOUD_CURR_IDE_NAME":"antigravityide","DISABLE_TEST_EXTENSION":"\"--disable-extension=vscode.vscode-api-tests\"","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_7316_1592913036":"1","EFC_7316_344590478":"1","EFC_7316_4126798990":"1","GIT_ASKPASS":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass.sh","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\USER","LANG":"en_US.UTF-8","LOCALAPPDATA":"C:\\Users\\USER\\AppData\\Local","LOGONSERVER":"\\\\DESKTOP-NVCTCID","NAMESHORT":"OFCode.exe","NODE_ENV":"development","NUMBER_OF_PROCESSORS":"16","OS":"Windows_NT","OneDrive":"C:\\Users\\USER\\OneDrive","OneDriveConsumer":"C:\\Users\\USER\\OneDrive","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD","PROCESSOR_LEVEL":"25","PROCESSOR_REVISION":"6102","PROMPT":"$P$G","PSModulePath":"C:\\Users\\USER\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","PYTHONSTARTUP":"c:\\Users\\USER\\AppData\\Roaming\\Antigravity IDE\\User\\workspaceStorage\\0f4d4f4d4ddb2f8d2a18f9e65de621f6\\ms-python.python\\pythonrc.py","PYTHON_BASIC_REPL":"1","Path":"C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\playit_gg\\bin\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\USER\\AppData\\Local\\hermes\\bin;C:\\Users\\USER\\anaconda3;C:\\Users\\USER\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\anaconda3\\Library\\usr\\bin;C:\\Users\\USER\\anaconda3\\Library\\bin;C:\\Users\\USER\\anaconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\jcode\\bin;C:\\Program Files\\Git\\bin;C:\\Program Files\\Vim\\vim92;C:\\Users\\USER\\miniconda3;C:\\Users\\USER\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\miniconda3\\Library\\usr\\bin;C:\\Users\\USER\\miniconda3\\Library\\bin;C:\\Users\\USER\\miniconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Local\\Programs\\Windsurf\\bin;C:\\Users\\USER\\AppData\\Local\\Python\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama;C:\\Users\\USER\\.local\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links;","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\Windows","TEMP":"C:\\Users\\USER\\AppData\\Local\\Temp","TERM_PROGRAM":"vscode","TERM_PROGRAM_VERSION":"1.143.0","TMP":"C:\\Users\\USER\\AppData\\Local\\Temp","USERDOMAIN":"DESKTOP-NVCTCID","USERDOMAIN_ROAMINGPROFILE":"DESKTOP-NVCTCID","USERNAME":"USER","USERPROFILE":"C:\\Users\\USER","windir":"C:\\Windows","VSCODE_INJECTION":"1","VSCODE_NONCE":"7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96","VSCODE_SHELL_ENV_REPORTING":"PATH,VIRTUAL_ENV,HOME,SHELL,PWD","VSCODE_A11Y_MODE":"0","VSCODE_STABLE":"0"},"cols":144,"rows":12,"useConpty":true,"useConptyDll":true,"conptyInheritCursor":false}
+2026-10-17 14:21:46.679 [trace] [RPC Response] PtyService#start {"injectedArgs":["-noexit","-command","try { . \"c:\\Users\\USER\\vscode\\out\\vs\\workbench\\contrib\\terminal\\common\\scripts\\shellIntegration.ps1\" } catch {}"]}
+2026-10-17 14:21:46.679 [trace] [RPC Event] PtyService#_onDidChangeProperty.fire({"id":1,"property":{"type":"title","value":"powershell.exe"}})
+2026-10-17 14:21:46.680 [trace] [RPC Event] PtyService#_onDidChangeProperty.fire({"id":1,"property":{"type":"shellType"}})
+2026-10-17 14:21:46.714 [trace] node-pty.IPty#onData [1t
+2026-10-17 14:21:46.715 [trace] [RPC Event] PtyService#_onProcessReady.fire({"id":1,"event":{"pid":44104,"cwd":"C:\\Users\\USER","windowsPty":{"backend":"conpty","buildNumber":26200}}})
+2026-10-17 14:21:46.716 [trace] node-pty.IPty#onData [c[?1004h[?9001h
+2026-10-17 14:21:46.721 [trace] [RPC Request] PtyService#resize(1, 144, 12, 1108, 204)
+2026-10-17 14:21:46.722 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h"})
+2026-10-17 14:21:46.722 [trace] node-pty.IPty#resize 144 12
+2026-10-17 14:21:46.723 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:21:46.724 [trace] [RPC Request] PtyService#resize(1, 158, 12, 1106, 204)
+2026-10-17 14:21:46.725 [trace] node-pty.IPty#resize 158 12
+2026-10-17 14:21:46.725 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:21:46.731 [trace] [RPC Request] PtyService#input(1, "\u001b[?61;4c")
+2026-10-17 14:21:46.731 [debug] MutationLogger "Persistent process "1" interaction state" set to "Session", reason: input
+2026-10-17 14:21:46.731 [trace] node-pty.IPty#write [?61;4c false
+2026-10-17 14:21:46.732 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:21:46.732 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:21:46.732 [trace] node-pty.IPty#write [I false
+2026-10-17 14:21:46.732 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:21:46.823 [trace] node-pty.IPty#onData [6n
+2026-10-17 14:21:46.829 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[6n"})
+2026-10-17 14:21:46.831 [trace] [RPC Request] PtyService#input(1, "\u001b[1;1R")
+2026-10-17 14:21:46.831 [trace] node-pty.IPty#write [1;1R false
+2026-10-17 14:21:46.831 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:21:46.832 [trace] node-pty.IPty#onData [1;1H
+2026-10-17 14:21:46.844 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[1;1H"})
+2026-10-17 14:21:47.069 [trace] [RPC Request] PtyService#resize(1, 51, 11, 357, 187)
+2026-10-17 14:21:47.070 [trace] node-pty.IPty#resize 51 11
+2026-10-17 14:21:47.070 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:21:47.143 [trace] node-pty.IPty#onData [6n
+2026-10-17 14:21:47.156 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[6n"})
+2026-10-17 14:21:47.157 [trace] [RPC Request] PtyService#input(1, "\u001b[1;1R")
+2026-10-17 14:21:47.157 [trace] node-pty.IPty#write [1;1R false
+2026-10-17 14:21:47.157 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:21:47.157 [trace] node-pty.IPty#onData [1;1H
+2026-10-17 14:21:47.171 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[1;1H"})
+2026-10-17 14:21:47.219 [trace] [RPC Request] PtyService#updateIcon(1, false, {"id":"terminal","defaults":{"fontCharacter":"\\ea85"}}, )
+2026-10-17 14:21:47.219 [trace] [RPC Response] PtyService#updateIcon undefined
+2026-10-17 14:21:47.223 [trace] [RPC Request] PtyService#updateTitle(1, "powershell", 1)
+2026-10-17 14:21:47.223 [trace] [RPC Response] PtyService#updateTitle undefined
+2026-10-17 14:21:47.231 [trace] node-pty.IPty#onData ]633;P;HasRichCommandDetection=True
+2026-10-17 14:21:47.250 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;P;HasRichCommandDetection=True\u0007"})
+2026-10-17 14:21:47.260 [trace] node-pty.IPty#onData ]633;P;ContinuationPrompt=>> 
+2026-10-17 14:21:47.261 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:21:47.264 [trace] node-pty.IPty#onData ]633;P;IsWindows=True
+2026-10-17 14:21:47.265 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;P;ContinuationPrompt=>> \u0007\u001b]633;P;IsWindows=True\u0007"})
+2026-10-17 14:21:47.266 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:21:47.266 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:21:47.399 [trace] node-pty.IPty#onData ]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:21:47.405 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007"})
+2026-10-17 14:21:47.405 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:21:47.405 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:21:47.406 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:21:47.406 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:21:47.406 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:21:47.406 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:21:47.436 [debug] CommandDetectionCapability#_tryAdjustCommandStartMarker adjusted promptStart 0 -> 0
+2026-10-17 14:21:47.436 [debug] CommandDetectionCapability#_tryAdjustCommandStartMarker adjusted commandStart 0 -> 0:18
+2026-10-17 14:21:47.436 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:21:47.436 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:21:47.436 [debug] CommandDetectionCapability#_handleCommandStartWindows 18 0
+2026-10-17 14:21:47.560 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:21:47.560 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:21:48.231 [trace] [RPC Event] PtyService#_onDidChangeProperty.fire({"id":1,"property":{"type":"shellType","value":"pwsh"}})
+2026-10-17 14:21:48.231 [trace] [RPC Event] PtyService#_onDidChangeProperty.fire({"id":1,"property":{"type":"title","value":"powershell.exe"}})
+2026-10-17 14:21:49.771 [trace] [RPC Request] PtyService#resize(1, 158, 11, 1106, 187)
+2026-10-17 14:21:49.771 [trace] node-pty.IPty#resize 158 11
+2026-10-17 14:21:49.771 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:21:50.261 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:21:50.261 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:21:51.222 [trace] [RPC Request] PtyService#resize(1, 51, 11, 357, 187)
+2026-10-17 14:21:51.222 [trace] node-pty.IPty#resize 51 11
+2026-10-17 14:21:51.222 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:21:51.712 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:21:51.712 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:21:59.487 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:21:59.487 [trace] node-pty.IPty#write [O false
+2026-10-17 14:21:59.488 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:22:03.337 [trace] [RPC Request] PtyService#getDefaultSystemShell(1)
+2026-10-17 14:22:03.337 [trace] [RPC Response] PtyService#getDefaultSystemShell C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+2026-10-17 14:22:03.337 [trace] [RPC Request] PtyService#getDefaultSystemShell(1)
+2026-10-17 14:22:03.337 [trace] [RPC Response] PtyService#getDefaultSystemShell C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+2026-10-17 14:22:03.337 [trace] [RPC Request] PtyService#getDefaultSystemShell(1)
+2026-10-17 14:22:03.337 [trace] [RPC Response] PtyService#getDefaultSystemShell C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+2026-10-17 14:22:03.338 [trace] [RPC Request] PtyService#getDefaultSystemShell(1)
+2026-10-17 14:22:03.338 [trace] [RPC Response] PtyService#getDefaultSystemShell C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+2026-10-17 14:22:03.528 [trace] [RPC Request] PtyService#getDefaultSystemShell(1)
+2026-10-17 14:22:03.529 [trace] [RPC Response] PtyService#getDefaultSystemShell C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+2026-10-17 14:27:44.712 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:27:44.712 [trace] node-pty.IPty#write [I false
+2026-10-17 14:27:44.712 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:27:45.224 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:27:45.224 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:27:47.012 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:27:47.012 [trace] node-pty.IPty#write [O false
+2026-10-17 14:27:47.012 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:28:59.995 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:28:59.995 [trace] node-pty.IPty#write [I false
+2026-10-17 14:28:59.995 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:29:00.005 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:29:00.005 [trace] node-pty.IPty#write [O false
+2026-10-17 14:29:00.005 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:29:00.498 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:29:00.499 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:29:01.550 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:29:01.550 [trace] node-pty.IPty#write [I false
+2026-10-17 14:29:01.550 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:29:01.625 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:29:01.626 [trace] node-pty.IPty#write [O false
+2026-10-17 14:29:01.626 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:29:02.059 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:29:02.059 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:29:20.964 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:29:20.964 [trace] node-pty.IPty#write [I false
+2026-10-17 14:29:20.964 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:29:21.459 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:29:21.459 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:29:22.436 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:29:22.437 [trace] node-pty.IPty#write [O false
+2026-10-17 14:29:22.437 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:34:00.130 [trace] [RPC Request] PtyService#resize(1, 154, 11, 1078, 187)
+2026-10-17 14:34:00.130 [trace] node-pty.IPty#resize 154 11
+2026-10-17 14:34:00.130 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:34:00.618 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:34:00.618 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:35:29.780 [trace] [RPC Request] PtyService#resize(1, 51, 11, 357, 187)
+2026-10-17 14:35:29.780 [trace] node-pty.IPty#resize 51 11
+2026-10-17 14:35:29.780 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:35:30.277 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:35:30.278 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:37:30.452 [trace] [RPC Request] PtyService#resize(1, 154, 11, 1078, 187)
+2026-10-17 14:37:30.453 [trace] node-pty.IPty#resize 154 11
+2026-10-17 14:37:30.453 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:37:30.944 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:37:30.944 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:39:11.260 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:39:11.260 [trace] node-pty.IPty#write [I false
+2026-10-17 14:39:11.260 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:11.767 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:39:11.767 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:39:12.292 [trace] [RPC Request] PtyService#input(1, "l")
+2026-10-17 14:39:12.292 [trace] node-pty.IPty#write l false
+2026-10-17 14:39:12.292 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.313 [trace] node-pty.IPty#onData [6n
+2026-10-17 14:39:12.321 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[6n"})
+2026-10-17 14:39:12.322 [trace] [RPC Request] PtyService#input(1, "\u001b[1;19R")
+2026-10-17 14:39:12.322 [trace] node-pty.IPty#write [1;19R false
+2026-10-17 14:39:12.322 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.323 [trace] node-pty.IPty#onData [1;19H
+2026-10-17 14:39:12.323 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:12.323 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:12.323 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:12.325 [trace] node-pty.IPty#onData [1;19H
+2026-10-17 14:39:12.325 [trace] node-pty.IPty#onData [93ml
+2026-10-17 14:39:12.325 [trace] node-pty.IPty#onData [39;49m
+2026-10-17 14:39:12.325 [trace] node-pty.IPty#onData [0m[1;20H
+2026-10-17 14:39:12.325 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:12.337 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[1;19H\u001b[?25l\u001b[1;19H\u001b[93ml\u001b[39;49m\u001b[0m\u001b[1;20H\u001b[?25h"})
+2026-10-17 14:39:12.353 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:12.353 [trace] PromptInputModel#onDidChangeInput l|
+2026-10-17 14:39:12.353 [trace] PromptInputModel#_sync: l|
+2026-10-17 14:39:12.403 [trace] [RPC Request] PtyService#input(1, "s")
+2026-10-17 14:39:12.403 [trace] node-pty.IPty#write s false
+2026-10-17 14:39:12.403 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.403 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:12.404 [trace] node-pty.IPty#onData [1;19H[93mls[39;49m[0m
+2026-10-17 14:39:12.404 [trace] node-pty.IPty#onData [1;21H[?25h
+2026-10-17 14:39:12.415 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mls\u001b[39;49m\u001b[0m\u001b[1;21H\u001b[?25h"})
+2026-10-17 14:39:12.416 [trace] PromptInputModel#_sync: l|
+2026-10-17 14:39:12.416 [trace] PromptInputModel#onDidChangeInput ls|
+2026-10-17 14:39:12.416 [trace] PromptInputModel#_sync: ls|
+2026-10-17 14:39:12.475 [trace] [RPC Request] PtyService#input(1, "\r")
+2026-10-17 14:39:12.475 [trace] node-pty.IPty#write  false
+2026-10-17 14:39:12.475 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.477 [trace] node-pty.IPty#onData [1;21H
+2026-10-17 14:39:12.477 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.492 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[1;21H\r\n"})
+2026-10-17 14:39:12.497 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:12.497 [trace] PromptInputModel#_sync: ls|
+2026-10-17 14:39:12.498 [trace] PromptInputModel#_sync: ls|
+2026-10-17 14:39:12.498 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:12.502 [trace] node-pty.IPty#onData ]633;E;ls;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96]633;C
+2026-10-17 14:39:12.503 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[0m\u001b[0m\u001b]633;E;ls;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007\u001b]633;C\u0007"})
+2026-10-17 14:39:12.503 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence E
+2026-10-17 14:39:12.503 [debug] CommandDetectionCapability#setCommandLine ls true
+2026-10-17 14:39:12.503 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence C
+2026-10-17 14:39:12.503 [trace] PromptInputModel#onDidFinishInput ls
+2026-10-17 14:39:12.504 [trace] PromptInputModel#onDidChangeInput ls
+2026-10-17 14:39:12.504 [debug] CommandDetectionCapability#handleCommandExecuted 0 1
+2026-10-17 14:39:12.516 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.516 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.517 [trace] node-pty.IPty#onData     Directory: C:\Users\USER
+2026-10-17 14:39:12.517 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.517 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.517 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.517 [trace] node-pty.IPty#onData Mode                 LastWriteTime         Length Name                                                                                                   
+2026-10-17 14:39:12.518 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.518 [trace] node-pty.IPty#onData ----                 -------------         ------ ----                                                                                                   
+
+2026-10-17 14:39:12.518 [trace] node-pty.IPty#onData d-----        07-10-2026     01:41                .agents                                                                                                
+2026-10-17 14:39:12.518 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.519 [trace] node-pty.IPty#onData d-----        01-05-2026     14:48                .anaconda                                                                                              
+2026-10-17 14:39:12.520 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.520 [trace] node-pty.IPty#onData d-----        02-06-2026     16:34                .android                                                                                               
+2026-10-17 14:39:12.520 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.521 [trace] node-pty.IPty#onData d-----        17-06-2026     08:59                .antigravity-ide                                                                                       
+2026-10-17 14:39:12.521 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n\r\n    Directory: C:\\Users\\USER\r\n\r\n\r\nMode                 LastWriteTime         Length Name                                                                                                   \r\n----                 -------------         ------ ----                                                                                                   \r\nd-----        07-10-2026     01:41                .agents                                                                                                \r\nd-----        01-05-2026     14:48                .anaconda                                                                                              \r\nd-----        02-06-2026     16:34                .android                                                                                               \r\nd-----        17-06-2026     08:59                .antigravity-ide                                                                                       "})
+2026-10-17 14:39:12.521 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.522 [trace] node-pty.IPty#onData d-----        22-05-2026     20:59                .arduinoIDE                                                                                            
+2026-10-17 14:39:12.522 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.523 [trace] node-pty.IPty#onData d-----        07-10-2026     01:58                .cache                                                                                                 
+
+2026-10-17 14:39:12.523 [trace] node-pty.IPty#onData d-----        02-05-2026     23:29                .cagent                                                                                                
+2026-10-17 14:39:12.523 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.524 [trace] node-pty.IPty#onData d-----        01-05-2026     18:20                .chocolatey                                                                                            
+2026-10-17 14:39:12.524 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.525 [trace] node-pty.IPty#onData d-----        07-10-2026     22:29                .claude                                                                                                
+2026-10-17 14:39:12.525 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.525 [trace] node-pty.IPty#onData d-----        06-05-2026     17:51                .claude-code-router                                                                                    
+2026-10-17 14:39:12.526 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.526 [trace] node-pty.IPty#onData d-----        06-05-2026     22:58                .cline                                                                                                 
+2026-10-17 14:39:12.526 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        22-05-2026     20:59                .arduinoIDE                                                                                            \r\nd-----        07-10-2026     01:58                .cache                                                                                                 \r\nd-----        02-05-2026     23:29                .cagent                                                                                                \r\nd-----        01-05-2026     18:20                .chocolatey                                                                                            \r\nd-----        07-10-2026     22:29                .claude                                                                                                \r\nd-----        06-05-2026     17:51                .claude-code-router                                                                                    \r\nd-----        06-05-2026     22:58                .cline                                                                                                 "})
+2026-10-17 14:39:12.527 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.527 [trace] node-pty.IPty#onData d-----        01-05-2026     13:05                .codeium                                                                                               
+2026-10-17 14:39:12.527 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.528 [trace] node-pty.IPty#onData d-----        17-10-2026     14:19                .codex                                                                                                 
+2026-10-17 14:39:12.528 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.529 [trace] node-pty.IPty#onData d-----        07-10-2026     21:28                .commandcode                                                                                           
+
+2026-10-17 14:39:12.529 [trace] node-pty.IPty#onData d-----        05-09-2026     09:11                .conda                                                                                                 
+2026-10-17 14:39:12.529 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.530 [trace] node-pty.IPty#onData d-----        17-10-2026     11:08                .config                                                                                                
+2026-10-17 14:39:12.530 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.531 [trace] node-pty.IPty#onData d-----        05-09-2026     09:09                .continuum                                                                                             
+2026-10-17 14:39:12.531 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        01-05-2026     13:05                .codeium                                                                                               \r\nd-----        17-10-2026     14:19                .codex                                                                                                 \r\nd-----        07-10-2026     21:28                .commandcode                                                                                           \r\nd-----        05-09-2026     09:11                .conda                                                                                                 \r\nd-----        17-10-2026     11:08                .config                                                                                                \r\nd-----        05-09-2026     09:09                .continuum                                                                                             "})
+2026-10-17 14:39:12.531 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.532 [trace] node-pty.IPty#onData d-----        17-10-2026     14:20                .copilot                                                                                               
+2026-10-17 14:39:12.532 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.533 [trace] node-pty.IPty#onData d-----        31-05-2026     12:17                .cursor                                                                                                
+2026-10-17 14:39:12.533 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.533 [trace] node-pty.IPty#onData d-----        03-05-2026     21:24                .docker                                                                                                
+2026-10-17 14:39:12.534 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.534 [trace] node-pty.IPty#onData d-----        07-10-2026     22:10                .dsh                                                                                                   
+
+2026-10-17 14:39:12.535 [trace] node-pty.IPty#onData d-----        26-08-2026     11:13                .gemini                                                                                                
+2026-10-17 14:39:12.535 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.536 [trace] node-pty.IPty#onData d-----        02-06-2026     16:32                .gradle                                                                                                
+2026-10-17 14:39:12.536 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        17-10-2026     14:20                .copilot                                                                                               \r\nd-----        31-05-2026     12:17                .cursor                                                                                                \r\nd-----        03-05-2026     21:24                .docker                                                                                                \r\nd-----        07-10-2026     22:10                .dsh                                                                                                   \r\nd-----        26-08-2026     11:13                .gemini                                                                                                \r\nd-----        02-06-2026     16:32                .gradle                                                                                                "})
+2026-10-17 14:39:12.536 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.537 [trace] node-pty.IPty#onData d-----        02-05-2026     15:34                .ipython                                                                                               
+2026-10-17 14:39:12.537 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.537 [trace] node-pty.IPty#onData d-----        19-08-2026     21:46                .jcode                                                                                                 
+2026-10-17 14:39:12.537 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.538 [trace] node-pty.IPty#onData d-----        05-09-2026     17:31                .jupyter                                                                                               
+2026-10-17 14:39:12.538 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.539 [trace] node-pty.IPty#onData d-----        05-09-2026     11:57                .keras                                                                                                 
+2026-10-17 14:39:12.539 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.540 [trace] node-pty.IPty#onData d-----        03-05-2026     13:00                .local                                                                                                 
+2026-10-17 14:39:12.540 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.541 [trace] node-pty.IPty#onData d-----        05-09-2026     19:49                .matplotlib                                                                                            
+2026-10-17 14:39:12.541 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        02-05-2026     15:34                .ipython                                                                                               \r\nd-----        19-08-2026     21:46                .jcode                                                                                                 \r\nd-----        05-09-2026     17:31                .jupyter                                                                                               \r\nd-----        05-09-2026     11:57                .keras                                                                                                 \r\nd-----        03-05-2026     13:00                .local                                                                                                 \r\nd-----        05-09-2026     19:49                .matplotlib                                                                                            "})
+2026-10-17 14:39:12.541 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.541 [trace] node-pty.IPty#onData d-----        17-10-2026     14:19                .ofcode-dev                                                                                            
+2026-10-17 14:39:12.541 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.542 [trace] node-pty.IPty#onData d-----        17-10-2026     14:19                .ofcode-shared                                                                                         
+2026-10-17 14:39:12.542 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.543 [trace] node-pty.IPty#onData d-----        08-10-2026     11:10                .ollama                                                                                                
+2026-10-17 14:39:12.543 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.544 [trace] node-pty.IPty#onData d-----        26-05-2026     07:16                .openclaw                                                                                              
+2026-10-17 14:39:12.544 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.545 [trace] node-pty.IPty#onData d-----        07-10-2026     20:06                .pi                                                                                                    
+2026-10-17 14:39:12.545 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.545 [trace] node-pty.IPty#onData d-----        07-10-2026     23:17                .qwen                                                                                                  
+2026-10-17 14:39:12.546 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.546 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        17-10-2026     14:19                .ofcode-dev                                                                                            \r\nd-----        17-10-2026     14:19                .ofcode-shared                                                                                         \r\nd-----        08-10-2026     11:10                .ollama                                                                                                \r\nd-----        26-05-2026     07:16                .openclaw                                                                                              \r\nd-----        07-10-2026     20:06                .pi                                                                                                    \r\nd-----        07-10-2026     23:17                .qwen                                                                                                  \r\n"})
+2026-10-17 14:39:12.547 [trace] node-pty.IPty#onData d-----        16-09-2026     10:21                .VirtualBox                                                                                            
+2026-10-17 14:39:12.547 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.547 [trace] node-pty.IPty#onData d-----        04-10-2026     15:25                .vscode                                                                                                
+2026-10-17 14:39:12.548 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.549 [trace] node-pty.IPty#onData d-----        17-10-2026     14:19                .vscode-oss-dev                                                                                        
+
+2026-10-17 14:39:12.550 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:12.550 [trace] Flow control: Ack 5000 chars (unacknowledged: 4742)
+2026-10-17 14:39:12.550 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:12.551 [trace] node-pty.IPty#onData d-----        01-05-2026     12:53                .vscode-shared                                                                                         
+
+2026-10-17 14:39:12.551 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"d-----        16-09-2026     10:21                .VirtualBox                                                                                            \r\nd-----        04-10-2026     15:25                .vscode                                                                                                \r\nd-----        17-10-2026     14:19                .vscode-oss-dev                                                                                        \r\nd-----        01-05-2026     12:53                .vscode-shared                                                                                         \r\n"})
+2026-10-17 14:39:12.552 [trace] node-pty.IPty#onData d-----        01-05-2026     13:04                .windsurf                                                                                              
+2026-10-17 14:39:12.552 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.553 [trace] node-pty.IPty#onData d-----        05-09-2026     11:54                anaconda3                                                                                              
+2026-10-17 14:39:12.553 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.554 [trace] node-pty.IPty#onData d-----        02-05-2026     11:06                ansel                                                                                                  
+2026-10-17 14:39:12.554 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.555 [trace] node-pty.IPty#onData d-----        07-10-2026     00:39                capcut-mate-win                                                                                        
+2026-10-17 14:39:12.555 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.555 [trace] node-pty.IPty#onData d-----        07-10-2026     01:57                capcut-mcp                                                                                             
+2026-10-17 14:39:12.556 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.556 [trace] node-pty.IPty#onData d-r---        01-04-2024     12:17                Contacts                                                                                               
+2026-10-17 14:39:12.556 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.557 [trace] node-pty.IPty#onData d-----        01-05-2026     12:34                CrossDevice                                                                                            
+2026-10-17 14:39:12.557 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"d-----        01-05-2026     13:04                .windsurf                                                                                              \r\nd-----        05-09-2026     11:54                anaconda3                                                                                              \r\nd-----        02-05-2026     11:06                ansel                                                                                                  \r\nd-----        07-10-2026     00:39                capcut-mate-win                                                                                        \r\nd-----        07-10-2026     01:57                capcut-mcp                                                                                             \r\nd-r---        01-04-2024     12:17                Contacts                                                                                               \r\nd-----        01-05-2026     12:34                CrossDevice                                                                                            "})
+2026-10-17 14:39:12.557 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.558 [trace] node-pty.IPty#onData d-----        13-10-2026     11:35                DaVinci Resolve Media                                                                                  
+2026-10-17 14:39:12.558 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.558 [trace] node-pty.IPty#onData d-r---        14-10-2026     17:27                Desktop                                                                                                
+2026-10-17 14:39:12.558 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.559 [trace] node-pty.IPty#onData d-r---        16-10-2026     09:58                Documents                                                                                              
+2026-10-17 14:39:12.559 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.560 [trace] node-pty.IPty#onData d-r---        17-10-2026     12:23                Downloads                                                                                              
+2026-10-17 14:39:12.560 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.560 [trace] node-pty.IPty#onData d-r---        01-04-2024     12:17                Favorites                                                                                              
+2026-10-17 14:39:12.560 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.561 [trace] node-pty.IPty#onData d-r---        01-04-2024     12:17                Links                                                                                                  
+2026-10-17 14:39:12.561 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.562 [trace] node-pty.IPty#onData d-----        08-09-2026     15:34                miniconda3                                                                                             
+2026-10-17 14:39:12.562 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        13-10-2026     11:35                DaVinci Resolve Media                                                                                  \r\nd-r---        14-10-2026     17:27                Desktop                                                                                                \r\nd-r---        16-10-2026     09:58                Documents                                                                                              \r\nd-r---        17-10-2026     12:23                Downloads                                                                                              \r\nd-r---        01-04-2024     12:17                Favorites                                                                                              \r\nd-r---        01-04-2024     12:17                Links                                                                                                  \r\nd-----        08-09-2026     15:34                miniconda3                                                                                             "})
+2026-10-17 14:39:12.562 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.562 [trace] node-pty.IPty#onData d-----        02-05-2026     06:42                miniconda3-env                                                                                         
+2026-10-17 14:39:12.562 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.563 [trace] node-pty.IPty#onData d-r---        05-10-2026     15:11                Music                                                                                                  
+2026-10-17 14:39:12.563 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.564 [trace] node-pty.IPty#onData dar--l        17-10-2026     10:09                OneDrive                                                                                               
+2026-10-17 14:39:12.564 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.564 [trace] node-pty.IPty#onData d-----        01-05-2026     18:37                opencode                                                                                               
+2026-10-17 14:39:12.564 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.565 [trace] node-pty.IPty#onData d-r---        03-10-2026     01:13                Pictures                                                                                               
+2026-10-17 14:39:12.565 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.566 [trace] node-pty.IPty#onData d-r---        01-04-2024     12:17                Saved Games                                                                                            
+2026-10-17 14:39:12.566 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.567 [trace] node-pty.IPty#onData d-----        01-05-2026     13:20                scoop                                                                                                  
+2026-10-17 14:39:12.567 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-----        02-05-2026     06:42                miniconda3-env                                                                                         \r\nd-r---        05-10-2026     15:11                Music                                                                                                  \r\ndar--l        17-10-2026     10:09                OneDrive                                                                                               \r\nd-----        01-05-2026     18:37                opencode                                                                                               \r\nd-r---        03-10-2026     01:13                Pictures                                                                                               \r\nd-r---        01-04-2024     12:17                Saved Games                                                                                            \r\nd-----        01-05-2026     13:20                scoop                                                                                                  "})
+2026-10-17 14:39:12.567 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.568 [trace] node-pty.IPty#onData d-r---        01-04-2024     12:17                Searches                                                                                               
+2026-10-17 14:39:12.568 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.569 [trace] node-pty.IPty#onData d-----        30-09-2026     22:24                Untitled Project                                                                                       
+2026-10-17 14:39:12.569 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.569 [trace] node-pty.IPty#onData d-r---        14-10-2026     19:38                Videos                                                                                                 
+2026-10-17 14:39:12.570 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.570 [trace] node-pty.IPty#onData d-----        01-05-2026     14:55                vimfiles                                                                                               
+2026-10-17 14:39:12.570 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.571 [trace] node-pty.IPty#onData d-----        16-09-2026     10:23                VirtualBox VMs                                                                                         
+2026-10-17 14:39:12.571 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.572 [trace] node-pty.IPty#onData d-----        17-10-2026     14:19                vscode                                                                                                 
+2026-10-17 14:39:12.572 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\nd-r---        01-04-2024     12:17                Searches                                                                                               \r\nd-----        30-09-2026     22:24                Untitled Project                                                                                       \r\nd-r---        14-10-2026     19:38                Videos                                                                                                 \r\nd-----        01-05-2026     14:55                vimfiles                                                                                               \r\nd-----        16-09-2026     10:23                VirtualBox VMs                                                                                         \r\nd-----        17-10-2026     14:19                vscode                                                                                                 "})
+2026-10-17 14:39:12.572 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.578 [trace] node-pty.IPty#onData -a----        02-05-2026     23:48         154205 .bash_history                                                                                          
+2026-10-17 14:39:12.578 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        02-05-2026     23:48         154205 .bash_history                                                                                          "})
+2026-10-17 14:39:12.579 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.579 [trace] node-pty.IPty#onData -a----        17-10-2026     14:19          60481 .claude.json                                                                                           
+2026-10-17 14:39:12.579 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.580 [trace] node-pty.IPty#onData -a----        08-05-2026     15:26             16 .esd_auth                                                                                              
+2026-10-17 14:39:12.580 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.580 [trace] node-pty.IPty#onData -a----        09-10-2026     11:20             53 .git-for-windows-updater                                                                               
+2026-10-17 14:39:12.580 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.581 [trace] node-pty.IPty#onData -a----        16-06-2026     07:10            651 .gitconfig                                                                                             
+2026-10-17 14:39:12.581 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.582 [trace] node-pty.IPty#onData -a----        17-10-2026     10:44          12015 .nanorc                                                                                                
+2026-10-17 14:39:12.582 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.583 [trace] node-pty.IPty#onData -a----        02-10-2026     11:16           3861 .python_history                                                                                        
+2026-10-17 14:39:12.583 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        17-10-2026     14:19          60481 .claude.json                                                                                           \r\n-a----        08-05-2026     15:26             16 .esd_auth                                                                                              \r\n-a----        09-10-2026     11:20             53 .git-for-windows-updater                                                                               \r\n-a----        16-06-2026     07:10            651 .gitconfig                                                                                             \r\n-a----        17-10-2026     10:44          12015 .nanorc                                                                                                \r\n-a----        02-10-2026     11:16           3861 .python_history                                                                                        "})
+2026-10-17 14:39:12.583 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.584 [trace] node-pty.IPty#onData -a----        06-10-2026     18:52          15532 .viminfo                                                                                               
+2026-10-17 14:39:12.584 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.585 [trace] node-pty.IPty#onData -a----        03-05-2026     10:41           3749 2026-05-03-05-11-07.028-VirtualBoxVM.exe-30368.log                                                     
+2026-10-17 14:39:12.585 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.586 [trace] node-pty.IPty#onData -a----        03-05-2026     14:02           3775 2026-05-03-08-32-59.038-VirtualBoxVM.exe-34288.log                                                     
+2026-10-17 14:39:12.586 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.586 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:12.586 [trace] Flow control: Ack 5000 chars (unacknowledged: 5632)
+2026-10-17 14:39:12.586 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:12.587 [trace] node-pty.IPty#onData -a----        03-05-2026     18:36           3719 2026-05-03-13-06-45.073-VirtualBoxVM.exe-34748.log                                                     
+
+2026-10-17 14:39:12.587 [trace] node-pty.IPty#onData -a----        03-05-2026     18:40           3912 2026-05-03-13-10-27.021-VirtualBoxVM.exe-2584.log                                                      
+2026-10-17 14:39:12.587 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.588 [trace] node-pty.IPty#onData -a----        03-05-2026     18:51           7223 2026-05-03-13-21-21.039-VirtualBoxVM.exe-31652.log                                                     
+2026-10-17 14:39:12.588 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        06-10-2026     18:52          15532 .viminfo                                                                                               \r\n-a----        03-05-2026     10:41           3749 2026-05-03-05-11-07.028-VirtualBoxVM.exe-30368.log                                                     \r\n-a----        03-05-2026     14:02           3775 2026-05-03-08-32-59.038-VirtualBoxVM.exe-34288.log                                                     \r\n-a----        03-05-2026     18:36           3719 2026-05-03-13-06-45.073-VirtualBoxVM.exe-34748.log                                                     \r\n-a----        03-05-2026     18:40           3912 2026-05-03-13-10-27.021-VirtualBoxVM.exe-2584.log                                                      \r\n-a----        03-05-2026     18:51           7223 2026-05-03-13-21-21.039-VirtualBoxVM.exe-31652.log                                                     "})
+2026-10-17 14:39:12.588 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.589 [trace] node-pty.IPty#onData -a----        03-05-2026     19:12           3915 2026-05-03-13-42-53.094-VirtualBoxVM.exe-36464.log                                                     
+2026-10-17 14:39:12.589 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.590 [trace] node-pty.IPty#onData -a----        03-05-2026     19:52           3858 2026-05-03-14-22-34.027-VirtualBoxVM.exe-29672.log                                                     
+2026-10-17 14:39:12.590 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.590 [trace] node-pty.IPty#onData -a----        04-05-2026     16:33           3719 2026-05-04-11-03-18.095-VirtualBoxVM.exe-10204.log                                                     
+2026-10-17 14:39:12.590 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.591 [trace] node-pty.IPty#onData -a----        04-05-2026     16:36           3831 2026-05-04-11-06-34.018-VirtualBoxVM.exe-16988.log                                                     
+2026-10-17 14:39:12.591 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.592 [trace] node-pty.IPty#onData -a----        04-05-2026     16:49           3719 2026-05-04-11-19-48.097-VirtualBoxVM.exe-11128.log                                                     
+2026-10-17 14:39:12.592 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.593 [trace] node-pty.IPty#onData -a----        04-05-2026     17:09           3858 2026-05-04-11-39-49.062-VirtualBoxVM.exe-5652.log                                                      
+2026-10-17 14:39:12.593 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        03-05-2026     19:12           3915 2026-05-03-13-42-53.094-VirtualBoxVM.exe-36464.log                                                     \r\n-a----        03-05-2026     19:52           3858 2026-05-03-14-22-34.027-VirtualBoxVM.exe-29672.log                                                     \r\n-a----        04-05-2026     16:33           3719 2026-05-04-11-03-18.095-VirtualBoxVM.exe-10204.log                                                     \r\n-a----        04-05-2026     16:36           3831 2026-05-04-11-06-34.018-VirtualBoxVM.exe-16988.log                                                     \r\n-a----        04-05-2026     16:49           3719 2026-05-04-11-19-48.097-VirtualBoxVM.exe-11128.log                                                     \r\n-a----        04-05-2026     17:09           3858 2026-05-04-11-39-49.062-VirtualBoxVM.exe-5652.log                                                      "})
+2026-10-17 14:39:12.593 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.593 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:12.593 [trace] Flow control: Ack 5000 chars (unacknowledged: 2027)
+2026-10-17 14:39:12.593 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:12.594 [trace] node-pty.IPty#onData -a----        04-05-2026     22:58           7027 2026-05-04-17-28-13.065-VirtualBoxVM.exe-20564.log                                                     
+2026-10-17 14:39:12.594 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.594 [trace] node-pty.IPty#onData -a----        04-05-2026     23:12           7195 2026-05-04-17-42-53.014-VirtualBoxVM.exe-30400.log                                                     
+2026-10-17 14:39:12.595 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.595 [trace] node-pty.IPty#onData -a----        05-05-2026     00:09           7195 2026-05-04-18-39-24.070-VirtualBoxVM.exe-11288.log                                                     
+2026-10-17 14:39:12.595 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.596 [trace] node-pty.IPty#onData -a----        05-05-2026     14:00           7027 2026-05-05-08-30-58.068-VirtualBoxVM.exe-28000.log                                                     
+2026-10-17 14:39:12.596 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.597 [trace] node-pty.IPty#onData -a----        05-05-2026     14:15           7027 2026-05-05-08-45-42.024-VirtualBoxVM.exe-28572.log                                                     
+2026-10-17 14:39:12.597 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.598 [trace] node-pty.IPty#onData -a----        05-05-2026     14:22           7195 2026-05-05-08-52-01.076-VirtualBoxVM.exe-24812.log                                                     
+2026-10-17 14:39:12.598 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.598 [trace] node-pty.IPty#onData -a----        05-05-2026     14:42           7195 2026-05-05-09-12-59.029-VirtualBoxVM.exe-23724.log                                                     
+2026-10-17 14:39:12.598 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        04-05-2026     22:58           7027 2026-05-04-17-28-13.065-VirtualBoxVM.exe-20564.log                                                     \r\n-a----        04-05-2026     23:12           7195 2026-05-04-17-42-53.014-VirtualBoxVM.exe-30400.log                                                     \r\n-a----        05-05-2026     00:09           7195 2026-05-04-18-39-24.070-VirtualBoxVM.exe-11288.log                                                     \r\n-a----        05-05-2026     14:00           7027 2026-05-05-08-30-58.068-VirtualBoxVM.exe-28000.log                                                     \r\n-a----        05-05-2026     14:15           7027 2026-05-05-08-45-42.024-VirtualBoxVM.exe-28572.log                                                     \r\n-a----        05-05-2026     14:22           7195 2026-05-05-08-52-01.076-VirtualBoxVM.exe-24812.log                                                     \r\n-a----        05-05-2026     14:42           7195 2026-05-05-09-12-59.029-VirtualBoxVM.exe-23724.log                                                     "})
+2026-10-17 14:39:12.598 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.599 [trace] node-pty.IPty#onData -a----        05-05-2026     14:49           7195 2026-05-05-09-19-02.054-VirtualBoxVM.exe-10868.log                                                     
+2026-10-17 14:39:12.599 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.600 [trace] node-pty.IPty#onData -a----        05-05-2026     16:08           7195 2026-05-05-10-38-39.025-VirtualBoxVM.exe-10144.log                                                     
+2026-10-17 14:39:12.600 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.601 [trace] node-pty.IPty#onData -a----        05-05-2026     16:51           7194 2026-05-05-11-21-17.078-VirtualBoxVM.exe-18620.log                                                     
+2026-10-17 14:39:12.601 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.602 [trace] node-pty.IPty#onData -a----        05-05-2026     16:54           7194 2026-05-05-11-24-14.051-VirtualBoxVM.exe-22276.log                                                     
+2026-10-17 14:39:12.602 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.603 [trace] node-pty.IPty#onData -a----        05-05-2026     16:57           7193 2026-05-05-11-27-43.060-VirtualBoxVM.exe-22032.log                                                     
+2026-10-17 14:39:12.603 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        05-05-2026     14:49           7195 2026-05-05-09-19-02.054-VirtualBoxVM.exe-10868.log                                                     \r\n-a----        05-05-2026     16:08           7195 2026-05-05-10-38-39.025-VirtualBoxVM.exe-10144.log                                                     \r\n-a----        05-05-2026     16:51           7194 2026-05-05-11-21-17.078-VirtualBoxVM.exe-18620.log                                                     \r\n-a----        05-05-2026     16:54           7194 2026-05-05-11-24-14.051-VirtualBoxVM.exe-22276.log                                                     \r\n-a----        05-05-2026     16:57           7193 2026-05-05-11-27-43.060-VirtualBoxVM.exe-22032.log                                                     "})
+2026-10-17 14:39:12.603 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.604 [trace] node-pty.IPty#onData -a----        05-05-2026     17:02           7027 2026-05-05-11-32-24.013-VirtualBoxVM.exe-32232.log                                                     
+2026-10-17 14:39:12.604 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.604 [trace] node-pty.IPty#onData -a----        05-05-2026     18:31           7027 2026-05-05-13-01-34.096-VirtualBoxVM.exe-10600.log                                                     
+2026-10-17 14:39:12.604 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.605 [trace] node-pty.IPty#onData -a----        05-05-2026     21:59           7027 2026-05-05-16-29-34.025-VirtualBoxVM.exe-20836.log                                                     
+2026-10-17 14:39:12.605 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.606 [trace] node-pty.IPty#onData -a----        06-05-2026     11:44           7027 2026-05-06-06-14-33.057-VirtualBoxVM.exe-24208.log                                                     
+2026-10-17 14:39:12.606 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.607 [trace] node-pty.IPty#onData -a----        06-05-2026     12:03           7193 2026-05-06-06-33-36.021-VirtualBoxVM.exe-4792.log                                                      
+2026-10-17 14:39:12.607 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.608 [trace] node-pty.IPty#onData -a----        06-05-2026     12:27           7027 2026-05-06-06-57-45.097-VirtualBoxVM.exe-28836.log                                                     
+2026-10-17 14:39:12.608 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        05-05-2026     17:02           7027 2026-05-05-11-32-24.013-VirtualBoxVM.exe-32232.log                                                     \r\n-a----        05-05-2026     18:31           7027 2026-05-05-13-01-34.096-VirtualBoxVM.exe-10600.log                                                     \r\n-a----        05-05-2026     21:59           7027 2026-05-05-16-29-34.025-VirtualBoxVM.exe-20836.log                                                     \r\n-a----        06-05-2026     11:44           7027 2026-05-06-06-14-33.057-VirtualBoxVM.exe-24208.log                                                     \r\n-a----        06-05-2026     12:03           7193 2026-05-06-06-33-36.021-VirtualBoxVM.exe-4792.log                                                      \r\n-a----        06-05-2026     12:27           7027 2026-05-06-06-57-45.097-VirtualBoxVM.exe-28836.log                                                     "})
+2026-10-17 14:39:12.608 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.608 [trace] node-pty.IPty#onData -a----        06-05-2026     12:33           7027 2026-05-06-07-03-02.000-VirtualBoxVM.exe-11960.log                                                     
+2026-10-17 14:39:12.608 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.609 [trace] node-pty.IPty#onData -a----        06-05-2026     21:19          20763 2026-05-06-15-49-37.044-VirtualBoxVM.exe-23732.log                                                     
+2026-10-17 14:39:12.609 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.610 [trace] node-pty.IPty#onData -a----        30-05-2026     08:31           3793 2026-05-30-03-01-31.071-VirtualBoxVM.exe-27868.log                                                     
+2026-10-17 14:39:12.610 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.610 [trace] node-pty.IPty#onData -a----        30-05-2026     10:44           3847 2026-05-30-05-14-23.089-VirtualBoxVM.exe-30952.log                                                     
+2026-10-17 14:39:12.611 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.611 [trace] node-pty.IPty#onData -a----        30-05-2026     12:41           3848 2026-05-30-07-11-27.062-VirtualBoxVM.exe-23728.log                                                     
+2026-10-17 14:39:12.611 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.612 [trace] node-pty.IPty#onData -a----        04-06-2026     10:39           3849 2026-06-04-05-09-28.094-VirtualBoxVM.exe-15636.log                                                     
+2026-10-17 14:39:12.612 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.613 [trace] node-pty.IPty#onData -a----        04-06-2026     13:06           3860 2026-06-04-07-36-01.009-VirtualBoxVM.exe-36248.log                                                     
+2026-10-17 14:39:12.613 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        06-05-2026     12:33           7027 2026-05-06-07-03-02.000-VirtualBoxVM.exe-11960.log                                                     \r\n-a----        06-05-2026     21:19          20763 2026-05-06-15-49-37.044-VirtualBoxVM.exe-23732.log                                                     \r\n-a----        30-05-2026     08:31           3793 2026-05-30-03-01-31.071-VirtualBoxVM.exe-27868.log                                                     \r\n-a----        30-05-2026     10:44           3847 2026-05-30-05-14-23.089-VirtualBoxVM.exe-30952.log                                                     \r\n-a----        30-05-2026     12:41           3848 2026-05-30-07-11-27.062-VirtualBoxVM.exe-23728.log                                                     \r\n-a----        04-06-2026     10:39           3849 2026-06-04-05-09-28.094-VirtualBoxVM.exe-15636.log                                                     \r\n-a----        04-06-2026     13:06           3860 2026-06-04-07-36-01.009-VirtualBoxVM.exe-36248.log                                                     "})
+2026-10-17 14:39:12.613 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.613 [trace] node-pty.IPty#onData -a----        15-06-2026     13:01          10671 2026-06-15-07-31-50.005-VirtualBoxVM.exe-35468.log                                                     
+2026-10-17 14:39:12.613 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.614 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:12.614 [trace] Flow control: Ack 5000 chars (unacknowledged: 1057)
+2026-10-17 14:39:12.614 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:12.614 [trace] node-pty.IPty#onData -a----        15-06-2026     13:13           3831 2026-06-15-07-43-41.049-VirtualBoxVM.exe-21696.log                                                     
+2026-10-17 14:39:12.614 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.615 [trace] node-pty.IPty#onData -a----        15-06-2026     13:37           3719 2026-06-15-08-07-51.071-VirtualBoxVM.exe-34496.log                                                     
+2026-10-17 14:39:12.615 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.616 [trace] node-pty.IPty#onData -a----        15-06-2026     14:10           3831 2026-06-15-08-40-39.018-VirtualBoxVM.exe-21728.log                                                     
+2026-10-17 14:39:12.616 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.617 [trace] node-pty.IPty#onData -a----        15-06-2026     16:21           3717 2026-06-15-10-51-12.098-VirtualBoxVM.exe-2788.log                                                      
+2026-10-17 14:39:12.617 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.618 [trace] node-pty.IPty#onData -a----        15-06-2026     16:23           3887 2026-06-15-10-53-07.087-VirtualBoxVM.exe-29808.log                                                     
+2026-10-17 14:39:12.618 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        15-06-2026     13:01          10671 2026-06-15-07-31-50.005-VirtualBoxVM.exe-35468.log                                                     \r\n-a----        15-06-2026     13:13           3831 2026-06-15-07-43-41.049-VirtualBoxVM.exe-21696.log                                                     \r\n-a----        15-06-2026     13:37           3719 2026-06-15-08-07-51.071-VirtualBoxVM.exe-34496.log                                                     \r\n-a----        15-06-2026     14:10           3831 2026-06-15-08-40-39.018-VirtualBoxVM.exe-21728.log                                                     \r\n-a----        15-06-2026     16:21           3717 2026-06-15-10-51-12.098-VirtualBoxVM.exe-2788.log                                                      \r\n-a----        15-06-2026     16:23           3887 2026-06-15-10-53-07.087-VirtualBoxVM.exe-29808.log                                                     "})
+2026-10-17 14:39:12.618 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.619 [trace] node-pty.IPty#onData -a----        15-06-2026     16:27           3719 2026-06-15-10-57-59.090-VirtualBoxVM.exe-15832.log                                                     
+2026-10-17 14:39:12.619 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.619 [trace] node-pty.IPty#onData -a----        15-06-2026     16:30           3915 2026-06-15-11-00-53.020-VirtualBoxVM.exe-10744.log                                                     
+2026-10-17 14:39:12.619 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.620 [trace] node-pty.IPty#onData -a----        16-06-2026     08:17           3860 2026-06-16-02-47-43.024-VirtualBoxVM.exe-37184.log                                                     
+2026-10-17 14:39:12.620 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.621 [trace] node-pty.IPty#onData -a----        01-05-2026     18:30           1489 AMDRM_Install.log                                                                                      
+2026-10-17 14:39:12.621 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.622 [trace] node-pty.IPty#onData -a----        05-05-2026     18:23           3434 fix-vbox-lag.ps1                                                                                       
+2026-10-17 14:39:12.622 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.623 [trace] node-pty.IPty#onData -a----        05-05-2026     18:20           2464 fix-virtualbox.ps1                                                                                     
+2026-10-17 14:39:12.623 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.623 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\r\n-a----        15-06-2026     16:27           3719 2026-06-15-10-57-59.090-VirtualBoxVM.exe-15832.log                                                     \r\n-a----        15-06-2026     16:30           3915 2026-06-15-11-00-53.020-VirtualBoxVM.exe-10744.log                                                     \r\n-a----        16-06-2026     08:17           3860 2026-06-16-02-47-43.024-VirtualBoxVM.exe-37184.log                                                     \r\n-a----        01-05-2026     18:30           1489 AMDRM_Install.log                                                                                      \r\n-a----        05-05-2026     18:23           3434 fix-vbox-lag.ps1                                                                                       \r\n-a----        05-05-2026     18:20           2464 fix-virtualbox.ps1                                                                                     \r\n"})
+2026-10-17 14:39:12.623 [trace] node-pty.IPty#onData -a----        27-05-2026     10:36           6940 _viminfo                                                                                               
+2026-10-17 14:39:12.623 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.624 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.624 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:12.634 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"-a----        27-05-2026     10:36           6940 _viminfo                                                                                               \r\n\r\n\r\n"})
+2026-10-17 14:39:12.646 [trace] node-pty.IPty#onData ]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:39:12.664 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;D;0\u0007\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007"})
+2026-10-17 14:39:12.665 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence D
+2026-10-17 14:39:12.666 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined ls [object Object]
+2026-10-17 14:39:12.666 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2026-10-17 14:39:12.666 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:12.667 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:39:12.667 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:12.667 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:39:12.667 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:12.667 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:39:12.667 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:39:12.675 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:12.675 [trace] Flow control: Ack 5000 chars (unacknowledged: 1128)
+2026-10-17 14:39:12.675 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:12.694 [trace] [RPC Request] PtyService#input(1, "c")
+2026-10-17 14:39:12.694 [trace] node-pty.IPty#write c false
+2026-10-17 14:39:12.694 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.695 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:12.695 [trace] node-pty.IPty#onData [11;19H[93mc
+2026-10-17 14:39:12.695 [trace] node-pty.IPty#onData [39;49m[0m[11;20H
+2026-10-17 14:39:12.695 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:12.711 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mc\u001b[39;49m\u001b[0m\u001b[11;20H\u001b[?25h"})
+2026-10-17 14:39:12.769 [trace] [RPC Request] PtyService#input(1, "l")
+2026-10-17 14:39:12.769 [trace] node-pty.IPty#write l false
+2026-10-17 14:39:12.769 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.769 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:12.770 [trace] node-pty.IPty#onData [11;19H[93mcl[39;49m[0m[11;21H[?25h
+2026-10-17 14:39:12.788 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mcl\u001b[39;49m\u001b[0m\u001b[11;21H\u001b[?25h"})
+2026-10-17 14:39:12.955 [trace] [RPC Request] PtyService#input(1, "e")
+2026-10-17 14:39:12.956 [trace] node-pty.IPty#write e false
+2026-10-17 14:39:12.956 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.956 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:12.956 [trace] node-pty.IPty#onData [11;19H[93mcle[39;49m
+2026-10-17 14:39:12.956 [trace] node-pty.IPty#onData [0m[11;22H[?25h
+2026-10-17 14:39:12.974 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mcle\u001b[39;49m\u001b[0m\u001b[11;22H\u001b[?25h"})
+2026-10-17 14:39:12.974 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:39:12.974 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:39:12.974 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:12.974 [trace] PromptInputModel#onDidChangeInput cl|
+2026-10-17 14:39:12.974 [debug] CommandDetectionCapability#_handleCommandStartWindows 0 110
+2026-10-17 14:39:12.990 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:12.990 [trace] PromptInputModel#onDidChangeInput cle|
+2026-10-17 14:39:12.990 [trace] PromptInputModel#_sync: cle|
+2026-10-17 14:39:12.991 [trace] [RPC Request] PtyService#input(1, "a")
+2026-10-17 14:39:12.991 [trace] node-pty.IPty#write a false
+2026-10-17 14:39:12.991 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:12.992 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:12.992 [trace] node-pty.IPty#onData [11;19H[93mclea[39;49m
+2026-10-17 14:39:12.992 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:12.992 [trace] node-pty.IPty#onData [11;23H[?25h
+2026-10-17 14:39:13.005 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mclea\u001b[39;49m\u001b[0m\u001b[11;23H\u001b[?25h"})
+2026-10-17 14:39:13.006 [trace] PromptInputModel#_sync: cle|
+2026-10-17 14:39:13.006 [trace] PromptInputModel#onDidChangeInput clea|
+2026-10-17 14:39:13.006 [trace] PromptInputModel#_sync: clea|
+2026-10-17 14:39:13.125 [trace] [RPC Request] PtyService#input(1, "r")
+2026-10-17 14:39:13.125 [trace] node-pty.IPty#write r false
+2026-10-17 14:39:13.125 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:13.125 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:13.125 [trace] node-pty.IPty#onData [11;19H[93mclear[39;49m[0m
+2026-10-17 14:39:13.125 [trace] node-pty.IPty#onData [11;24H
+2026-10-17 14:39:13.125 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:13.131 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mclear\u001b[39;49m\u001b[0m\u001b[11;24H\u001b[?25h"})
+2026-10-17 14:39:13.147 [trace] PromptInputModel#_sync: clea|
+2026-10-17 14:39:13.147 [trace] PromptInputModel#onDidChangeInput clear|
+2026-10-17 14:39:13.147 [trace] PromptInputModel#_sync: clear|
+2026-10-17 14:39:13.185 [trace] [RPC Request] PtyService#input(1, "\r")
+2026-10-17 14:39:13.185 [trace] node-pty.IPty#write  false
+2026-10-17 14:39:13.186 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:13.186 [trace] node-pty.IPty#onData [11;24H
+2026-10-17 14:39:13.186 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:13.187 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:13.187 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:13.188 [trace] node-pty.IPty#onData ]633;E;clear;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96]633;C
+2026-10-17 14:39:13.192 [trace] node-pty.IPty#onData [1;1H
+2026-10-17 14:39:13.192 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[11;24H\r\n\u001b[0m\u001b[0m\u001b]633;E;clear;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007\u001b]633;C\u0007\u001b[1;1H"})
+2026-10-17 14:39:13.194 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence E
+2026-10-17 14:39:13.194 [debug] CommandDetectionCapability#setCommandLine clear true
+2026-10-17 14:39:13.194 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence C
+2026-10-17 14:39:13.194 [trace] PromptInputModel#onDidFinishInput clear
+2026-10-17 14:39:13.194 [trace] PromptInputModel#onDidChangeInput clear
+2026-10-17 14:39:13.194 [debug] CommandDetectionCapability#handleCommandExecuted 0 109
+2026-10-17 14:39:13.196 [trace] node-pty.IPty#onData [H[2J[3J
+2026-10-17 14:39:13.210 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[H\u001b[2J\u001b[3J"})
+2026-10-17 14:39:13.222 [trace] node-pty.IPty#onData ]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:39:13.242 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;D;0\u0007\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007"})
+2026-10-17 14:39:13.257 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence D
+2026-10-17 14:39:13.257 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined clear [object Object]
+2026-10-17 14:39:13.257 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2026-10-17 14:39:13.257 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:13.257 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:39:13.257 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:13.257 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:39:13.257 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:13.257 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:39:13.257 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:39:13.288 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:39:13.288 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:39:13.288 [debug] CommandDetectionCapability#_handleCommandStartWindows 0 0
+2026-10-17 14:39:13.743 [trace] [RPC Request] PtyService#input(1, "c")
+2026-10-17 14:39:13.743 [trace] node-pty.IPty#write c false
+2026-10-17 14:39:13.744 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:13.744 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:13.744 [trace] node-pty.IPty#onData [1;19H[93mc
+2026-10-17 14:39:13.744 [trace] node-pty.IPty#onData [39;49m
+2026-10-17 14:39:13.744 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:13.744 [trace] node-pty.IPty#onData [1;20H
+2026-10-17 14:39:13.744 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:13.752 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mc\u001b[39;49m\u001b[0m\u001b[1;20H\u001b[?25h"})
+2026-10-17 14:39:13.753 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:13.753 [trace] PromptInputModel#onDidChangeInput c|
+2026-10-17 14:39:13.753 [trace] PromptInputModel#_sync: c|
+2026-10-17 14:39:13.862 [trace] [RPC Request] PtyService#input(1, "l")
+2026-10-17 14:39:13.862 [trace] node-pty.IPty#write l false
+2026-10-17 14:39:13.862 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:13.862 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:13.862 [trace] node-pty.IPty#onData [1;19H[93mcl
+2026-10-17 14:39:13.862 [trace] node-pty.IPty#onData [39;49m[0m
+2026-10-17 14:39:13.862 [trace] node-pty.IPty#onData [1;21H
+2026-10-17 14:39:13.862 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:13.876 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mcl\u001b[39;49m\u001b[0m\u001b[1;21H\u001b[?25h"})
+2026-10-17 14:39:13.891 [trace] PromptInputModel#_sync: c|
+2026-10-17 14:39:13.891 [trace] PromptInputModel#onDidChangeInput cl|
+2026-10-17 14:39:13.891 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:13.987 [trace] [RPC Request] PtyService#input(1, "e")
+2026-10-17 14:39:13.987 [trace] node-pty.IPty#write e false
+2026-10-17 14:39:13.987 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:13.987 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:13.987 [trace] node-pty.IPty#onData [1;19H[93mcle[39;49m[0m
+2026-10-17 14:39:13.987 [trace] node-pty.IPty#onData [1;22H[?25h
+2026-10-17 14:39:14.000 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mcle\u001b[39;49m\u001b[0m\u001b[1;22H\u001b[?25h"})
+2026-10-17 14:39:14.001 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:14.001 [trace] PromptInputModel#onDidChangeInput cle|
+2026-10-17 14:39:14.002 [trace] PromptInputModel#_sync: cle|
+2026-10-17 14:39:14.030 [trace] [RPC Request] PtyService#input(1, "a")
+2026-10-17 14:39:14.030 [trace] node-pty.IPty#write a false
+2026-10-17 14:39:14.030 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.030 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.030 [trace] node-pty.IPty#onData [1;19H[93mclea[39;49m[0m[1;23H[?25h
+2026-10-17 14:39:14.046 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mclea\u001b[39;49m\u001b[0m\u001b[1;23H\u001b[?25h"})
+2026-10-17 14:39:14.047 [trace] PromptInputModel#_sync: cle|
+2026-10-17 14:39:14.047 [trace] PromptInputModel#onDidChangeInput clea|
+2026-10-17 14:39:14.047 [trace] PromptInputModel#_sync: clea|
+2026-10-17 14:39:14.156 [trace] [RPC Request] PtyService#input(1, "r")
+2026-10-17 14:39:14.156 [trace] node-pty.IPty#write r false
+2026-10-17 14:39:14.156 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.157 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.157 [trace] node-pty.IPty#onData [1;19H[93mclear
+2026-10-17 14:39:14.157 [trace] node-pty.IPty#onData [39;49m[0m[1;24H
+2026-10-17 14:39:14.157 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:14.170 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mclear\u001b[39;49m\u001b[0m\u001b[1;24H\u001b[?25h"})
+2026-10-17 14:39:14.171 [trace] PromptInputModel#_sync: clea|
+2026-10-17 14:39:14.171 [trace] PromptInputModel#onDidChangeInput clear|
+2026-10-17 14:39:14.171 [trace] PromptInputModel#_sync: clear|
+2026-10-17 14:39:14.253 [trace] [RPC Request] PtyService#input(1, "l")
+2026-10-17 14:39:14.253 [trace] node-pty.IPty#write l false
+2026-10-17 14:39:14.253 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.253 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#onData [1;19H[93mclearl[39;49m[0m
+2026-10-17 14:39:14.254 [trace] [RPC Request] PtyService#input(1, "\r")
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#write  false
+2026-10-17 14:39:14.254 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#onData [1;25H[?25h
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#onData [1;25H
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.254 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.256 [trace] node-pty.IPty#onData ]633;E;clearl;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96]633;C
+2026-10-17 14:39:14.266 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[1;19H\u001b[93mclearl\u001b[39;49m\u001b[0m\u001b[1;25H\u001b[?25h\u001b[1;25H\r\n\u001b[0m\u001b[0m\u001b]633;E;clearl;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007\u001b]633;C\u0007"})
+2026-10-17 14:39:14.266 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence E
+2026-10-17 14:39:14.266 [debug] CommandDetectionCapability#setCommandLine clearl true
+2026-10-17 14:39:14.266 [trace] PromptInputModel#onDidChangeInput clearl
+2026-10-17 14:39:14.266 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence C
+2026-10-17 14:39:14.266 [trace] PromptInputModel#onDidFinishInput clearl
+2026-10-17 14:39:14.266 [trace] PromptInputModel#onDidChangeInput clearl
+2026-10-17 14:39:14.266 [debug] CommandDetectionCapability#handleCommandExecuted 0 0
+2026-10-17 14:39:14.270 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:14.270 [trace] Flow control: Ack 5000 chars (unacknowledged: 25)
+2026-10-17 14:39:14.270 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:14.329 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.329 [trace] node-pty.IPty#onData [0;91mclearl : The term 'clearl' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if [0m
+2026-10-17 14:39:14.329 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.329 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.329 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.329 [trace] node-pty.IPty#onData [0;91ma path was included, verify that the path is correct and try again.
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData [0m[0m
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData At line:1 char:1
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.330 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0;91m+ clearl
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0m
+
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData + ~~~~~~
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.331 [trace] node-pty.IPty#onData [0m
+
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData     + CategoryInfo          : ObjectNotFound: (clearl:String) [], CommandNotFoundException[0m
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData [0;91m    + FullyQualifiedErrorId : CommandNotFoundException[0m[0m
+2026-10-17 14:39:14.332 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.333 [trace] node-pty.IPty#onData [0;91m[0;91m [0m[0m
+2026-10-17 14:39:14.333 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.343 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[0;91m\u001b[0;91mclearl : The term 'clearl' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if \u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91ma path was included, verify that the path is correct and try again.\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91mAt line:1 char:1\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m+ clearl\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m+ ~~~~~~\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m    + CategoryInfo          : ObjectNotFound: (clearl:String) [], CommandNotFoundException\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m    + FullyQualifiedErrorId : CommandNotFoundException\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m \u001b[0m\u001b[0m\r\n"})
+2026-10-17 14:39:14.360 [trace] [RPC Request] PtyService#input(1, "s")
+2026-10-17 14:39:14.360 [trace] node-pty.IPty#write s false
+2026-10-17 14:39:14.360 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.360 [trace] [RPC Request] PtyService#input(1, "\r")
+2026-10-17 14:39:14.360 [trace] node-pty.IPty#write  false
+2026-10-17 14:39:14.360 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.371 [trace] node-pty.IPty#onData ]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData [10;19H[93ms
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData [39;49m[0m
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData [10;20H
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData [10;20H
+2026-10-17 14:39:14.372 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.373 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.373 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.373 [trace] node-pty.IPty#onData ]633;E;s;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96]633;C
+2026-10-17 14:39:14.391 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;D;1\u0007\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007\u001b[?25l\u001b[10;19H\u001b[93ms\u001b[39;49m\u001b[0m\u001b[10;20H\u001b[?25h\u001b[10;20H\r\n\u001b[0m\u001b[0m\u001b]633;E;s;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007\u001b]633;C\u0007"})
+2026-10-17 14:39:14.406 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence D
+2026-10-17 14:39:14.406 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined clearl [object Object]
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2026-10-17 14:39:14.407 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence E
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#setCommandLine s true
+2026-10-17 14:39:14.407 [trace] PromptInputModel#onDidChangeInput s
+2026-10-17 14:39:14.407 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence C
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#_tryAdjustCommandStartMarker adjusted promptStart 9 -> 10
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#_tryAdjustCommandStartMarker adjusted commandStart 9 -> 10:18
+2026-10-17 14:39:14.407 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:39:14.407 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#_handleCommandStartWindows 18 10
+2026-10-17 14:39:14.407 [debug] CommandDetectionCapability#_handleCommandStartWindows 18 10
+2026-10-17 14:39:14.408 [trace] PromptInputModel#onDidFinishInput 
+2026-10-17 14:39:14.408 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:14.408 [debug] CommandDetectionCapability#handleCommandExecuted 0 undefined
+2026-10-17 14:39:14.415 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.415 [trace] node-pty.IPty#onData [0;91ms : The term 's' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was [0m[0m
+
+2026-10-17 14:39:14.415 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.415 [trace] node-pty.IPty#onData [0;91mincluded, verify that the path is correct and try again.
+2026-10-17 14:39:14.415 [trace] node-pty.IPty#onData [0m[0m
+2026-10-17 14:39:14.415 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData [0;91mAt line:1 char:1[0m
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData [0m
+
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData [0;91m[0;91m+ s
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData [0m[0m
+
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData [0;91m[0;91m
+2026-10-17 14:39:14.416 [trace] node-pty.IPty#onData + ~
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0m[0m
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0;91m    + CategoryInfo          : ObjectNotFound: (s:String) [], CommandNotFoundException
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0m
+
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0;91m    + FullyQualifiedErrorId : CommandNotFoundException
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0m[0m
+
+2026-10-17 14:39:14.417 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.418 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:14.418 [trace] node-pty.IPty#onData  [0m
+2026-10-17 14:39:14.418 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:14.418 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:14.422 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[0;91m\u001b[0;91ms : The term 's' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was \u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91mincluded, verify that the path is correct and try again.\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91mAt line:1 char:1\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m+ s\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m+ ~\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m    + CategoryInfo          : ObjectNotFound: (s:String) [], CommandNotFoundException\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m    + FullyQualifiedErrorId : CommandNotFoundException\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m \u001b[0m\u001b[0m\r\n"})
+2026-10-17 14:39:14.439 [trace] node-pty.IPty#onData ]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:39:14.452 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;D;1\u0007\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007"})
+2026-10-17 14:39:14.453 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence D
+2026-10-17 14:39:14.453 [debug] CommandDetectionCapability#handleCommandExecuted 0 undefined
+2026-10-17 14:39:14.453 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined s [object Object]
+2026-10-17 14:39:14.453 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2026-10-17 14:39:14.453 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:14.453 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:39:14.453 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:14.453 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:39:14.453 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:14.453 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:39:14.453 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:39:14.457 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:14.457 [trace] Flow control: Ack 5000 chars (unacknowledged: 2709)
+2026-10-17 14:39:14.457 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:14.697 [trace] [RPC Request] PtyService#input(1, "c")
+2026-10-17 14:39:14.697 [trace] node-pty.IPty#write c false
+2026-10-17 14:39:14.697 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.698 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.698 [trace] node-pty.IPty#onData [11;19H[93mc
+2026-10-17 14:39:14.698 [trace] node-pty.IPty#onData [39;49m[0m[11;20H[?25h
+2026-10-17 14:39:14.717 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mc\u001b[39;49m\u001b[0m\u001b[11;20H\u001b[?25h"})
+2026-10-17 14:39:14.749 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:39:14.749 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:39:14.749 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:14.749 [trace] PromptInputModel#onDidChangeInput c|
+2026-10-17 14:39:14.749 [debug] CommandDetectionCapability#_handleCommandStartWindows 0 18
+2026-10-17 14:39:14.818 [trace] [RPC Request] PtyService#input(1, "l")
+2026-10-17 14:39:14.818 [trace] node-pty.IPty#write l false
+2026-10-17 14:39:14.819 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.819 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.819 [trace] node-pty.IPty#onData [11;19H[93mcl[39;49m[0m
+2026-10-17 14:39:14.819 [trace] node-pty.IPty#onData [11;21H[?25h
+2026-10-17 14:39:14.826 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mcl\u001b[39;49m\u001b[0m\u001b[11;21H\u001b[?25h"})
+2026-10-17 14:39:14.842 [trace] PromptInputModel#_sync: c|
+2026-10-17 14:39:14.842 [trace] PromptInputModel#onDidChangeInput cl|
+2026-10-17 14:39:14.842 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:14.975 [trace] [RPC Request] PtyService#input(1, "a")
+2026-10-17 14:39:14.975 [trace] node-pty.IPty#write a false
+2026-10-17 14:39:14.975 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:14.975 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:14.975 [trace] node-pty.IPty#onData [11;19H[93mcla[39;49m
+2026-10-17 14:39:14.975 [trace] node-pty.IPty#onData [0m[11;22H
+2026-10-17 14:39:14.975 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:14.982 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mcla\u001b[39;49m\u001b[0m\u001b[11;22H\u001b[?25h"})
+2026-10-17 14:39:14.998 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:14.998 [trace] PromptInputModel#onDidChangeInput cla|
+2026-10-17 14:39:14.998 [trace] PromptInputModel#_sync: cla|
+2026-10-17 14:39:15.123 [trace] [RPC Request] PtyService#input(1, "r")
+2026-10-17 14:39:15.123 [trace] node-pty.IPty#write r false
+2026-10-17 14:39:15.123 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.123 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:15.123 [trace] node-pty.IPty#onData [11;19H[93mclar
+2026-10-17 14:39:15.123 [trace] node-pty.IPty#onData [39;49m[0m[11;23H
+2026-10-17 14:39:15.123 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:15.134 [trace] [RPC Request] PtyService#input(1, "\r")
+2026-10-17 14:39:15.134 [trace] node-pty.IPty#write  false
+2026-10-17 14:39:15.134 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.135 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mclar\u001b[39;49m\u001b[0m\u001b[11;23H\u001b[?25h"})
+2026-10-17 14:39:15.135 [trace] node-pty.IPty#onData [11;23H
+
+2026-10-17 14:39:15.135 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:15.135 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:15.137 [trace] PromptInputModel#_sync: cla|
+2026-10-17 14:39:15.137 [trace] PromptInputModel#onDidChangeInput clar|
+2026-10-17 14:39:15.137 [trace] PromptInputModel#_sync: clar|
+2026-10-17 14:39:15.137 [trace] node-pty.IPty#onData ]633;E;clar;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96]633;C
+2026-10-17 14:39:15.153 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[11;23H\r\n\u001b[0m\u001b[0m\u001b]633;E;clar;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007\u001b]633;C\u0007"})
+2026-10-17 14:39:15.154 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence E
+2026-10-17 14:39:15.154 [debug] CommandDetectionCapability#setCommandLine clar true
+2026-10-17 14:39:15.154 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence C
+2026-10-17 14:39:15.154 [trace] PromptInputModel#onDidFinishInput clar
+2026-10-17 14:39:15.154 [trace] PromptInputModel#onDidChangeInput clar
+2026-10-17 14:39:15.154 [debug] CommandDetectionCapability#handleCommandExecuted 0 18
+2026-10-17 14:39:15.171 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.171 [trace] node-pty.IPty#onData [0;91mclar : The term 'clar' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a [0m[0m
+
+2026-10-17 14:39:15.171 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.171 [trace] node-pty.IPty#onData [0;91mpath was included, verify that the path is correct and try again.
+2026-10-17 14:39:15.171 [trace] node-pty.IPty#onData [0m[0m
+
+2026-10-17 14:39:15.171 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData At line:1 char:1[0m[0m
+
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0;91m[0;91m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData + clar[0m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0m
+
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData + ~~~~[0m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData 
+[0;91m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0;91m    + CategoryInfo          : ObjectNotFound: (clar:String) [], CommandNotFoundException
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData [0m[0m
+2026-10-17 14:39:15.172 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData [0;91m    + FullyQualifiedErrorId : CommandNotFoundException[0m
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData [0;91m
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData [0;91m 
+2026-10-17 14:39:15.173 [trace] node-pty.IPty#onData [0m[0m
+
+2026-10-17 14:39:15.183 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[0;91m\u001b[0;91mclar : The term 'clar' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a \u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91mpath was included, verify that the path is correct and try again.\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91mAt line:1 char:1\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m+ clar\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m+ ~~~~\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m    + CategoryInfo          : ObjectNotFound: (clar:String) [], CommandNotFoundException\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m    + FullyQualifiedErrorId : CommandNotFoundException\u001b[0m\u001b[0m\r\n\u001b[0;91m\u001b[0;91m \u001b[0m\u001b[0m\r\n"})
+2026-10-17 14:39:15.342 [trace] node-pty.IPty#onData ]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:39:15.355 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;D;1\u0007\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007"})
+2026-10-17 14:39:15.355 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence D
+2026-10-17 14:39:15.355 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined clar [object Object]
+2026-10-17 14:39:15.355 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2026-10-17 14:39:15.355 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:15.355 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:39:15.355 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:15.355 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:39:15.355 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:15.356 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:39:15.356 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:39:15.358 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:15.358 [trace] Flow control: Ack 5000 chars (unacknowledged: 1760)
+2026-10-17 14:39:15.358 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:15.571 [trace] [RPC Request] PtyService#input(1, "c")
+2026-10-17 14:39:15.571 [trace] node-pty.IPty#write c false
+2026-10-17 14:39:15.571 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.572 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:15.572 [trace] node-pty.IPty#onData [11;19H[93mc[39;49m[0m
+2026-10-17 14:39:15.572 [trace] node-pty.IPty#onData [11;20H[?25h
+2026-10-17 14:39:15.588 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mc\u001b[39;49m\u001b[0m\u001b[11;20H\u001b[?25h"})
+2026-10-17 14:39:15.666 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:39:15.666 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:39:15.666 [trace] PromptInputModel#_sync: |
+2026-10-17 14:39:15.666 [trace] PromptInputModel#onDidChangeInput c|
+2026-10-17 14:39:15.666 [debug] CommandDetectionCapability#_handleCommandStartWindows 0 27
+2026-10-17 14:39:15.692 [trace] [RPC Request] PtyService#input(1, "l")
+2026-10-17 14:39:15.692 [trace] node-pty.IPty#write l false
+2026-10-17 14:39:15.692 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.693 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:15.693 [trace] node-pty.IPty#onData [11;19H[93mcl[39;49m[0m
+2026-10-17 14:39:15.693 [trace] node-pty.IPty#onData [11;21H[?25h
+2026-10-17 14:39:15.713 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mcl\u001b[39;49m\u001b[0m\u001b[11;21H\u001b[?25h"})
+2026-10-17 14:39:15.728 [trace] PromptInputModel#_sync: c|
+2026-10-17 14:39:15.729 [trace] PromptInputModel#onDidChangeInput cl|
+2026-10-17 14:39:15.729 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:15.801 [trace] [RPC Request] PtyService#input(1, "e")
+2026-10-17 14:39:15.801 [trace] node-pty.IPty#write e false
+2026-10-17 14:39:15.801 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.801 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:15.801 [trace] node-pty.IPty#onData [11;19H[93mcle[39;49m
+2026-10-17 14:39:15.801 [trace] node-pty.IPty#onData [0m[11;22H[?25h
+2026-10-17 14:39:15.821 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mcle\u001b[39;49m\u001b[0m\u001b[11;22H\u001b[?25h"})
+2026-10-17 14:39:15.837 [trace] PromptInputModel#_sync: cl|
+2026-10-17 14:39:15.837 [trace] PromptInputModel#onDidChangeInput cle|
+2026-10-17 14:39:15.837 [trace] PromptInputModel#_sync: cle|
+2026-10-17 14:39:15.840 [trace] [RPC Request] PtyService#input(1, "a")
+2026-10-17 14:39:15.840 [trace] node-pty.IPty#write a false
+2026-10-17 14:39:15.840 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.841 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:15.841 [trace] node-pty.IPty#onData [11;19H[93mclea
+2026-10-17 14:39:15.841 [trace] node-pty.IPty#onData [39;49m[0m[11;23H
+2026-10-17 14:39:15.841 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:15.853 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mclea\u001b[39;49m\u001b[0m\u001b[11;23H\u001b[?25h"})
+2026-10-17 14:39:15.869 [trace] PromptInputModel#_sync: cle|
+2026-10-17 14:39:15.870 [trace] PromptInputModel#onDidChangeInput clea|
+2026-10-17 14:39:15.870 [trace] PromptInputModel#_sync: clea|
+2026-10-17 14:39:15.962 [trace] [RPC Request] PtyService#input(1, "r")
+2026-10-17 14:39:15.962 [trace] node-pty.IPty#write r false
+2026-10-17 14:39:15.962 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:15.963 [trace] node-pty.IPty#onData [?25l
+2026-10-17 14:39:15.963 [trace] node-pty.IPty#onData [11;19H[93mclear[39;49m
+2026-10-17 14:39:15.963 [trace] node-pty.IPty#onData [0m[11;24H
+2026-10-17 14:39:15.963 [trace] node-pty.IPty#onData [?25h
+2026-10-17 14:39:15.977 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[?25l\u001b[11;19H\u001b[93mclear\u001b[39;49m\u001b[0m\u001b[11;24H\u001b[?25h"})
+2026-10-17 14:39:15.978 [trace] PromptInputModel#_sync: clea|
+2026-10-17 14:39:15.978 [trace] PromptInputModel#onDidChangeInput clear|
+2026-10-17 14:39:15.978 [trace] PromptInputModel#_sync: clear|
+2026-10-17 14:39:16.023 [trace] [RPC Request] PtyService#input(1, "\r")
+2026-10-17 14:39:16.023 [trace] node-pty.IPty#write  false
+2026-10-17 14:39:16.023 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:39:16.024 [trace] node-pty.IPty#onData [11;24H
+2026-10-17 14:39:16.024 [trace] node-pty.IPty#onData 
+
+2026-10-17 14:39:16.024 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:16.025 [trace] node-pty.IPty#onData [0m
+2026-10-17 14:39:16.025 [trace] node-pty.IPty#onData ]633;E;clear;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96]633;C
+2026-10-17 14:39:16.027 [trace] node-pty.IPty#onData [1;1H
+2026-10-17 14:39:16.027 [trace] node-pty.IPty#onData [H[2J[3J
+2026-10-17 14:39:16.039 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b[11;24H\r\n\u001b[0m\u001b[0m\u001b]633;E;clear;7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007\u001b]633;C\u0007\u001b[1;1H\u001b[H\u001b[2J\u001b[3J"})
+2026-10-17 14:39:16.040 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence E
+2026-10-17 14:39:16.040 [debug] CommandDetectionCapability#setCommandLine clear true
+2026-10-17 14:39:16.040 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence C
+2026-10-17 14:39:16.040 [trace] PromptInputModel#onDidFinishInput clear
+2026-10-17 14:39:16.040 [trace] PromptInputModel#onDidChangeInput clear
+2026-10-17 14:39:16.040 [debug] CommandDetectionCapability#handleCommandExecuted 0 27
+2026-10-17 14:39:16.047 [trace] node-pty.IPty#onData ]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cUSER]633;EnvJson;{"PATH":"C:\x5c\x5cWindows\x5c\x5csystem32\x3bC:\x5c\x5cWindows\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWbem\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cWindowsPowerShell\x5c\x5cv1.0\x5c\x5c\x3bC:\x5c\x5cWindows\x5c\x5cSystem32\x5c\x5cOpenSSH\x5c\x5c\x3bC:\x5c\x5cProgramData\x5c\x5cchocolatey\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cdotnet\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cNVIDIA Corporation\x5c\x5cNVIDIA App\x5c\x5cNvDLISR\x3bC:\x5c\x5cProgram Files (x86)\x5c\x5cNVIDIA Corporation\x5c\x5cPhysX\x5c\x5cCommon\x3bC:\x5c\x5cProgram Files\x5c\x5cnodejs\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cplayit_gg\x5c\x5cbin\x5c\x5c\x3bC:\x5c\x5cProgram Files\x5c\x5cDocker\x5c\x5cDocker\x5c\x5cresources\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5ccmd\x3bC:\x5c\x5cPython314\x5c\x5cScripts\x5c\x5c\x3bC:\x5c\x5cPython314\x5c\x5c\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5chermes\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5canaconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cjcode\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cGit\x5c\x5cbin\x3bC:\x5c\x5cProgram Files\x5c\x5cVim\x5c\x5cvim92\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cmingw-w64\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cusr\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cLibrary\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cminiconda3\x5c\x5cScripts\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWindowsApps\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cWindsurf\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPython\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cMicrosoft VS Code\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cOllama\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5c.local\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cPrograms\x5c\x5cAntigravity IDE\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cRoaming\x5c\x5cnpm\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cPackages\x5c\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\x5c\x5cffmpeg-9.0.2-full_build\x5c\x5cbin\x3bC:\x5c\x5cUsers\x5c\x5cUSER\x5c\x5cAppData\x5c\x5cLocal\x5c\x5cMicrosoft\x5c\x5cWinGet\x5c\x5cLinks\x3b"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96PS C:\Users\USER> ]633;P;Prompt=PS C:\x5cUsers\x5cUSER> ]633;B
+2026-10-17 14:39:16.055 [trace] [RPC Event] PtyService#_onProcessData.fire({"id":1,"event":"\u001b]633;D;0\u0007\u001b]633;A\u0007\u001b]633;P;Cwd=C:\\x5cUsers\\x5cUSER\u0007\u001b]633;EnvJson;{\"PATH\":\"C:\\x5c\\x5cWindows\\x5c\\x5csystem32\\x3bC:\\x5c\\x5cWindows\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWbem\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cWindowsPowerShell\\x5c\\x5cv1.0\\x5c\\x5c\\x3bC:\\x5c\\x5cWindows\\x5c\\x5cSystem32\\x5c\\x5cOpenSSH\\x5c\\x5c\\x3bC:\\x5c\\x5cProgramData\\x5c\\x5cchocolatey\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cdotnet\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cNVIDIA App\\x5c\\x5cNvDLISR\\x3bC:\\x5c\\x5cProgram Files (x86)\\x5c\\x5cNVIDIA Corporation\\x5c\\x5cPhysX\\x5c\\x5cCommon\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cnodejs\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cplayit_gg\\x5c\\x5cbin\\x5c\\x5c\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cDocker\\x5c\\x5cDocker\\x5c\\x5cresources\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5ccmd\\x3bC:\\x5c\\x5cPython314\\x5c\\x5cScripts\\x5c\\x5c\\x3bC:\\x5c\\x5cPython314\\x5c\\x5c\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5chermes\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5canaconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cjcode\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cGit\\x5c\\x5cbin\\x3bC:\\x5c\\x5cProgram Files\\x5c\\x5cVim\\x5c\\x5cvim92\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cmingw-w64\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cusr\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cLibrary\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cminiconda3\\x5c\\x5cScripts\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWindowsApps\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cWindsurf\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPython\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cMicrosoft VS Code\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cOllama\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5c.local\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cPrograms\\x5c\\x5cAntigravity IDE\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cRoaming\\x5c\\x5cnpm\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cNgrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cPackages\\x5c\\x5cGyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\x5c\\x5cffmpeg-9.0.2-full_build\\x5c\\x5cbin\\x3bC:\\x5c\\x5cUsers\\x5c\\x5cUSER\\x5c\\x5cAppData\\x5c\\x5cLocal\\x5c\\x5cMicrosoft\\x5c\\x5cWinGet\\x5c\\x5cLinks\\x3b\"};7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96\u0007PS C:\\Users\\USER> \u001b]633;P;Prompt=PS C:\\x5cUsers\\x5cUSER> \u0007\u001b]633;B\u0007"})
+2026-10-17 14:39:16.056 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence D
+2026-10-17 14:39:16.056 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined clear [object Object]
+2026-10-17 14:39:16.056 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2026-10-17 14:39:16.056 [trace] PromptInputModel#onDidChangeInput 
+2026-10-17 14:39:16.056 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence A
+2026-10-17 14:39:16.056 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:16.056 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence EnvJson
+2026-10-17 14:39:16.057 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence P
+2026-10-17 14:39:16.057 [debug] CommandDetectionCapability#setPromptTerminator  
+2026-10-17 14:39:16.057 [trace] ShellIntegrationAddon#_doHandleVSCodeSequence: received sequence B
+2026-10-17 14:39:16.061 [trace] [RPC Request] PtyService#acknowledgeDataEvent(1, 5000)
+2026-10-17 14:39:16.061 [trace] Flow control: Ack 5000 chars (unacknowledged: 301)
+2026-10-17 14:39:16.061 [trace] [RPC Response] PtyService#acknowledgeDataEvent undefined
+2026-10-17 14:39:16.086 [trace] PromptInputModel#onDidStartInput |
+2026-10-17 14:39:16.086 [trace] PromptInputModel#onDidChangeInput |
+2026-10-17 14:39:16.086 [debug] CommandDetectionCapability#_handleCommandStartWindows 0 0
+2026-10-17 14:39:17.640 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:39:17.640 [trace] node-pty.IPty#write [O false
+2026-10-17 14:39:17.640 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:41:23.416 [trace] [RPC Request] PtyService#input(1, "\u001b[I")
+2026-10-17 14:41:23.416 [trace] node-pty.IPty#write [I false
+2026-10-17 14:41:23.416 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:41:23.524 [trace] [RPC Request] PtyService#resize(1, 261, 11, 1827, 187)
+2026-10-17 14:41:23.524 [trace] node-pty.IPty#resize 261 11
+2026-10-17 14:41:23.524 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:41:24.021 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"1792226966332","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[{"relativeSize":1,"terminal":1}]}],"background":[]})
+2026-10-17 14:41:24.021 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
+2026-10-17 14:41:24.402 [trace] [RPC Request] PtyService#serializeTerminalState([1])
+2026-10-17 14:41:24.402 [trace] [RPC Event] PtyService#_onProcessOrphanQuestion.fire({"id":1})
+2026-10-17 14:41:24.435 [trace] [RPC Request] PtyService#resize(1, 154, 11, 1078, 187)
+2026-10-17 14:41:24.435 [trace] node-pty.IPty#resize 154 11
+2026-10-17 14:41:24.435 [trace] [RPC Response] PtyService#resize undefined
+2026-10-17 14:41:24.436 [trace] [RPC Request] PtyService#input(1, "\u001b[O")
+2026-10-17 14:41:24.436 [trace] node-pty.IPty#write [O false
+2026-10-17 14:41:24.436 [trace] [RPC Response] PtyService#input undefined
+2026-10-17 14:41:24.446 [trace] [RPC Request] PtyService#orphanQuestionReply(1)
+2026-10-17 14:41:24.446 [trace] [RPC Response] PtyService#orphanQuestionReply undefined
+2026-10-17 14:41:24.451 [trace] [RPC Response] PtyService#serializeTerminalState {"version":1,"state":[{"id":1,"shellLaunchConfig":{"shellIntegrationEnvironmentReporting":true,"icon":{"id":"terminal","defaults":{"fontCharacter":"\\ea85"}},"executable":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","color":null,"useShellEnvironment":true},"processDetails":{"id":1,"title":"powershell","titleSource":1,"pid":44104,"workspaceId":"1792226966332","workspaceName":"","cwd":"C:\\Users\\USER","isOrphan":false,"icon":{"id":"terminal","defaults":{"fontCharacter":"\\ea85"}},"environmentVariableCollections":[],"hasChildProcesses":false,"shellIntegrationNonce":"7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96"},"processLaunchConfig":{"env":{"=C:":"C:\\Users\\USER\\vscode\\.build\\electron","=ExitCode":"00000000","ALLUSERSPROFILE":"C:\\ProgramData","AMDRMSDKPATH":"C:\\Program Files\\AMD\\RyzenMasterSDK\\","ANTIGRAVITY_CLI_ALIAS":"agy-ide","APPDATA":"C:\\Users\\USER\\AppData\\Roaming","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_37612_RRJEQPPADKECTFSO","CODE":"\".build\\electron\\OFCode.exe\"","COLORTERM":"truecolor","COMPUTERNAME":"DESKTOP-NVCTCID","ChocolateyInstall":"C:\\ProgramData\\chocolatey","ChocolateyLastPathUpdate":"134221119638504624","ComSpec":"C:\\Windows\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DATA_CLOUD_CURR_IDE_NAME":"antigravityide","DISABLE_TEST_EXTENSION":"\"--disable-extension=vscode.vscode-api-tests\"","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_7316_1592913036":"1","EFC_7316_344590478":"1","EFC_7316_4126798990":"1","GIT_ASKPASS":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass.sh","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\USER","LANG":"en_US.UTF-8","LOCALAPPDATA":"C:\\Users\\USER\\AppData\\Local","LOGONSERVER":"\\\\DESKTOP-NVCTCID","NAMESHORT":"OFCode.exe","NODE_ENV":"development","NUMBER_OF_PROCESSORS":"16","OS":"Windows_NT","OneDrive":"C:\\Users\\USER\\OneDrive","OneDriveConsumer":"C:\\Users\\USER\\OneDrive","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD","PROCESSOR_LEVEL":"25","PROCESSOR_REVISION":"6102","PROMPT":"$P$G","PSModulePath":"C:\\Users\\USER\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","PYTHONSTARTUP":"c:\\Users\\USER\\AppData\\Roaming\\Antigravity IDE\\User\\workspaceStorage\\0f4d4f4d4ddb2f8d2a18f9e65de621f6\\ms-python.python\\pythonrc.py","PYTHON_BASIC_REPL":"1","Path":"C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\playit_gg\\bin\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\USER\\AppData\\Local\\hermes\\bin;C:\\Users\\USER\\anaconda3;C:\\Users\\USER\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\anaconda3\\Library\\usr\\bin;C:\\Users\\USER\\anaconda3\\Library\\bin;C:\\Users\\USER\\anaconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\jcode\\bin;C:\\Program Files\\Git\\bin;C:\\Program Files\\Vim\\vim92;C:\\Users\\USER\\miniconda3;C:\\Users\\USER\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\miniconda3\\Library\\usr\\bin;C:\\Users\\USER\\miniconda3\\Library\\bin;C:\\Users\\USER\\miniconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Local\\Programs\\Windsurf\\bin;C:\\Users\\USER\\AppData\\Local\\Python\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama;C:\\Users\\USER\\.local\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links;","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\Windows","TEMP":"C:\\Users\\USER\\AppData\\Local\\Temp","TERM_PROGRAM":"vscode","TERM_PROGRAM_VERSION":"1.143.0","TMP":"C:\\Users\\USER\\AppData\\Local\\Temp","USERDOMAIN":"DESKTOP-NVCTCID","USERDOMAIN_ROAMINGPROFILE":"DESKTOP-NVCTCID","USERNAME":"USER","USERPROFILE":"C:\\Users\\USER","windir":"C:\\Windows","VSCODE_INJECTION":"1","VSCODE_NONCE":"7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96","VSCODE_SHELL_ENV_REPORTING":"PATH,VIRTUAL_ENV,HOME,SHELL,PWD","VSCODE_A11Y_MODE":"0","VSCODE_STABLE":"0"},"executableEnv":{"=C:":"C:\\Users\\USER\\vscode\\.build\\electron","=ExitCode":"00000000","ALLUSERSPROFILE":"C:\\ProgramData","AMDRMSDKPATH":"C:\\Program Files\\AMD\\RyzenMasterSDK\\","ANTIGRAVITY_CLI_ALIAS":"agy-ide","APPDATA":"C:\\Users\\USER\\AppData\\Roaming","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_37612_RRJEQPPADKECTFSO","CODE":"\".build\\electron\\OFCode.exe\"","COLORTERM":"truecolor","COMPUTERNAME":"DESKTOP-NVCTCID","ChocolateyInstall":"C:\\ProgramData\\chocolatey","ChocolateyLastPathUpdate":"134221119638504624","ComSpec":"C:\\Windows\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DATA_CLOUD_CURR_IDE_NAME":"antigravityide","DISABLE_TEST_EXTENSION":"\"--disable-extension=vscode.vscode-api-tests\"","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_7316_1592913036":"1","EFC_7316_344590478":"1","EFC_7316_4126798990":"1","ELECTRON_ENABLE_LOGGING":"1","ELECTRON_ENABLE_STACK_DUMPING":"1","GIT_ASKPASS":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass.sh","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\USER","LANG":"en_US.UTF-8","LOCALAPPDATA":"C:\\Users\\USER\\AppData\\Local","LOGONSERVER":"\\\\DESKTOP-NVCTCID","NAMESHORT":"OFCode.exe","NODE_ENV":"development","NUMBER_OF_PROCESSORS":"16","OS":"Windows_NT","OneDrive":"C:\\Users\\USER\\OneDrive","OneDriveConsumer":"C:\\Users\\USER\\OneDrive","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD","PROCESSOR_LEVEL":"25","PROCESSOR_REVISION":"6102","PROMPT":"$P$G","PSModulePath":"C:\\Users\\USER\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","PYTHONSTARTUP":"c:\\Users\\USER\\AppData\\Roaming\\Antigravity IDE\\User\\workspaceStorage\\0f4d4f4d4ddb2f8d2a18f9e65de621f6\\ms-python.python\\pythonrc.py","PYTHON_BASIC_REPL":"1","Path":"C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\playit_gg\\bin\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\USER\\AppData\\Local\\hermes\\bin;C:\\Users\\USER\\anaconda3;C:\\Users\\USER\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\anaconda3\\Library\\usr\\bin;C:\\Users\\USER\\anaconda3\\Library\\bin;C:\\Users\\USER\\anaconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\jcode\\bin;C:\\Program Files\\Git\\bin;C:\\Program Files\\Vim\\vim92;C:\\Users\\USER\\miniconda3;C:\\Users\\USER\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\USER\\miniconda3\\Library\\usr\\bin;C:\\Users\\USER\\miniconda3\\Library\\bin;C:\\Users\\USER\\miniconda3\\Scripts;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Local\\Programs\\Windsurf\\bin;C:\\Users\\USER\\AppData\\Local\\Python\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama;C:\\Users\\USER\\.local\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links;","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\Windows","TEMP":"C:\\Users\\USER\\AppData\\Local\\Temp","TERM_PROGRAM":"vscode","TERM_PROGRAM_VERSION":"1.107.0","TMP":"C:\\Users\\USER\\AppData\\Local\\Temp","USERDOMAIN":"DESKTOP-NVCTCID","USERDOMAIN_ROAMINGPROFILE":"DESKTOP-NVCTCID","USERNAME":"USER","USERPROFILE":"C:\\Users\\USER","VSCODE_CLI":"1","VSCODE_CODE_CACHE_PATH":"","VSCODE_CWD":"C:\\Users\\USER\\vscode","VSCODE_DEV":"1","VSCODE_GIT_ASKPASS_EXTRA_ARGS":"","VSCODE_GIT_ASKPASS_MAIN":"c:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\extensions\\git\\dist\\askpass-main.js","VSCODE_GIT_ASKPASS_NODE":"C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe","VSCODE_GIT_IPC_HANDLE":"\\\\.\\pipe\\vscode-git-f766bf6e5e-sock","VSCODE_INJECTION":"1","VSCODE_IPC_HOOK":"\\\\.\\pipe\\a39ed721-1.143.0-main-sock","VSCODE_NLS_CONFIG":"{\"userLocale\":\"en-us\",\"osLocale\":\"en-us\",\"resolvedLanguage\":\"en\",\"defaultMessagesFile\":\"C:\\\\Users\\\\USER\\\\vscode\\\\out\\\\nls.messages.json\",\"locale\":\"en-us\",\"availableLanguages\":{}}","VSCODE_NODE_COMPILE_CACHE_ROOT":"C:\\Users\\USER\\vscode\\out\\vs\\base\\node-compile-cache","VSCODE_PID":"48068","VSCODE_PYTHON_AUTOACTIVATE_GUARD":"1","windir":"C:\\Windows"},"options":{"shellIntegration":{"enabled":true,"suggestEnabled":true,"nonce":"7c29cf2b-89ae-4ab8-bcde-8e1b2267bc96"},"windowsUseConptyDll":true,"environmentVariableCollections":[],"isScreenReaderOptimized":false}},"unicodeVersion":"11","replayEvent":{"events":[{"cols":154,"rows":11,"data":"PS C:\\Users\\USER> "}],"commands":{"isWindowsPty":true,"hasRichCommandDetection":true,"commands":[{"promptStartLine":-1,"startLine":-1,"endLine":-1,"executedLine":-1,"executedX":0,"command":"ls","commandLineConfidence":"high","isTrusted":true,"cwd":"C:\\Users\\USER","exitCode":0,"commandStartLineContent":"PS C:\\Users\\USER> ls","timestamp":1792228152665,"duration":162,"id":"e0156e69-5320-4409-953d-14779a9fe649"},{"promptStartLine":-1,"startLine":-1,"endLine":-1,"executedLine":-1,"executedX":0,"command":"clear","commandLineConfidence":"high","isTrusted":true,"cwd":"C:\\Users\\USER","exitCode":0,"commandStartLineContent":"PS C:\\Users\\USER> clear","timestamp":1792228153257,"duration":62,"id":"2ac51ed1-1eed-45d2-ba58-0509815c5b22"},{"promptStartLine":-1,"startLine":-1,"endLine":-1,"executedLine":-1,"executedX":24,"command":"clearl","commandLineConfidence":"high","isTrusted":true,"cwd":"C:\\Users\\USER","exitCode":1,"commandStartLineContent":"PS C:\\Users\\USER> clearl","timestamp":1792228154406,"duration":140,"id":"b8536ef5-c81e-4711-9530-66669a5f9d5e"},{"promptStartLine":-1,"startLine":-1,"endLine":-1,"executedLine":-1,"executedX":1,"command":"s","commandLineConfidence":"high","isTrusted":true,"cwd":"C:\\Users\\USER","exitCode":1,"commandStartLineContent":"s : The term 's' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was ","timestamp":1792228154452,"duration":45,"id":"1d34ab77-724f-4aed-a137-95bff04cff48"},{"promptStartLine":-1,"startLine":-1,"endLine":0,"executedLine":-1,"executedX":0,"command":"clear","commandLineConfidence":"high","isTrusted":true,"cwd":"C:\\Users\\USER","exitCode":0,"commandStartLineContent":"PS C:\\Users\\USER> clear","timestamp":1792228156056,"duration":16,"id":"7779e776-f857-4431-9946-384e3057f925"},{"promptStartLine":0,"startLine":0,"startX":0,"command":"","commandLineConfidence":"low","isTrusted":true,"cwd":"C:\\Users\\USER","timestamp":0,"duration":0,"id":"7873f51d-f9ab-41df-bb4c-3cc89c35c33d"}],"promptInputModel":{"modelState":{"value":"","prefix":"","suffix":"","cursorIndex":0,"ghostTextIndex":-1},"commandStartX":18,"lastPromptLine":"PS C:\\Users\\USER> ","continuationPrompt":">> ","lastUserInput":"\u001b[1;19R"}}},"timestamp":1792228284450}]}
+2026-10-17 14:41:25.778 [trace] [RPC Request] PtyService#shutdown(1, false)
+2026-10-17 14:41:25.778 [trace] TerminalProcess#shutdown 
+    at TerminalProcess.shutdown (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/terminalProcess.js:377:58)
+    at PersistentTerminalProcess.shutdown (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/ptyService.js:824:34)
+    at PtyService.shutdown (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/ptyService.js:329:32)
+    at descriptor.<computed> (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/ptyService.js:66:25)
+    at Object.call (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:843:28)
+    at ChannelServer.onPromise (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:287:25)
+    at ChannelServer.onRawMessage (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:266:21)
+    at UniqueContainer.value (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:216:67)
+    at Emitter._deliver (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:814:16)
+    at Emitter._deliverQueue (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:823:12)
+    at Emitter.fire (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:843:12)
+    at MessagePortMain.fn (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:395:36)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-10-17 14:41:25.778 [trace] TerminalProcess#_queueProcessExit 
+    at TerminalProcess._queueProcessExit (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/terminalProcess.js:310:67)
+    at TerminalProcess.shutdown (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/terminalProcess.js:383:14)
+    at PersistentTerminalProcess.shutdown (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/ptyService.js:824:34)
+    at PtyService.shutdown (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/ptyService.js:329:32)
+    at descriptor.<computed> (file:///c:/Users/USER/vscode/out/vs/platform/terminal/node/ptyService.js:66:25)
+    at Object.call (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:843:28)
+    at ChannelServer.onPromise (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:287:25)
+    at ChannelServer.onRawMessage (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:266:21)
+    at UniqueContainer.value (file:///c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.js:216:67)
+    at Emitter._deliver (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:814:16)
+    at Emitter._deliverQueue (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:823:12)
+    at Emitter.fire (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:843:12)
+    at MessagePortMain.fn (file:///c:/Users/USER/vscode/out/vs/base/common/event.js:395:36)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-10-17 14:41:25.778 [trace] [RPC Response] PtyService#shutdown undefined

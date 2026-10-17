@@ -5,10 +5,11 @@
 
 import { CancellationToken } from '../../../../../base/common/cancellation.js';
 import { Emitter, Event } from '../../../../../base/common/event.js';
-import { Disposable } from '../../../../../base/common/lifecycle.js';
+import { Disposable, toDisposable } from '../../../../../base/common/lifecycle.js';
 import { ExtensionIdentifier } from '../../../../../platform/extensions/common/extensions.js';
 import { IInstantiationService } from '../../../../../platform/instantiation/common/instantiation.js';
 import { IWorkbenchContribution } from '../../../../common/contributions.js';
+import { ChatAgentLocation } from '../constants.js';
 import {
 	IChatMessage,
 	ILanguageModelChatInfoOptions,
@@ -19,7 +20,9 @@ import {
 	ILanguageModelChatResponse,
 	ILanguageModelsService,
 	IChatResponsePart,
+	IUserFriendlyLanguageModel,
 } from '../languageModels.js';
+import { ILanguageModelsConfigurationService } from '../languageModelsConfiguration.js';
 import { OllamaClient, IOllamaChatMessage, IOllamaToolDefinition } from './ollamaClient.js';
 import { OllamaRouter } from './ollamaRouter.js';
 import { ToolCallParser } from './toolCallParser.js';
@@ -42,9 +45,14 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		const routedModels = await this._router.refreshModels();
 		const results: ILanguageModelChatMetadataAndIdentifier[] = [];
 
-		for (const routed of routedModels) {
+		for (let index = 0; index < routedModels.length; index++) {
+			const routed = routedModels[index];
 			const tag = routed.tag;
-			const modelId = `ollama/${tag.name}`;
+			const modelId = `ollama:${tag.name}`;
+			const isFirstModel = index === 0;
+
+			const nameLower = tag.name.toLowerCase();
+			const isVisionModel = nameLower.includes('vision') || nameLower.includes('llava') || nameLower.includes('moondream');
 
 			const metadata: ILanguageModelChatMetadata = {
 				id: modelId,
@@ -52,16 +60,22 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 				vendor: 'ollama',
 				family: tag.details?.family || 'ollama',
 				version: tag.details?.quantization_level || 'q4_k_m',
-				maxInputTokens: routed.optimalContextLength - routed.budget.generationReserve,
-				maxOutputTokens: routed.budget.generationReserve,
-				maxContextWindowTokens: routed.optimalContextLength,
+				maxInputTokens: 16384,
+				maxOutputTokens: 4096,
+				maxContextWindowTokens: routed.optimalContextLength || 16384,
 				isBYOK: true,
-				isDefaultForLocation: {},
+				isUserSelectable: true,
+				isDefaultForLocation: {
+					[ChatAgentLocation.Chat]: isFirstModel,
+					[ChatAgentLocation.Terminal]: isFirstModel,
+					[ChatAgentLocation.EditorInline]: isFirstModel
+				},
 				extension: new ExtensionIdentifier('vscode.offline-agent'),
 				capabilities: {
-					toolCalling: routed.supportsTools,
-					agentMode: routed.supportsTools,
-					vision: false,
+					toolCalling: true,
+					agentMode: true,
+					vision: isVisionModel,
+					editTools: ['vscode_editFile_internal']
 				}
 			};
 
@@ -81,7 +95,7 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		options: ILanguageModelChatRequestOptions,
 		token: CancellationToken
 	): Promise<ILanguageModelChatResponse> {
-		const rawModelName = modelId.replace(/^ollama\//, '');
+		const rawModelName = modelId.replace(/^ollama[:/]/, '');
 		const ollamaMessages: IOllamaChatMessage[] = [];
 
 		for (const msg of messages) {
@@ -204,12 +218,61 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 export class OllamaProviderContribution extends Disposable implements IWorkbenchContribution {
 	static readonly ID = 'chat.ollamaProvider';
 
+	private readonly _ollamaVendorDescriptor: IUserFriendlyLanguageModel = {
+		vendor: 'ollama',
+		displayName: 'Ollama (Local)',
+		configuration: undefined
+	};
+
 	constructor(
 		@ILanguageModelsService languageModelsService: ILanguageModelsService,
+		@ILanguageModelsConfigurationService languageModelsConfigService: ILanguageModelsConfigurationService,
 		@IInstantiationService instantiationService: IInstantiationService,
 	) {
 		super();
+
+		// Register vendor descriptor so model picker shows an 'Ollama' tab
+		languageModelsService.deltaLanguageModelChatProviderDescriptors([this._ollamaVendorDescriptor], []);
+		this._register(toDisposable(() => {
+			languageModelsService.deltaLanguageModelChatProviderDescriptors([], [this._ollamaVendorDescriptor]);
+		}));
+
+		// Register provider
 		const provider = instantiationService.createInstance(OllamaLanguageModelProvider);
 		this._register(languageModelsService.registerLanguageModelProvider('ollama', provider));
+
+		// Ensure an 'ollama' provider group exists so hasByokModels=true bypasses the Copilot gate
+		languageModelsConfigService.whenReady.then(() => {
+			if (this._store.isDisposed) {
+				return;
+			}
+			const existingGroups = languageModelsConfigService.getLanguageModelsProviderGroups();
+			const hasOllamaGroup = existingGroups.some(g => g.vendor === 'ollama');
+			if (!hasOllamaGroup) {
+				languageModelsConfigService.addLanguageModelsProviderGroup({
+					name: 'Ollama (Local)',
+					vendor: 'ollama',
+					url: 'http://localhost:11434'
+				}).catch(() => { /* ignore */ });
+			}
+		});
+
+		// Eager discovery and background retries
+		const triggerDiscovery = () => {
+			if (!this._store.isDisposed) {
+				languageModelsService.selectLanguageModels({ vendor: 'ollama' }).catch(() => { /* ignore */ });
+			}
+		};
+
+		triggerDiscovery();
+		const timer1 = setTimeout(triggerDiscovery, 1500);
+		const timer2 = setTimeout(triggerDiscovery, 5000);
+		const interval = setInterval(triggerDiscovery, 30000);
+
+		this._register(toDisposable(() => {
+			clearTimeout(timer1);
+			clearTimeout(timer2);
+			clearInterval(interval);
+		}));
 	}
 }

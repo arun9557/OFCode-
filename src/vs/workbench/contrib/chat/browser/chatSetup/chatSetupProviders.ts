@@ -23,7 +23,7 @@ import { IWorkspaceTrustManagementService } from '../../../../../platform/worksp
 import { IWorkbenchEnvironmentService } from '../../../../services/environment/common/environmentService.js';
 import { nullExtensionDescription } from '../../../../services/extensions/common/extensions.js';
 import { CountTokensCallback, ILanguageModelToolsService, IPreparedToolInvocation, IToolData, IToolImpl, IToolInvocation, IToolResult, ToolDataSource, ToolProgress } from '../../common/tools/languageModelToolsService.js';
-import { IChatAgentImplementation, IChatAgentRequest, IChatAgentResult, IChatAgentService } from '../../common/participants/chatAgents.js';
+import { IChatAgent, IChatAgentImplementation, IChatAgentRequest, IChatAgentResult, IChatAgentService } from '../../common/participants/chatAgents.js';
 import { ChatEntitlementContext, chatRequiresSetup, IChatEntitlementService } from '../../../../services/chat/common/chatEntitlementService.js';
 import { ChatModel, ChatRequestModel, IChatRequestModel, IChatRequestVariableData } from '../../common/model/chatModel.js';
 import { ChatMode } from '../../common/chatModes.js';
@@ -256,7 +256,10 @@ export class SetupAgent extends Disposable implements IChatAgentImplementation {
 	}
 
 	private async doInvoke(request: IChatAgentRequest, progress: (part: IChatProgress) => void, chatService: IChatService, languageModelsService: ILanguageModelsService, chatWidgetService: IChatWidgetService, chatAgentService: IChatAgentService, languageModelToolsService: ILanguageModelToolsService, defaultAccountService: IDefaultAccountService): Promise<IChatAgentResult> {
-		if (chatRequiresSetup({
+		const hasOllamaOrOfflineAgent = chatAgentService.getAgent('ofcode.offlineAgent') !== undefined
+			|| languageModelsService.getLanguageModelIds().some(id => id.startsWith('ollama'));
+
+		if (!hasOllamaOrOfflineAgent && chatRequiresSetup({
 			completed: !!this.context.state.completed,
 			disabled: !!this.context.state.disabled,
 			untrusted: !!this.context.state.untrusted,
@@ -621,14 +624,15 @@ export class SetupAgent extends Disposable implements IChatAgentImplementation {
 	}
 
 	private whenAgentReady(chatAgentService: IChatAgentService, mode: ChatModeKind | undefined): Promise<unknown> | void {
+		const isReady = (agent: IChatAgent | undefined) => Boolean(agent && (!agent.isCore || agent.id === 'ofcode.offlineAgent'));
 		const defaultAgent = chatAgentService.getDefaultAgent(this.location, mode);
-		if (defaultAgent && !defaultAgent.isCore) {
-			return; // we have a default agent from an extension!
+		if (isReady(defaultAgent)) {
+			return; // we have a default agent!
 		}
 
 		return Event.toPromise(Event.filter(chatAgentService.onDidChangeAgents, () => {
 			const defaultAgent = chatAgentService.getDefaultAgent(this.location, mode);
-			return Boolean(defaultAgent && !defaultAgent.isCore);
+			return isReady(defaultAgent);
 		}));
 	}
 

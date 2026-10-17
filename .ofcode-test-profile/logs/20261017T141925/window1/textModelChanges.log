@@ -1,0 +1,8 @@
+2026-10-17 14:19:47.507 [trace] onDidChangeModelContent: source:setValue
+2026-10-17 14:19:48.945 [trace] onDidChangeModelContent: source:cursor-kind:type-detailedSource:keyboard
+2026-10-17 14:19:49.070 [trace] onDidChangeModelContent: source:cursor-kind:type-detailedSource:keyboard
+2026-10-17 14:19:49.092 [trace] onDidChangeModelContent: source:cursor-kind:type-detailedSource:keyboard
+2026-10-17 14:19:49.208 [trace] onDidChangeModelContent: source:cursor-kind:type-detailedSource:keyboard
+2026-10-17 14:19:49.295 [trace] onDidChangeModelContent: source:setValue
+2026-10-17 14:29:32.242 [trace] onDidChangeModelContent: source:cursor-kind:type-detailedSource:keyboard
+2026-10-17 14:29:32.408 [trace] onDidChangeModelContent: source:setValue

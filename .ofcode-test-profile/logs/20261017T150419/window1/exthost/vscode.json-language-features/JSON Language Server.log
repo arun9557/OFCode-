@@ -1,0 +1,11 @@
+2026-10-17 15:04:50.536 [trace] Sending request 'initialize - (0)'.
+2026-10-17 15:04:50.536 [error] Debugger listening on ws://127.0.0.1:6230/39f0c819-6830-4101-b6d4-9722bfe3a3c7
+2026-10-17 15:04:50.536 [error] For help, see: https://nodejs.org/learn/getting-started/debugging
+2026-10-17 15:04:50.618 [trace] Received response 'initialize - (0)' in 88ms.
+2026-10-17 15:04:50.618 [trace] Sending notification 'initialized'.
+2026-10-17 15:04:50.623 [trace] Sending notification 'workspace/didChangeConfiguration'.
+2026-10-17 15:04:50.624 [trace] Received request 'workspace/diagnostic/refresh - (0)'.
+2026-10-17 15:04:50.624 [trace] Sending response 'workspace/diagnostic/refresh - (0)'. Processing request took 0ms
+2026-10-17 15:04:50.626 [trace] Sending notification 'json/schemaAssociations'.
+2026-10-17 15:04:50.627 [trace] Received request 'workspace/diagnostic/refresh - (1)'.
+2026-10-17 15:04:50.627 [trace] Sending response 'workspace/diagnostic/refresh - (1)'. Processing request took 0ms

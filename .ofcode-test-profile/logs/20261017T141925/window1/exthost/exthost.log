@@ -209,3 +209,266 @@ Require stack:
 	at Module.require (node:internal/modules/cjs/loader:1681:12)
 	at require (node:internal/modules/helpers:157:16)
 	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:21:47.258 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-17 14:21:47.258 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/terminal-suggest/out/terminalSuggestMain
+2026-10-17 14:21:47.258 [trace] ExtensionService#loadExtensionContext vscode.terminal-suggest
+2026-10-17 14:21:47.259 [error] Activating extension vscode.terminal-suggest failed due to an error:
+2026-10-17 14:21:47.259 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\terminal-suggest\out\terminalSuggestMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:21:53.573 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-17 14:21:53.573 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/configuration-editing/out/configurationEditingMain
+2026-10-17 14:21:53.574 [trace] ExtensionService#loadExtensionContext vscode.configuration-editing
+2026-10-17 14:21:53.574 [error] Activating extension vscode.configuration-editing failed due to an error:
+2026-10-17 14:21:53.574 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\configuration-editing\out\configurationEditingMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:21:53.575 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-17 14:21:53.575 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/json-language-features/client/out/node/jsonClientMain
+2026-10-17 14:21:53.575 [trace] ExtensionService#loadExtensionContext vscode.json-language-features
+2026-10-17 14:21:53.575 [error] Activating extension vscode.json-language-features failed due to an error:
+2026-10-17 14:21:53.575 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\json-language-features\client\out\node\jsonClientMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:21:53.575 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-17 14:21:53.575 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/typescript-language-features/out/extension
+2026-10-17 14:21:53.576 [trace] ExtensionService#loadExtensionContext vscode.typescript-language-features
+2026-10-17 14:21:53.576 [error] Activating extension vscode.typescript-language-features failed due to an error:
+2026-10-17 14:21:53.576 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\typescript-language-features\out\extension'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:22:03.185 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onLanguageModelChatProvider:copilot'
+2026-10-17 14:22:03.185 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/copilot/dist/extension
+2026-10-17 14:22:03.186 [trace] ExtensionService#loadExtensionContext GitHub.copilot-chat
+2026-10-17 14:22:03.187 [error] Activating extension GitHub.copilot-chat failed due to an error:
+2026-10-17 14:22:03.187 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\copilot\dist\extension'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:29:13.348 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-10-17 14:29:13.348 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/extension-editing/out/extensionEditingMain
+2026-10-17 14:29:13.349 [trace] ExtensionService#loadExtensionContext vscode.extension-editing
+2026-10-17 14:29:13.349 [error] Activating extension vscode.extension-editing failed due to an error:
+2026-10-17 14:29:13.349 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\extension-editing\out\extensionEditingMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:29:13.349 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-10-17 14:29:13.349 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/npm/out/npmMain
+2026-10-17 14:29:13.350 [trace] ExtensionService#loadExtensionContext vscode.npm
+2026-10-17 14:29:13.350 [error] Activating extension vscode.npm failed due to an error:
+2026-10-17 14:29:13.350 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\npm\out\npmMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:29:13.350 [info] ExtensionService#_doActivateExtension vscode.vscode-colorize-perf-tests, startup: false, activationEvent: 'onLanguage:json'
+2026-10-17 14:29:13.350 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/vscode-colorize-perf-tests/out/colorizerTestMain
+2026-10-17 14:29:13.351 [trace] ExtensionService#loadExtensionContext vscode.vscode-colorize-perf-tests
+2026-10-17 14:29:13.351 [error] Activating extension vscode.vscode-colorize-perf-tests failed due to an error:
+2026-10-17 14:29:13.351 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\vscode-colorize-perf-tests\out\colorizerTestMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:29:13.351 [info] ExtensionService#_doActivateExtension vscode.vscode-colorize-tests, startup: false, activationEvent: 'onLanguage:json'
+2026-10-17 14:29:13.351 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/vscode-colorize-tests/out/colorizerTestMain
+2026-10-17 14:29:13.352 [trace] ExtensionService#loadExtensionContext vscode.vscode-colorize-tests
+2026-10-17 14:29:13.352 [error] Activating extension vscode.vscode-colorize-tests failed due to an error:
+2026-10-17 14:29:13.352 [error] Error: Cannot find module 'c:\Users\USER\vscode\extensions\vscode-colorize-tests\out\colorizerTestMain'
+Require stack:
+- c:\Users\USER\vscode\out\vs\workbench\api\node\extHostExtensionService.js
+	at node:internal/modules/cjs/loader:1571:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16267)
+	at Module.resolveFilename [as _resolveFilename] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:59:38)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1125:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1149:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1206:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/bootstrap-esm.js:86:16)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:109:18)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1219:25)
+	at node:internal/modules/cjs/loader:1348:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18263)
+	at Module._load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extensionHostProcess.js:58:25)
+	at Module.load (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:42:29)
+	at Module.load [as _load] (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/proxyResolver.js:330:25)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+	at Module.require (node:internal/modules/cjs/loader:1681:12)
+	at require (node:internal/modules/helpers:157:16)
+	at ExtHostExtensionService._doLoadModule (file:///c:/Users/USER/vscode/out/vs/workbench/api/node/extHostExtensionService.js:163:13)
+2026-10-17 14:41:25.778 [info] Extension host terminating: received terminate message from renderer
+2026-10-17 14:41:25.779 [info] Extension host with pid 45696 exiting with code 0
