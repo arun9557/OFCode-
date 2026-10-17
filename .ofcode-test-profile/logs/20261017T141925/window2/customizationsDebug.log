@@ -1,0 +1,576 @@
+2026-10-17 14:20:12.726 [info] 
+2026-10-17 14:20:12.726 [info] === Customizations Snapshot ===
+2026-10-17 14:20:12.726 [info]   Root: (none)
+2026-10-17 14:20:12.726 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:12.726 [info] 
+2026-10-17 14:20:12.726 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:12.726 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:12.729 [info]   agents                0      0      0       0
+2026-10-17 14:20:12.849 [info]   skills                0     15     11      26
+2026-10-17 14:20:12.867 [info]   instructions          0      0      0       0
+2026-10-17 14:20:12.868 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:12.868 [info] 
+2026-10-17 14:20:12.869 [info]   -- agents --
+2026-10-17 14:20:12.869 [info]      Search paths:
+2026-10-17 14:20:12.869 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:12.869 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:12.869 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:12.871 [info] 
+2026-10-17 14:20:12.871 [info]   -- skills --
+2026-10-17 14:20:12.871 [info]      Search paths:
+2026-10-17 14:20:12.871 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:12.872 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:12.872 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:12.972 [info]      Found 26 item(s):
+2026-10-17 14:20:12.972 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:12.972 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:12.972 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:12.972 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:12.973 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:12.974 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:12.974 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:12.974 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:12.974 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:12.974 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:12.974 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:12.974 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:12.975 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:12.975 [info] 
+2026-10-17 14:20:12.976 [info]   -- instructions --
+2026-10-17 14:20:12.976 [info]      Search paths:
+2026-10-17 14:20:12.976 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:12.976 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:12.976 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:13.083 [info] 
+2026-10-17 14:20:13.083 [info]   -- hooks --
+2026-10-17 14:20:13.083 [info]      Search paths:
+2026-10-17 14:20:13.083 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:13.086 [info] 
+2026-10-17 14:20:13.086 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:13.086 [info]      (none registered)
+2026-10-17 14:20:13.086 [info] 
+2026-10-17 14:20:13.087 [info] 
+2026-10-17 14:20:13.087 [info] === Customizations Snapshot ===
+2026-10-17 14:20:13.087 [info]   Root: (none)
+2026-10-17 14:20:13.087 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:13.087 [info] 
+2026-10-17 14:20:13.087 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:13.088 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:13.098 [info]   agents                0      0      0       0
+2026-10-17 14:20:13.137 [info]   skills                0     15     11      26
+2026-10-17 14:20:13.172 [info]   instructions          0      0      0       0
+2026-10-17 14:20:13.182 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:13.182 [info] 
+2026-10-17 14:20:13.182 [info]   -- agents --
+2026-10-17 14:20:13.182 [info]      Search paths:
+2026-10-17 14:20:13.183 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:13.183 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:13.183 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:13.198 [info] 
+2026-10-17 14:20:13.198 [info]   -- skills --
+2026-10-17 14:20:13.198 [info]      Search paths:
+2026-10-17 14:20:13.198 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:13.198 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:13.199 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:13.230 [info]      Found 26 item(s):
+2026-10-17 14:20:13.231 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:13.231 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:13.232 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:13.232 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:13.232 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:13.233 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:13.234 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:13.234 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:13.234 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:13.234 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:13.234 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:13.234 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:13.235 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:13.236 [info] 
+2026-10-17 14:20:13.236 [info]   -- instructions --
+2026-10-17 14:20:13.236 [info]      Search paths:
+2026-10-17 14:20:13.236 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:13.236 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:13.236 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:13.239 [info] 
+2026-10-17 14:20:13.240 [info]   -- hooks --
+2026-10-17 14:20:13.240 [info]      Search paths:
+2026-10-17 14:20:13.240 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:13.245 [info] 
+2026-10-17 14:20:13.245 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:13.245 [info]      (none registered)
+2026-10-17 14:20:13.246 [info] 
+2026-10-17 14:20:14.330 [info] 
+2026-10-17 14:20:14.331 [info] === Customizations Snapshot ===
+2026-10-17 14:20:14.331 [info]   Root: (none)
+2026-10-17 14:20:14.331 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:14.331 [info] 
+2026-10-17 14:20:14.332 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:14.332 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:14.342 [info]   agents                0      0      0       0
+2026-10-17 14:20:14.396 [info]   skills                0     15     11      26
+2026-10-17 14:20:14.417 [info]   instructions          0      0      0       0
+2026-10-17 14:20:14.429 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:14.430 [info] 
+2026-10-17 14:20:14.430 [info]   -- agents --
+2026-10-17 14:20:14.430 [info]      Search paths:
+2026-10-17 14:20:14.430 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:14.430 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:14.430 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:14.436 [info] 
+2026-10-17 14:20:14.436 [info]   -- skills --
+2026-10-17 14:20:14.436 [info]      Search paths:
+2026-10-17 14:20:14.436 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:14.436 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:14.436 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:14.518 [info]      Found 26 item(s):
+2026-10-17 14:20:14.518 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:14.518 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:14.518 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:14.518 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:14.519 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:14.519 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:14.519 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:14.519 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:14.519 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:14.519 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:14.520 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:14.520 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:14.520 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:14.520 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:14.520 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:14.520 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:14.521 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:14.522 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:14.522 [info] 
+2026-10-17 14:20:14.522 [info]   -- instructions --
+2026-10-17 14:20:14.522 [info]      Search paths:
+2026-10-17 14:20:14.522 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:14.522 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:14.522 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:14.532 [info] 
+2026-10-17 14:20:14.532 [info]   -- hooks --
+2026-10-17 14:20:14.532 [info]      Search paths:
+2026-10-17 14:20:14.532 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:14.533 [info] 
+2026-10-17 14:20:14.533 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:14.533 [info]      (none registered)
+2026-10-17 14:20:14.534 [info] 
+2026-10-17 14:20:14.534 [info] 
+2026-10-17 14:20:14.534 [info] === Customizations Snapshot ===
+2026-10-17 14:20:14.534 [info]   Root: (none)
+2026-10-17 14:20:14.534 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:14.534 [info] 
+2026-10-17 14:20:14.535 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:14.535 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:14.537 [info]   agents                0      0      0       0
+2026-10-17 14:20:14.547 [info]   skills                0     15     11      26
+2026-10-17 14:20:14.549 [info]   instructions          0      0      0       0
+2026-10-17 14:20:14.549 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:14.550 [info] 
+2026-10-17 14:20:14.550 [info]   -- agents --
+2026-10-17 14:20:14.550 [info]      Search paths:
+2026-10-17 14:20:14.550 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:14.550 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:14.550 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:14.552 [info] 
+2026-10-17 14:20:14.552 [info]   -- skills --
+2026-10-17 14:20:14.553 [info]      Search paths:
+2026-10-17 14:20:14.553 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:14.553 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:14.553 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:14.565 [info]      Found 26 item(s):
+2026-10-17 14:20:14.565 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:14.565 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:14.565 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:14.566 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:14.566 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:14.566 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:14.566 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:14.566 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:14.566 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:14.567 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:14.567 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:14.567 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:14.567 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:14.567 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:14.568 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:14.568 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:14.568 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:14.568 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:14.568 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:14.568 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:14.569 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:14.569 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:14.569 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:14.569 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:14.569 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:14.569 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:14.570 [info] 
+2026-10-17 14:20:14.570 [info]   -- instructions --
+2026-10-17 14:20:14.570 [info]      Search paths:
+2026-10-17 14:20:14.570 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:14.570 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:14.570 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:14.573 [info] 
+2026-10-17 14:20:14.573 [info]   -- hooks --
+2026-10-17 14:20:14.573 [info]      Search paths:
+2026-10-17 14:20:14.573 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:14.575 [info] 
+2026-10-17 14:20:14.575 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:14.575 [info]      (none registered)
+2026-10-17 14:20:14.575 [info] 
+2026-10-17 14:20:14.674 [info] 
+2026-10-17 14:20:14.674 [info] === Customizations Snapshot ===
+2026-10-17 14:20:14.675 [info]   Root: (none)
+2026-10-17 14:20:14.675 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:14.675 [info] 
+2026-10-17 14:20:14.675 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:14.675 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:14.684 [info]   agents                0      0      0       0
+2026-10-17 14:20:14.760 [info]   skills                0     15     11      26
+2026-10-17 14:20:14.804 [info]   instructions          0      0      0       0
+2026-10-17 14:20:14.814 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:14.815 [info] 
+2026-10-17 14:20:14.815 [info]   -- agents --
+2026-10-17 14:20:14.816 [info]      Search paths:
+2026-10-17 14:20:14.816 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:14.816 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:14.816 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:14.825 [info] 
+2026-10-17 14:20:14.825 [info]   -- skills --
+2026-10-17 14:20:14.825 [info]      Search paths:
+2026-10-17 14:20:14.826 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:14.826 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:14.826 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:14.976 [info]      Found 26 item(s):
+2026-10-17 14:20:14.976 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:14.976 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:14.977 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:14.977 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:14.977 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:14.977 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:14.977 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:14.978 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:14.978 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:14.978 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:14.978 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:14.978 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:14.978 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:14.979 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:14.979 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:14.979 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:14.979 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:14.979 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:14.980 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:14.980 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:14.980 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:14.980 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:14.980 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:14.981 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:14.981 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:14.981 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:14.981 [info] 
+2026-10-17 14:20:14.981 [info]   -- instructions --
+2026-10-17 14:20:14.982 [info]      Search paths:
+2026-10-17 14:20:14.982 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:14.982 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:14.982 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:14.988 [info] 
+2026-10-17 14:20:14.989 [info]   -- hooks --
+2026-10-17 14:20:14.989 [info]      Search paths:
+2026-10-17 14:20:14.989 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:14.990 [info] 
+2026-10-17 14:20:14.991 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:14.991 [info]      (none registered)
+2026-10-17 14:20:14.991 [info] 
+2026-10-17 14:20:14.991 [info] 
+2026-10-17 14:20:14.991 [info] === Customizations Snapshot ===
+2026-10-17 14:20:14.992 [info]   Root: (none)
+2026-10-17 14:20:14.992 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:14.992 [info] 
+2026-10-17 14:20:14.992 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:14.992 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:14.998 [info]   agents                0      0      0       0
+2026-10-17 14:20:15.062 [info]   skills                0     15     11      26
+2026-10-17 14:20:15.067 [info]   instructions          0      0      0       0
+2026-10-17 14:20:15.068 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:15.068 [info] 
+2026-10-17 14:20:15.068 [info]   -- agents --
+2026-10-17 14:20:15.069 [info]      Search paths:
+2026-10-17 14:20:15.069 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:15.069 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:15.069 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:15.077 [info] 
+2026-10-17 14:20:15.077 [info]   -- skills --
+2026-10-17 14:20:15.078 [info]      Search paths:
+2026-10-17 14:20:15.078 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:15.078 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:15.078 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:15.115 [info]      Found 26 item(s):
+2026-10-17 14:20:15.116 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:15.116 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:15.116 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:15.116 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:15.117 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:15.117 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:15.117 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:15.117 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:15.117 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:15.117 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:15.118 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:15.118 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:15.118 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:15.118 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:15.118 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:15.119 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:15.119 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:15.119 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:15.119 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:15.120 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:15.120 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:15.120 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:15.120 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:15.120 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:15.121 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:15.121 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:15.121 [info] 
+2026-10-17 14:20:15.121 [info]   -- instructions --
+2026-10-17 14:20:15.121 [info]      Search paths:
+2026-10-17 14:20:15.122 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:15.122 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:15.122 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:15.134 [info] 
+2026-10-17 14:20:15.134 [info]   -- hooks --
+2026-10-17 14:20:15.134 [info]      Search paths:
+2026-10-17 14:20:15.134 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:15.137 [info] 
+2026-10-17 14:20:15.137 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:15.138 [info]      (none registered)
+2026-10-17 14:20:15.138 [info] 
+2026-10-17 14:20:42.990 [info] 
+2026-10-17 14:20:42.990 [info] === Customizations Snapshot ===
+2026-10-17 14:20:42.990 [info]   Root: (none)
+2026-10-17 14:20:42.990 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:42.991 [info] 
+2026-10-17 14:20:42.991 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:42.991 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:43.029 [info]   agents                0      0      0       0
+2026-10-17 14:20:43.134 [info]   skills                0     15     11      26
+2026-10-17 14:20:43.140 [info]   instructions          0      0      0       0
+2026-10-17 14:20:43.145 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:43.145 [info] 
+2026-10-17 14:20:43.146 [info]   -- agents --
+2026-10-17 14:20:43.146 [info]      Search paths:
+2026-10-17 14:20:43.146 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:43.146 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:43.146 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:43.156 [info] 
+2026-10-17 14:20:43.157 [info]   -- skills --
+2026-10-17 14:20:43.157 [info]      Search paths:
+2026-10-17 14:20:43.157 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:43.157 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:43.157 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:43.240 [info]      Found 26 item(s):
+2026-10-17 14:20:43.240 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:43.240 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:43.241 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:43.242 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:43.242 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:43.242 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:43.242 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:43.242 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:43.242 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:43.243 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:43.243 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:43.243 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:43.243 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:43.243 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:43.243 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:43.244 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:43.244 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:43.244 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:43.244 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:43.244 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:43.245 [info] 
+2026-10-17 14:20:43.245 [info]   -- instructions --
+2026-10-17 14:20:43.245 [info]      Search paths:
+2026-10-17 14:20:43.245 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:43.245 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:43.246 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:43.248 [info] 
+2026-10-17 14:20:43.248 [info]   -- hooks --
+2026-10-17 14:20:43.248 [info]      Search paths:
+2026-10-17 14:20:43.249 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:43.250 [info] 
+2026-10-17 14:20:43.250 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:43.250 [info]      (none registered)
+2026-10-17 14:20:43.251 [info] 
+2026-10-17 14:20:43.251 [info] 
+2026-10-17 14:20:43.251 [info] === Customizations Snapshot ===
+2026-10-17 14:20:43.252 [info]   Root: (none)
+2026-10-17 14:20:43.252 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:43.252 [info] 
+2026-10-17 14:20:43.252 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:43.252 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:43.256 [info]   agents                0      0      0       0
+2026-10-17 14:20:43.266 [info]   skills                0     15     11      26
+2026-10-17 14:20:43.268 [info]   instructions          0      0      0       0
+2026-10-17 14:20:43.268 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:43.269 [info] 
+2026-10-17 14:20:43.269 [info]   -- agents --
+2026-10-17 14:20:43.269 [info]      Search paths:
+2026-10-17 14:20:43.269 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:43.269 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:43.270 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:43.272 [info] 
+2026-10-17 14:20:43.272 [info]   -- skills --
+2026-10-17 14:20:43.272 [info]      Search paths:
+2026-10-17 14:20:43.272 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:43.272 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:43.272 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:43.285 [info]      Found 26 item(s):
+2026-10-17 14:20:43.285 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:43.285 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:43.285 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:43.285 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:43.285 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:43.286 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:43.286 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:43.286 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:43.286 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:43.286 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:43.287 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:43.287 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:43.287 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:43.287 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:43.287 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:43.287 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:43.288 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:43.288 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:43.288 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:43.288 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:43.288 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:43.288 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:43.289 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:43.289 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:43.289 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:43.289 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:43.289 [info] 
+2026-10-17 14:20:43.290 [info]   -- instructions --
+2026-10-17 14:20:43.290 [info]      Search paths:
+2026-10-17 14:20:43.290 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:43.290 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:43.290 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:43.296 [info] 
+2026-10-17 14:20:43.296 [info]   -- hooks --
+2026-10-17 14:20:43.296 [info]      Search paths:
+2026-10-17 14:20:43.296 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:43.298 [info] 
+2026-10-17 14:20:43.298 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:43.298 [info]      (none registered)
+2026-10-17 14:20:43.298 [info] 
+2026-10-17 14:20:43.364 [info] 
+2026-10-17 14:20:43.364 [info] === Customizations Snapshot ===
+2026-10-17 14:20:43.365 [info]   Root: (none)
+2026-10-17 14:20:43.365 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-17 14:20:43.365 [info] 
+2026-10-17 14:20:43.365 [info]   Section           Local   User    Ext   Total
+2026-10-17 14:20:43.365 [info]   --------          -----   ----    ---   -----
+2026-10-17 14:20:43.370 [info]   agents                0      0      0       0
+2026-10-17 14:20:43.380 [info]   skills                0     15     11      26
+2026-10-17 14:20:43.382 [info]   instructions          0      0      0       0
+2026-10-17 14:20:43.382 [info]   hooks                 0      0      0       0
+2026-10-17 14:20:43.382 [info] 
+2026-10-17 14:20:43.382 [info]   -- agents --
+2026-10-17 14:20:43.383 [info]      Search paths:
+2026-10-17 14:20:43.383 [info]        [local] c:\Users\USER\.copilot\agents
+2026-10-17 14:20:43.383 [info]        [local] c:\Users\USER\.claude\agents
+2026-10-17 14:20:43.383 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:43.385 [info] 
+2026-10-17 14:20:43.385 [info]   -- skills --
+2026-10-17 14:20:43.385 [info]      Search paths:
+2026-10-17 14:20:43.386 [info]        [user] c:\Users\USER\.agents\skills
+2026-10-17 14:20:43.386 [info]        [user] c:\Users\USER\.copilot\skills
+2026-10-17 14:20:43.386 [info]        [user] c:\Users\USER\.claude\skills
+2026-10-17 14:20:43.395 [info]      Found 26 item(s):
+2026-10-17 14:20:43.395 [info]        [user] c:\Users\USER\.agents\skills\automate\SKILL.md
+2026-10-17 14:20:43.395 [info]        [user] c:\Users\USER\.agents\skills\babysit\SKILL.md
+2026-10-17 14:20:43.395 [info]        [user] c:\Users\USER\.agents\skills\canvas\SKILL.md
+2026-10-17 14:20:43.395 [info]        [user] c:\Users\USER\.agents\skills\create-hook\SKILL.md
+2026-10-17 14:20:43.395 [info]        [user] c:\Users\USER\.agents\skills\create-rule\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\create-skill\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\create-subagent\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\loop\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\migrate-to-skills\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\sdk\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\shell\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\split-to-prs\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\statusline\SKILL.md
+2026-10-17 14:20:43.396 [info]        [user] c:\Users\USER\.agents\skills\update-cli-config\SKILL.md
+2026-10-17 14:20:43.397 [info]        [user] c:\Users\USER\.agents\skills\update-cursor-settings\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\project-setup-info-local\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\get-search-view-results\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\troubleshoot\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\agent-customization\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\migrate-customizations\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\init\SKILL.md
+2026-10-17 14:20:43.397 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-prompt\SKILL.md
+2026-10-17 14:20:43.398 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-instructions\SKILL.md
+2026-10-17 14:20:43.398 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-skill\SKILL.md
+2026-10-17 14:20:43.398 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-agent\SKILL.md
+2026-10-17 14:20:43.398 [info]        [extension] c:\Users\USER\vscode\extensions\copilot\assets\prompts\skills\create-hook\SKILL.md
+2026-10-17 14:20:43.398 [info] 
+2026-10-17 14:20:43.398 [info]   -- instructions --
+2026-10-17 14:20:43.398 [info]      Search paths:
+2026-10-17 14:20:43.398 [info]        [local] c:\Users\USER\.copilot\instructions
+2026-10-17 14:20:43.398 [info]        [local] c:\Users\USER\.claude\rules
+2026-10-17 14:20:43.399 [info]        [user] c:\Users\USER\vscode\.ofcode-test-profile\User\prompts
+2026-10-17 14:20:43.400 [info] 
+2026-10-17 14:20:43.400 [info]   -- hooks --
+2026-10-17 14:20:43.401 [info]      Search paths:
+2026-10-17 14:20:43.401 [info]        [user] c:\Users\USER\.copilot\hooks
+2026-10-17 14:20:43.402 [info] 
+2026-10-17 14:20:43.402 [info]   -- MCP Servers (0) --
+2026-10-17 14:20:43.402 [info]      (none registered)
+2026-10-17 14:20:43.402 [info] 

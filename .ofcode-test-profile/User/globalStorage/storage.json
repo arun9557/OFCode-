@@ -1,0 +1,154 @@
+{
+    "telemetry.machineId": "cee3ceb4903829885ff3e02648663e45a11d28030f88015c9c0beedb5a1c9914",
+    "telemetry.sqmId": "{A5E98D93-3E2B-4422-8CEF-1094F19139EF}",
+    "telemetry.devDeviceId": "38967825-30d1-463a-a0b1-af8eba09902c",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "b240a2bc34db31fa01a3d9259ad96835",
+                "configURIPath": "file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/agent-sessions.code-workspace"
+            }
+        ],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1792226966332"
+            }
+        ]
+    },
+    "windowControlHeight": 44,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1792226966332": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarInactiveBackground": "#121314",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "modernActivityBarBackground": "#191a1b",
+            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBorder": "#252526",
+            "modernPanelBorder": "#2a2b2c",
+            "modernUIShellBackground": "#191a1b",
+            "modernUIInactiveShellBackground": "#121314",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "editorBorder": "#2a2b2c",
+            "surfaceBackground": "#191a1b",
+            "surfaceBorder": "#2a2b2c",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarInactiveBackground": "#121314",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 754,
+            "statusBarHeight": 28,
+            "windowBorder": false,
+            "modernUI": true,
+            "modernUICompact": false,
+            "partBounds": {
+                "activityBar": {
+                    "top": 35,
+                    "left": 4,
+                    "width": 44,
+                    "height": 1011,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "auxiliaryBar": {
+                    "top": 35,
+                    "left": 1170,
+                    "width": 746,
+                    "height": 1011,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "panel": {
+                    "top": 787.328125,
+                    "left": 52,
+                    "width": 1114,
+                    "height": 258.65625,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": false,
+                        "bottom": true
+                    }
+                },
+                "editor": {
+                    "top": 35,
+                    "left": 52,
+                    "width": 1114,
+                    "height": 748.328125,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": false
+                    }
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332",
+            "uiState": {
+                "mode": 0,
+                "x": -1861,
+                "y": 540,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    },
+    "userDataProfiles": [
+        {
+            "location": "builtin/agents",
+            "name": "Agents"
+        }
+    ],
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 280,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "b240a2bc34db31fa01a3d9259ad96835": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

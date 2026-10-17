@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Ollama (Deprecated)",
+		"vendor": "ollama",
+		"url": "http://localhost:11434"
+	},
+	{
+		"name": "Ollama (Deprecated) 2",
+		"vendor": "ollama",
+		"url": "http://localhost:11434"
+	}
+]

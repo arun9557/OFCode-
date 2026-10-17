@@ -1,0 +1,5 @@
+2026-10-17 14:20:43.882 [info] [node-compile-cache] pty-host: packaged cache inactive (status: development, configured: C:\Users\USER\vscode\out\vs\base\node-compile-cache\pty-host, active: none)
+2026-10-17 14:20:43.882 [trace] [RPC Request] PtyService#refreshIgnoreProcessNames(["starship","oh-my-posh","bash","zsh"])
+2026-10-17 14:20:43.882 [trace] [RPC Response] PtyService#refreshIgnoreProcessNames undefined
+2026-10-17 14:20:43.882 [trace] [RPC Request] PtyService#setTerminalLayoutInfo({"workspaceId":"3defa113","tabs":[{"isActive":true,"activePersistentProcessId":1,"terminals":[]}],"background":[]})
+2026-10-17 14:20:43.882 [trace] [RPC Response] PtyService#setTerminalLayoutInfo undefined
