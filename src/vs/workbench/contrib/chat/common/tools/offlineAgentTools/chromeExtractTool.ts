@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-
+import { Disposable } from '../../../../../../base/common/lifecycle.js';
 import { CancellationToken } from '../../../../../../base/common/cancellation.js';
 import { Codicon } from '../../../../../../base/common/codicons.js';
 import { ThemeIcon } from '../../../../../../base/common/themables.js';
@@ -46,10 +46,11 @@ interface IChromeExtractInput {
 	maxTokens?: number;
 }
 
-export class ChromeExtractTool implements IToolImpl {
+export class ChromeExtractTool extends Disposable implements IToolImpl {
 	private readonly _webExtractorService: WebExtractorService;
 
 	constructor() {
+		super();
 		this._webExtractorService = new WebExtractorService();
 	}
 
