@@ -21,7 +21,7 @@ import {
 	IChatResponsePart,
 } from '../languageModels.js';
 import { OllamaClient, IOllamaChatMessage, IOllamaToolDefinition } from './ollamaClient.js';
-import { OllamaRouter, IRoutedModelInfo } from './ollamaRouter.js';
+import { OllamaRouter, type IRoutedModelInfo } from './ollamaRouter.js';
 import { ToolCallParser } from './toolCallParser.js';
 import { estimateTokenCount } from './tokenBudget.js';
 
