@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-
+import { Disposable } from '../../../../../../base/common/lifecycle.js';
 import { CancellationToken } from '../../../../../../base/common/cancellation.js';
 import { Codicon } from '../../../../../../base/common/codicons.js';
 import { ThemeIcon } from '../../../../../../base/common/themables.js';
@@ -58,10 +58,11 @@ interface IGitHubExploreInput {
 	query?: string;
 }
 
-export class GitHubExploreTool implements IToolImpl {
+export class GitHubExploreTool extends Disposable implements IToolImpl {
 	private readonly _githubService: GitHubExplorerService;
 
 	constructor() {
+		super();
 		this._githubService = new GitHubExplorerService();
 	}
 
