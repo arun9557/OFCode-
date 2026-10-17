@@ -1371,7 +1371,17 @@ export class LanguageModelsService implements ILanguageModelsService {
 	}
 
 	lookupLanguageModel(modelIdentifier: string): ILanguageModelChatMetadata | undefined {
-		return this._modelCache.get(modelIdentifier);
+		const direct = this._modelCache.get(modelIdentifier);
+		if (direct) {
+			return direct;
+		}
+		if (modelIdentifier.startsWith('ollama:')) {
+			return this._modelCache.get(modelIdentifier.replace('ollama:', 'ollama/'));
+		}
+		if (modelIdentifier.startsWith('ollama/')) {
+			return this._modelCache.get(modelIdentifier.replace('ollama/', 'ollama:'));
+		}
+		return undefined;
 	}
 
 	lookupLanguageModelByQualifiedName(referenceName: string): ILanguageModelChatMetadataAndIdentifier | undefined {
@@ -1635,7 +1645,22 @@ export class LanguageModelsService implements ILanguageModelsService {
 	}
 
 	async sendChatRequest(modelId: string, from: ExtensionIdentifier | undefined, messages: IChatMessage[], options: ILanguageModelChatRequestOptions, token: CancellationToken): Promise<ILanguageModelChatResponse> {
-		const metadata = this._modelCache.get(modelId);
+		let metadata = this._modelCache.get(modelId);
+		if (!metadata) {
+			if (modelId.startsWith('ollama:')) {
+				const altId = modelId.replace('ollama:', 'ollama/');
+				metadata = this._modelCache.get(altId);
+				if (metadata) {
+					modelId = altId;
+				}
+			} else if (modelId.startsWith('ollama/')) {
+				const altId = modelId.replace('ollama/', 'ollama:');
+				metadata = this._modelCache.get(altId);
+				if (metadata) {
+					modelId = altId;
+				}
+			}
+		}
 		const provider = this._providers.get(metadata?.vendor || '');
 		if (!provider) {
 			throw new Error(`Chat provider for model ${modelId} is not registered.`);

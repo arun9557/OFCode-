@@ -188,7 +188,14 @@ export class ExtHostLanguageModels implements ExtHostLanguageModelsShape {
 
 	private getVendorFromModelIdentifier(modelIdentifier: string): string | undefined {
 		const firstSlash = modelIdentifier.indexOf('/');
-		return firstSlash === -1 ? undefined : modelIdentifier.substring(0, firstSlash);
+		if (firstSlash !== -1) {
+			return modelIdentifier.substring(0, firstSlash);
+		}
+		const firstColon = modelIdentifier.indexOf(':');
+		if (firstColon !== -1) {
+			return modelIdentifier.substring(0, firstColon);
+		}
+		return undefined;
 	}
 
 	async $provideLanguageModelChatInfo(vendor: string, options: ILanguageModelChatInfoOptions, token: CancellationToken): Promise<ILanguageModelChatMetadataAndIdentifier[]> {
@@ -437,7 +444,13 @@ export class ExtHostLanguageModels implements ExtHostLanguageModelsShape {
 			return undefined;
 		}
 
-		if (!this._localModels.has(modelId)) {
+		const normalizedModelId = modelId.startsWith('ollama:')
+			? modelId.replace('ollama:', 'ollama/')
+			: modelId.startsWith('ollama/')
+				? modelId.replace('ollama/', 'ollama:')
+				: modelId;
+
+		if (!this._localModels.has(modelId) && !this._localModels.has(normalizedModelId)) {
 			// model gone? is this an error on us? Try to resolve model again
 			const vendor = this.getVendorFromModelIdentifier(modelId);
 			if (!vendor) {
@@ -447,13 +460,14 @@ export class ExtHostLanguageModels implements ExtHostLanguageModelsShape {
 			this._logService.trace(`[LanguageModelProxy](${extension.identifier.value}) Could not find model '${modelId}' in local cache. Trying to resolve model again.`);
 			// Call proxy directly: routing through `selectLanguageModels` would recurse here for every identifier and blow up when the cache stays empty (provider in another ext host).
 			await this._proxy.$selectChatModels({ vendor, extension: extension.identifier });
-			if (!this._localModels.has(modelId)) {
+			if (!this._localModels.has(modelId) && !this._localModels.has(normalizedModelId)) {
 				this._logService.warn(`[LanguageModelProxy](${extension.identifier.value}) Could not find model '${modelId}' in local cache after re-resolving models.`);
 				return undefined;
 			}
 		}
 
-		return this._createLanguageModelChatApi(extension, modelId);
+		const targetId = this._localModels.has(modelId) ? modelId : normalizedModelId;
+		return this._createLanguageModelChatApi(extension, targetId);
 	}
 
 	/**

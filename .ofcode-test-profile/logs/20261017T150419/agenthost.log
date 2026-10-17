@@ -330,3 +330,83 @@
 2026-10-17 15:09:05.681 [trace] [ProtocolServer] request: method=ping id=58
 2026-10-17 15:09:10.696 [trace] [ProtocolServer] request: method=ping id=59
 2026-10-17 15:09:15.706 [trace] [ProtocolServer] request: method=ping id=60
+2026-10-17 15:09:20.722 [trace] [ProtocolServer] request: method=ping id=61
+2026-10-17 15:09:25.736 [trace] [ProtocolServer] request: method=ping id=62
+2026-10-17 15:09:27.276 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-17 15:09:30.743 [trace] [ProtocolServer] request: method=ping id=63
+2026-10-17 15:09:35.754 [trace] [ProtocolServer] request: method=ping id=64
+2026-10-17 15:09:40.769 [trace] [ProtocolServer] request: method=ping id=65
+2026-10-17 15:09:45.780 [trace] [ProtocolServer] request: method=ping id=66
+2026-10-17 15:09:50.796 [trace] [ProtocolServer] request: method=ping id=67
+2026-10-17 15:09:55.803 [trace] [ProtocolServer] request: method=ping id=68
+2026-10-17 15:10:00.810 [trace] [ProtocolServer] request: method=ping id=69
+2026-10-17 15:10:05.823 [trace] [ProtocolServer] request: method=ping id=70
+2026-10-17 15:10:10.828 [trace] [ProtocolServer] request: method=ping id=71
+2026-10-17 15:10:15.834 [trace] [ProtocolServer] request: method=ping id=72
+2026-10-17 15:10:20.836 [trace] [ProtocolServer] request: method=ping id=73
+2026-10-17 15:10:25.852 [trace] [ProtocolServer] request: method=ping id=74
+2026-10-17 15:10:27.302 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-17 15:10:30.862 [trace] [ProtocolServer] request: method=ping id=75
+2026-10-17 15:10:35.874 [trace] [ProtocolServer] request: method=ping id=76
+2026-10-17 15:10:40.878 [trace] [ProtocolServer] request: method=ping id=77
+2026-10-17 15:10:45.885 [trace] [ProtocolServer] request: method=ping id=78
+2026-10-17 15:10:50.891 [trace] [ProtocolServer] request: method=ping id=79
+2026-10-17 15:10:55.895 [trace] [ProtocolServer] request: method=ping id=80
+2026-10-17 15:11:00.907 [trace] [ProtocolServer] request: method=ping id=81
+2026-10-17 15:11:05.921 [trace] [ProtocolServer] request: method=ping id=82
+2026-10-17 15:11:10.924 [trace] [ProtocolServer] request: method=ping id=83
+2026-10-17 15:11:15.928 [trace] [ProtocolServer] request: method=ping id=84
+2026-10-17 15:11:20.933 [trace] [ProtocolServer] request: method=ping id=85
+2026-10-17 15:11:25.936 [trace] [ProtocolServer] request: method=ping id=86
+2026-10-17 15:11:27.326 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-17 15:11:30.941 [trace] [ProtocolServer] request: method=ping id=87
+2026-10-17 15:11:35.956 [trace] [ProtocolServer] request: method=ping id=88
+2026-10-17 15:11:40.966 [trace] [ProtocolServer] request: method=ping id=89
+2026-10-17 15:11:45.977 [trace] [ProtocolServer] request: method=ping id=90
+2026-10-17 15:11:50.982 [trace] [ProtocolServer] request: method=ping id=91
+2026-10-17 15:11:55.983 [trace] [ProtocolServer] request: method=ping id=92
+2026-10-17 15:12:00.996 [trace] [ProtocolServer] request: method=ping id=93
+2026-10-17 15:12:06.006 [trace] [ProtocolServer] request: method=ping id=94
+2026-10-17 15:12:11.021 [trace] [ProtocolServer] request: method=ping id=95
+2026-10-17 15:12:14.579 [trace] [ProtocolServer] notification: method=dispatchAction
+2026-10-17 15:12:14.579 [trace] [ProtocolServer] dispatchAction: "root/configChanged"
+2026-10-17 15:12:14.579 [trace] [AgentService] dispatchAction: type=root/configChanged, clientId=b4bab505-b21b-4ae4-b648-3526669f7556, clientSeq=4 {"type":"root/configChanged","config":{"vscode.codexAccount.refreshRequest":"f0afe9c4-1d81-4714-9935-41b11c7d4f26"}}
+2026-10-17 15:12:14.579 [trace] [AgentHostStateManager] Emitting envelope: seq=24, channel=ahp-root://, type=root/configChanged, origin=b4bab505-b21b-4ae4-b648-3526669f7556:4
+2026-10-17 15:12:14.579 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-17 15:12:14.579 [trace] [Copilot] Found 7 BYOK models: qwen:latest, qwen3:14b, qwen2.5-coder:14b, granite3.1-moe:3b, deepseek-coder:6.7b, granite3-moe:3b, llama3.2:latest
+2026-10-17 15:12:14.580 [trace] [AgentHostStateManager] Emitting envelope: seq=25, channel=ahp-root://, type=root/configChanged
+2026-10-17 15:12:14.580 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-17 15:12:14.580 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-17 15:12:14.580 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-17 15:12:14.580 [trace] [Copilot] Found 7 BYOK models: qwen:latest, qwen3:14b, qwen2.5-coder:14b, granite3.1-moe:3b, deepseek-coder:6.7b, granite3-moe:3b, llama3.2:latest
+2026-10-17 15:12:14.580 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-17 15:12:14.580 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-17 15:12:14.581 [info] [Codex] resolving SDK from repo node_modules (dev fallback): c:\Users\USER\vscode
+2026-10-17 15:12:14.582 [info] [CodexProxyService] listening on http://127.0.0.1:58114
+2026-10-17 15:12:14.583 [info] [Codex] spawning app-server from c:\Users\USER\vscode\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\bin\codex.exe
+2026-10-17 15:12:14.660 [info] [CodexClient warn] dropping unhandled notification: remoteControl/status/changed
+2026-10-17 15:12:15.483 [info] [CodexClient warn] dropping unhandled notification: account/updated
+2026-10-17 15:12:15.483 [info] [Codex] account/read accountType=chatgpt requiresOpenaiAuth=true planType=go
+2026-10-17 15:12:15.491 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-17 15:12:15.491 [debug] ProxyResolver#resolveProxy cached https://chatgpt.com DIRECT 
+2026-10-17 15:12:16.464 [trace] [AgentHostStateManager] Emitting envelope: seq=26, channel=ahp-root://, type=root/configChanged
+2026-10-17 15:12:16.464 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-17 15:12:16.464 [trace] [Copilot] Found 7 BYOK models: qwen:latest, qwen3:14b, qwen2.5-coder:14b, granite3.1-moe:3b, deepseek-coder:6.7b, granite3-moe:3b, llama3.2:latest
+2026-10-17 15:12:16.465 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-17 15:12:16.465 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-17 15:12:16.495 [debug] ProxyResolver#resolveProxy cached https://cdn.auth0.com DIRECT 
+2026-10-17 15:12:20.976 [info] [ProtocolServer] Client disconnected: b4bab505-b21b-4ae4-b648-3526669f7556, subscriptions=1
+2026-10-17 15:12:20.978 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-17 15:12:20.978 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-17 15:12:20.978 [trace] [Copilot] Found 7 BYOK models: qwen:latest, qwen3:14b, qwen2.5-coder:14b, granite3.1-moe:3b, deepseek-coder:6.7b, granite3-moe:3b, llama3.2:latest
+2026-10-17 15:12:20.978 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-17 15:12:20.978 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-17 15:12:20.978 [trace] [Copilot] Found 0 BYOK models
+2026-10-17 15:12:20.978 [trace] [AgentHostStateManager] Emitting envelope: seq=27, channel=ahp-root://, type=root/agentsChanged
+2026-10-17 15:12:20.978 [trace] [ProtocolServer] Broadcasting action: root/agentsChanged
+2026-10-17 15:12:20.979 [info] AgentService: shutting down all providers...
+2026-10-17 15:12:20.980 [debug] [CopilotDiscovery] Stopped: scans=1, pending=0, ignoredHostSessions=0, ignoredHostEvents=0
+2026-10-17 15:12:20.980 [info] [Copilot] Shutting down...
+2026-10-17 15:12:20.981 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\.copilot\session-state (excludes: <none>, includes: <all>, filter: [Added, Deleted], correlationId: 1)
+2026-10-17 15:12:20.981 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.copilot\session-state (excludes: <none>, includes: <all>, filter: [Added, Deleted], correlationId: 1))
+2026-10-17 15:12:21.028 [trace] [AgentHostStateManager] Emitting envelope: seq=28, channel=ahp-root://, type=root/agentsChanged

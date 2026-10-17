@@ -48,7 +48,7 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		for (let index = 0; index < routedModels.length; index++) {
 			const routed = routedModels[index];
 			const tag = routed.tag;
-			const modelId = `ollama:${tag.name}`;
+			const modelId = `ollama/${tag.name}`;
 			const isFirstModel = index === 0;
 
 			const nameLower = tag.name.toLowerCase();
@@ -221,8 +221,10 @@ export class OllamaProviderContribution extends Disposable implements IWorkbench
 	private readonly _ollamaVendorDescriptor: IUserFriendlyLanguageModel = {
 		vendor: 'ollama',
 		displayName: 'Ollama (Local)',
-		configuration: undefined
-	};
+		configuration: undefined,
+		managementCommand: undefined,
+		when: undefined
+	} as unknown as IUserFriendlyLanguageModel;
 
 	constructor(
 		@ILanguageModelsService languageModelsService: ILanguageModelsService,

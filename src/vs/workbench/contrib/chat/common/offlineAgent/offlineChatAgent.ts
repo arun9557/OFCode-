@@ -64,8 +64,19 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 		}
 
 		let targetModelId = ollamaModelIds[0];
-		if (request.userSelectedModelId && (request.userSelectedModelId.startsWith('ollama:') || request.userSelectedModelId.startsWith('ollama/'))) {
-			targetModelId = request.userSelectedModelId;
+		if (request.userSelectedModelId) {
+			const matched = ollamaModelIds.find(id =>
+				id === request.userSelectedModelId ||
+				id.replace('ollama/', 'ollama:') === request.userSelectedModelId ||
+				id.replace('ollama:', 'ollama/') === request.userSelectedModelId
+			);
+			if (matched) {
+				targetModelId = matched;
+			} else if (request.userSelectedModelId.startsWith('ollama:') || request.userSelectedModelId.startsWith('ollama/')) {
+				targetModelId = request.userSelectedModelId.startsWith('ollama:')
+					? request.userSelectedModelId.replace('ollama:', 'ollama/')
+					: request.userSelectedModelId;
+			}
 		}
 
 		const modelMetadata: ILanguageModelChatMetadata | undefined = this._languageModelsService.lookupLanguageModel(targetModelId);

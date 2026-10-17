@@ -5212,3 +5212,563 @@ URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZ
   Read: 2026-10-17T09:36:51.492Z
 
 === End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:36:51.387Z
+    Last Request Ended: 2026-10-17T09:36:51.489Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:36:51.492Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:36:51.492Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T08:49:52.479Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T08:49:52.479Z
+
+=== End Session States ===
+Total sessions: 2
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 1
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+=== End Session States ===

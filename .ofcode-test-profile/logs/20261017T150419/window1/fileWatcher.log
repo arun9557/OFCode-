@@ -502,3 +502,407 @@
 2026-10-17 15:09:17.689 [trace] [File Watcher (node.js)] [raw] ["change"] sdbinst.exe
 2026-10-17 15:09:17.689 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sdbinst.exe
 2026-10-17 15:09:17.765 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sdbinst.exe
+2026-10-17 15:09:28.462 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:28.462 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.463 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:28.463 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.551 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:31.358 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:31.358 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:31.447 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:37.763 [trace] [File Watcher (node.js)] [raw] ["change"] advapi32.dll
+2026-10-17 15:09:37.763 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\advapi32.dll
+2026-10-17 15:09:37.824 [trace] [File Watcher (node.js)] [raw] ["change"] KBDINEN.DLL
+2026-10-17 15:09:37.825 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\KBDINEN.DLL
+2026-10-17 15:09:37.832 [trace] [File Watcher (node.js)] [raw] ["change"] Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll
+2026-10-17 15:09:37.832 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll
+2026-10-17 15:09:37.833 [trace] [File Watcher (node.js)] [raw] ["change"] CorePrivacySettingsStore.dll
+2026-10-17 15:09:37.834 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\CorePrivacySettingsStore.dll
+2026-10-17 15:09:37.837 [trace] [File Watcher (node.js)] [raw] ["change"] shlwapi.dll
+2026-10-17 15:09:37.837 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\shlwapi.dll
+2026-10-17 15:09:37.847 [trace] [File Watcher (node.js)] [raw] ["change"] AssignedAccessRuntime.dll
+2026-10-17 15:09:37.847 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\AssignedAccessRuntime.dll
+2026-10-17 15:09:37.847 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\advapi32.dll
+2026-10-17 15:09:37.847 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\KBDINEN.DLL
+2026-10-17 15:09:37.848 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll
+2026-10-17 15:09:37.848 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\CorePrivacySettingsStore.dll
+2026-10-17 15:09:37.848 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\shlwapi.dll
+2026-10-17 15:09:37.848 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\AssignedAccessRuntime.dll
+2026-10-17 15:09:37.851 [trace] [File Watcher (node.js)] [raw] ["change"] CryptoWinRT.dll
+2026-10-17 15:09:37.851 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\CryptoWinRT.dll
+2026-10-17 15:09:37.856 [trace] [File Watcher (node.js)] [raw] ["change"] twinapi.dll
+2026-10-17 15:09:37.856 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\twinapi.dll
+2026-10-17 15:09:37.885 [trace] [File Watcher (node.js)] [raw] ["change"] mscms.dll
+2026-10-17 15:09:37.885 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mscms.dll
+2026-10-17 15:09:37.902 [trace] [File Watcher (node.js)] [raw] ["change"] Temp
+2026-10-17 15:09:37.902 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\Temp
+2026-10-17 15:09:37.904 [trace] [File Watcher (node.js)] [raw] ["change"] Windows.UI.Immersive.dll
+2026-10-17 15:09:37.905 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Windows.UI.Immersive.dll
+2026-10-17 15:09:37.911 [trace] [File Watcher (node.js)] [raw] ["change"] ucrtbase_enclave.dll
+2026-10-17 15:09:37.911 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ucrtbase_enclave.dll
+2026-10-17 15:09:37.912 [trace] [File Watcher (node.js)] [raw] ["change"] vertdll.dll
+2026-10-17 15:09:37.912 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\vertdll.dll
+2026-10-17 15:09:37.929 [trace] [File Watcher (node.js)] [raw] ["change"] Windows.System.UserProfile.DiagnosticsSettings.dll
+2026-10-17 15:09:37.929 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Windows.System.UserProfile.DiagnosticsSettings.dll
+2026-10-17 15:09:37.930 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\CryptoWinRT.dll
+2026-10-17 15:09:37.930 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\twinapi.dll
+2026-10-17 15:09:37.930 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mscms.dll
+2026-10-17 15:09:37.930 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Windows.UI.Immersive.dll
+2026-10-17 15:09:37.931 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ucrtbase_enclave.dll
+2026-10-17 15:09:37.931 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\vertdll.dll
+2026-10-17 15:09:37.931 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Windows.System.UserProfile.DiagnosticsSettings.dll
+2026-10-17 15:09:37.931 [trace] [File Watcher (node.js)] [raw] ["change"] linkinfo.dll
+2026-10-17 15:09:37.931 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\linkinfo.dll
+2026-10-17 15:09:37.937 [trace] [File Watcher (node.js)] [raw] ["change"] stdole2.tlb
+2026-10-17 15:09:37.938 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\stdole2.tlb
+2026-10-17 15:09:37.941 [trace] [File Watcher (node.js)] [raw] ["change"] Windows.Internal.UI.Shell.WindowTabManager.dll
+2026-10-17 15:09:37.941 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Windows.Internal.UI.Shell.WindowTabManager.dll
+2026-10-17 15:09:37.953 [trace] [File Watcher (node.js)] [raw] ["change"] dcomp.dll
+2026-10-17 15:09:37.954 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\dcomp.dll
+2026-10-17 15:09:37.954 [trace] [File Watcher (node.js)] [raw] ["change"] Microsoft.Internal.WarpPal.dll
+2026-10-17 15:09:37.954 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Microsoft.Internal.WarpPal.dll
+2026-10-17 15:09:37.966 [trace] [File Watcher (node.js)] [raw] ["change"] vcruntime140.dll
+2026-10-17 15:09:37.968 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\vcruntime140.dll
+2026-10-17 15:09:37.972 [trace] [File Watcher (node.js)] [raw] ["change"] ncryptprov.dll
+2026-10-17 15:09:37.972 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ncryptprov.dll
+2026-10-17 15:09:37.974 [trace] [File Watcher (node.js)] [raw] ["change"] setupapi.dll
+2026-10-17 15:09:37.974 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\setupapi.dll
+2026-10-17 15:09:37.977 [trace] [File Watcher (node.js)] [raw] ["change"] aadWamExtension.dll
+2026-10-17 15:09:37.979 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\aadWamExtension.dll
+2026-10-17 15:09:37.979 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\Temp
+2026-10-17 15:09:37.994 [trace] [File Watcher (node.js)] [raw] ["change"] TenantRestrictionsPlugin.dll
+2026-10-17 15:09:37.994 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\TenantRestrictionsPlugin.dll
+2026-10-17 15:09:38.008 [trace] [File Watcher (node.js)] [raw] ["change"] wpnapps.dll
+2026-10-17 15:09:38.009 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wpnapps.dll
+2026-10-17 15:09:38.009 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\linkinfo.dll
+2026-10-17 15:09:38.009 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\stdole2.tlb
+2026-10-17 15:09:38.009 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Windows.Internal.UI.Shell.WindowTabManager.dll
+2026-10-17 15:09:38.010 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\dcomp.dll
+2026-10-17 15:09:38.010 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Microsoft.Internal.WarpPal.dll
+2026-10-17 15:09:38.010 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\vcruntime140.dll
+2026-10-17 15:09:38.010 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ncryptprov.dll
+2026-10-17 15:09:38.010 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\setupapi.dll
+2026-10-17 15:09:38.011 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\aadWamExtension.dll
+2026-10-17 15:09:38.011 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\TenantRestrictionsPlugin.dll
+2026-10-17 15:09:38.011 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wpnapps.dll
+2026-10-17 15:09:38.014 [trace] [File Watcher (node.js)] [raw] ["change"] MicrosoftAccountWAMExtension.dll
+2026-10-17 15:09:38.014 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\MicrosoftAccountWAMExtension.dll
+2026-10-17 15:09:38.017 [trace] [File Watcher (node.js)] [raw] ["change"] ci.dll
+2026-10-17 15:09:38.017 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ci.dll
+2026-10-17 15:09:38.019 [trace] [File Watcher (node.js)] [raw] ["change"] fveui.dll
+2026-10-17 15:09:38.019 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\fveui.dll
+2026-10-17 15:09:38.022 [trace] [File Watcher (node.js)] [raw] ["change"] ngcrecovery.dll
+2026-10-17 15:09:38.022 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ngcrecovery.dll
+2026-10-17 15:09:38.037 [trace] [File Watcher (node.js)] [raw] ["change"] wlanapi.dll
+2026-10-17 15:09:38.037 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wlanapi.dll
+2026-10-17 15:09:38.048 [trace] [File Watcher (node.js)] [raw] ["change"] wincorlib.dll
+2026-10-17 15:09:38.048 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wincorlib.dll
+2026-10-17 15:09:38.055 [trace] [File Watcher (node.js)] [raw] ["change"] threadpoolwinrt.dll
+2026-10-17 15:09:38.055 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\threadpoolwinrt.dll
+2026-10-17 15:09:38.056 [trace] [File Watcher (node.js)] [raw] ["change"] Windows.UI.Xaml.dll
+2026-10-17 15:09:38.056 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Windows.UI.Xaml.dll
+2026-10-17 15:09:38.086 [trace] [File Watcher (node.js)] [raw] ["change"] PCShellCommonProxyStub.dll
+2026-10-17 15:09:38.087 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\PCShellCommonProxyStub.dll
+2026-10-17 15:09:38.103 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\MicrosoftAccountWAMExtension.dll
+2026-10-17 15:09:38.103 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ci.dll
+2026-10-17 15:09:38.104 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\fveui.dll
+2026-10-17 15:09:38.104 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ngcrecovery.dll
+2026-10-17 15:09:38.104 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wlanapi.dll
+2026-10-17 15:09:38.104 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wincorlib.dll
+2026-10-17 15:09:38.104 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\threadpoolwinrt.dll
+2026-10-17 15:09:38.104 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Windows.UI.Xaml.dll
+2026-10-17 15:09:38.105 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\PCShellCommonProxyStub.dll
+2026-10-17 15:09:38.110 [trace] [File Watcher (node.js)] [raw] ["change"] dlnashext.dll
+2026-10-17 15:09:38.110 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\dlnashext.dll
+2026-10-17 15:09:38.110 [trace] [File Watcher (node.js)] [raw] ["change"] inetcomm.dll
+2026-10-17 15:09:38.111 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\inetcomm.dll
+2026-10-17 15:09:38.111 [trace] [File Watcher (node.js)] [raw] ["change"] webcheck.dll
+2026-10-17 15:09:38.111 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\webcheck.dll
+2026-10-17 15:09:38.113 [trace] [File Watcher (node.js)] [raw] ["change"] ntshrui.dll
+2026-10-17 15:09:38.113 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ntshrui.dll
+2026-10-17 15:09:38.114 [trace] [File Watcher (node.js)] [raw] ["change"] WorkFoldersShell.dll
+2026-10-17 15:09:38.115 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\WorkFoldersShell.dll
+2026-10-17 15:09:38.118 [trace] [File Watcher (node.js)] [raw] ["change"] cscui.dll
+2026-10-17 15:09:38.118 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\cscui.dll
+2026-10-17 15:09:38.121 [trace] [File Watcher (node.js)] [raw] ["change"] stobject.dll
+2026-10-17 15:09:38.121 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\stobject.dll
+2026-10-17 15:09:38.122 [trace] [File Watcher (node.js)] [raw] ["change"] EhStorShell.dll
+2026-10-17 15:09:38.122 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\EhStorShell.dll
+2026-10-17 15:09:38.123 [trace] [File Watcher (node.js)] [raw] ["change"] srmshell.dll
+2026-10-17 15:09:38.123 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\srmshell.dll
+2026-10-17 15:09:38.124 [trace] [File Watcher (node.js)] [raw] ["change"] cryptext.dll
+2026-10-17 15:09:38.125 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\cryptext.dll
+2026-10-17 15:09:38.126 [trace] [File Watcher (node.js)] [raw] ["change"] colorui.dll
+2026-10-17 15:09:38.126 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\colorui.dll
+2026-10-17 15:09:38.137 [trace] [File Watcher (node.js)] [raw] ["change"] ExecModelClient.dll
+2026-10-17 15:09:38.138 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\ExecModelClient.dll
+2026-10-17 15:09:38.145 [trace] [File Watcher (node.js)] [raw] ["change"] TileDataRepository.dll
+2026-10-17 15:09:38.145 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\TileDataRepository.dll
+2026-10-17 15:09:38.147 [trace] [File Watcher (node.js)] [raw] ["change"] execmodelproxy.dll
+2026-10-17 15:09:38.147 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\execmodelproxy.dll
+2026-10-17 15:09:38.169 [trace] [File Watcher (node.js)] [raw] ["change"] StartTileData.dll
+2026-10-17 15:09:38.170 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\StartTileData.dll
+2026-10-17 15:09:38.195 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\dlnashext.dll
+2026-10-17 15:09:38.195 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\inetcomm.dll
+2026-10-17 15:09:38.195 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\webcheck.dll
+2026-10-17 15:09:38.196 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ntshrui.dll
+2026-10-17 15:09:38.196 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\WorkFoldersShell.dll
+2026-10-17 15:09:38.196 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\cscui.dll
+2026-10-17 15:09:38.196 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\stobject.dll
+2026-10-17 15:09:38.196 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\EhStorShell.dll
+2026-10-17 15:09:38.196 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\srmshell.dll
+2026-10-17 15:09:38.197 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\cryptext.dll
+2026-10-17 15:09:38.197 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\colorui.dll
+2026-10-17 15:09:38.197 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\ExecModelClient.dll
+2026-10-17 15:09:38.197 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\TileDataRepository.dll
+2026-10-17 15:09:38.197 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\execmodelproxy.dll
+2026-10-17 15:09:38.197 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\StartTileData.dll
+2026-10-17 15:09:38.454 [trace] [File Watcher (node.js)] [raw] ["change"] Windows.System.Diagnostics.Telemetry.PlatformTelemetryClient.dll
+2026-10-17 15:09:38.455 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\Windows.System.Diagnostics.Telemetry.PlatformTelemetryClient.dll
+2026-10-17 15:09:38.538 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\Windows.System.Diagnostics.Telemetry.PlatformTelemetryClient.dll
+2026-10-17 15:09:38.787 [trace] [File Watcher (node.js)] [raw] ["change"] iumbase.dll
+2026-10-17 15:09:38.787 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\iumbase.dll
+2026-10-17 15:09:38.788 [trace] [File Watcher (node.js)] [raw] ["change"] wlidres.dll
+2026-10-17 15:09:38.788 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wlidres.dll
+2026-10-17 15:09:38.863 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\iumbase.dll
+2026-10-17 15:09:38.864 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wlidres.dll
+2026-10-17 15:09:39.021 [trace] [File Watcher (node.js)] [raw] ["change"] aeevts.dll
+2026-10-17 15:09:39.021 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\aeevts.dll
+2026-10-17 15:09:39.022 [trace] [File Watcher (node.js)] [raw] ["change"] lsm.dll
+2026-10-17 15:09:39.022 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\lsm.dll
+2026-10-17 15:09:39.023 [trace] [File Watcher (node.js)] [raw] ["change"] diagtrack.dll
+2026-10-17 15:09:39.023 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\diagtrack.dll
+2026-10-17 15:09:39.098 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\aeevts.dll
+2026-10-17 15:09:39.099 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\lsm.dll
+2026-10-17 15:09:39.099 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\diagtrack.dll
+2026-10-17 15:09:40.970 [trace] [File Watcher (node.js)] [raw] ["change"] MicrosoftAccountTokenProvider.dll
+2026-10-17 15:09:40.971 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\MicrosoftAccountTokenProvider.dll
+2026-10-17 15:09:41.050 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\MicrosoftAccountTokenProvider.dll
+2026-10-17 15:09:46.978 [trace] [File Watcher (node.js)] [raw] ["change"] HostNetSvc.dll
+2026-10-17 15:09:46.978 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\HostNetSvc.dll
+2026-10-17 15:09:47.055 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\HostNetSvc.dll
+2026-10-17 15:09:53.958 [trace] [File Watcher (node.js)] [raw] ["change"] LicenseManager.dll
+2026-10-17 15:09:53.958 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\LicenseManager.dll
+2026-10-17 15:09:54.035 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\LicenseManager.dll
+2026-10-17 15:10:05.372 [trace] [File Watcher (node.js)] [raw] ["change"] qmgr.dll
+2026-10-17 15:10:05.373 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\qmgr.dll
+2026-10-17 15:10:05.448 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\qmgr.dll
+2026-10-17 15:10:06.247 [trace] [File Watcher (node.js)] [raw] ["change"] fltLib.dll
+2026-10-17 15:10:06.247 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\fltLib.dll
+2026-10-17 15:10:06.337 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\fltLib.dll
+2026-10-17 15:10:06.572 [trace] [File Watcher (node.js)] [raw] ["change"] Temp
+2026-10-17 15:10:06.572 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\Temp
+2026-10-17 15:10:06.649 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\Temp
+2026-10-17 15:10:07.922 [trace] [File Watcher (node.js)] [raw] ["change"] wscapi.dll
+2026-10-17 15:10:07.923 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\wscapi.dll
+2026-10-17 15:10:08.005 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\wscapi.dll
+2026-10-17 15:10:08.396 [trace] [File Watcher (node.js)] [raw] ["change"] msvcp140.dll
+2026-10-17 15:10:08.396 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\msvcp140.dll
+2026-10-17 15:10:08.396 [trace] [File Watcher (node.js)] [raw] ["change"] vcruntime140_1.dll
+2026-10-17 15:10:08.397 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\vcruntime140_1.dll
+2026-10-17 15:10:08.474 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\msvcp140.dll
+2026-10-17 15:10:08.474 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\vcruntime140_1.dll
+2026-10-17 15:10:37.910 [trace] [File Watcher (node.js)] [raw] ["change"] sppc.dll
+2026-10-17 15:10:37.910 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sppc.dll
+2026-10-17 15:10:37.911 [trace] [File Watcher (node.js)] [raw] ["change"] slwga.dll
+2026-10-17 15:10:37.911 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\slwga.dll
+2026-10-17 15:10:37.996 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sppc.dll
+2026-10-17 15:10:37.997 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\slwga.dll
+2026-10-17 15:10:54.358 [trace] [File Watcher (node.js)] [raw] ["change"] Temp
+2026-10-17 15:10:54.358 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\Temp
+2026-10-17 15:10:54.434 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\Temp
+2026-10-17 15:11:04.438 [trace] [File Watcher (node.js)] [raw] ["change"] aeinv.dll
+2026-10-17 15:11:04.439 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\aeinv.dll
+2026-10-17 15:11:04.439 [trace] [File Watcher (node.js)] [raw] ["change"] appfootprint.dll
+2026-10-17 15:11:04.439 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\appfootprint.dll
+2026-10-17 15:11:04.440 [trace] [File Watcher (node.js)] [raw] ["change"] devinv.dll
+2026-10-17 15:11:04.440 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\devinv.dll
+2026-10-17 15:11:04.443 [trace] [File Watcher (node.js)] [raw] ["change"] invagent.dll
+2026-10-17 15:11:04.443 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\invagent.dll
+2026-10-17 15:11:04.518 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\aeinv.dll
+2026-10-17 15:11:04.518 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\appfootprint.dll
+2026-10-17 15:11:04.518 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\devinv.dll
+2026-10-17 15:11:04.518 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\invagent.dll
+2026-10-17 15:11:38.040 [trace] [File Watcher (node.js)] [raw] ["change"] shell32.dll
+2026-10-17 15:11:38.041 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\shell32.dll
+2026-10-17 15:11:38.050 [trace] [File Watcher (node.js)] [raw] ["change"] d3d11.dll
+2026-10-17 15:11:38.050 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\d3d11.dll
+2026-10-17 15:11:38.128 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\shell32.dll
+2026-10-17 15:11:38.128 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\d3d11.dll
+2026-10-17 15:11:38.180 [trace] [File Watcher (node.js)] [raw] ["change"] mf.dll
+2026-10-17 15:11:38.180 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mf.dll
+2026-10-17 15:11:38.180 [trace] [File Watcher (node.js)] [raw] ["change"] mfplat.dll
+2026-10-17 15:11:38.180 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\mfplat.dll
+2026-10-17 15:11:38.181 [trace] [File Watcher (node.js)] [raw] ["change"] RTWorkQ.dll
+2026-10-17 15:11:38.181 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\RTWorkQ.dll
+2026-10-17 15:11:38.185 [trace] [File Watcher (node.js)] [raw] ["change"] D3D12Core.dll
+2026-10-17 15:11:38.185 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\D3D12Core.dll
+2026-10-17 15:11:38.268 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mf.dll
+2026-10-17 15:11:38.268 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\mfplat.dll
+2026-10-17 15:11:38.268 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\RTWorkQ.dll
+2026-10-17 15:11:38.268 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\D3D12Core.dll
+2026-10-17 15:11:38.287 [trace] [File Watcher (node.js)] [raw] ["change"] dxilconv.dll
+2026-10-17 15:11:38.288 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\dxilconv.dll
+2026-10-17 15:11:38.290 [trace] [File Watcher (node.js)] [raw] ["change"] directml.dll
+2026-10-17 15:11:38.290 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\directml.dll
+2026-10-17 15:11:38.377 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\dxilconv.dll
+2026-10-17 15:11:38.377 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\directml.dll
+2026-10-17 15:12:00.012 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.012 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.014 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.014 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.015 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.015 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.016 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.016 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.092 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.093 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.093 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.093 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.093 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.094 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.095 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.096 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.096 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.096 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.096 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.097 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.097 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.097 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.097 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.097 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.097 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.098 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.098 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.099 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.099 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.099 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.099 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.134 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.134 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.135 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.135 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.135 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.136 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.168 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.168 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.168 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.169 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.169 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.170 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.170 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.186 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.186 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.187 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.187 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.187 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.187 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.246 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.246 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.246 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.247 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.247 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.247 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.247 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.264 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.265 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.265 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.265 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.266 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.266 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.302 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.303 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.303 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.303 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.304 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.304 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.326 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.326 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.327 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.327 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.328 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.328 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.328 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.350 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.350 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.351 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.351 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.409 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.489 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.489 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.489 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.490 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.490 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.491 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.491 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.491 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.536 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.537 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.537 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.537 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.537 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.538 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.551 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.551 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.551 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.552 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.552 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.552 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.573 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.574 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.574 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.574 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.575 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.575 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.575 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.624 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.624 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.625 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.625 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.626 [trace] [File Watcher (node.js)] [raw] ["change"] sru
+2026-10-17 15:12:00.626 [trace] [File Watcher (node.js)] [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:00.651 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Windows\system32\sru
+2026-10-17 15:12:14.841 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:12:14.841 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.842 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:12:14.842 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.931 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:20.836 [trace] [File Watcher (node.js)] Request to stop watching: c:\Windows\system32 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Windows (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Windows\System32\Wbem (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Windows\System32\WindowsPowerShell\v1.0 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Windows\System32\OpenSSH (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\ProgramData\chocolatey\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage\github.copilot-chat (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\dotnet (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\nodejs (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\playit_gg\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\Docker\Docker\resources\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\Git\cmd (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Python314\Scripts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Python314 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\hermes\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\anaconda3 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\anaconda3\Library\mingw-w64\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\anaconda3\Library\usr\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\anaconda3\Library\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\anaconda3\Scripts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\jcode\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Program Files\Git\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\miniconda3 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\miniconda3\Library\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\miniconda3\Scripts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Microsoft\WindowsApps (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Programs\Windsurf\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Python\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Programs\Ollama (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.local\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Programs\Antigravity IDE\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Roaming\npm (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Microsoft\WinGet\Packages\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\AppData\Local\Microsoft\WinGet\Links (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-17 15:12:20.836 [trace] [File Watcher (node.js)] stopping file watcher (c:\Windows\system32 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.836 [trace] [File Watcher (node.js)] stopping file watcher (c:\Windows (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.836 [trace] [File Watcher (node.js)] stopping file watcher (c:\Windows\System32\Wbem (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\Windows\System32\WindowsPowerShell\v1.0 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\Windows\System32\OpenSSH (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\ProgramData\chocolatey\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage\github.copilot-chat (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\dotnet (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.837 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\nodejs (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\playit_gg\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\Docker\Docker\resources\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\Git\cmd (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Python314\Scripts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Python314 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\hermes\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.838 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\anaconda3 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\anaconda3\Library\mingw-w64\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\anaconda3\Library\usr\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\anaconda3\Library\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\anaconda3\Scripts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\jcode\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\Git\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\miniconda3 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.839 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\miniconda3\Library\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\miniconda3\Scripts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Microsoft\WindowsApps (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Programs\Windsurf\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Python\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Programs\Ollama (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.840 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.local\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.841 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Programs\Antigravity IDE\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.841 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Roaming\npm (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.841 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Microsoft\WinGet\Packages\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.841 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.841 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\AppData\Local\Microsoft\WinGet\Links (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))

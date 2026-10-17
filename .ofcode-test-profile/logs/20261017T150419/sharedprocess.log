@@ -104,3 +104,8 @@
 2026-10-17 15:06:35.677 [debug] User data changed
 2026-10-17 15:06:35.944 [debug] User data changed
 2026-10-17 15:06:54.898 [debug] User data changed
+2026-10-17 15:09:26.127 [trace] ExtensionManagementService.updateControlCache
+2026-10-17 15:09:26.128 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-17 15:09:28.552 [debug] User data changed
+2026-10-17 15:09:31.447 [debug] User data changed
+2026-10-17 15:12:14.917 [debug] User data changed

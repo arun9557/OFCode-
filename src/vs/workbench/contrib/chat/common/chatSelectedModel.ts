@@ -197,6 +197,9 @@ export function getSelectedModelVendor(
 	if (modelId?.includes('/')) {
 		return modelId.split('/')[0];
 	}
+	if (modelId?.includes(':')) {
+		return modelId.split(':')[0];
+	}
 
 	return undefined;
 }

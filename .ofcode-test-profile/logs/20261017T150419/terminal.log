@@ -83,3 +83,8 @@
 2026-10-17 15:06:27.647 [trace] [1792226] terminalUriLinkDetector#detect computedLinks [[]]
 2026-10-17 15:06:35.324 [debug] [1792226] resizing [154,11]
 2026-10-17 15:06:35.388 [debug] [1792226] resizing [154,11]
+2026-10-17 15:12:14.671 [debug] [1792226] resizing [51,11]
+2026-10-17 15:12:16.863 [trace] [1792226] terminalUriLinkDetector#detect computedLinks [[]]
+2026-10-17 15:12:16.928 [trace] [1792226] terminalUriLinkDetector#detect computedLinks [[]]
+2026-10-17 15:12:20.752 [trace] [1792226] terminalInstance#dispose (instanceId: 1) []
+2026-10-17 15:12:20.762 [debug] [1792226] Terminal process exit ["instanceId",1,"code",null,"processState",5]

@@ -236,3 +236,8 @@
 2026-10-17 15:07:08.461 [info] [CopilotCLIChatSessionContentProvider] listSessions took 5.768599999981234ms
 2026-10-17 15:07:08.843 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
 2026-10-17 15:08:06.185 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-17 15:12:14.579 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-17 15:12:15.093 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-17 15:12:15.095 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-17 15:12:15.101 [info] [CopilotCLIChatSessionContentProvider] listSessions took 7.987299999978859ms
+2026-10-17 15:12:17.932 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.

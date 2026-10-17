@@ -429,3 +429,81 @@
 2026-10-17 15:06:54.881 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
 2026-10-17 15:06:54.882 [debug] User data changed
 2026-10-17 15:06:54.896 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.461 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:28.461 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.462 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:28.462 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.463 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:28.463 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.464 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:28.464 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.550 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.551 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:28.551 [debug] User data changed
+2026-10-17 15:09:31.356 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:31.357 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:31.358 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:09:31.358 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:31.446 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:31.446 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:09:31.446 [debug] User data changed
+2026-10-17 15:12:14.840 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:12:14.840 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.840 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:12:14.840 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.841 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:12:14.841 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.842 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-17 15:12:14.842 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.915 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:14.915 [debug] User data changed
+2026-10-17 15:12:14.915 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-17 15:12:18.708 [trace] Setting background throttling for window 1 to 'false'
+2026-10-17 15:12:18.795 [trace] Setting background throttling for window 1 to 'true'
+2026-10-17 15:12:20.284 [error] vscode-file: Failed to load resource c:\Users\USER\vscode\out\vs\editor\common\services\editorWebWorkerMain.js net::ERR_FILE_NOT_FOUND
+2026-10-17 15:12:20.744 [trace] Lifecycle#window.on('close') - window ID 1
+2026-10-17 15:12:20.744 [trace] Lifecycle#unload() - window ID 1
+2026-10-17 15:12:20.927 [trace] Lifecycle#onBeforeCloseWindow.fire() - window ID 1
+2026-10-17 15:12:20.967 [trace] IPC Object URL: Removed channel vscode:9f8b3aa1-897e-4cdd-91eb-0ac87e399fa4.
+2026-10-17 15:12:20.970 [trace] Lifecycle#window.on('closed') - window ID 1
+2026-10-17 15:12:20.971 [trace] Lifecycle#onWillShutdown.fire()
+2026-10-17 15:12:20.972 [trace] Lifecycle#onWillShutdown - begin 'instanceLockfile'
+2026-10-17 15:12:20.973 [trace] Lifecycle#onWillShutdown - begin 'join.agentHost'
+2026-10-17 15:12:20.973 [trace] storageMainService#onWillShutdown()
+2026-10-17 15:12:20.973 [trace] Lifecycle#onWillShutdown - begin 'applicationStorage'
+2026-10-17 15:12:20.973 [trace] Lifecycle#onWillShutdown - begin 'applicationSharedStorage'
+2026-10-17 15:12:20.974 [trace] Lifecycle#onWillShutdown - begin 'workspaceStorage'
+2026-10-17 15:12:20.974 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 12896]: waiting to exit...
+2026-10-17 15:12:20.974 [trace] Lifecycle#onWillShutdown - begin 'extHostStarter'
+2026-10-17 15:12:20.974 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 44332]: attempting to kill the process...
+2026-10-17 15:12:20.974 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 44332]: successfully killed the process
+2026-10-17 15:12:20.975 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 12896]: waiting to exit...
+2026-10-17 15:12:20.975 [trace] Lifecycle#app.on(window-all-closed)
+2026-10-17 15:12:20.975 [trace] Lifecycle#app.on(before-quit)
+2026-10-17 15:12:20.975 [trace] Lifecycle#onBeforeShutdown.fire()
+2026-10-17 15:12:20.975 [trace] [WindowsStateHandler] onBeforeShutdown {"lastActiveWindow":{"backupPath":"C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332","uiState":{"mode":1,"x":73,"y":0,"width":1200,"height":800}},"openedWindows":[]}
+2026-10-17 15:12:20.976 [trace] Lifecycle#app.on(will-quit) - begin
+2026-10-17 15:12:20.980 [trace] Lifecycle#onWillShutdown - end 'instanceLockfile'
+2026-10-17 15:12:20.981 [trace] [File Watcher (node.js)] stopping fs.watchFile() on c:\Program Files\GitHubCopilot\managed-settings.json (correlationId: undefined)
+2026-10-17 15:12:20.988 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 44332]: received exit event with code 0
+2026-10-17 15:12:20.988 [trace] [UtilityProcessWorker]: terminated normally with code 0, signal: unknown
+2026-10-17 15:12:20.991 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\vscode\.ofcode-test-profile\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-17 15:12:20.991 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.991 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-17 15:12:20.995 [trace] StorageMainService: closed application shared storage
+2026-10-17 15:12:20.995 [trace] Lifecycle#onWillShutdown - end 'applicationSharedStorage'
+2026-10-17 15:12:20.996 [trace] StorageMainService: closed application storage
+2026-10-17 15:12:20.996 [trace] Lifecycle#onWillShutdown - end 'applicationStorage'
+2026-10-17 15:12:20.996 [trace] StorageMainService: closed workspace storage (1792226966332)
+2026-10-17 15:12:20.996 [trace] Lifecycle#onWillShutdown - end 'workspaceStorage'
+2026-10-17 15:12:21.028 [error] [AgentHost:stderr] [copilot-sdk] CopilotClient.stop graceful stdio exit complete. Elapsed=39ms
+
+2026-10-17 15:12:21.030 [trace] [UtilityProcess type: agentHost, pid: 45264]: attempting to kill the process...
+2026-10-17 15:12:21.030 [trace] [UtilityProcess type: agentHost, pid: 45264]: successfully killed the process
+2026-10-17 15:12:21.030 [trace] Lifecycle#onWillShutdown - end 'join.agentHost'
+2026-10-17 15:12:22.786 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 12896]: received exit event with code 0
+2026-10-17 15:12:22.786 [info] Extension host with pid 12896 exited with code: 0, signal: unknown.
+2026-10-17 15:12:22.786 [trace] Lifecycle#onWillShutdown - end 'extHostStarter'
+2026-10-17 15:12:22.796 [trace] Lifecycle#app.on(will-quit) - after fireOnWillShutdown
+2026-10-17 15:12:22.796 [trace] Lifecycle#app.on(will-quit) - calling app.quit()
+2026-10-17 15:12:22.796 [trace] [UtilityProcess type: ptyHost, pid: 41416]: received exit event with code 0

@@ -68,7 +68,7 @@
                     "top": 35,
                     "left": 4,
                     "width": 44,
-                    "height": 1011,
+                    "height": 733,
                     "outerEdges": {
                         "left": true,
                         "right": false,
@@ -78,9 +78,9 @@
                 },
                 "auxiliaryBar": {
                     "top": 35,
-                    "left": 1170,
+                    "left": 450,
                     "width": 746,
-                    "height": 1011,
+                    "height": 733,
                     "outerEdges": {
                         "left": false,
                         "right": true,
@@ -89,9 +89,9 @@
                     }
                 },
                 "panel": {
-                    "top": 788,
+                    "top": 510,
                     "left": 52,
-                    "width": 1114,
+                    "width": 394,
                     "height": 258,
                     "outerEdges": {
                         "left": false,
@@ -103,8 +103,8 @@
                 "editor": {
                     "top": 35,
                     "left": 52,
-                    "width": 1114,
-                    "height": 749,
+                    "width": 394,
+                    "height": 471,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -119,9 +119,9 @@
         "lastActiveWindow": {
             "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332",
             "uiState": {
-                "mode": 0,
-                "x": -1646,
-                "y": 89,
+                "mode": 1,
+                "x": 73,
+                "y": 0,
                 "width": 1200,
                 "height": 800
             }
