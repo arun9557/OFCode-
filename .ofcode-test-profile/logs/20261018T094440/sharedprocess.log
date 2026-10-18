@@ -89,3 +89,36 @@
 2026-10-18 09:49:47.953 [trace] ExtensionManagementService.updateControlCache
 2026-10-18 09:49:47.954 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
 2026-10-18 09:49:50.422 [debug] User data changed
+2026-10-18 09:54:47.957 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 09:54:47.957 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 09:54:50.427 [debug] User data changed
+2026-10-18 09:59:47.972 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 09:59:47.973 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 09:59:50.432 [debug] User data changed
+2026-10-18 10:04:45.960 [debug] User data changed
+2026-10-18 10:04:46.921 [debug] User data changed
+2026-10-18 10:04:47.979 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:04:47.979 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:04:50.441 [debug] User data changed
+2026-10-18 10:05:21.556 [debug] User data changed
+2026-10-18 10:05:23.571 [debug] User data changed
+2026-10-18 10:09:47.995 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:09:47.996 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:09:50.457 [debug] User data changed
+2026-10-18 10:14:48.011 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:14:48.012 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:14:50.454 [debug] User data changed
+2026-10-18 10:14:51.673 [debug] User data changed
+2026-10-18 10:17:32.730 [debug] User data changed
+2026-10-18 10:19:48.027 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:19:48.027 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:19:50.466 [debug] User data changed
+2026-10-18 10:24:48.042 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:24:48.042 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:24:50.471 [debug] User data changed
+2026-10-18 10:29:48.051 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:29:48.051 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:29:50.499 [debug] User data changed
+2026-10-18 10:34:48.056 [trace] ExtensionManagementService.updateControlCache
+2026-10-18 10:34:48.056 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2026-10-18 10:34:50.516 [debug] User data changed

@@ -3185,3 +3185,971 @@
 2026-10-18 09:53:20.485 [trace] [LM] Resolved language models for vendor ollama []
 2026-10-18 09:53:20.485 [trace] [LM] No changes in language models for vendor ollama
 2026-10-18 09:53:20.486 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:53:50.517 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:53:50.517 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:53:50.518 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:54:06.786 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 09:54:06.792 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 09:54:20.498 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:54:20.498 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:54:20.499 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:54:50.427 [debug] User data changed
+2026-10-18 09:54:50.519 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:54:50.520 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:54:50.520 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:55:06.796 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 09:55:06.798 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 09:55:20.529 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:55:20.529 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:55:20.529 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:55:50.533 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:55:50.533 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:55:50.534 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:56:06.813 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 09:56:06.819 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 09:56:20.513 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:56:20.514 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:56:20.514 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:56:50.511 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:56:50.511 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:56:50.511 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:57:06.827 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 09:57:06.828 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 09:57:20.481 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:57:20.481 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:57:20.481 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:57:50.511 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:57:50.511 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:57:50.512 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:58:06.838 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 09:58:06.844 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 09:58:20.478 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:58:20.478 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:58:20.479 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:58:50.517 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:58:50.518 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:58:50.518 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:59:06.845 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 09:59:06.846 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 09:59:20.493 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:59:20.493 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:59:20.493 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 09:59:50.432 [debug] User data changed
+2026-10-18 09:59:50.524 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 09:59:50.524 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 09:59:50.525 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:00:06.847 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:00:06.852 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:00:20.493 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:00:20.493 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:00:20.494 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:00:50.520 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:00:50.520 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:00:50.521 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:01:06.863 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:01:06.865 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:01:20.510 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:01:20.510 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:01:20.510 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:01:50.493 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:01:50.493 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:01:50.494 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:02:06.873 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:02:06.877 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:02:20.530 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:02:20.530 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:02:20.531 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:02:50.491 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:02:50.491 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:02:50.491 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:03:06.877 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:03:06.879 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:03:20.494 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:03:20.494 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:03:20.495 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:03:50.512 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:03:50.513 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:03:50.513 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:04:06.879 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:04:06.883 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:04:20.500 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:04:20.501 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:04:20.501 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:04:45.959 [debug] User data changed
+2026-10-18 10:04:46.697 [trace] Layout#layout, height: 1080, width: 1920
+2026-10-18 10:04:46.922 [debug] User data changed
+2026-10-18 10:04:50.441 [debug] User data changed
+2026-10-18 10:04:50.566 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:04:50.566 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:04:50.566 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:05:06.886 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:05:06.890 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:05:20.499 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:05:20.499 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:05:20.499 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:05:21.554 [debug] User data changed
+2026-10-18 10:05:23.570 [debug] User data changed
+2026-10-18 10:05:50.522 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:05:50.522 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:05:50.522 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:06:06.893 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:06:06.899 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:06:20.508 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:06:20.509 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:06:20.509 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:06:50.503 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:06:50.503 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:06:50.504 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:07:06.908 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:07:06.910 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:07:20.510 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:07:20.510 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:07:20.511 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:07:50.516 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:07:50.516 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:07:50.517 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:08:06.916 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:08:06.921 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:08:20.510 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:08:20.510 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:08:20.510 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:08:50.522 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:08:50.522 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:08:50.523 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:09:06.917 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:09:06.922 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:09:20.466 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:09:20.466 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:09:20.466 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:09:50.442 [debug] User data changed
+2026-10-18 10:09:50.519 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:09:50.520 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:09:50.520 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:10:06.923 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:10:06.924 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:10:20.526 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:10:20.527 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:10:20.527 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:10:50.509 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:10:50.509 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:10:50.510 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:11:06.935 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:11:06.939 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:11:20.528 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:11:20.529 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:11:20.529 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:11:50.500 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:11:50.500 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:11:50.500 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:12:06.940 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:12:06.942 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:12:20.498 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:12:20.499 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:12:20.499 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:12:50.507 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:12:50.507 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:12:50.508 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:13:06.953 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:13:06.958 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:13:20.494 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:13:20.494 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:13:20.495 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:13:50.526 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:13:50.526 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:13:50.526 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:14:06.968 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:14:06.970 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:14:20.514 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:14:20.514 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:14:20.514 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:14:50.454 [debug] User data changed
+2026-10-18 10:14:50.501 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:14:50.501 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:14:50.501 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:14:51.673 [debug] User data changed
+2026-10-18 10:15:06.979 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:15:06.984 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:15:20.478 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:15:20.478 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:15:20.478 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:15:50.540 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:15:50.540 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:15:50.540 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:16:06.988 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:16:06.992 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:16:20.526 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:16:20.527 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:16:20.527 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:16:50.496 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:16:50.496 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:16:50.496 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:17:07.000 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:17:07.001 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:17:20.490 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:17:20.491 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:17:20.491 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:17:32.729 [debug] User data changed
+2026-10-18 10:17:32.730 [debug] User data changed
+2026-10-18 10:17:50.459 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:17:50.459 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:17:50.459 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:18:07.010 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:18:07.015 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:18:20.478 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:18:20.478 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:18:20.479 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:18:50.505 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:18:50.505 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:18:50.505 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:19:07.014 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:19:07.018 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:19:20.503 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:19:20.503 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:19:20.503 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:19:50.449 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:19:50.450 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:19:50.450 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:19:50.466 [debug] User data changed
+2026-10-18 10:20:07.019 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:20:07.023 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:20:20.473 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:20:20.473 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:20:20.474 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:20:50.465 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:20:50.465 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:20:50.465 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:21:07.021 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:21:07.023 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:21:20.488 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:21:20.488 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:21:20.489 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:21:50.486 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:21:50.486 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:21:50.486 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:22:07.037 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:22:07.041 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:22:20.525 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:22:20.525 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:22:20.525 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:22:50.505 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:22:50.505 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:22:50.506 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:23:07.046 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:23:07.050 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:23:20.510 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:23:20.510 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:23:20.510 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:23:50.509 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:23:50.509 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:23:50.509 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:24:07.048 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:24:07.050 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:24:20.533 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:24:20.534 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:24:20.534 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:24:50.470 [debug] User data changed
+2026-10-18 10:24:50.532 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:24:50.532 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:24:50.533 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:25:07.057 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:25:07.062 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:25:20.462 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:25:20.462 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:25:20.463 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:25:50.500 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:25:50.501 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:25:50.501 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:26:07.073 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:26:07.077 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:26:20.500 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:26:20.500 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:26:20.500 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:26:50.507 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:26:50.508 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:26:50.508 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:27:07.090 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:27:07.094 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:27:20.493 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:27:20.493 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:27:20.493 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:27:50.525 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:27:50.525 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:27:50.525 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:28:07.093 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:28:07.099 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:28:20.466 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:28:20.466 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:28:20.466 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:28:50.495 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:28:50.495 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:28:50.495 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:29:07.103 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:29:07.105 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:29:20.509 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:29:20.509 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:29:20.509 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:29:50.483 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:29:50.483 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:29:50.484 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:29:50.499 [debug] User data changed
+2026-10-18 10:30:07.111 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:30:07.114 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:30:20.494 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:30:20.494 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:30:20.494 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:30:50.476 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:30:50.477 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:30:50.477 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:31:07.121 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:31:07.124 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:31:20.479 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:31:20.479 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:31:20.479 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:31:50.519 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:31:50.519 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:31:50.519 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:32:07.135 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:32:07.137 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:32:20.502 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:32:20.502 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:32:20.502 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:32:50.497 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:32:50.497 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:32:50.497 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:33:07.149 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:33:07.153 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:33:20.512 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:33:20.512 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:33:20.512 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:33:50.518 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:33:50.518 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:33:50.518 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:34:07.156 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:34:07.158 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:34:20.510 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:34:20.510 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:34:20.510 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:34:50.500 [debug] User data changed
+2026-10-18 10:34:50.515 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:34:50.516 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:34:50.516 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:35:07.164 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:35:07.168 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:35:20.518 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:35:20.518 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:35:20.519 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:35:50.515 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:35:50.515 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:35:50.516 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:36:07.167 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:36:07.169 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:36:20.523 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:36:20.523 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:36:20.523 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:36:50.506 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:36:50.506 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:36:50.506 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:37:07.173 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:37:07.178 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:37:20.510 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:37:20.510 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:37:20.510 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:37:50.536 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:37:50.536 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:37:50.536 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:38:07.188 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:38:07.190 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:38:20.529 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:38:20.529 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:38:20.529 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:38:49.923 [debug] [DefaultAccount] Skipping refetching default account. Host is not focused or default account is not set
+2026-10-18 10:38:49.944 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.944 [trace] [LM] Resolved language models for vendor agent-host-copilotcli [{"identifier":"agent-host-copilotcli:hydrafusion","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion","id":"hydrafusion","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion","tooltip":"HydraFusion routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}},{"identifier":"agent-host-copilotcli:hydrafusion-max","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion Max","id":"hydrafusion-max","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion-max","tooltip":"HydraFusion Max routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}}]
+2026-10-18 10:38:49.945 [trace] [LM] No changes in language models for vendor agent-host-copilotcli
+2026-10-18 10:38:49.945 [trace] [LM] Resolved language models for vendor agent-host-claude []
+2026-10-18 10:38:49.945 [trace] [LM] No changes in language models for vendor agent-host-claude
+2026-10-18 10:38:49.945 [trace] [LM] Resolved language models for vendor agent-host-codex []
+2026-10-18 10:38:49.945 [trace] [LM] No changes in language models for vendor agent-host-codex
+2026-10-18 10:38:49.946 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.946 [trace] [LM] Resolved language models for vendor agent-host-copilotcli [{"identifier":"agent-host-copilotcli:hydrafusion","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion","id":"hydrafusion","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion","tooltip":"HydraFusion routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}},{"identifier":"agent-host-copilotcli:hydrafusion-max","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion Max","id":"hydrafusion-max","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion-max","tooltip":"HydraFusion Max routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}}]
+2026-10-18 10:38:49.946 [trace] [LM] No changes in language models for vendor agent-host-copilotcli
+2026-10-18 10:38:49.946 [trace] [LM] Resolved language models for vendor agent-host-claude []
+2026-10-18 10:38:49.947 [trace] [LM] No changes in language models for vendor agent-host-claude
+2026-10-18 10:38:49.947 [trace] [LM] Resolved language models for vendor agent-host-codex []
+2026-10-18 10:38:49.947 [trace] [LM] No changes in language models for vendor agent-host-codex
+2026-10-18 10:38:49.948 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:49.948 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.949 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:49.950 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.951 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:49.951 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.952 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:49.952 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.953 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:49.953 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.953 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:49.953 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.954 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:49.954 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.954 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:49.955 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.955 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:49.957 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.958 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:49.959 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:49.959 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:49.959 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:50.430 [trace] [ChatSessionsService] Resolved 2 sessions for provider local
+2026-10-18 10:38:50.433 [trace] [ChatSessionsService] Resolved 0 sessions for provider agent-host-copilotcli
+2026-10-18 10:38:50.435 [trace] [ChatSessionsService] Resolved 0 sessions for provider agent-host-claude
+2026-10-18 10:38:50.436 [trace] [ChatSessionsService] Resolved 0 sessions for provider agent-host-codex
+2026-10-18 10:38:50.446 [error] [ChatSessionsService] Failed to resolve sessions for provider copilot-cloud-agent Sign in to GitHub to use the Cloud Agent.
+2026-10-18 10:38:50.447 [error] [ChatSessionsService] Failed to resolve sessions for provider copilot-cloud-agent Sign in to GitHub to use the Cloud Agent.
+2026-10-18 10:38:50.451 [trace] CommandService#executeCommand _setContext
+2026-10-18 10:38:50.452 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:50.452 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:50.452 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:50.455 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:50.456 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:50.525 [trace] [LM] Resolved language models for vendor ollama []
+2026-10-18 10:38:50.525 [trace] [LM] No changes in language models for vendor ollama
+2026-10-18 10:38:50.526 [trace] [LM] selected language models {"vendor":"ollama"} []
+2026-10-18 10:38:50.961 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:50.962 [trace] [ChatSessionsService] Resolved 1 sessions for provider copilotcli
+2026-10-18 10:38:52.730 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:52.730 [trace] [LM] Resolved language models for vendor agent-host-copilotcli [{"identifier":"agent-host-copilotcli:hydrafusion","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion","id":"hydrafusion","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion","tooltip":"HydraFusion routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}},{"identifier":"agent-host-copilotcli:hydrafusion-max","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion Max","id":"hydrafusion-max","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion-max","tooltip":"HydraFusion Max routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}}]
+2026-10-18 10:38:52.731 [trace] [LM] No changes in language models for vendor agent-host-copilotcli
+2026-10-18 10:38:52.731 [trace] [LM] Resolved language models for vendor agent-host-claude []
+2026-10-18 10:38:52.731 [trace] [LM] No changes in language models for vendor agent-host-claude
+2026-10-18 10:38:52.731 [trace] [LM] Resolved language models for vendor agent-host-codex []
+2026-10-18 10:38:52.731 [trace] [LM] No changes in language models for vendor agent-host-codex
+2026-10-18 10:38:52.732 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:52.732 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:52.732 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:52.732 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:52.733 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:52.733 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:52.734 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:52.734 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:52.735 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-18 10:38:52.735 [trace] [AgentHost] Resolved auth provider 'github' for server: https://github.com/login/oauth
+2026-10-18 10:38:52.736 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-18 10:38:53.947 [trace] [lifecycle] onBeforeUnload (reason: 1)
+2026-10-18 10:38:53.957 [trace] [lifecycle] onBeforeUnload continues without veto
+2026-10-18 10:38:53.958 [trace] [lifecycle] onWillUnload (reason: 1)
+2026-10-18 10:38:53.959 [debug] Comments: URIs of continue on comments to add to storage .
+2026-10-18 10:38:53.976 [trace] [LM] UNregistered language model provider copilot
+2026-10-18 10:38:53.976 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.977 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: copilotcli/auto, agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: copilotcli, agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: auto, hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.978 [trace] [LM] UNregistered language model provider copilotcli
+2026-10-18 10:38:53.979 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.979 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.980 [trace] [LM] UNregistered language model provider anthropic
+2026-10-18 10:38:53.980 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.980 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.980 [trace] [LM] UNregistered language model provider gemini
+2026-10-18 10:38:53.981 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.981 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.981 [trace] [LM] UNregistered language model provider xai
+2026-10-18 10:38:53.982 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.982 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.982 [trace] [LM] UNregistered language model provider openai
+2026-10-18 10:38:53.983 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.983 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.984 [trace] [LM] UNregistered language model provider openrouter
+2026-10-18 10:38:53.984 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.984 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.985 [trace] [LM] UNregistered language model provider azure
+2026-10-18 10:38:53.985 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.986 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.986 [trace] [LM] UNregistered language model provider customoai
+2026-10-18 10:38:53.986 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.987 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.987 [trace] [LM] UNregistered language model provider customendpoint
+2026-10-18 10:38:53.987 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:53.987 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: ollama, copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:821:35)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at MainThreadLanguageModels.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:78:33)
+    at ExtensionHostManager.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/extensionHostManager.js:116:18)
+    at ExtensionHostManagerData.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1126:24)
+    at ExtensionHostCollection.stopAllInReverse (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:1081:15)
+    at async NativeExtensionService._doStopExtensionHosts (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/abstractExtensionService.js:600:5)
+2026-10-18 10:38:53.988 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.988 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.988 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.989 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.989 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.989 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.989 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.990 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.990 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.990 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:53.990 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:54.000 [trace] [ChatSessionsService] _evaluateAvailability: type='copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.backgroundAgent.enabled'
+2026-10-18 10:38:54.000 [trace] [ChatSessionsService] _evaluateAvailability: type='copilot-cloud-agent', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.cloudAgent.enabled'
+2026-10-18 10:38:54.000 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.001 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-claude', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.001 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-codex', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.001 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent, agent-host-copilotcli, agent-host-claude, agent-host-codex)
+2026-10-18 10:38:54.005 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.suggest.providers"]
+2026-10-18 10:38:54.007 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.007 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.007 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.008 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.008 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.008 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.009 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.009 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.009 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.009 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.009 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.010 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.010 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.010 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.010 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.010 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.011 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.011 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.011 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.011 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.011 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.012 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.012 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.012 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.012 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.012 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.012 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.013 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.013 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.013 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.014 [trace] PolicyConfiguration#update []
+2026-10-18 10:38:54.014 [trace] [LM] Resolved language models for vendor agent-host-copilotcli [{"identifier":"agent-host-copilotcli:hydrafusion","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion","id":"hydrafusion","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion","tooltip":"HydraFusion routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}},{"identifier":"agent-host-copilotcli:hydrafusion-max","metadata":{"extension":{"value":"nullExtensionDescription","_lower":"nullextensiondescription"},"name":"HydraFusion Max","id":"hydrafusion-max","vendor":"agent-host-copilotcli","version":"1.0","family":"hydrafusion-max","tooltip":"HydraFusion Max routes the first eligible turn and may use multiple models.","detail":"Research preview","maxInputTokens":0,"maxOutputTokens":0,"isDefaultForLocation":{},"isUserSelectable":true,"category":"powerful","targetChatSessionType":"agent-host-copilotcli","modelGroup":{"id":"copilotcli"},"capabilities":{"vision":true,"toolCalling":true,"agentMode":true}}}]
+2026-10-18 10:38:54.015 [trace] [LM] No changes in language models for vendor agent-host-copilotcli
+2026-10-18 10:38:54.015 [trace] [LM] Resolved language models for vendor agent-host-claude []
+2026-10-18 10:38:54.015 [trace] [LM] No changes in language models for vendor agent-host-claude
+2026-10-18 10:38:54.015 [trace] [LM] Resolved language models for vendor agent-host-codex []
+2026-10-18 10:38:54.015 [trace] [LM] No changes in language models for vendor agent-host-codex
+2026-10-18 10:38:54.054 [debug] chatEditingSession: Storing editing session at file:///c%3A/Users/USER/vscode/.ofcode-test-profile/User/workspaceStorage/1792226966332/chatEditingSessions/c8615984-53a1-4518-bc1b-6ea9ef32a83a: 0 files
+2026-10-18 10:38:54.138 [trace] [ChatSessionsService] _evaluateAvailability: type='copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.backgroundAgent.enabled'
+2026-10-18 10:38:54.138 [trace] [ChatSessionsService] _evaluateAvailability: type='copilot-cloud-agent', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.cloudAgent.enabled'
+2026-10-18 10:38:54.139 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.139 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-claude', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.139 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-codex', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.140 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent, agent-host-copilotcli, agent-host-claude, agent-host-codex)
+2026-10-18 10:38:54.142 [trace] PolicyConfiguration#updatePolicyDefinitions ["workbench.editor.autoLockGroups","workbench.editor.defaultBinaryEditor","workbench.editorAssociations","workbench.diffEditorAssociations","workbench.editorLargeFileConfirmation"]
+2026-10-18 10:38:54.147 [trace] PolicyConfiguration#update []
+2026-10-18 10:38:54.183 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:54.183 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-copilotcli, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: agent-host-copilotcli:hydrafusion, agent-host-copilotcli:hydrafusion-max, merged.model target Session Types: agent-host-copilotcli, agent-host-copilotcli, merged.model metadataid: hydrafusion, hydrafusion-max, filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at LanguageModelsService.deltaLanguageModelChatProviderDescriptors (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:592:39)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/offlineAgent/ollamaProvider.js:190:29)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at OllamaProviderContribution.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:371:17)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/common/contributions.js:116:32)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/lifecycle/electron-browser/lifecycleService.js:49:27
+2026-10-18 10:38:54.191 [trace] [ChatSessionsService] _evaluateAvailability: type='copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.backgroundAgent.enabled'
+2026-10-18 10:38:54.192 [trace] [ChatSessionsService] _evaluateAvailability: type='copilot-cloud-agent', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.cloudAgent.enabled'
+2026-10-18 10:38:54.192 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.192 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-claude', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.193 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-codex', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.193 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent, agent-host-copilotcli, agent-host-claude, agent-host-codex)
+2026-10-18 10:38:54.208 [trace] PolicyConfiguration#updatePolicyDefinitions ["onboarding.developerMode","onboarding.developerModeVariations"]
+2026-10-18 10:38:54.210 [trace] [ChatSessionsService] _evaluateAvailability: type='copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.backgroundAgent.enabled'
+2026-10-18 10:38:54.210 [trace] [ChatSessionsService] _evaluateAvailability: type='copilot-cloud-agent', isCurrentlyRegistered=true, shouldBeRegistered=true, when='config.github.copilot.chat.cloudAgent.enabled'
+2026-10-18 10:38:54.210 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-copilotcli', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.211 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-claude', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.211 [trace] [ChatSessionsService] _evaluateAvailability: type='agent-host-codex', isCurrentlyRegistered=true, shouldBeRegistered=true, when='undefined'
+2026-10-18 10:38:54.211 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent, agent-host-copilotcli, agent-host-claude, agent-host-codex)
+2026-10-18 10:38:54.212 [trace] PolicyConfiguration#updatePolicyDefinitions ["onboarding.developerMode","onboarding.developerModeVariations"]
+2026-10-18 10:38:54.212 [trace] TimelineService#unregisterTimelineProvider: id=timeline.localHistory
+2026-10-18 10:38:54.213 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.213 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.213 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.214 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.214 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.214 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.215 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.215 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.215 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.215 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.215 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.215 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.216 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.216 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.216 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.216 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:54.216 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:54.218 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent, agent-host-claude, agent-host-codex)
+2026-10-18 10:38:54.218 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.219 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.219 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.219 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.219 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.220 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.220 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.220 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.220 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.221 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.221 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.221 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.221 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.221 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.222 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.222 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.222 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.222 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.222 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.223 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:54.223 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:54.223 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-claude, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: , merged.model target Session Types: , merged.model metadataid: , filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at LanguageModelsService.deltaLanguageModelChatProviderDescriptors (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:592:39)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatContribution.js:348:62)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at AgentHostContribution.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:371:17)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/common/contributions.js:116:32)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/lifecycle/electron-browser/lifecycleService.js:49:27
+2026-10-18 10:38:54.224 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent, agent-host-codex)
+2026-10-18 10:38:54.224 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.224 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.224 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.225 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.225 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.225 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.225 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.226 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.226 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.226 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.226 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.226 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.227 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.227 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.227 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.227 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.227 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.227 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:54.228 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:54.228 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, agent-host-codex, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: , merged.model target Session Types: , merged.model metadataid: , filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at LanguageModelsService.deltaLanguageModelChatProviderDescriptors (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:592:39)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatContribution.js:348:62)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at AgentHostContribution.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:371:17)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/common/contributions.js:116:32)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/lifecycle/electron-browser/lifecycleService.js:49:27
+2026-10-18 10:38:54.229 [trace] [ChatSessionsService] hasCanDelegateProvidersAvailable=true (copilotcli, copilot-cloud-agent)
+2026-10-18 10:38:54.229 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.230 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.230 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.230 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.230 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.230 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.231 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.231 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.231 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.231 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.232 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.232 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.232 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.232 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.232 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.232 [trace] ChatViewPane#shouldShowWelcome() = false: hasCoreAgent=true hasDefaultAgent=true || noViewModel=false && noPersistedSessions=false
+2026-10-18 10:38:54.233 [debug] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel=undefined currentModel="ollama:qwen3:14b"
+2026-10-18 10:38:54.233 [debug] [ChatModelChanged] Chat Model Changed,resetting current language model due to model list change from ollama:qwen3:14b, this._widget?.viewModel?.model.sessionResource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, this.currentModeKind = agent, this.getCurrentSessionType = local, this._currentSessionType = local, shouldResetOnModelListChange(modelIdentifier, models) = true, vendors: copilot, anthropic, xai, gemini, openrouter, openai, customoai, customendpoint, azure, hiddenModelIds: , model identifiers: , model target Session Types: , model metadataid: , merged.model identifiers: , merged.model target Session Types: , merged.model metadataid: , filtered.model identifiers: , filtered.model target Session Types: , filtered.model metadataid: , current session resource = vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh, model.selectedModel: ollama:qwen3:14b, new state: undefined, old state: undefined, Error
+    at logChangesToStateModel (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/model/chatModel.js:2369:5)
+    at updateAfterModelListChange (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:688:9)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/widget/input/chatInputPart.js:695:79)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at LanguageModelsService.deltaLanguageModelChatProviderDescriptors (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:592:39)
+    at FunctionDisposable._fn (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatContribution.js:348:62)
+    at FunctionDisposable.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:266:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at DisposableMap.clearAndDisposeAll (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:562:7)
+    at DisposableMap.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:552:10)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at _DisposableStore.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:289:10)
+    at AgentHostContribution.dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:371:17)
+    at dispose (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:221:13)
+    at _DisposableStore.clear (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/lifecycle.js:305:7)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/common/contributions.js:116:32)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:811:16)
+    at Emitter._deliverQueue (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:820:12)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:840:12)
+    at vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/lifecycle/electron-browser/lifecycleService.js:49:27
+2026-10-18 10:38:54.234 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.234 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.234 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.234 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.235 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.235 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.235 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.235 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.235 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.236 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.236 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.236 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.236 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.237 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.237 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.237 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.237 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.237 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.238 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.238 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.238 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.238 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.238 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.239 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.239 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.239 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.239 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.240 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.240 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.240 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.240 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.241 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.241 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.241 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.242 [debug] #ChatTips: tip is eligible tip.planMode
+2026-10-18 10:38:54.242 [debug] #ChatTips: tip is eligible tip.planMode

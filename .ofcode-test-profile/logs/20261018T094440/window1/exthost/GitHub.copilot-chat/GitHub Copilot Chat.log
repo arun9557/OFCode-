@@ -210,3 +210,27 @@
 2026-10-18 09:49:08.399 [info] [CopilotCLIChatSessionContentProvider] listSessions took 9.958000000013271ms
 2026-10-18 09:49:11.750 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
 2026-10-18 09:50:07.294 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 10:14:50.837 [trace] [GithubAccountFilterProvider]::getFilters SKU: undefined, Internal Org: undefined, IsFcv1: undefined, IsSn: undefined, IsVscodeTeamMember: undefined, OrganizationList: undefined
+2026-10-18 10:14:50.837 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2026-10-18 10:14:50.837 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","10.0.0"]]
+2026-10-18 10:14:50.837 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.71.0, Completions Core Version: 1.378.1799
+2026-10-18 10:14:50.837 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: []
+2026-10-18 10:14:50.837 [trace] [PlatformAndReleaseDateFilterProvider]::getFilters Filters: [["X-VSCode-Platform","Windows"]]
+2026-10-18 10:14:50.837 [trace] [WindowKindFilterProvider]::getFilters Filters: [["X-VSCode-WindowKind","editor"]]
+2026-10-18 10:21:28.118 [debug] [Power] CPU speed limit changed: 78% (throttled)
+2026-10-18 10:21:29.124 [debug] [Power] CPU speed limit changed: 76% (throttled)
+2026-10-18 10:21:30.139 [debug] [Power] CPU speed limit changed: 74% (throttled)
+2026-10-18 10:21:33.171 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-18 10:25:17.359 [debug] [Power] CPU speed limit changed: 72% (throttled)
+2026-10-18 10:25:18.367 [debug] [Power] CPU speed limit changed: 77% (throttled)
+2026-10-18 10:25:19.376 [debug] [Power] CPU speed limit changed: 79% (throttled)
+2026-10-18 10:25:20.385 [debug] [Power] CPU speed limit changed: 78% (throttled)
+2026-10-18 10:25:21.400 [debug] [Power] CPU speed limit changed: 80% (throttled)
+2026-10-18 10:25:22.403 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-18 10:27:41.866 [debug] [Power] CPU speed limit changed: 80% (throttled)
+2026-10-18 10:27:44.882 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-18 10:38:49.923 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-18 10:38:50.439 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:38:50.443 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:38:50.451 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.42050000000745ms
+2026-10-18 10:38:51.711 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.

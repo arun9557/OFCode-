@@ -459,10 +459,44 @@ export class ExtHostLanguageModels implements ExtHostLanguageModelsShape {
 			}
 			this._logService.trace(`[LanguageModelProxy](${extension.identifier.value}) Could not find model '${modelId}' in local cache. Trying to resolve model again.`);
 			// Call proxy directly: routing through `selectLanguageModels` would recurse here for every identifier and blow up when the cache stays empty (provider in another ext host).
-			await this._proxy.$selectChatModels({ vendor, extension: extension.identifier });
 			if (!this._localModels.has(modelId) && !this._localModels.has(normalizedModelId)) {
-				this._logService.warn(`[LanguageModelProxy](${extension.identifier.value}) Could not find model '${modelId}' in local cache after re-resolving models.`);
-				return undefined;
+				if (vendor === 'ollama' || modelId.startsWith('ollama:') || modelId.startsWith('ollama/')) {
+					const cleanName = modelId.replace(/^ollama[:/]/, '');
+					const synthMetadata: ILanguageModelChatMetadata = {
+						id: modelId,
+						vendor: 'ollama',
+						name: cleanName,
+						family: 'ollama',
+						version: 'latest',
+						maxInputTokens: 16384,
+						maxOutputTokens: 4096,
+						maxContextWindowTokens: 16384,
+						isBYOK: true,
+						isUserSelectable: true,
+						isDefaultForLocation: {},
+						extension: extension.identifier,
+						capabilities: {
+							toolCalling: true,
+							agentMode: true
+						}
+					};
+					const synthInfo: vscode.LanguageModelChatInformation = {
+						id: cleanName,
+						name: cleanName,
+						family: 'ollama',
+						version: 'latest',
+						maxInputTokens: 16384,
+						maxOutputTokens: 4096,
+						capabilities: {
+							toolCalling: true
+						}
+					};
+					this._localModels.set(modelId, { group: undefined, metadata: synthMetadata, info: synthInfo });
+					this._localModels.set(normalizedModelId, { group: undefined, metadata: { ...synthMetadata, id: normalizedModelId }, info: synthInfo });
+				} else {
+					this._logService.warn(`[LanguageModelProxy](${extension.identifier.value}) Could not find model '${modelId}' in local cache after re-resolving models.`);
+					return undefined;
+				}
 			}
 		}
 
@@ -559,7 +593,45 @@ export class ExtHostLanguageModels implements ExtHostLanguageModelsShape {
 		const internalMessages: IChatMessage[] = this._convertMessages(extension, messages);
 
 		const from = extension.identifier;
-		const metadata = this._localModels.get(languageModelId)?.metadata;
+		let metadata = this._localModels.get(languageModelId)?.metadata;
+		if (!metadata && (languageModelId.startsWith('ollama:') || languageModelId.startsWith('ollama/'))) {
+			const altId = languageModelId.startsWith('ollama:') ? languageModelId.replace('ollama:', 'ollama/') : languageModelId.replace('ollama/', 'ollama:');
+			metadata = this._localModels.get(altId)?.metadata;
+			if (!metadata) {
+				const cleanName = languageModelId.replace(/^ollama[:/]/, '');
+				metadata = {
+					id: languageModelId,
+					vendor: 'ollama',
+					name: cleanName,
+					family: 'ollama',
+					version: 'latest',
+					maxInputTokens: 16384,
+					maxOutputTokens: 4096,
+					maxContextWindowTokens: 16384,
+					isBYOK: true,
+					isUserSelectable: true,
+					isDefaultForLocation: {},
+					extension: extension.identifier,
+					capabilities: {
+						toolCalling: true,
+						agentMode: true
+					}
+				};
+				this._localModels.set(languageModelId, {
+					group: undefined,
+					metadata,
+					info: {
+						id: cleanName,
+						name: cleanName,
+						family: 'ollama',
+						version: 'latest',
+						maxInputTokens: 16384,
+						maxOutputTokens: 4096,
+						capabilities: { toolCalling: true }
+					}
+				});
+			}
+		}
 
 		if (!metadata || !this._localModels.has(languageModelId)) {
 			throw extHostTypes.LanguageModelError.NotFound(`Language model '${languageModelId}' is unknown.`);

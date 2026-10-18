@@ -721,3 +721,17 @@
 2026-10-18 09:48:57.806 [trace] ExtHostCommands#executeCommand _setContext
 2026-10-18 09:49:08.399 [trace] ExtHostCommands#executeCommand setContext
 2026-10-18 09:49:08.399 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 09:59:50.824 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 09:59:50.824 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 10:14:50.835 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 10:14:50.835 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 10:29:50.846 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 10:29:50.846 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 10:38:50.450 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:38:50.451 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:38:53.976 [info] Extension host terminating: received terminate message from renderer
+2026-10-18 10:38:53.985 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:38:53.985 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:38:53.985 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:38:53.985 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:38:54.003 [info] Extension host with pid 35268 exiting with code 0

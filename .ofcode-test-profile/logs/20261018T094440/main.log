@@ -358,3 +358,218 @@
 2026-10-18 09:49:50.421 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
 2026-10-18 09:49:50.421 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
 2026-10-18 09:49:50.421 [debug] User data changed
+2026-10-18 09:54:50.335 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:54:50.336 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:54:50.336 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:54:50.336 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:54:50.337 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:54:50.337 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:54:50.338 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:54:50.338 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:54:50.426 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:54:50.426 [debug] User data changed
+2026-10-18 09:54:50.426 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.340 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:59:50.341 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.341 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:59:50.341 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.342 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:59:50.342 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.343 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 09:59:50.343 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.431 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.431 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 09:59:50.432 [debug] User data changed
+2026-10-18 10:04:45.861 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:45.861 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:45.862 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:45.863 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:45.864 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:45.865 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:45.865 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:45.865 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:45.952 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:45.957 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:45.958 [debug] User data changed
+2026-10-18 10:04:46.829 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:46.830 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:46.830 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:46.831 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:46.832 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:46.832 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:46.833 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:46.833 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:46.919 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:46.920 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:46.920 [debug] User data changed
+2026-10-18 10:04:50.351 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:50.351 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:50.352 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:50.352 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:50.353 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:50.353 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:50.354 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:04:50.354 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:50.440 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:50.440 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:04:50.441 [debug] User data changed
+2026-10-18 10:05:21.461 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:05:21.463 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:21.465 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:05:21.465 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:21.474 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:05:21.475 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:21.478 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:05:21.478 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:21.546 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:21.551 [debug] User data changed
+2026-10-18 10:05:21.553 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:23.482 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:05:23.482 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:23.484 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:05:23.485 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:23.569 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:05:23.570 [debug] User data changed
+2026-10-18 10:05:23.570 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.365 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:09:50.366 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.366 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:09:50.367 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.368 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:09:50.368 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.368 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:09:50.368 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.456 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.456 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:09:50.456 [debug] User data changed
+2026-10-18 10:14:50.377 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:14:50.377 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:50.378 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:14:50.378 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:50.379 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:14:50.379 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:50.380 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:14:50.380 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:50.452 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:50.453 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:50.453 [debug] User data changed
+2026-10-18 10:14:51.583 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:14:51.584 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:51.586 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:14:51.586 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:51.672 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:14:51.672 [debug] User data changed
+2026-10-18 10:14:51.672 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:17:32.637 [trace] [File Watcher (node.js)] [raw] ["change"] History
+2026-10-18 10:17:32.638 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\History
+2026-10-18 10:17:32.640 [trace] [File Watcher (node.js)] [raw] ["change"] History
+2026-10-18 10:17:32.641 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\History
+2026-10-18 10:17:32.644 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:17:32.644 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:17:32.646 [trace] [File Watcher (node.js)] [raw] ["change"] workspaceStorage
+2026-10-18 10:17:32.646 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\workspaceStorage
+2026-10-18 10:17:32.647 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:17:32.647 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:17:32.649 [trace] [File Watcher (node.js)] [raw] ["change"] workspaceStorage
+2026-10-18 10:17:32.649 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\workspaceStorage
+2026-10-18 10:17:32.678 [trace] [File Watcher (node.js)] [raw] ["change"] snippets
+2026-10-18 10:17:32.678 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\snippets
+2026-10-18 10:17:32.679 [trace] [File Watcher (node.js)] [raw] ["change"] snippets
+2026-10-18 10:17:32.679 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\snippets
+2026-10-18 10:17:32.726 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\History
+2026-10-18 10:17:32.726 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:17:32.726 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\workspaceStorage
+2026-10-18 10:17:32.727 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\snippets
+2026-10-18 10:17:32.727 [debug] User data changed
+2026-10-18 10:17:32.727 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\History
+2026-10-18 10:17:32.727 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:17:32.727 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\workspaceStorage
+2026-10-18 10:17:32.727 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\snippets
+2026-10-18 10:19:50.388 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:19:50.389 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:19:50.389 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:19:50.389 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:19:50.391 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:19:50.391 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:19:50.391 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:19:50.391 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:19:50.464 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:19:50.465 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:19:50.465 [debug] User data changed
+2026-10-18 10:24:50.394 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:24:50.394 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:24:50.395 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:24:50.395 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:24:50.396 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:24:50.396 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:24:50.396 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:24:50.397 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:24:50.469 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:24:50.470 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:24:50.470 [debug] User data changed
+2026-10-18 10:29:50.407 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:29:50.408 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:29:50.408 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:29:50.408 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:29:50.409 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:29:50.409 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:29:50.410 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:29:50.410 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:29:50.498 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:29:50.498 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:29:50.498 [debug] User data changed
+2026-10-18 10:34:50.423 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:34:50.424 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:34:50.424 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:34:50.425 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:34:50.426 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:34:50.426 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:34:50.426 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-18 10:34:50.426 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:34:50.499 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:34:50.499 [debug] User data changed
+2026-10-18 10:34:50.515 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-18 10:38:53.946 [trace] Lifecycle#window.on('close') - window ID 1
+2026-10-18 10:38:53.946 [trace] Lifecycle#unload() - window ID 1
+2026-10-18 10:38:54.004 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 35268]: received exit event with code 0
+2026-10-18 10:38:54.005 [info] Extension host with pid 35268 exited with code: 0, signal: unknown.
+2026-10-18 10:38:54.262 [trace] Lifecycle#onBeforeCloseWindow.fire() - window ID 1
+2026-10-18 10:38:54.303 [trace] IPC Object URL: Removed channel vscode:c335c298-8b85-4324-ae81-8708f9807e1d.
+2026-10-18 10:38:54.308 [trace] Lifecycle#window.on('closed') - window ID 1
+2026-10-18 10:38:54.308 [trace] Lifecycle#onWillShutdown.fire()
+2026-10-18 10:38:54.310 [trace] Lifecycle#onWillShutdown - begin 'instanceLockfile'
+2026-10-18 10:38:54.311 [trace] Lifecycle#onWillShutdown - begin 'join.agentHost'
+2026-10-18 10:38:54.311 [trace] storageMainService#onWillShutdown()
+2026-10-18 10:38:54.312 [trace] Lifecycle#onWillShutdown - begin 'applicationStorage'
+2026-10-18 10:38:54.312 [trace] Lifecycle#onWillShutdown - begin 'applicationSharedStorage'
+2026-10-18 10:38:54.312 [trace] Lifecycle#onWillShutdown - begin 'workspaceStorage'
+2026-10-18 10:38:54.312 [trace] Lifecycle#onWillShutdown - begin 'extHostStarter'
+2026-10-18 10:38:54.312 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 28500]: attempting to kill the process...
+2026-10-18 10:38:54.313 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 28500]: successfully killed the process
+2026-10-18 10:38:54.314 [trace] Lifecycle#onWillShutdown - end 'extHostStarter'
+2026-10-18 10:38:54.314 [trace] Lifecycle#app.on(window-all-closed)
+2026-10-18 10:38:54.314 [trace] Lifecycle#app.on(before-quit)
+2026-10-18 10:38:54.314 [trace] Lifecycle#onBeforeShutdown.fire()
+2026-10-18 10:38:54.314 [trace] [WindowsStateHandler] onBeforeShutdown {"lastActiveWindow":{"backupPath":"C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332","uiState":{"mode":0,"x":-1907,"y":194,"width":1200,"height":800}},"openedWindows":[]}
+2026-10-18 10:38:54.315 [trace] Lifecycle#app.on(will-quit) - begin
+2026-10-18 10:38:54.321 [trace] Lifecycle#onWillShutdown - end 'instanceLockfile'
+2026-10-18 10:38:54.322 [trace] [File Watcher (node.js)] stopping fs.watchFile() on c:\Program Files\GitHubCopilot\managed-settings.json (correlationId: undefined)
+2026-10-18 10:38:54.323 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 28500]: received exit event with code 0
+2026-10-18 10:38:54.323 [trace] [UtilityProcessWorker]: terminated normally with code 0, signal: unknown
+2026-10-18 10:38:54.335 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\vscode\.ofcode-test-profile\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-18 10:38:54.335 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:38:54.336 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:38:54.342 [trace] StorageMainService: closed application shared storage
+2026-10-18 10:38:54.342 [trace] Lifecycle#onWillShutdown - end 'applicationSharedStorage'
+2026-10-18 10:38:54.342 [trace] StorageMainService: closed workspace storage (1792226966332)
+2026-10-18 10:38:54.342 [trace] Lifecycle#onWillShutdown - end 'workspaceStorage'
+2026-10-18 10:38:54.343 [trace] StorageMainService: closed application storage
+2026-10-18 10:38:54.343 [trace] Lifecycle#onWillShutdown - end 'applicationStorage'
+2026-10-18 10:38:54.377 [error] [AgentHost:stderr] [copilot-sdk] CopilotClient.stop graceful stdio exit complete. Elapsed=40ms
+
+2026-10-18 10:38:54.381 [trace] [UtilityProcess type: agentHost, pid: 31328]: attempting to kill the process...
+2026-10-18 10:38:54.382 [trace] [UtilityProcess type: agentHost, pid: 31328]: successfully killed the process
+2026-10-18 10:38:54.382 [trace] Lifecycle#onWillShutdown - end 'join.agentHost'
+2026-10-18 10:38:54.388 [trace] Lifecycle#app.on(will-quit) - after fireOnWillShutdown
+2026-10-18 10:38:54.388 [trace] Lifecycle#app.on(will-quit) - calling app.quit()
+2026-10-18 10:38:54.388 [trace] [UtilityProcess type: ptyHost, pid: 35804]: received exit event with code 0

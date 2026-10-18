@@ -1,0 +1,75 @@
+2026-10-18 10:39:21.137 [trace] [File Watcher ('parcel')] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.claude\rules (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.claude\rules')
+2026-10-18 10:39:21.138 [trace] [File Watcher ('parcel')] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.copilot\instructions (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.copilot\instructions')
+2026-10-18 10:39:21.138 [trace] [File Watcher ('parcel')] starting fs.watchFile() on c:\Users\USER\.claude\rules (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher ('parcel')] starting fs.watchFile() on c:\Users\USER\.copilot\instructions (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\USER\vscode\.ofcode-test-profile\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\keybindings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\prompts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot\agents (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.claude\agents (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.agents\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.claude\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot\hooks (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.claude\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.ofcode-dev\agent-plugins (excludes: <none>, includes: <all>, filter: <none>, correlationId: 0),c:\Users\USER\.copilot (excludes: <none>, includes: <all>, filter: <none>, correlationId: 1)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\vscode\.ofcode-test-profile\User\keybindings.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\vscode\.ofcode-test-profile\User\keybindings.json')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\vscode\.ofcode-test-profile\User\keybindings.json (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\vscode\.ofcode-test-profile\User\prompts (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\vscode\.ofcode-test-profile\User\prompts')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\vscode\.ofcode-test-profile\User\prompts (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.copilot\agents (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.copilot\agents')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\.copilot\agents (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.claude\agents (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.claude\agents')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\.claude\agents (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.copilot\skills (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.copilot\skills')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\.copilot\skills (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.claude\skills (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.claude\skills')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\.claude\skills (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.copilot\hooks (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.copilot\hooks')
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\.copilot\hooks (correlationId: undefined)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\.copilot'
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\.agents\skills'
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\.ofcode-dev\agent-plugins'
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\vscode\.ofcode-test-profile\User\keybindings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\prompts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot\agents (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.claude\agents (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.claude\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot\hooks (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\keybindings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\prompts (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.copilot\agents (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.claude\agents (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.copilot\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.claude\skills (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.copilot\hooks (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\.claude\settings.json'
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\vscode\.ofcode-test-profile\User'
+2026-10-18 10:39:21.138 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json'
+2026-10-18 10:39:21.922 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\USER\vscode\.ofcode-test-profile\User\tasks.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-18 10:39:21.922 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\vscode\.ofcode-test-profile\User\tasks.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\vscode\.ofcode-test-profile\User\tasks.json')
+2026-10-18 10:39:21.923 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\vscode\.ofcode-test-profile\User\tasks.json (correlationId: undefined)
+2026-10-18 10:39:21.923 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\vscode\.ofcode-test-profile\User\mcp.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\vscode\.ofcode-test-profile\User\mcp.json')
+2026-10-18 10:39:21.925 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\vscode\.ofcode-test-profile\User\mcp.json (correlationId: undefined)
+2026-10-18 10:39:21.985 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\USER\vscode\.ofcode-test-profile\User\snippets (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-18 10:39:21.985 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\vscode\.ofcode-test-profile\User\tasks.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-18 10:39:21.985 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\tasks.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.985 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\vscode\.ofcode-test-profile\User\mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2026-10-18 10:39:21.986 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\vscode\.ofcode-test-profile\User\snippets'
+2026-10-18 10:39:22.070 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\USER\.claude (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\.copilot (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-18 10:39:22.081 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\.claude'
+2026-10-18 10:39:22.082 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\.copilot'
+2026-10-18 10:39:22.252 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\USER\.copilot\mcp-config.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: 2)
+2026-10-18 10:39:22.253 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\USER\.copilot\mcp-config.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\USER\.copilot\mcp-config.json')
+2026-10-18 10:39:22.253 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\USER\.copilot\mcp-config.json (correlationId: 2)
+2026-10-18 10:39:22.763 [trace] [File Watcher (node.js)] [raw] ["change"] projects
+2026-10-18 10:39:22.765 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\projects
+2026-10-18 10:39:22.797 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\.claude\projects
+2026-10-18 10:39:22.818 [trace] [File Watcher (node.js)] [raw] ["change"] logs
+2026-10-18 10:39:22.834 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.copilot\logs
+2026-10-18 10:39:22.834 [trace] [File Watcher (node.js)] [raw] ["change"] logs <1> 
+2026-10-18 10:39:22.834 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.copilot\logs <1> 
+2026-10-18 10:39:22.897 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\.copilot\logs
+2026-10-18 10:39:22.911 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\.copilot\logs <1> 
+2026-10-18 10:39:23.000 [trace] [File Watcher (node.js)] [raw] ["change"] settings.json
+2026-10-18 10:39:23.024 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\settings.json
+2026-10-18 10:39:23.025 [trace] [File Watcher (node.js)] [raw] ["change"] settings.json
+2026-10-18 10:39:23.025 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\settings.json
+2026-10-18 10:39:23.066 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\.copilot\mcp-config.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: 2)
+2026-10-18 10:39:23.069 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.copilot\mcp-config.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: 2))
+2026-10-18 10:39:23.070 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\.claude\settings.json
+2026-10-18 10:39:23.070 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\.claude\settings.json
+2026-10-18 10:39:23.217 [trace] [File Watcher (node.js)] [raw] ["change"] sessions
+2026-10-18 10:39:23.218 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\sessions
+2026-10-18 10:39:23.224 [trace] [File Watcher (node.js)] [raw] ["change"] sessions
+2026-10-18 10:39:23.224 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\sessions
+2026-10-18 10:39:23.224 [trace] [File Watcher (node.js)] [raw] ["change"] sessions
+2026-10-18 10:39:23.224 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\sessions
+2026-10-18 10:39:23.283 [trace] [File Watcher (node.js)] [raw] ["change"] sessions
+2026-10-18 10:39:23.283 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\.claude\sessions
+2026-10-18 10:39:23.298 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\.claude\sessions

@@ -89,3 +89,4 @@
 2026-10-18 09:44:52.137 [debug] [getOrCreate] [aebc6443-996d-45c2-90f0-388ff96faa56] PCA created.
 2026-10-18 09:44:52.137 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
 2026-10-18 09:44:52.147 [debug] [_handleSecretStorageChange] Finished handling PCAs secret storage change.
+2026-10-18 10:38:54.003 [info] Microsoft Authentication is deactivating...

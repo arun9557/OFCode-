@@ -23,6 +23,7 @@ import {
 	IUserFriendlyLanguageModel,
 } from '../languageModels.js';
 import { ILanguageModelsConfigurationService } from '../languageModelsConfiguration.js';
+import { IStorageService, StorageScope } from '../../../../../platform/storage/common/storage.js';
 import { OllamaClient, IOllamaChatMessage, IOllamaToolDefinition } from './ollamaClient.js';
 import { OllamaRouter } from './ollamaRouter.js';
 import { ToolCallParser } from './toolCallParser.js';
@@ -35,10 +36,21 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 	private readonly _client: OllamaClient;
 	private readonly _router: OllamaRouter;
 
-	constructor() {
+	constructor(
+		@IStorageService private readonly _storageService: IStorageService,
+	) {
 		super();
-		this._client = new OllamaClient();
+		const serverUrl = this._storageService.get('ofcode.ollama.serverUrl', StorageScope.PROFILE, 'http://127.0.0.1:11434');
+		this._client = new OllamaClient(serverUrl);
 		this._router = new OllamaRouter(this._client);
+	}
+
+	get client(): OllamaClient {
+		return this._client;
+	}
+
+	get router(): OllamaRouter {
+		return this._router;
 	}
 
 	async provideLanguageModelChatInfo(options: ILanguageModelChatInfoOptions, token: CancellationToken): Promise<ILanguageModelChatMetadataAndIdentifier[]> {
@@ -48,14 +60,15 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		for (let index = 0; index < routedModels.length; index++) {
 			const routed = routedModels[index];
 			const tag = routed.tag;
-			const modelId = `ollama/${tag.name}`;
+			const colonModelId = `ollama:${tag.name}`;
+			const slashModelId = `ollama/${tag.name}`;
 			const isFirstModel = index === 0;
 
 			const nameLower = tag.name.toLowerCase();
 			const isVisionModel = nameLower.includes('vision') || nameLower.includes('llava') || nameLower.includes('moondream');
 
-			const metadata: ILanguageModelChatMetadata = {
-				id: modelId,
+			const createMetadata = (id: string): ILanguageModelChatMetadata => ({
+				id,
 				name: tag.name,
 				vendor: 'ollama',
 				family: tag.details?.family || 'ollama',
@@ -77,11 +90,15 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 					vision: isVisionModel,
 					editTools: ['vscode_editFile_internal']
 				}
-			};
+			});
 
 			results.push({
-				identifier: modelId,
-				metadata
+				identifier: colonModelId,
+				metadata: createMetadata(colonModelId)
+			});
+			results.push({
+				identifier: slashModelId,
+				metadata: createMetadata(slashModelId)
 			});
 		}
 
@@ -95,7 +112,15 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		options: ILanguageModelChatRequestOptions,
 		token: CancellationToken
 	): Promise<ILanguageModelChatResponse> {
-		const rawModelName = modelId.replace(/^ollama[:/]/, '');
+		let rawModelName = modelId.replace(/^ollama[:/]/, '');
+		const routedModels = await this._router.refreshModels();
+		if (routedModels.length > 0) {
+			const exists = routedModels.some(m => m.tag.name === rawModelName || m.tag.name.startsWith(rawModelName) || rawModelName.startsWith(m.tag.name));
+			if (!exists) {
+				rawModelName = routedModels[0].tag.name;
+			}
+		}
+
 		const ollamaMessages: IOllamaChatMessage[] = [];
 
 		for (const msg of messages) {
@@ -124,7 +149,7 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 			}));
 		}
 
-		const streamGenerator = this._streamChat(rawModelName, ollamaMessages, toolDefs, token);
+		const streamGenerator = this._streamChat(rawModelName, ollamaMessages, toolDefs, options, token);
 
 		return {
 			stream: streamGenerator,
@@ -136,12 +161,17 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		model: string,
 		messages: IOllamaChatMessage[],
 		tools: IOllamaToolDefinition[] | undefined,
+		chatOptions: ILanguageModelChatRequestOptions,
 		token: CancellationToken
 	): AsyncGenerator<IChatResponsePart, void, unknown> {
 		const abortController = new AbortController();
 		token.onCancellationRequested(() => abortController.abort());
 
 		let fullAssistantText = '';
+		const storedContext = this._storageService.getNumber('ofcode.ollama.contextLength', StorageScope.PROFILE, 16384);
+		const storedTemp = this._storageService.getNumber('ofcode.ollama.temperature', StorageScope.PROFILE, 0.2);
+		const num_ctx = (chatOptions.configuration?.['num_ctx'] as number) || (chatOptions.configuration?.['contextLength'] as number) || storedContext;
+		const temperature = (chatOptions.configuration?.['temperature'] as number) ?? storedTemp;
 
 		try {
 			const stream = this._client.chatStream({
@@ -149,7 +179,8 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 				messages,
 				tools,
 				options: {
-					temperature: 0.2,
+					num_ctx,
+					temperature,
 				}
 			}, abortController.signal);
 

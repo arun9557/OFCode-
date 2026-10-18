@@ -518,3 +518,633 @@
 2026-10-18 09:53:14.268 [trace] [ProtocolServer] request: method=ping id=104
 2026-10-18 09:53:19.271 [trace] [ProtocolServer] request: method=ping id=105
 2026-10-18 09:53:24.283 [trace] [ProtocolServer] request: method=ping id=106
+2026-10-18 09:53:29.296 [trace] [ProtocolServer] request: method=ping id=107
+2026-10-18 09:53:34.301 [trace] [ProtocolServer] request: method=ping id=108
+2026-10-18 09:53:39.311 [trace] [ProtocolServer] request: method=ping id=109
+2026-10-18 09:53:44.313 [trace] [ProtocolServer] request: method=ping id=110
+2026-10-18 09:53:49.285 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 09:53:49.317 [trace] [ProtocolServer] request: method=ping id=111
+2026-10-18 09:53:54.319 [trace] [ProtocolServer] request: method=ping id=112
+2026-10-18 09:53:59.327 [trace] [ProtocolServer] request: method=ping id=113
+2026-10-18 09:54:04.341 [trace] [ProtocolServer] request: method=ping id=114
+2026-10-18 09:54:09.355 [trace] [ProtocolServer] request: method=ping id=115
+2026-10-18 09:54:14.366 [trace] [ProtocolServer] request: method=ping id=116
+2026-10-18 09:54:19.376 [trace] [ProtocolServer] request: method=ping id=117
+2026-10-18 09:54:24.390 [trace] [ProtocolServer] request: method=ping id=118
+2026-10-18 09:54:29.395 [trace] [ProtocolServer] request: method=ping id=119
+2026-10-18 09:54:34.402 [trace] [ProtocolServer] request: method=ping id=120
+2026-10-18 09:54:39.411 [trace] [ProtocolServer] request: method=ping id=121
+2026-10-18 09:54:44.423 [trace] [ProtocolServer] request: method=ping id=122
+2026-10-18 09:54:49.307 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 09:54:49.432 [trace] [ProtocolServer] request: method=ping id=123
+2026-10-18 09:54:54.436 [trace] [ProtocolServer] request: method=ping id=124
+2026-10-18 09:54:59.440 [trace] [ProtocolServer] request: method=ping id=125
+2026-10-18 09:55:04.449 [trace] [ProtocolServer] request: method=ping id=126
+2026-10-18 09:55:09.463 [trace] [ProtocolServer] request: method=ping id=127
+2026-10-18 09:55:14.478 [trace] [ProtocolServer] request: method=ping id=128
+2026-10-18 09:55:19.486 [trace] [ProtocolServer] request: method=ping id=129
+2026-10-18 09:55:24.497 [trace] [ProtocolServer] request: method=ping id=130
+2026-10-18 09:55:29.510 [trace] [ProtocolServer] request: method=ping id=131
+2026-10-18 09:55:34.520 [trace] [ProtocolServer] request: method=ping id=132
+2026-10-18 09:55:39.532 [trace] [ProtocolServer] request: method=ping id=133
+2026-10-18 09:55:44.543 [trace] [ProtocolServer] request: method=ping id=134
+2026-10-18 09:55:49.332 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=1
+2026-10-18 09:55:49.550 [trace] [ProtocolServer] request: method=ping id=135
+2026-10-18 09:55:54.563 [trace] [ProtocolServer] request: method=ping id=136
+2026-10-18 09:55:59.578 [trace] [ProtocolServer] request: method=ping id=137
+2026-10-18 09:56:04.585 [trace] [ProtocolServer] request: method=ping id=138
+2026-10-18 09:56:09.598 [trace] [ProtocolServer] request: method=ping id=139
+2026-10-18 09:56:14.602 [trace] [ProtocolServer] request: method=ping id=140
+2026-10-18 09:56:19.607 [trace] [ProtocolServer] request: method=ping id=141
+2026-10-18 09:56:24.621 [trace] [ProtocolServer] request: method=ping id=142
+2026-10-18 09:56:29.631 [trace] [ProtocolServer] request: method=ping id=143
+2026-10-18 09:56:34.646 [trace] [ProtocolServer] request: method=ping id=144
+2026-10-18 09:56:39.649 [trace] [ProtocolServer] request: method=ping id=145
+2026-10-18 09:56:44.660 [trace] [ProtocolServer] request: method=ping id=146
+2026-10-18 09:56:49.359 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 09:56:49.669 [trace] [ProtocolServer] request: method=ping id=147
+2026-10-18 09:56:54.680 [trace] [ProtocolServer] request: method=ping id=148
+2026-10-18 09:56:59.686 [trace] [ProtocolServer] request: method=ping id=149
+2026-10-18 09:57:04.694 [trace] [ProtocolServer] request: method=ping id=150
+2026-10-18 09:57:09.709 [trace] [ProtocolServer] request: method=ping id=151
+2026-10-18 09:57:14.720 [trace] [ProtocolServer] request: method=ping id=152
+2026-10-18 09:57:19.735 [trace] [ProtocolServer] request: method=ping id=153
+2026-10-18 09:57:24.745 [trace] [ProtocolServer] request: method=ping id=154
+2026-10-18 09:57:29.756 [trace] [ProtocolServer] request: method=ping id=155
+2026-10-18 09:57:34.763 [trace] [ProtocolServer] request: method=ping id=156
+2026-10-18 09:57:39.768 [trace] [ProtocolServer] request: method=ping id=157
+2026-10-18 09:57:44.780 [trace] [ProtocolServer] request: method=ping id=158
+2026-10-18 09:57:49.390 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 09:57:49.795 [trace] [ProtocolServer] request: method=ping id=159
+2026-10-18 09:57:54.810 [trace] [ProtocolServer] request: method=ping id=160
+2026-10-18 09:57:59.822 [trace] [ProtocolServer] request: method=ping id=161
+2026-10-18 09:58:04.824 [trace] [ProtocolServer] request: method=ping id=162
+2026-10-18 09:58:09.838 [trace] [ProtocolServer] request: method=ping id=163
+2026-10-18 09:58:14.847 [trace] [ProtocolServer] request: method=ping id=164
+2026-10-18 09:58:19.851 [trace] [ProtocolServer] request: method=ping id=165
+2026-10-18 09:58:24.859 [trace] [ProtocolServer] request: method=ping id=166
+2026-10-18 09:58:29.865 [trace] [ProtocolServer] request: method=ping id=167
+2026-10-18 09:58:34.877 [trace] [ProtocolServer] request: method=ping id=168
+2026-10-18 09:58:39.888 [trace] [ProtocolServer] request: method=ping id=169
+2026-10-18 09:58:44.893 [trace] [ProtocolServer] request: method=ping id=170
+2026-10-18 09:58:49.396 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 09:58:49.908 [trace] [ProtocolServer] request: method=ping id=171
+2026-10-18 09:58:54.911 [trace] [ProtocolServer] request: method=ping id=172
+2026-10-18 09:58:59.926 [trace] [ProtocolServer] request: method=ping id=173
+2026-10-18 09:59:04.937 [trace] [ProtocolServer] request: method=ping id=174
+2026-10-18 09:59:09.946 [trace] [ProtocolServer] request: method=ping id=175
+2026-10-18 09:59:14.950 [trace] [ProtocolServer] request: method=ping id=176
+2026-10-18 09:59:19.960 [trace] [ProtocolServer] request: method=ping id=177
+2026-10-18 09:59:24.967 [trace] [ProtocolServer] request: method=ping id=178
+2026-10-18 09:59:29.983 [trace] [ProtocolServer] request: method=ping id=179
+2026-10-18 09:59:34.999 [trace] [ProtocolServer] request: method=ping id=180
+2026-10-18 09:59:40.014 [trace] [ProtocolServer] request: method=ping id=181
+2026-10-18 09:59:45.029 [trace] [ProtocolServer] request: method=ping id=182
+2026-10-18 09:59:49.421 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 09:59:50.043 [trace] [ProtocolServer] request: method=ping id=183
+2026-10-18 09:59:55.056 [trace] [ProtocolServer] request: method=ping id=184
+2026-10-18 10:00:00.069 [trace] [ProtocolServer] request: method=ping id=185
+2026-10-18 10:00:05.082 [trace] [ProtocolServer] request: method=ping id=186
+2026-10-18 10:00:10.084 [trace] [ProtocolServer] request: method=ping id=187
+2026-10-18 10:00:15.098 [trace] [ProtocolServer] request: method=ping id=188
+2026-10-18 10:00:20.105 [trace] [ProtocolServer] request: method=ping id=189
+2026-10-18 10:00:25.111 [trace] [ProtocolServer] request: method=ping id=190
+2026-10-18 10:00:30.125 [trace] [ProtocolServer] request: method=ping id=191
+2026-10-18 10:00:35.129 [trace] [ProtocolServer] request: method=ping id=192
+2026-10-18 10:00:40.132 [trace] [ProtocolServer] request: method=ping id=193
+2026-10-18 10:00:45.139 [trace] [ProtocolServer] request: method=ping id=194
+2026-10-18 10:00:49.447 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:00:50.146 [trace] [ProtocolServer] request: method=ping id=195
+2026-10-18 10:00:55.162 [trace] [ProtocolServer] request: method=ping id=196
+2026-10-18 10:01:00.174 [trace] [ProtocolServer] request: method=ping id=197
+2026-10-18 10:01:05.181 [trace] [ProtocolServer] request: method=ping id=198
+2026-10-18 10:01:10.194 [trace] [ProtocolServer] request: method=ping id=199
+2026-10-18 10:01:15.207 [trace] [ProtocolServer] request: method=ping id=200
+2026-10-18 10:01:20.213 [trace] [ProtocolServer] request: method=ping id=201
+2026-10-18 10:01:25.219 [trace] [ProtocolServer] request: method=ping id=202
+2026-10-18 10:01:30.224 [trace] [ProtocolServer] request: method=ping id=203
+2026-10-18 10:01:35.230 [trace] [ProtocolServer] request: method=ping id=204
+2026-10-18 10:01:40.247 [trace] [ProtocolServer] request: method=ping id=205
+2026-10-18 10:01:45.258 [trace] [ProtocolServer] request: method=ping id=206
+2026-10-18 10:01:49.466 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:01:50.260 [trace] [ProtocolServer] request: method=ping id=207
+2026-10-18 10:01:55.273 [trace] [ProtocolServer] request: method=ping id=208
+2026-10-18 10:02:00.288 [trace] [ProtocolServer] request: method=ping id=209
+2026-10-18 10:02:05.296 [trace] [ProtocolServer] request: method=ping id=210
+2026-10-18 10:02:10.309 [trace] [ProtocolServer] request: method=ping id=211
+2026-10-18 10:02:15.314 [trace] [ProtocolServer] request: method=ping id=212
+2026-10-18 10:02:20.326 [trace] [ProtocolServer] request: method=ping id=213
+2026-10-18 10:02:25.336 [trace] [ProtocolServer] request: method=ping id=214
+2026-10-18 10:02:30.341 [trace] [ProtocolServer] request: method=ping id=215
+2026-10-18 10:02:35.358 [trace] [ProtocolServer] request: method=ping id=216
+2026-10-18 10:02:40.369 [trace] [ProtocolServer] request: method=ping id=217
+2026-10-18 10:02:45.382 [trace] [ProtocolServer] request: method=ping id=218
+2026-10-18 10:02:49.489 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:02:50.395 [trace] [ProtocolServer] request: method=ping id=219
+2026-10-18 10:02:55.399 [trace] [ProtocolServer] request: method=ping id=220
+2026-10-18 10:03:00.408 [trace] [ProtocolServer] request: method=ping id=221
+2026-10-18 10:03:05.412 [trace] [ProtocolServer] request: method=ping id=222
+2026-10-18 10:03:10.428 [trace] [ProtocolServer] request: method=ping id=223
+2026-10-18 10:03:15.436 [trace] [ProtocolServer] request: method=ping id=224
+2026-10-18 10:03:20.448 [trace] [ProtocolServer] request: method=ping id=225
+2026-10-18 10:03:25.458 [trace] [ProtocolServer] request: method=ping id=226
+2026-10-18 10:03:30.460 [trace] [ProtocolServer] request: method=ping id=227
+2026-10-18 10:03:35.470 [trace] [ProtocolServer] request: method=ping id=228
+2026-10-18 10:03:40.482 [trace] [ProtocolServer] request: method=ping id=229
+2026-10-18 10:03:45.497 [trace] [ProtocolServer] request: method=ping id=230
+2026-10-18 10:03:49.514 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:03:50.512 [trace] [ProtocolServer] request: method=ping id=231
+2026-10-18 10:03:55.515 [trace] [ProtocolServer] request: method=ping id=232
+2026-10-18 10:04:00.519 [trace] [ProtocolServer] request: method=ping id=233
+2026-10-18 10:04:05.524 [trace] [ProtocolServer] request: method=ping id=234
+2026-10-18 10:04:10.526 [trace] [ProtocolServer] request: method=ping id=235
+2026-10-18 10:04:15.543 [trace] [ProtocolServer] request: method=ping id=236
+2026-10-18 10:04:20.546 [trace] [ProtocolServer] request: method=ping id=237
+2026-10-18 10:04:25.559 [trace] [ProtocolServer] request: method=ping id=238
+2026-10-18 10:04:30.575 [trace] [ProtocolServer] request: method=ping id=239
+2026-10-18 10:04:35.581 [trace] [ProtocolServer] request: method=ping id=240
+2026-10-18 10:04:40.584 [trace] [ProtocolServer] request: method=ping id=241
+2026-10-18 10:04:45.650 [trace] [ProtocolServer] request: method=ping id=242
+2026-10-18 10:04:49.535 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:04:50.659 [trace] [ProtocolServer] request: method=ping id=243
+2026-10-18 10:04:55.663 [trace] [ProtocolServer] request: method=ping id=244
+2026-10-18 10:05:00.665 [trace] [ProtocolServer] request: method=ping id=245
+2026-10-18 10:05:05.672 [trace] [ProtocolServer] request: method=ping id=246
+2026-10-18 10:05:10.686 [trace] [ProtocolServer] request: method=ping id=247
+2026-10-18 10:05:15.689 [trace] [ProtocolServer] request: method=ping id=248
+2026-10-18 10:05:20.700 [trace] [ProtocolServer] request: method=ping id=249
+2026-10-18 10:05:25.707 [trace] [ProtocolServer] request: method=ping id=250
+2026-10-18 10:05:30.710 [trace] [ProtocolServer] request: method=ping id=251
+2026-10-18 10:05:35.724 [trace] [ProtocolServer] request: method=ping id=252
+2026-10-18 10:05:40.734 [trace] [ProtocolServer] request: method=ping id=253
+2026-10-18 10:05:45.750 [trace] [ProtocolServer] request: method=ping id=254
+2026-10-18 10:05:49.538 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:05:50.756 [trace] [ProtocolServer] request: method=ping id=255
+2026-10-18 10:05:55.761 [trace] [ProtocolServer] request: method=ping id=256
+2026-10-18 10:06:00.765 [trace] [ProtocolServer] request: method=ping id=257
+2026-10-18 10:06:05.769 [trace] [ProtocolServer] request: method=ping id=258
+2026-10-18 10:06:10.785 [trace] [ProtocolServer] request: method=ping id=259
+2026-10-18 10:06:15.792 [trace] [ProtocolServer] request: method=ping id=260
+2026-10-18 10:06:20.803 [trace] [ProtocolServer] request: method=ping id=261
+2026-10-18 10:06:25.808 [trace] [ProtocolServer] request: method=ping id=262
+2026-10-18 10:06:30.816 [trace] [ProtocolServer] request: method=ping id=263
+2026-10-18 10:06:35.825 [trace] [ProtocolServer] request: method=ping id=264
+2026-10-18 10:06:40.831 [trace] [ProtocolServer] request: method=ping id=265
+2026-10-18 10:06:45.847 [trace] [ProtocolServer] request: method=ping id=266
+2026-10-18 10:06:49.566 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:06:50.860 [trace] [ProtocolServer] request: method=ping id=267
+2026-10-18 10:06:55.864 [trace] [ProtocolServer] request: method=ping id=268
+2026-10-18 10:07:00.873 [trace] [ProtocolServer] request: method=ping id=269
+2026-10-18 10:07:05.878 [trace] [ProtocolServer] request: method=ping id=270
+2026-10-18 10:07:10.894 [trace] [ProtocolServer] request: method=ping id=271
+2026-10-18 10:07:15.901 [trace] [ProtocolServer] request: method=ping id=272
+2026-10-18 10:07:20.917 [trace] [ProtocolServer] request: method=ping id=273
+2026-10-18 10:07:25.926 [trace] [ProtocolServer] request: method=ping id=274
+2026-10-18 10:07:30.939 [trace] [ProtocolServer] request: method=ping id=275
+2026-10-18 10:07:35.953 [trace] [ProtocolServer] request: method=ping id=276
+2026-10-18 10:07:40.966 [trace] [ProtocolServer] request: method=ping id=277
+2026-10-18 10:07:45.979 [trace] [ProtocolServer] request: method=ping id=278
+2026-10-18 10:07:49.583 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:07:50.985 [trace] [ProtocolServer] request: method=ping id=279
+2026-10-18 10:07:55.994 [trace] [ProtocolServer] request: method=ping id=280
+2026-10-18 10:08:00.998 [trace] [ProtocolServer] request: method=ping id=281
+2026-10-18 10:08:06.011 [trace] [ProtocolServer] request: method=ping id=282
+2026-10-18 10:08:11.026 [trace] [ProtocolServer] request: method=ping id=283
+2026-10-18 10:08:16.042 [trace] [ProtocolServer] request: method=ping id=284
+2026-10-18 10:08:21.055 [trace] [ProtocolServer] request: method=ping id=285
+2026-10-18 10:08:26.059 [trace] [ProtocolServer] request: method=ping id=286
+2026-10-18 10:08:31.064 [trace] [ProtocolServer] request: method=ping id=287
+2026-10-18 10:08:36.069 [trace] [ProtocolServer] request: method=ping id=288
+2026-10-18 10:08:41.076 [trace] [ProtocolServer] request: method=ping id=289
+2026-10-18 10:08:46.080 [trace] [ProtocolServer] request: method=ping id=290
+2026-10-18 10:08:49.602 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:08:51.096 [trace] [ProtocolServer] request: method=ping id=291
+2026-10-18 10:08:56.111 [trace] [ProtocolServer] request: method=ping id=292
+2026-10-18 10:09:01.127 [trace] [ProtocolServer] request: method=ping id=293
+2026-10-18 10:09:06.131 [trace] [ProtocolServer] request: method=ping id=294
+2026-10-18 10:09:11.136 [trace] [ProtocolServer] request: method=ping id=295
+2026-10-18 10:09:16.142 [trace] [ProtocolServer] request: method=ping id=296
+2026-10-18 10:09:21.147 [trace] [ProtocolServer] request: method=ping id=297
+2026-10-18 10:09:26.150 [trace] [ProtocolServer] request: method=ping id=298
+2026-10-18 10:09:31.167 [trace] [ProtocolServer] request: method=ping id=299
+2026-10-18 10:09:36.174 [trace] [ProtocolServer] request: method=ping id=300
+2026-10-18 10:09:41.182 [trace] [ProtocolServer] request: method=ping id=301
+2026-10-18 10:09:46.190 [trace] [ProtocolServer] request: method=ping id=302
+2026-10-18 10:09:49.630 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:09:51.202 [trace] [ProtocolServer] request: method=ping id=303
+2026-10-18 10:09:56.215 [trace] [ProtocolServer] request: method=ping id=304
+2026-10-18 10:10:01.230 [trace] [ProtocolServer] request: method=ping id=305
+2026-10-18 10:10:06.234 [trace] [ProtocolServer] request: method=ping id=306
+2026-10-18 10:10:11.241 [trace] [ProtocolServer] request: method=ping id=307
+2026-10-18 10:10:16.253 [trace] [ProtocolServer] request: method=ping id=308
+2026-10-18 10:10:21.256 [trace] [ProtocolServer] request: method=ping id=309
+2026-10-18 10:10:26.266 [trace] [ProtocolServer] request: method=ping id=310
+2026-10-18 10:10:31.269 [trace] [ProtocolServer] request: method=ping id=311
+2026-10-18 10:10:36.276 [trace] [ProtocolServer] request: method=ping id=312
+2026-10-18 10:10:41.287 [trace] [ProtocolServer] request: method=ping id=313
+2026-10-18 10:10:46.296 [trace] [ProtocolServer] request: method=ping id=314
+2026-10-18 10:10:49.652 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:10:51.301 [trace] [ProtocolServer] request: method=ping id=315
+2026-10-18 10:10:56.303 [trace] [ProtocolServer] request: method=ping id=316
+2026-10-18 10:11:01.310 [trace] [ProtocolServer] request: method=ping id=317
+2026-10-18 10:11:06.326 [trace] [ProtocolServer] request: method=ping id=318
+2026-10-18 10:11:11.339 [trace] [ProtocolServer] request: method=ping id=319
+2026-10-18 10:11:16.342 [trace] [ProtocolServer] request: method=ping id=320
+2026-10-18 10:11:21.355 [trace] [ProtocolServer] request: method=ping id=321
+2026-10-18 10:11:26.363 [trace] [ProtocolServer] request: method=ping id=322
+2026-10-18 10:11:31.366 [trace] [ProtocolServer] request: method=ping id=323
+2026-10-18 10:11:36.382 [trace] [ProtocolServer] request: method=ping id=324
+2026-10-18 10:11:41.390 [trace] [ProtocolServer] request: method=ping id=325
+2026-10-18 10:11:46.396 [trace] [ProtocolServer] request: method=ping id=326
+2026-10-18 10:11:49.672 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:11:51.401 [trace] [ProtocolServer] request: method=ping id=327
+2026-10-18 10:11:56.405 [trace] [ProtocolServer] request: method=ping id=328
+2026-10-18 10:12:01.410 [trace] [ProtocolServer] request: method=ping id=329
+2026-10-18 10:12:06.425 [trace] [ProtocolServer] request: method=ping id=330
+2026-10-18 10:12:11.432 [trace] [ProtocolServer] request: method=ping id=331
+2026-10-18 10:12:16.438 [trace] [ProtocolServer] request: method=ping id=332
+2026-10-18 10:12:21.451 [trace] [ProtocolServer] request: method=ping id=333
+2026-10-18 10:12:26.460 [trace] [ProtocolServer] request: method=ping id=334
+2026-10-18 10:12:31.467 [trace] [ProtocolServer] request: method=ping id=335
+2026-10-18 10:12:36.472 [trace] [ProtocolServer] request: method=ping id=336
+2026-10-18 10:12:41.481 [trace] [ProtocolServer] request: method=ping id=337
+2026-10-18 10:12:46.482 [trace] [ProtocolServer] request: method=ping id=338
+2026-10-18 10:12:49.696 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:12:51.494 [trace] [ProtocolServer] request: method=ping id=339
+2026-10-18 10:12:56.498 [trace] [ProtocolServer] request: method=ping id=340
+2026-10-18 10:13:01.504 [trace] [ProtocolServer] request: method=ping id=341
+2026-10-18 10:13:06.516 [trace] [ProtocolServer] request: method=ping id=342
+2026-10-18 10:13:11.520 [trace] [ProtocolServer] request: method=ping id=343
+2026-10-18 10:13:16.534 [trace] [ProtocolServer] request: method=ping id=344
+2026-10-18 10:13:21.547 [trace] [ProtocolServer] request: method=ping id=345
+2026-10-18 10:13:26.550 [trace] [ProtocolServer] request: method=ping id=346
+2026-10-18 10:13:31.551 [trace] [ProtocolServer] request: method=ping id=347
+2026-10-18 10:13:36.561 [trace] [ProtocolServer] request: method=ping id=348
+2026-10-18 10:13:41.572 [trace] [ProtocolServer] request: method=ping id=349
+2026-10-18 10:13:46.588 [trace] [ProtocolServer] request: method=ping id=350
+2026-10-18 10:13:49.716 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:13:51.603 [trace] [ProtocolServer] request: method=ping id=351
+2026-10-18 10:13:56.607 [trace] [ProtocolServer] request: method=ping id=352
+2026-10-18 10:14:01.622 [trace] [ProtocolServer] request: method=ping id=353
+2026-10-18 10:14:06.626 [trace] [ProtocolServer] request: method=ping id=354
+2026-10-18 10:14:11.635 [trace] [ProtocolServer] request: method=ping id=355
+2026-10-18 10:14:16.649 [trace] [ProtocolServer] request: method=ping id=356
+2026-10-18 10:14:21.651 [trace] [ProtocolServer] request: method=ping id=357
+2026-10-18 10:14:26.653 [trace] [ProtocolServer] request: method=ping id=358
+2026-10-18 10:14:31.666 [trace] [ProtocolServer] request: method=ping id=359
+2026-10-18 10:14:36.679 [trace] [ProtocolServer] request: method=ping id=360
+2026-10-18 10:14:41.690 [trace] [ProtocolServer] request: method=ping id=361
+2026-10-18 10:14:46.703 [trace] [ProtocolServer] request: method=ping id=362
+2026-10-18 10:14:49.737 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:14:51.718 [trace] [ProtocolServer] request: method=ping id=363
+2026-10-18 10:14:56.722 [trace] [ProtocolServer] request: method=ping id=364
+2026-10-18 10:15:01.734 [trace] [ProtocolServer] request: method=ping id=365
+2026-10-18 10:15:06.746 [trace] [ProtocolServer] request: method=ping id=366
+2026-10-18 10:15:11.753 [trace] [ProtocolServer] request: method=ping id=367
+2026-10-18 10:15:16.768 [trace] [ProtocolServer] request: method=ping id=368
+2026-10-18 10:15:21.770 [trace] [ProtocolServer] request: method=ping id=369
+2026-10-18 10:15:26.784 [trace] [ProtocolServer] request: method=ping id=370
+2026-10-18 10:15:31.797 [trace] [ProtocolServer] request: method=ping id=371
+2026-10-18 10:15:36.810 [trace] [ProtocolServer] request: method=ping id=372
+2026-10-18 10:15:41.813 [trace] [ProtocolServer] request: method=ping id=373
+2026-10-18 10:15:46.828 [trace] [ProtocolServer] request: method=ping id=374
+2026-10-18 10:15:49.758 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:15:51.830 [trace] [ProtocolServer] request: method=ping id=375
+2026-10-18 10:15:56.843 [trace] [ProtocolServer] request: method=ping id=376
+2026-10-18 10:16:01.845 [trace] [ProtocolServer] request: method=ping id=377
+2026-10-18 10:16:06.847 [trace] [ProtocolServer] request: method=ping id=378
+2026-10-18 10:16:11.854 [trace] [ProtocolServer] request: method=ping id=379
+2026-10-18 10:16:16.855 [trace] [ProtocolServer] request: method=ping id=380
+2026-10-18 10:16:21.865 [trace] [ProtocolServer] request: method=ping id=381
+2026-10-18 10:16:26.881 [trace] [ProtocolServer] request: method=ping id=382
+2026-10-18 10:16:31.885 [trace] [ProtocolServer] request: method=ping id=383
+2026-10-18 10:16:36.899 [trace] [ProtocolServer] request: method=ping id=384
+2026-10-18 10:16:41.904 [trace] [ProtocolServer] request: method=ping id=385
+2026-10-18 10:16:46.905 [trace] [ProtocolServer] request: method=ping id=386
+2026-10-18 10:16:49.776 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:16:51.907 [trace] [ProtocolServer] request: method=ping id=387
+2026-10-18 10:16:56.916 [trace] [ProtocolServer] request: method=ping id=388
+2026-10-18 10:17:01.931 [trace] [ProtocolServer] request: method=ping id=389
+2026-10-18 10:17:06.936 [trace] [ProtocolServer] request: method=ping id=390
+2026-10-18 10:17:11.951 [trace] [ProtocolServer] request: method=ping id=391
+2026-10-18 10:17:16.959 [trace] [ProtocolServer] request: method=ping id=392
+2026-10-18 10:17:21.974 [trace] [ProtocolServer] request: method=ping id=393
+2026-10-18 10:17:26.989 [trace] [ProtocolServer] request: method=ping id=394
+2026-10-18 10:17:32.006 [trace] [ProtocolServer] request: method=ping id=395
+2026-10-18 10:17:37.012 [trace] [ProtocolServer] request: method=ping id=396
+2026-10-18 10:17:42.014 [trace] [ProtocolServer] request: method=ping id=397
+2026-10-18 10:17:47.027 [trace] [ProtocolServer] request: method=ping id=398
+2026-10-18 10:17:49.794 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:17:52.043 [trace] [ProtocolServer] request: method=ping id=399
+2026-10-18 10:17:57.058 [trace] [ProtocolServer] request: method=ping id=400
+2026-10-18 10:18:02.070 [trace] [ProtocolServer] request: method=ping id=401
+2026-10-18 10:18:07.073 [trace] [ProtocolServer] request: method=ping id=402
+2026-10-18 10:18:12.080 [trace] [ProtocolServer] request: method=ping id=403
+2026-10-18 10:18:17.089 [trace] [ProtocolServer] request: method=ping id=404
+2026-10-18 10:18:22.103 [trace] [ProtocolServer] request: method=ping id=405
+2026-10-18 10:18:27.113 [trace] [ProtocolServer] request: method=ping id=406
+2026-10-18 10:18:32.121 [trace] [ProtocolServer] request: method=ping id=407
+2026-10-18 10:18:37.134 [trace] [ProtocolServer] request: method=ping id=408
+2026-10-18 10:18:42.135 [trace] [ProtocolServer] request: method=ping id=409
+2026-10-18 10:18:47.144 [trace] [ProtocolServer] request: method=ping id=410
+2026-10-18 10:18:49.822 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:18:52.147 [trace] [ProtocolServer] request: method=ping id=411
+2026-10-18 10:18:57.155 [trace] [ProtocolServer] request: method=ping id=412
+2026-10-18 10:19:02.167 [trace] [ProtocolServer] request: method=ping id=413
+2026-10-18 10:19:07.183 [trace] [ProtocolServer] request: method=ping id=414
+2026-10-18 10:19:12.190 [trace] [ProtocolServer] request: method=ping id=415
+2026-10-18 10:19:17.201 [trace] [ProtocolServer] request: method=ping id=416
+2026-10-18 10:19:22.217 [trace] [ProtocolServer] request: method=ping id=417
+2026-10-18 10:19:27.231 [trace] [ProtocolServer] request: method=ping id=418
+2026-10-18 10:19:32.237 [trace] [ProtocolServer] request: method=ping id=419
+2026-10-18 10:19:37.247 [trace] [ProtocolServer] request: method=ping id=420
+2026-10-18 10:19:42.259 [trace] [ProtocolServer] request: method=ping id=421
+2026-10-18 10:19:47.273 [trace] [ProtocolServer] request: method=ping id=422
+2026-10-18 10:19:49.841 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:19:52.277 [trace] [ProtocolServer] request: method=ping id=423
+2026-10-18 10:19:57.288 [trace] [ProtocolServer] request: method=ping id=424
+2026-10-18 10:20:02.293 [trace] [ProtocolServer] request: method=ping id=425
+2026-10-18 10:20:07.304 [trace] [ProtocolServer] request: method=ping id=426
+2026-10-18 10:20:12.309 [trace] [ProtocolServer] request: method=ping id=427
+2026-10-18 10:20:17.324 [trace] [ProtocolServer] request: method=ping id=428
+2026-10-18 10:20:22.329 [trace] [ProtocolServer] request: method=ping id=429
+2026-10-18 10:20:27.337 [trace] [ProtocolServer] request: method=ping id=430
+2026-10-18 10:20:32.353 [trace] [ProtocolServer] request: method=ping id=431
+2026-10-18 10:20:37.363 [trace] [ProtocolServer] request: method=ping id=432
+2026-10-18 10:20:42.372 [trace] [ProtocolServer] request: method=ping id=433
+2026-10-18 10:20:47.381 [trace] [ProtocolServer] request: method=ping id=434
+2026-10-18 10:20:49.861 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:20:52.396 [trace] [ProtocolServer] request: method=ping id=435
+2026-10-18 10:20:57.408 [trace] [ProtocolServer] request: method=ping id=436
+2026-10-18 10:21:02.410 [trace] [ProtocolServer] request: method=ping id=437
+2026-10-18 10:21:07.424 [trace] [ProtocolServer] request: method=ping id=438
+2026-10-18 10:21:12.435 [trace] [ProtocolServer] request: method=ping id=439
+2026-10-18 10:21:17.448 [trace] [ProtocolServer] request: method=ping id=440
+2026-10-18 10:21:22.451 [trace] [ProtocolServer] request: method=ping id=441
+2026-10-18 10:21:27.457 [trace] [ProtocolServer] request: method=ping id=442
+2026-10-18 10:21:32.463 [trace] [ProtocolServer] request: method=ping id=443
+2026-10-18 10:21:37.476 [trace] [ProtocolServer] request: method=ping id=444
+2026-10-18 10:21:42.487 [trace] [ProtocolServer] request: method=ping id=445
+2026-10-18 10:21:47.491 [trace] [ProtocolServer] request: method=ping id=446
+2026-10-18 10:21:49.881 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:21:52.503 [trace] [ProtocolServer] request: method=ping id=447
+2026-10-18 10:21:57.511 [trace] [ProtocolServer] request: method=ping id=448
+2026-10-18 10:22:02.525 [trace] [ProtocolServer] request: method=ping id=449
+2026-10-18 10:22:07.529 [trace] [ProtocolServer] request: method=ping id=450
+2026-10-18 10:22:12.534 [trace] [ProtocolServer] request: method=ping id=451
+2026-10-18 10:22:17.538 [trace] [ProtocolServer] request: method=ping id=452
+2026-10-18 10:22:22.549 [trace] [ProtocolServer] request: method=ping id=453
+2026-10-18 10:22:27.559 [trace] [ProtocolServer] request: method=ping id=454
+2026-10-18 10:22:32.562 [trace] [ProtocolServer] request: method=ping id=455
+2026-10-18 10:22:37.567 [trace] [ProtocolServer] request: method=ping id=456
+2026-10-18 10:22:42.575 [trace] [ProtocolServer] request: method=ping id=457
+2026-10-18 10:22:47.591 [trace] [ProtocolServer] request: method=ping id=458
+2026-10-18 10:22:49.899 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:22:52.605 [trace] [ProtocolServer] request: method=ping id=459
+2026-10-18 10:22:57.620 [trace] [ProtocolServer] request: method=ping id=460
+2026-10-18 10:23:02.635 [trace] [ProtocolServer] request: method=ping id=461
+2026-10-18 10:23:07.652 [trace] [ProtocolServer] request: method=ping id=462
+2026-10-18 10:23:12.659 [trace] [ProtocolServer] request: method=ping id=463
+2026-10-18 10:23:17.674 [trace] [ProtocolServer] request: method=ping id=464
+2026-10-18 10:23:22.680 [trace] [ProtocolServer] request: method=ping id=465
+2026-10-18 10:23:27.690 [trace] [ProtocolServer] request: method=ping id=466
+2026-10-18 10:23:32.702 [trace] [ProtocolServer] request: method=ping id=467
+2026-10-18 10:23:37.707 [trace] [ProtocolServer] request: method=ping id=468
+2026-10-18 10:23:42.722 [trace] [ProtocolServer] request: method=ping id=469
+2026-10-18 10:23:47.734 [trace] [ProtocolServer] request: method=ping id=470
+2026-10-18 10:23:49.917 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:23:52.743 [trace] [ProtocolServer] request: method=ping id=471
+2026-10-18 10:23:57.751 [trace] [ProtocolServer] request: method=ping id=472
+2026-10-18 10:24:02.763 [trace] [ProtocolServer] request: method=ping id=473
+2026-10-18 10:24:07.779 [trace] [ProtocolServer] request: method=ping id=474
+2026-10-18 10:24:12.795 [trace] [ProtocolServer] request: method=ping id=475
+2026-10-18 10:24:17.811 [trace] [ProtocolServer] request: method=ping id=476
+2026-10-18 10:24:22.822 [trace] [ProtocolServer] request: method=ping id=477
+2026-10-18 10:24:27.837 [trace] [ProtocolServer] request: method=ping id=478
+2026-10-18 10:24:32.846 [trace] [ProtocolServer] request: method=ping id=479
+2026-10-18 10:24:37.861 [trace] [ProtocolServer] request: method=ping id=480
+2026-10-18 10:24:42.873 [trace] [ProtocolServer] request: method=ping id=481
+2026-10-18 10:24:47.886 [trace] [ProtocolServer] request: method=ping id=482
+2026-10-18 10:24:49.924 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:24:52.900 [trace] [ProtocolServer] request: method=ping id=483
+2026-10-18 10:24:57.912 [trace] [ProtocolServer] request: method=ping id=484
+2026-10-18 10:25:02.926 [trace] [ProtocolServer] request: method=ping id=485
+2026-10-18 10:25:07.929 [trace] [ProtocolServer] request: method=ping id=486
+2026-10-18 10:25:12.934 [trace] [ProtocolServer] request: method=ping id=487
+2026-10-18 10:25:17.940 [trace] [ProtocolServer] request: method=ping id=488
+2026-10-18 10:25:22.953 [trace] [ProtocolServer] request: method=ping id=489
+2026-10-18 10:25:27.965 [trace] [ProtocolServer] request: method=ping id=490
+2026-10-18 10:25:32.971 [trace] [ProtocolServer] request: method=ping id=491
+2026-10-18 10:25:37.978 [trace] [ProtocolServer] request: method=ping id=492
+2026-10-18 10:25:42.986 [trace] [ProtocolServer] request: method=ping id=493
+2026-10-18 10:25:47.994 [trace] [ProtocolServer] request: method=ping id=494
+2026-10-18 10:25:49.938 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:25:53.009 [trace] [ProtocolServer] request: method=ping id=495
+2026-10-18 10:25:58.018 [trace] [ProtocolServer] request: method=ping id=496
+2026-10-18 10:26:03.021 [trace] [ProtocolServer] request: method=ping id=497
+2026-10-18 10:26:08.037 [trace] [ProtocolServer] request: method=ping id=498
+2026-10-18 10:26:13.047 [trace] [ProtocolServer] request: method=ping id=499
+2026-10-18 10:26:18.052 [trace] [ProtocolServer] request: method=ping id=500
+2026-10-18 10:26:23.068 [trace] [ProtocolServer] request: method=ping id=501
+2026-10-18 10:26:28.081 [trace] [ProtocolServer] request: method=ping id=502
+2026-10-18 10:26:33.089 [trace] [ProtocolServer] request: method=ping id=503
+2026-10-18 10:26:38.094 [trace] [ProtocolServer] request: method=ping id=504
+2026-10-18 10:26:43.096 [trace] [ProtocolServer] request: method=ping id=505
+2026-10-18 10:26:48.109 [trace] [ProtocolServer] request: method=ping id=506
+2026-10-18 10:26:49.964 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:26:53.121 [trace] [ProtocolServer] request: method=ping id=507
+2026-10-18 10:26:58.129 [trace] [ProtocolServer] request: method=ping id=508
+2026-10-18 10:27:03.132 [trace] [ProtocolServer] request: method=ping id=509
+2026-10-18 10:27:08.135 [trace] [ProtocolServer] request: method=ping id=510
+2026-10-18 10:27:13.143 [trace] [ProtocolServer] request: method=ping id=511
+2026-10-18 10:27:18.145 [trace] [ProtocolServer] request: method=ping id=512
+2026-10-18 10:27:23.153 [trace] [ProtocolServer] request: method=ping id=513
+2026-10-18 10:27:28.157 [trace] [ProtocolServer] request: method=ping id=514
+2026-10-18 10:27:33.172 [trace] [ProtocolServer] request: method=ping id=515
+2026-10-18 10:27:38.177 [trace] [ProtocolServer] request: method=ping id=516
+2026-10-18 10:27:43.179 [trace] [ProtocolServer] request: method=ping id=517
+2026-10-18 10:27:48.188 [trace] [ProtocolServer] request: method=ping id=518
+2026-10-18 10:27:49.992 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:27:53.204 [trace] [ProtocolServer] request: method=ping id=519
+2026-10-18 10:27:58.219 [trace] [ProtocolServer] request: method=ping id=520
+2026-10-18 10:28:03.236 [trace] [ProtocolServer] request: method=ping id=521
+2026-10-18 10:28:08.252 [trace] [ProtocolServer] request: method=ping id=522
+2026-10-18 10:28:13.256 [trace] [ProtocolServer] request: method=ping id=523
+2026-10-18 10:28:18.263 [trace] [ProtocolServer] request: method=ping id=524
+2026-10-18 10:28:23.274 [trace] [ProtocolServer] request: method=ping id=525
+2026-10-18 10:28:28.290 [trace] [ProtocolServer] request: method=ping id=526
+2026-10-18 10:28:33.297 [trace] [ProtocolServer] request: method=ping id=527
+2026-10-18 10:28:38.303 [trace] [ProtocolServer] request: method=ping id=528
+2026-10-18 10:28:43.314 [trace] [ProtocolServer] request: method=ping id=529
+2026-10-18 10:28:48.320 [trace] [ProtocolServer] request: method=ping id=530
+2026-10-18 10:28:50.011 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:28:53.333 [trace] [ProtocolServer] request: method=ping id=531
+2026-10-18 10:28:58.337 [trace] [ProtocolServer] request: method=ping id=532
+2026-10-18 10:29:03.349 [trace] [ProtocolServer] request: method=ping id=533
+2026-10-18 10:29:08.366 [trace] [ProtocolServer] request: method=ping id=534
+2026-10-18 10:29:13.373 [trace] [ProtocolServer] request: method=ping id=535
+2026-10-18 10:29:18.390 [trace] [ProtocolServer] request: method=ping id=536
+2026-10-18 10:29:23.401 [trace] [ProtocolServer] request: method=ping id=537
+2026-10-18 10:29:28.405 [trace] [ProtocolServer] request: method=ping id=538
+2026-10-18 10:29:33.421 [trace] [ProtocolServer] request: method=ping id=539
+2026-10-18 10:29:38.436 [trace] [ProtocolServer] request: method=ping id=540
+2026-10-18 10:29:43.448 [trace] [ProtocolServer] request: method=ping id=541
+2026-10-18 10:29:48.458 [trace] [ProtocolServer] request: method=ping id=542
+2026-10-18 10:29:50.032 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:29:53.468 [trace] [ProtocolServer] request: method=ping id=543
+2026-10-18 10:29:58.472 [trace] [ProtocolServer] request: method=ping id=544
+2026-10-18 10:30:03.482 [trace] [ProtocolServer] request: method=ping id=545
+2026-10-18 10:30:08.486 [trace] [ProtocolServer] request: method=ping id=546
+2026-10-18 10:30:13.500 [trace] [ProtocolServer] request: method=ping id=547
+2026-10-18 10:30:18.507 [trace] [ProtocolServer] request: method=ping id=548
+2026-10-18 10:30:23.520 [trace] [ProtocolServer] request: method=ping id=549
+2026-10-18 10:30:28.530 [trace] [ProtocolServer] request: method=ping id=550
+2026-10-18 10:30:33.534 [trace] [ProtocolServer] request: method=ping id=551
+2026-10-18 10:30:38.545 [trace] [ProtocolServer] request: method=ping id=552
+2026-10-18 10:30:43.555 [trace] [ProtocolServer] request: method=ping id=553
+2026-10-18 10:30:48.561 [trace] [ProtocolServer] request: method=ping id=554
+2026-10-18 10:30:50.057 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:30:53.565 [trace] [ProtocolServer] request: method=ping id=555
+2026-10-18 10:30:58.578 [trace] [ProtocolServer] request: method=ping id=556
+2026-10-18 10:31:03.580 [trace] [ProtocolServer] request: method=ping id=557
+2026-10-18 10:31:08.594 [trace] [ProtocolServer] request: method=ping id=558
+2026-10-18 10:31:13.602 [trace] [ProtocolServer] request: method=ping id=559
+2026-10-18 10:31:18.609 [trace] [ProtocolServer] request: method=ping id=560
+2026-10-18 10:31:23.624 [trace] [ProtocolServer] request: method=ping id=561
+2026-10-18 10:31:28.629 [trace] [ProtocolServer] request: method=ping id=562
+2026-10-18 10:31:33.636 [trace] [ProtocolServer] request: method=ping id=563
+2026-10-18 10:31:38.640 [trace] [ProtocolServer] request: method=ping id=564
+2026-10-18 10:31:43.652 [trace] [ProtocolServer] request: method=ping id=565
+2026-10-18 10:31:48.662 [trace] [ProtocolServer] request: method=ping id=566
+2026-10-18 10:31:50.082 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:31:53.664 [trace] [ProtocolServer] request: method=ping id=567
+2026-10-18 10:31:58.672 [trace] [ProtocolServer] request: method=ping id=568
+2026-10-18 10:32:03.685 [trace] [ProtocolServer] request: method=ping id=569
+2026-10-18 10:32:08.700 [trace] [ProtocolServer] request: method=ping id=570
+2026-10-18 10:32:13.704 [trace] [ProtocolServer] request: method=ping id=571
+2026-10-18 10:32:18.708 [trace] [ProtocolServer] request: method=ping id=572
+2026-10-18 10:32:23.712 [trace] [ProtocolServer] request: method=ping id=573
+2026-10-18 10:32:28.721 [trace] [ProtocolServer] request: method=ping id=574
+2026-10-18 10:32:33.736 [trace] [ProtocolServer] request: method=ping id=575
+2026-10-18 10:32:38.742 [trace] [ProtocolServer] request: method=ping id=576
+2026-10-18 10:32:43.752 [trace] [ProtocolServer] request: method=ping id=577
+2026-10-18 10:32:48.762 [trace] [ProtocolServer] request: method=ping id=578
+2026-10-18 10:32:50.103 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:32:53.768 [trace] [ProtocolServer] request: method=ping id=579
+2026-10-18 10:32:58.778 [trace] [ProtocolServer] request: method=ping id=580
+2026-10-18 10:33:03.793 [trace] [ProtocolServer] request: method=ping id=581
+2026-10-18 10:33:08.808 [trace] [ProtocolServer] request: method=ping id=582
+2026-10-18 10:33:13.819 [trace] [ProtocolServer] request: method=ping id=583
+2026-10-18 10:33:18.833 [trace] [ProtocolServer] request: method=ping id=584
+2026-10-18 10:33:23.841 [trace] [ProtocolServer] request: method=ping id=585
+2026-10-18 10:33:28.849 [trace] [ProtocolServer] request: method=ping id=586
+2026-10-18 10:33:33.855 [trace] [ProtocolServer] request: method=ping id=587
+2026-10-18 10:33:38.866 [trace] [ProtocolServer] request: method=ping id=588
+2026-10-18 10:33:43.871 [trace] [ProtocolServer] request: method=ping id=589
+2026-10-18 10:33:48.879 [trace] [ProtocolServer] request: method=ping id=590
+2026-10-18 10:33:50.128 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:33:53.885 [trace] [ProtocolServer] request: method=ping id=591
+2026-10-18 10:33:58.888 [trace] [ProtocolServer] request: method=ping id=592
+2026-10-18 10:34:03.898 [trace] [ProtocolServer] request: method=ping id=593
+2026-10-18 10:34:08.903 [trace] [ProtocolServer] request: method=ping id=594
+2026-10-18 10:34:13.909 [trace] [ProtocolServer] request: method=ping id=595
+2026-10-18 10:34:18.915 [trace] [ProtocolServer] request: method=ping id=596
+2026-10-18 10:34:23.922 [trace] [ProtocolServer] request: method=ping id=597
+2026-10-18 10:34:28.936 [trace] [ProtocolServer] request: method=ping id=598
+2026-10-18 10:34:33.943 [trace] [ProtocolServer] request: method=ping id=599
+2026-10-18 10:34:38.959 [trace] [ProtocolServer] request: method=ping id=600
+2026-10-18 10:34:43.962 [trace] [ProtocolServer] request: method=ping id=601
+2026-10-18 10:34:48.974 [trace] [ProtocolServer] request: method=ping id=602
+2026-10-18 10:34:50.157 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:34:53.986 [trace] [ProtocolServer] request: method=ping id=603
+2026-10-18 10:34:58.991 [trace] [ProtocolServer] request: method=ping id=604
+2026-10-18 10:35:04.007 [trace] [ProtocolServer] request: method=ping id=605
+2026-10-18 10:35:09.022 [trace] [ProtocolServer] request: method=ping id=606
+2026-10-18 10:35:14.025 [trace] [ProtocolServer] request: method=ping id=607
+2026-10-18 10:35:19.035 [trace] [ProtocolServer] request: method=ping id=608
+2026-10-18 10:35:24.043 [trace] [ProtocolServer] request: method=ping id=609
+2026-10-18 10:35:29.046 [trace] [ProtocolServer] request: method=ping id=610
+2026-10-18 10:35:34.049 [trace] [ProtocolServer] request: method=ping id=611
+2026-10-18 10:35:39.057 [trace] [ProtocolServer] request: method=ping id=612
+2026-10-18 10:35:44.063 [trace] [ProtocolServer] request: method=ping id=613
+2026-10-18 10:35:49.066 [trace] [ProtocolServer] request: method=ping id=614
+2026-10-18 10:35:50.188 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:35:54.072 [trace] [ProtocolServer] request: method=ping id=615
+2026-10-18 10:35:59.088 [trace] [ProtocolServer] request: method=ping id=616
+2026-10-18 10:36:04.098 [trace] [ProtocolServer] request: method=ping id=617
+2026-10-18 10:36:09.102 [trace] [ProtocolServer] request: method=ping id=618
+2026-10-18 10:36:14.110 [trace] [ProtocolServer] request: method=ping id=619
+2026-10-18 10:36:19.122 [trace] [ProtocolServer] request: method=ping id=620
+2026-10-18 10:36:24.127 [trace] [ProtocolServer] request: method=ping id=621
+2026-10-18 10:36:29.133 [trace] [ProtocolServer] request: method=ping id=622
+2026-10-18 10:36:34.142 [trace] [ProtocolServer] request: method=ping id=623
+2026-10-18 10:36:39.146 [trace] [ProtocolServer] request: method=ping id=624
+2026-10-18 10:36:44.158 [trace] [ProtocolServer] request: method=ping id=625
+2026-10-18 10:36:49.163 [trace] [ProtocolServer] request: method=ping id=626
+2026-10-18 10:36:50.206 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:36:54.177 [trace] [ProtocolServer] request: method=ping id=627
+2026-10-18 10:36:59.192 [trace] [ProtocolServer] request: method=ping id=628
+2026-10-18 10:37:04.207 [trace] [ProtocolServer] request: method=ping id=629
+2026-10-18 10:37:09.212 [trace] [ProtocolServer] request: method=ping id=630
+2026-10-18 10:37:14.226 [trace] [ProtocolServer] request: method=ping id=631
+2026-10-18 10:37:19.229 [trace] [ProtocolServer] request: method=ping id=632
+2026-10-18 10:37:24.240 [trace] [ProtocolServer] request: method=ping id=633
+2026-10-18 10:37:29.242 [trace] [ProtocolServer] request: method=ping id=634
+2026-10-18 10:37:34.258 [trace] [ProtocolServer] request: method=ping id=635
+2026-10-18 10:37:39.262 [trace] [ProtocolServer] request: method=ping id=636
+2026-10-18 10:37:44.268 [trace] [ProtocolServer] request: method=ping id=637
+2026-10-18 10:37:49.275 [trace] [ProtocolServer] request: method=ping id=638
+2026-10-18 10:37:50.226 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:37:54.279 [trace] [ProtocolServer] request: method=ping id=639
+2026-10-18 10:37:59.282 [trace] [ProtocolServer] request: method=ping id=640
+2026-10-18 10:38:04.286 [trace] [ProtocolServer] request: method=ping id=641
+2026-10-18 10:38:09.295 [trace] [ProtocolServer] request: method=ping id=642
+2026-10-18 10:38:14.309 [trace] [ProtocolServer] request: method=ping id=643
+2026-10-18 10:38:19.313 [trace] [ProtocolServer] request: method=ping id=644
+2026-10-18 10:38:24.328 [trace] [ProtocolServer] request: method=ping id=645
+2026-10-18 10:38:29.342 [trace] [ProtocolServer] request: method=ping id=646
+2026-10-18 10:38:34.354 [trace] [ProtocolServer] request: method=ping id=647
+2026-10-18 10:38:39.356 [trace] [ProtocolServer] request: method=ping id=648
+2026-10-18 10:38:44.371 [trace] [ProtocolServer] request: method=ping id=649
+2026-10-18 10:38:49.385 [trace] [ProtocolServer] request: method=ping id=650
+2026-10-18 10:38:49.923 [trace] [ProtocolServer] notification: method=dispatchAction
+2026-10-18 10:38:49.924 [trace] [ProtocolServer] dispatchAction: "root/configChanged"
+2026-10-18 10:38:49.924 [trace] [AgentService] dispatchAction: type=root/configChanged, clientId=d364ffbf-122d-4f00-aca3-47d8fee6540b, clientSeq=4 {"type":"root/configChanged","config":{"vscode.codexAccount.refreshRequest":"06e30832-cec5-45b4-88e4-97f85dd1da60"}}
+2026-10-18 10:38:49.925 [trace] [AgentHostStateManager] Emitting envelope: seq=22, channel=ahp-root://, type=root/configChanged, origin=d364ffbf-122d-4f00-aca3-47d8fee6540b:4
+2026-10-18 10:38:49.926 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-18 10:38:49.926 [trace] [Copilot] Found 0 BYOK models
+2026-10-18 10:38:49.927 [trace] [AgentHostStateManager] Emitting envelope: seq=23, channel=ahp-root://, type=root/configChanged
+2026-10-18 10:38:49.928 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-18 10:38:49.928 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-18 10:38:49.929 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-18 10:38:49.929 [trace] [Copilot] Found 0 BYOK models
+2026-10-18 10:38:49.929 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-18 10:38:49.929 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-18 10:38:49.932 [info] [Codex] resolving SDK from repo node_modules (dev fallback): c:\Users\USER\vscode
+2026-10-18 10:38:49.936 [info] [CodexProxyService] listening on http://127.0.0.1:50122
+2026-10-18 10:38:49.939 [info] [Codex] spawning app-server from c:\Users\USER\vscode\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\bin\codex.exe
+2026-10-18 10:38:50.242 [trace] [CopilotDiscovery] Maintenance: probed=0, pending=0, watched=0, ignoredHostEvents=0, elapsedMs=0
+2026-10-18 10:38:50.254 [info] [CodexClient warn] dropping unhandled notification: remoteControl/status/changed
+2026-10-18 10:38:51.813 [info] [CodexClient warn] dropping unhandled notification: account/updated
+2026-10-18 10:38:51.814 [info] [Codex] account/read accountType=chatgpt requiresOpenaiAuth=true planType=go
+2026-10-18 10:38:51.823 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 10:38:51.823 [debug] ProxyResolver#resolveProxy cached https://chatgpt.com DIRECT 
+2026-10-18 10:38:52.729 [trace] [AgentHostStateManager] Emitting envelope: seq=24, channel=ahp-root://, type=root/configChanged
+2026-10-18 10:38:52.729 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-18 10:38:52.729 [trace] [Copilot] Found 0 BYOK models
+2026-10-18 10:38:52.729 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-18 10:38:52.729 [trace] [ProtocolServer] Broadcasting action: root/configChanged
+2026-10-18 10:38:52.828 [debug] ProxyResolver#resolveProxy cached https://cdn.auth0.com DIRECT 
+2026-10-18 10:38:54.317 [info] [ProtocolServer] Client disconnected: d364ffbf-122d-4f00-aca3-47d8fee6540b, subscriptions=1
+2026-10-18 10:38:54.319 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-18 10:38:54.319 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-18 10:38:54.319 [trace] [Copilot] Found 0 BYOK models
+2026-10-18 10:38:54.320 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-18 10:38:54.320 [trace] [Copilot] BYOK model publication enabled: true (root config: true)
+2026-10-18 10:38:54.320 [trace] [Copilot] Found 0 BYOK models
+2026-10-18 10:38:54.322 [info] AgentService: shutting down all providers...
+2026-10-18 10:38:54.323 [debug] [CopilotDiscovery] Stopped: scans=1, pending=0, ignoredHostSessions=0, ignoredHostEvents=0
+2026-10-18 10:38:54.324 [info] [Copilot] Shutting down...
+2026-10-18 10:38:54.335 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\USER\.copilot\session-state (excludes: <none>, includes: <all>, filter: [Added, Deleted], correlationId: 1)
+2026-10-18 10:38:54.335 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\USER\.copilot\session-state (excludes: <none>, includes: <all>, filter: [Added, Deleted], correlationId: 1))
+2026-10-18 10:38:54.378 [trace] [AgentHostStateManager] Emitting envelope: seq=25, channel=ahp-root://, type=root/agentsChanged

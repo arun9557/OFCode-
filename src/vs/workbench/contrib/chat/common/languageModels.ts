@@ -1376,10 +1376,23 @@ export class LanguageModelsService implements ILanguageModelsService {
 			return direct;
 		}
 		if (modelIdentifier.startsWith('ollama:')) {
-			return this._modelCache.get(modelIdentifier.replace('ollama:', 'ollama/'));
+			const alt = this._modelCache.get(modelIdentifier.replace('ollama:', 'ollama/'));
+			if (alt) {
+				return alt;
+			}
 		}
 		if (modelIdentifier.startsWith('ollama/')) {
-			return this._modelCache.get(modelIdentifier.replace('ollama/', 'ollama:'));
+			const alt = this._modelCache.get(modelIdentifier.replace('ollama/', 'ollama:'));
+			if (alt) {
+				return alt;
+			}
+		}
+		if (modelIdentifier.startsWith('ollama:') || modelIdentifier.startsWith('ollama/')) {
+			for (const [key, model] of this._modelCache.entries()) {
+				if (model.vendor === 'ollama' || key.startsWith('ollama:') || key.startsWith('ollama/')) {
+					return model;
+				}
+			}
 		}
 		return undefined;
 	}
@@ -1658,6 +1671,15 @@ export class LanguageModelsService implements ILanguageModelsService {
 				metadata = this._modelCache.get(altId);
 				if (metadata) {
 					modelId = altId;
+				}
+			}
+		}
+		if (!metadata && (modelId.startsWith('ollama:') || modelId.startsWith('ollama/'))) {
+			for (const [key, model] of this._modelCache.entries()) {
+				if (model.vendor === 'ollama' || key.startsWith('ollama:') || key.startsWith('ollama/')) {
+					metadata = model;
+					modelId = key;
+					break;
 				}
 			}
 		}

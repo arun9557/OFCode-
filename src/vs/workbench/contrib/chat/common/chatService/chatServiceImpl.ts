@@ -1455,7 +1455,13 @@ export class ChatService extends Disposable implements IChatService {
 		if (requestedAgentId && !requestedAgent) {
 			throw new Error('Unknown agent: ' + requestedAgentId);
 		}
-		const defaultAgent = requestedAgent ?? this.chatAgentService.getDefaultAgent(location, options?.modeInfo?.kind)!;
+		let defaultAgent = requestedAgent ?? this.chatAgentService.getDefaultAgent(location, options?.modeInfo?.kind)!;
+		if (!requestedAgent && options?.userSelectedModelId && (options.userSelectedModelId.startsWith('ollama:') || options.userSelectedModelId.startsWith('ollama/'))) {
+			const offlineAgent = this.chatAgentService.getAgent('ofcode.offlineAgent');
+			if (offlineAgent) {
+				defaultAgent = offlineAgent;
+			}
+		}
 
 		const preservedRequest = preserveRequestId && request instanceof ChatRequestModel ? request : undefined;
 		if (!preservedRequest) {
@@ -1631,7 +1637,14 @@ export class ChatService extends Disposable implements IChatService {
 
 		const location = options?.location ?? model.initialLocation;
 		const attempt = options?.attempt ?? 0;
-		const defaultAgent = this.chatAgentService.getDefaultAgent(location, options?.modeInfo?.kind);
+		let defaultAgent = this.chatAgentService.getDefaultAgent(location, options?.modeInfo?.kind);
+		const isOllamaRequest = !!options?.userSelectedModelId && (options.userSelectedModelId.startsWith('ollama:') || options.userSelectedModelId.startsWith('ollama/'));
+		if (isOllamaRequest) {
+			const offlineAgent = this.chatAgentService.getActivatedAgents().find(a => a.id === 'ofcode.offlineAgent');
+			if (offlineAgent) {
+				defaultAgent = offlineAgent;
+			}
+		}
 		if (!defaultAgent) {
 			this.logService.warn('sendRequest', `No default agent for location ${location}`);
 			return { kind: 'rejected', reason: 'No default agent available' };
@@ -1639,7 +1652,8 @@ export class ChatService extends Disposable implements IChatService {
 
 		const parsedRequest = this.parseChatRequest(sessionResource, request, location, options);
 		const silentAgent = options?.agentIdSilent ? this.chatAgentService.getAgent(options.agentIdSilent) : undefined;
-		const agent = silentAgent ?? parsedRequest.parts.find((r): r is ChatRequestAgentPart => r instanceof ChatRequestAgentPart)?.agent ?? defaultAgent;
+		const parsedAgent = parsedRequest.parts.find((r): r is ChatRequestAgentPart => r instanceof ChatRequestAgentPart)?.agent;
+		const agent = silentAgent ?? (isOllamaRequest && !parsedAgent ? (this.chatAgentService.getAgent('ofcode.offlineAgent') ?? defaultAgent) : (parsedAgent ?? defaultAgent));
 		const agentSlashCommandPart = parsedRequest.parts.find((r): r is ChatRequestAgentSubcommandPart => r instanceof ChatRequestAgentSubcommandPart);
 
 		// This method is only returning whether the request was accepted - don't block on the actual request
@@ -2094,8 +2108,10 @@ export class ChatService extends Disposable implements IChatService {
 						return agentRequest;
 					};
 
+					const isOllamaMsg = !!options?.userSelectedModelId && (options.userSelectedModelId.startsWith('ollama:') || options.userSelectedModelId.startsWith('ollama/'));
 					// --- Step 5: Participant detection ---
 					if (
+						!isOllamaMsg &&
 						this.configurationService.getValue('chat.detectParticipant.enabled') !== false &&
 						this.chatAgentService.hasChatParticipantDetectionProviders() &&
 						!agentPart &&
@@ -2121,7 +2137,7 @@ export class ChatService extends Disposable implements IChatService {
 						}
 					}
 
-					const agent = (detectedAgent ?? agentPart?.agent ?? defaultAgent)!;
+					const agent = (isOllamaMsg ? (this.chatAgentService.getAgent('ofcode.offlineAgent') ?? detectedAgent ?? agentPart?.agent ?? defaultAgent) : (detectedAgent ?? agentPart?.agent ?? defaultAgent))!;
 					const command = detectedCommand ?? agentSlashCommandPart?.command;
 
 					await this.extensionService.activateByEvent(`onChatParticipant:${agent.id}`);
@@ -2400,7 +2416,14 @@ export class ChatService extends Disposable implements IChatService {
 		};
 
 		const location = sendOptions.location ?? sendOptions.locationData?.type ?? model.initialLocation;
-		const defaultAgent = this.chatAgentService.getDefaultAgent(location, sendOptions.modeInfo?.kind);
+		let defaultAgent = this.chatAgentService.getDefaultAgent(location, sendOptions.modeInfo?.kind);
+		const isOllamaSend = !!sendOptions.userSelectedModelId && (sendOptions.userSelectedModelId.startsWith('ollama:') || sendOptions.userSelectedModelId.startsWith('ollama/'));
+		if (isOllamaSend) {
+			const offlineAgent = this.chatAgentService.getActivatedAgents().find(a => a.id === 'ofcode.offlineAgent');
+			if (offlineAgent) {
+				defaultAgent = offlineAgent;
+			}
+		}
 		if (!defaultAgent) {
 			this.logService.warn('processNextPendingRequest', `No default agent for location ${location}`);
 			for (const deferred of deferreds) {
@@ -2434,7 +2457,8 @@ export class ChatService extends Disposable implements IChatService {
 		}
 
 		const silentAgent = sendOptions.agentIdSilent ? this.chatAgentService.getAgent(sendOptions.agentIdSilent) : undefined;
-		const agent = silentAgent ?? parsedRequest.parts.find((r): r is ChatRequestAgentPart => r instanceof ChatRequestAgentPart)?.agent ?? defaultAgent;
+		const parsedAgent = parsedRequest.parts.find((r): r is ChatRequestAgentPart => r instanceof ChatRequestAgentPart)?.agent;
+		const agent = silentAgent ?? (isOllamaSend && !parsedAgent ? (this.chatAgentService.getAgent('ofcode.offlineAgent') ?? defaultAgent) : (parsedAgent ?? defaultAgent));
 		const agentSlashCommandPart = parsedRequest.parts.find((r): r is ChatRequestAgentSubcommandPart => r instanceof ChatRequestAgentSubcommandPart);
 
 		const responseState = this._sendRequestAsync(model, model.sessionResource, parsedRequest, firstRequest.request.attempt, !sendOptions.noCommandDetection, silentAgent ?? defaultAgent, location, sendOptions);

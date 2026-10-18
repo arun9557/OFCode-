@@ -64,22 +64,23 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 		}
 
 		let targetModelId = ollamaModelIds[0];
-		if (request.userSelectedModelId) {
+		const userSelectedModel = request.userSelectedModelId;
+		if (userSelectedModel) {
 			const matched = ollamaModelIds.find(id =>
-				id === request.userSelectedModelId ||
-				id.replace('ollama/', 'ollama:') === request.userSelectedModelId ||
-				id.replace('ollama:', 'ollama/') === request.userSelectedModelId
+				id === userSelectedModel ||
+				id.replace('ollama/', 'ollama:') === userSelectedModel ||
+				id.replace('ollama:', 'ollama/') === userSelectedModel ||
+				id.replace(/^ollama[:/]/, '') === userSelectedModel.replace(/^ollama[:/]/, '')
 			);
 			if (matched) {
 				targetModelId = matched;
-			} else if (request.userSelectedModelId.startsWith('ollama:') || request.userSelectedModelId.startsWith('ollama/')) {
-				targetModelId = request.userSelectedModelId.startsWith('ollama:')
-					? request.userSelectedModelId.replace('ollama:', 'ollama/')
-					: request.userSelectedModelId;
+			} else {
+				// If the selected model is not found in installed models, fall back to first installed model
+				targetModelId = ollamaModelIds[0];
 			}
 		}
 
-		const modelMetadata: ILanguageModelChatMetadata | undefined = this._languageModelsService.lookupLanguageModel(targetModelId);
+		const modelMetadata: ILanguageModelChatMetadata | undefined = this._languageModelsService.lookupLanguageModel(targetModelId) ?? this._languageModelsService.lookupLanguageModel(ollamaModelIds[0]);
 
 		// Collect registered tools
 		const registeredTools = Array.from(this._languageModelToolsService.getTools(modelMetadata));

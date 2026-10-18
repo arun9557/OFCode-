@@ -82,7 +82,7 @@ export interface IOllamaEmbeddingResponse {
 }
 
 export class OllamaClient {
-	private readonly _baseUrl: string;
+	private _baseUrl: string;
 
 	constructor(baseUrl: string = 'http://127.0.0.1:11434') {
 		this._baseUrl = baseUrl.replace(/\/+$/, '');
@@ -90,6 +90,14 @@ export class OllamaClient {
 
 	get baseUrl(): string {
 		return this._baseUrl;
+	}
+
+	setBaseUrl(baseUrl: string): void {
+		this._baseUrl = baseUrl.replace(/\/+$/, '');
+	}
+
+	normalizeModelName(model: string): string {
+		return model.replace(/^ollama[:/]/, '');
 	}
 
 	async isAlive(): Promise<boolean> {
@@ -115,10 +123,11 @@ export class OllamaClient {
 	}
 
 	async showModel(name: string): Promise<Record<string, unknown>> {
+		const normalized = this.normalizeModelName(name);
 		const res = await fetch(`${this._baseUrl}/api/show`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ model: name }),
+			body: JSON.stringify({ model: normalized }),
 			signal: AbortSignal.timeout(5000)
 		});
 		if (!res.ok) {
@@ -128,10 +137,15 @@ export class OllamaClient {
 	}
 
 	async chat(request: IOllamaChatRequestOptions, signal?: AbortSignal): Promise<IOllamaChatChunkResponse> {
+		const normalizedRequest = {
+			...request,
+			model: this.normalizeModelName(request.model),
+			stream: false
+		};
 		const res = await fetch(`${this._baseUrl}/api/chat`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ ...request, stream: false }),
+			body: JSON.stringify(normalizedRequest),
 			signal: signal || AbortSignal.timeout(60000)
 		});
 		if (!res.ok) {
@@ -142,10 +156,15 @@ export class OllamaClient {
 	}
 
 	async *chatStream(request: IOllamaChatRequestOptions, signal?: AbortSignal): AsyncGenerator<IOllamaChatChunkResponse, void, unknown> {
+		const normalizedRequest = {
+			...request,
+			model: this.normalizeModelName(request.model),
+			stream: true
+		};
 		const res = await fetch(`${this._baseUrl}/api/chat`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ ...request, stream: true }),
+			body: JSON.stringify(normalizedRequest),
 			signal: signal || AbortSignal.timeout(120000)
 		});
 
@@ -189,10 +208,11 @@ export class OllamaClient {
 	}
 
 	async generateEmbeddings(model: string, input: string | string[], signal?: AbortSignal): Promise<number[][]> {
+		const normalized = this.normalizeModelName(model);
 		const res = await fetch(`${this._baseUrl}/api/embed`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ model, input }),
+			body: JSON.stringify({ model: normalized, input }),
 			signal: signal || AbortSignal.timeout(30000)
 		});
 
@@ -203,5 +223,75 @@ export class OllamaClient {
 
 		const data = (await res.json()) as IOllamaEmbeddingResponse;
 		return data.embeddings;
+	}
+
+	async pullModel(model: string, onProgress?: (percent: number, status: string) => void, signal?: AbortSignal): Promise<void> {
+		const normalized = this.normalizeModelName(model);
+		const res = await fetch(`${this._baseUrl}/api/pull`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ model: normalized, stream: true }),
+			signal
+		});
+
+		if (!res.ok) {
+			const text = await res.text();
+			throw new Error(`Ollama pull error ${res.status}: ${text}`);
+		}
+
+		if (!res.body) {
+			return;
+		}
+
+		const reader = res.body.getReader();
+		const decoder = new TextDecoder();
+		let buffer = '';
+
+		try {
+			while (true) {
+				const { done, value } = await reader.read();
+				if (done) {
+					break;
+				}
+				buffer += decoder.decode(value, { stream: true });
+				const lines = buffer.split('\n');
+				buffer = lines.pop() || '';
+
+				for (const line of lines) {
+					const trimmed = line.trim();
+					if (trimmed.length > 0) {
+						try {
+							const json = JSON.parse(trimmed) as { status?: string; completed?: number; total?: number; error?: string };
+							if (json.error) {
+								throw new Error(json.error);
+							}
+							const percent = json.total && json.completed ? Math.floor((json.completed / json.total) * 100) : 0;
+							onProgress?.(percent, json.status || 'pulling');
+						} catch (parseErr) {
+							if (parseErr instanceof Error && parseErr.message && !parseErr.message.includes('Unexpected')) {
+								throw parseErr;
+							}
+						}
+					}
+				}
+			}
+		} finally {
+			reader.releaseLock();
+		}
+	}
+
+	async unloadModel(model: string, signal?: AbortSignal): Promise<void> {
+		const normalized = this.normalizeModelName(model);
+		const res = await fetch(`${this._baseUrl}/api/generate`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ model: normalized, keep_alive: 0 }),
+			signal: signal || AbortSignal.timeout(10000)
+		});
+
+		if (!res.ok) {
+			const text = await res.text();
+			throw new Error(`Ollama unload error ${res.status}: ${text}`);
+		}
 	}
 }
