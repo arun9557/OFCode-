@@ -12,3 +12,4 @@
 2026-10-18 10:39:22.224 [trace] Added views:workbench.views.mcp.installed in workbench.view.extensions
 2026-10-18 10:39:22.245 [trace] Removed views:workbench.views.mcp.installed from workbench.view.extensions
 2026-10-18 10:39:22.326 [trace] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2026-10-18 10:39:25.222 [trace] Added views:copilot-chat in workbench.view.extension.copilot-chat

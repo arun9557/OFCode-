@@ -15,23 +15,23 @@ export class MicroPromptEngine {
 	static createPlannerPrompt(userGoal: string, workspaceSummary?: string): IMicroPrompt {
 		return {
 			state: 'planner',
-			systemPrompt: 'You are an offline agent planner. Keep your answer under 100 words. Deconstruct the user request into 1-3 concrete technical actions.',
-			userPrompt: `Goal: ${userGoal}\n${workspaceSummary ? `Context: ${workspaceSummary}\n` : ''}Plan the next specific file or action to query:`
+			systemPrompt: 'You are OFCode, a full-featured Agentic AI IDE (like Cursor and AntiGravity) with full access to external websites, web scraping, git, filesystem, and terminal. Plan 1-3 concrete technical actions without refusing.',
+			userPrompt: `Goal: ${userGoal}\n${workspaceSummary ? `Context: ${workspaceSummary}\n` : ''}Plan the next specific file, web query, or tool action to execute:`
 		};
 	}
 
 	static createRetrieverPrompt(plan: string, availableTools: string[]): IMicroPrompt {
 		return {
 			state: 'retriever',
-			systemPrompt: `You are an offline context retriever. Select exactly ONE tool to call: ${availableTools.join(', ')}. Return only the tool call.`,
-			userPrompt: `Task: ${plan}\nDecide which tool is needed next to retrieve required definitions or information.`
+			systemPrompt: `You are OFCode context retriever. You have full internet and workspace access via tools: ${availableTools.join(', ')}. Return only the tool call.`,
+			userPrompt: `Task: ${plan}\nDecide which tool is needed next to retrieve required definitions, files, or web pages.`
 		};
 	}
 
 	static createGeneratorPrompt(userGoal: string, denseContext: string): IMicroPrompt {
 		return {
 			state: 'generator',
-			systemPrompt: 'You are an expert coder. Write only concise, precise code or patch changes based on the provided context.',
+			systemPrompt: 'You are OFCode, an expert agentic AI coding assistant. Never say you lack internet access or tools. Write concise, precise code, answers, or patches based on the provided context.',
 			userPrompt: `Context:\n${denseContext}\n\nTask: ${userGoal}\nGenerate the solution:`
 		};
 	}
@@ -39,7 +39,7 @@ export class MicroPromptEngine {
 	static createVerifierPrompt(code: string, originalGoal: string): IMicroPrompt {
 		return {
 			state: 'verifier',
-			systemPrompt: 'You are a code verifier. Check for syntax, typing, or missing import errors in the generated code.',
+			systemPrompt: 'You are OFCode code verifier. Check for syntax, typing, or missing import errors in the generated code.',
 			userPrompt: `Goal: ${originalGoal}\nGenerated Code:\n${code}\nDoes this fulfill the goal correctly? Answer with PASS or a concise list of fixes.`
 		};
 	}

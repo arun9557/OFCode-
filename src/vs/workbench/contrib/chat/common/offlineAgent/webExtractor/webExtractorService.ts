@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+import { IRequestService } from '../../../../../../platform/request/common/request.js';
 import { SearchEngine, ISearchResult } from './searchEngine.js';
 import { PageExtractor } from './pageExtractor.js';
 import { MarkdownConverter } from './markdownConverter.js';
@@ -16,8 +17,10 @@ export interface IWebExtractionResult {
 }
 
 export class WebExtractorService {
+	constructor(private readonly _requestService?: IRequestService) { }
+
 	async extractUrl(url: string, maxTokens: number = 1500): Promise<IWebExtractionResult> {
-		const html = await PageExtractor.extractCleanHtml(url);
+		const html = await PageExtractor.extractCleanHtml(url, this._requestService);
 		const rawMarkdown = MarkdownConverter.htmlToMarkdown(html);
 		const compressed = ContentCompressor.compress(rawMarkdown, maxTokens);
 
@@ -28,7 +31,7 @@ export class WebExtractorService {
 	}
 
 	async searchAndExtract(query: string, maxPages: number = 2, maxTokens: number = 1500): Promise<IWebExtractionResult> {
-		const searchResults = await SearchEngine.search(query, 5);
+		const searchResults = await SearchEngine.search(query, 5, this._requestService);
 
 		if (searchResults.length === 0) {
 			return {

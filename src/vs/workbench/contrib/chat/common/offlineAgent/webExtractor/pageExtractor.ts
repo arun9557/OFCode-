@@ -3,15 +3,41 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+import { asText, IRequestService } from '../../../../../../platform/request/common/request.js';
+import { CancellationToken } from '../../../../../../base/common/cancellation.js';
+
 export class PageExtractor {
 	/**
-	 * Fetches webpage HTML and removes non-content elements (scripts, styles, navs, footers).
+	 * Fetches webpage HTML using IRequestService (Node network stack without browser CORS restrictions)
+	 * or falls back to fetch if requestService is not provided.
 	 */
-	static async extractCleanHtml(url: string, timeoutMs: number = 8000): Promise<string> {
+	static async extractCleanHtml(url: string, requestService?: IRequestService, timeoutMs: number = 10000): Promise<string> {
+		if (requestService) {
+			try {
+				const context = await requestService.request({
+					type: 'GET',
+					url,
+					headers: {
+						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+						'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+					},
+					timeout: timeoutMs,
+					callSite: 'ofcode.pageExtractor'
+				}, CancellationToken.None);
+
+				const text = await asText(context);
+				if (text && text.trim().length > 0) {
+					return this.sanitizeHtml(text);
+				}
+			} catch (reqErr) {
+				console.warn('[PageExtractor] IRequestService fetch failed, falling back to global fetch:', reqErr);
+			}
+		}
+
 		try {
 			const res = await fetch(url, {
 				headers: {
-					'User-Agent': 'Mozilla/5.0 (compatible; CleanWebExtractor/1.0)',
+					'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
 					'Accept': 'text/html,application/xhtml+xml',
 				},
 				signal: AbortSignal.timeout(timeoutMs)

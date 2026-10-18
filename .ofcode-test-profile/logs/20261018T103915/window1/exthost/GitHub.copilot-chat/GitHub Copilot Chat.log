@@ -108,3 +108,370 @@
 2026-10-18 10:39:25.963 [warning] GitHub login failed
 2026-10-18 10:39:25.965 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
 2026-10-18 10:39:25.965 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-luna' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:39:30.508 [debug] Send fetcher telemetry: This window won.
+2026-10-18 10:39:31.435 [debug] Fetcher telemetry probe: node-fetch Status: 200 (931ms)
+2026-10-18 10:39:32.154 [debug] Fetcher telemetry probe: node-http Status: 200 (719ms)
+2026-10-18 10:39:33.054 [debug] Fetcher telemetry probe: electron-fetch Status: 200 (900ms)
+2026-10-18 10:39:33.268 [debug] Fetcher telemetry: Succeeded in 212ms using node-fetch with status 200 ().
+2026-10-18 10:39:33.981 [debug] Fetcher telemetry: Succeeded in 713ms using node-http with status 200 (OK).
+2026-10-18 10:39:34.187 [debug] Fetcher telemetry: Succeeded in 206ms using electron-fetch with status 200 ().
+2026-10-18 10:39:40.440 [debug] [CopilotCLIChatSessionItemProvider] Skipping PR detection on session open for 1c7469c7-71fa-4738-847e-6002380669e2: version=undefined, prState=n/a, branch=false, repoPath=false
+2026-10-18 10:39:40.441 [debug] [CopilotCLI] loadPersistedSessionCwd: persisted cwd 'x:\Users\bitai' for 1c7469c7-71fa-4738-847e-6002380669e2 is missing or not a directory
+2026-10-18 10:39:40.448 [debug] [CopilotCLI] No model backend (auth, legacy provider, or BYOK registry) available, skipping custom agents load
+2026-10-18 10:39:40.449 [debug] [CopilotCLI] Error getting file info for x:\Users\bitai\B#NN__Offline_AI_Network.mp4: Error: ENOENT: no such file or directory, stat 'x:\Users\bitai\B#NN__Offline_AI_Network.mp4'
+2026-10-18 10:39:40.452 [info] [CopilotCLI] Workspace initialized: 1c7469c7-71fa-4738-847e-6002380669e2 (checkpoints: 0)
+2026-10-18 10:39:40.634 [info] [CopilotCLI] OpenTelemetry SDK initialized successfully
+2026-10-18 10:39:40.634 [info] [CopilotCLI] OpenTelemetry tracker created for session 1c7469c7-71fa-4738-847e-6002380669e2
+2026-10-18 10:39:40.635 [debug] [CopilotCLI] No policy subkeys found in registry
+2026-10-18 10:39:40.635 [debug] [CopilotCLI] Policy directory C:\ProgramData\GitHub\Copilot\policy.d not readable — no file policies loaded
+2026-10-18 10:39:40.639 [info] [CopilotCLI] Closing session 1c7469c7-71fa-4738-847e-6002380669e2
+2026-10-18 10:39:40.710 [info] [CopilotCLIChatSessionContentProvider] provideChatSessionContent for copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2 took 270.1175000000003ms
+2026-10-18 10:39:40.720 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:39:40.871 [info] [CopilotCLIChatSessionContentProvider] listSessions took 152.66909999999916ms
+2026-10-18 10:39:40.911 [debug] [CopilotCLICustomizationProvider] agents (0): (none)
+2026-10-18 10:39:40.911 [debug] [CopilotCLICustomizationProvider] instructions (0): (none)
+2026-10-18 10:39:40.911 [debug] [CopilotCLICustomizationProvider] skills (18): automate, babysit, canvas, create-hook, create-rule, create-skill, create-subagent, loop, migrate-to-skills, sdk, shell, split-to-prs, statusline, update-cli-config, update-cursor-settings, troubleshoot, agent-customization, migrate-customizations
+2026-10-18 10:39:40.911 [debug] [CopilotCLICustomizationProvider] hooks (1): settings
+2026-10-18 10:39:40.911 [debug] [CopilotCLICustomizationProvider] plugins (0): (none)
+2026-10-18 10:39:40.911 [debug] [CopilotCLICustomizationProvider] total: 19 items
+2026-10-18 10:39:40.965 [info] ConversationFeature: BYOK models available
+2026-10-18 10:39:40.965 [info] ConversationFeature: Activating contributions
+2026-10-18 10:39:40.965 [debug] ConversationFeature: Skipping search provider registration - no GitHub session available
+2026-10-18 10:39:40.965 [debug] ConversationFeature: Skipping settings search provider registration - no GitHub session available
+2026-10-18 10:39:40.965 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-18 10:39:40.967 [warning] Unable to fetch remote agents because user is not signed in.
+2026-10-18 10:39:40.967 [info] activationBlocker from 'conversationFeature' took for 15757ms
+2026-10-18 10:39:40.985 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:39:40.986 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:39:40.987 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:39:40.989 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:39:41.045 [trace] No authentication token available for getCurrentAuthedUser
+2026-10-18 10:39:41.045 [trace] [GitHubOrgChatResourcesService] User is not signed in
+2026-10-18 10:39:41.045 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.049 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.049 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.050 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.050 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.050 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.050 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-18 10:39:41.051 [info] [CopilotCLIChatSessionContentProvider] listSessions took 66.36390000000029ms
+2026-10-18 10:39:41.051 [info] [CopilotCLIChatSessionContentProvider] listSessions took 66.78350000000137ms
+2026-10-18 10:39:41.080 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:39:41.098 [trace] [PlanAgentProvider] Wrote agent file: vscode-userdata:/c%3A/Users/USER/vscode/.ofcode-test-profile/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-18 10:39:41.103 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:39:41.109 [trace] [AskAgentProvider] Wrote agent file: vscode-userdata:/c%3A/Users/USER/vscode/.ofcode-test-profile/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-18 10:39:41.113 [trace] [ExploreAgentProvider] Wrote agent file: vscode-userdata:/c%3A/Users/USER/vscode/.ofcode-test-profile/User/globalStorage/github.copilot-chat/explore-agent/Explore.agent.md
+2026-10-18 10:39:41.117 [debug] [CopilotCLICustomizationProvider] agents (0): (none)
+2026-10-18 10:39:41.117 [debug] [CopilotCLICustomizationProvider] instructions (0): (none)
+2026-10-18 10:39:41.117 [debug] [CopilotCLICustomizationProvider] skills (18): automate, babysit, canvas, create-hook, create-rule, create-skill, create-subagent, loop, migrate-to-skills, sdk, shell, split-to-prs, statusline, update-cli-config, update-cursor-settings, troubleshoot, agent-customization, migrate-customizations
+2026-10-18 10:39:41.117 [debug] [CopilotCLICustomizationProvider] hooks (1): settings
+2026-10-18 10:39:41.117 [debug] [CopilotCLICustomizationProvider] plugins (0): (none)
+2026-10-18 10:39:41.117 [debug] [CopilotCLICustomizationProvider] total: 19 items
+2026-10-18 10:39:41.133 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:39:41.133 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:39:41.134 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:39:41.134 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:39:41.135 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:39:41.135 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-18 10:40:01.381 [trace] Resolving chat model
+2026-10-18 10:40:01.382 [debug] Getting CopilotToken (force: undefined)...
+2026-10-18 10:40:01.395 [trace] Resolving chat model
+2026-10-18 10:40:01.395 [trace] Resolving chat model
+2026-10-18 10:40:01.397 [trace] [panel] chat request received from extension host
+2026-10-18 10:40:01.398 [trace] Resolving chat model
+2026-10-18 10:40:01.398 [trace] Resolving chat model
+2026-10-18 10:40:01.399 [trace] Resolving chat model
+2026-10-18 10:40:01.399 [trace] Processing intent
+2026-10-18 10:40:01.399 [trace] Resolving chat model
+2026-10-18 10:40:01.400 [trace] Processed intent
+2026-10-18 10:40:01.402 [trace] Resolving chat model
+2026-10-18 10:40:01.403 [info] [VoiceProgress] loop request=request_4a71cbe3-0802-4ce4-83c0-54adc72c4d99 configured=true voice=false subagent=false stream=true
+2026-10-18 10:40:01.403 [trace] Resolving chat model
+2026-10-18 10:40:01.406 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:40:01.443 [trace] Resolving chat model
+2026-10-18 10:40:01.445 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-18 10:40:01.468 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-18 10:40:01.470 [debug] [Agent] rendering with budget=1 (baseBudget: 0, toolTokens: 492, totalTools: 54, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-18 10:40:01.474 [warning] GitHub login failed
+2026-10-18 10:40:01.481 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:40:01.481 [debug] Getting CopilotToken (force: undefined)...
+2026-10-18 10:40:01.485 [warning] GitHub login failed
+2026-10-18 10:40:01.488 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:40:01.582 [trace] Resolving chat model
+2026-10-18 10:40:01.582 [trace] Resolving chat model
+2026-10-18 10:40:01.582 [debug] Getting CopilotToken (force: undefined)...
+2026-10-18 10:40:01.583 [warning] [InlineChatProgressMessages] Failed to fetch messages for generate: No response from language model
+2026-10-18 10:40:01.584 [warning] [InlineChatProgressMessages] Failed to fetch messages for edit: No response from language model
+2026-10-18 10:40:01.585 [debug] [ConversationHistorySummarizer] budget exceeded(No lowest priority node found (path: GlobalAgentContext -> 1) (at tsx element AgentPrompt)), triggering summarization
+2026-10-18 10:40:01.587 [error] Error: No lowest priority node found (path: GlobalAgentContext -> 1) (at tsx element AgentPrompt)
+    at removeLowestPriorityChild (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\materialized.js:603:15)
+    at removeLowestPriorityChild (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\materialized.js:612:9)
+    at _GenericMaterializedContainer.removeLowestPriorityChild (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\materialized.js:125:9)
+    at PromptRenderer._getFinalElementTree (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:345:54)
+    at PromptRenderer.renderRaw (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:248:53)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:230:24)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\base\promptRenderer.ts:104:18)
+    at renderPromptElement (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\base\promptRenderer.ts:168:57)
+    at AgentPrompt.getOrCreateGlobalAgentContextContent (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\agent\agentPrompt.tsx:329:20)
+    at AgentPrompt.getOrCreateGlobalAgentContext (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\agent\agentPrompt.tsx:299:25)
+    at AgentPrompt.render (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\agent\agentPrompt.tsx:151:6)
+    at annotateError (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:981:16)
+    at c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:174:24
+    at async Promise.all (index 0)
+    at PromptRenderer._processPromptPieces (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:172:31)
+    at PromptRenderer.renderRaw (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:239:9)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:230:24)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\base\promptRenderer.ts:104:18)
+    at renderWithSummarization (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\agentIntent.ts:873:12)
+    at AgentIntentInvocation.buildPrompt (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\agentIntent.ts:968:15)
+    at DefaultToolCallingLoop.buildPrompt (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\defaultIntentRequestHandler.ts:697:29)
+    at DefaultToolCallingLoop.buildPrompt2 (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:2392:29)
+    at DefaultToolCallingLoop.runOne (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:1761:24)
+    at DefaultToolCallingLoop._runLoop (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:1475:20)
+    at c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:1383:21
+    at c:\Users\USER\vscode\extensions\copilot\src\platform\otel\node\inMemoryOTelService.ts:181:12
+    at DefaultIntentRequestHandler.runWithToolCalling (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\defaultIntentRequestHandler.ts:400:19)
+    at DefaultIntentRequestHandler.getResult (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\defaultIntentRequestHandler.ts:156:26)
+    at EditIntentRequestHandler.getResult (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\editCodeIntent.ts:229:18)
+    at AgentIntent.handleRequest (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\agentIntent.ts:454:11)
+    at ChatParticipantRequestHandler.getResult (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\chatParticipantRequestHandler.ts:262:14)
+    at ExtHostChatAgent._requestHandler (c:\Users\USER\vscode\extensions\copilot\src\extension\conversation\vscode-node\chatParticipants.ts:267:18)
+    at ExtHostChatAgents2.$invokeAgent (file:///C:/Users/USER/vscode/src/vs/workbench/api/common/extHostChatAgents2.ts:1044:11): [ConversationHistorySummarizer] summarization failed
+2026-10-18 10:40:01.587 [debug] [Agent] summarization failed (budgetExceeded), rendering without summarization
+2026-10-18 10:40:01.588 [warning] GitHub login failed
+2026-10-18 10:40:01.594 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:40:01.594 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-nano' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:40:01.594 [trace] Resolving chat model
+2026-10-18 10:40:01.594 [debug] Getting CopilotToken (force: undefined)...
+2026-10-18 10:40:01.597 [warning] GitHub login failed
+2026-10-18 10:40:01.599 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:40:01.599 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-luna' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-18 10:40:01.599 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:40:01.621 [trace] Resolving chat model
+2026-10-18 10:40:01.622 [trace] Resolving chat model
+2026-10-18 10:40:01.624 [trace] Built prompt
+2026-10-18 10:40:01.624 [trace] Sending prompt to model
+2026-10-18 10:40:01.626 [trace] Resolving chat model
+2026-10-18 10:40:10.487 [trace] Resolving chat model
+2026-10-18 10:40:10.487 [trace] [panel] chat request received from extension host
+2026-10-18 10:40:10.488 [trace] Resolving chat model
+2026-10-18 10:40:10.488 [trace] Processing intent
+2026-10-18 10:40:10.488 [trace] Resolving chat model
+2026-10-18 10:40:10.488 [trace] Processed intent
+2026-10-18 10:40:10.489 [trace] Resolving chat model
+2026-10-18 10:40:10.489 [info] [VoiceProgress] loop request=request_2f3f8082-b658-4f6c-8933-db4ce1cdda97 configured=true voice=false subagent=false stream=true
+2026-10-18 10:40:10.489 [trace] Resolving chat model
+2026-10-18 10:40:10.501 [trace] Resolving chat model
+2026-10-18 10:40:10.501 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-18 10:40:10.505 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-18 10:40:10.506 [debug] [Agent] rendering with budget=1 (baseBudget: 0, toolTokens: 492, totalTools: 54, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-18 10:40:10.507 [debug] [ConversationHistorySummarizer] budget exceeded(No lowest priority node found (path: GlobalAgentContext -> 1) (at tsx element AgentPrompt)), triggering summarization
+2026-10-18 10:40:10.509 [error] Error: No lowest priority node found (path: GlobalAgentContext -> 1) (at tsx element AgentPrompt)
+    at removeLowestPriorityChild (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\materialized.js:603:15)
+    at removeLowestPriorityChild (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\materialized.js:612:9)
+    at _GenericMaterializedContainer.removeLowestPriorityChild (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\materialized.js:125:9)
+    at PromptRenderer._getFinalElementTree (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:345:54)
+    at PromptRenderer.renderRaw (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:248:53)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:230:24)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\base\promptRenderer.ts:104:18)
+    at renderPromptElement (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\base\promptRenderer.ts:168:57)
+    at AgentPrompt.getOrCreateGlobalAgentContextContent (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\agent\agentPrompt.tsx:329:20)
+    at AgentPrompt.getOrCreateGlobalAgentContext (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\agent\agentPrompt.tsx:299:25)
+    at AgentPrompt.render (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\agent\agentPrompt.tsx:151:6)
+    at annotateError (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:981:16)
+    at c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:174:24
+    at async Promise.all (index 0)
+    at PromptRenderer._processPromptPieces (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:172:31)
+    at PromptRenderer.renderRaw (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:239:9)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\node_modules\@vscode\prompt-tsx\dist\base\promptRenderer.js:230:24)
+    at PromptRenderer.render (c:\Users\USER\vscode\extensions\copilot\src\extension\prompts\node\base\promptRenderer.ts:104:18)
+    at renderWithSummarization (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\agentIntent.ts:873:12)
+    at AgentIntentInvocation.buildPrompt (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\agentIntent.ts:968:15)
+    at DefaultToolCallingLoop.buildPrompt (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\defaultIntentRequestHandler.ts:697:29)
+    at DefaultToolCallingLoop.buildPrompt2 (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:2392:29)
+    at DefaultToolCallingLoop.runOne (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:1761:24)
+    at DefaultToolCallingLoop._runLoop (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:1475:20)
+    at c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\toolCallingLoop.ts:1383:21
+    at c:\Users\USER\vscode\extensions\copilot\src\platform\otel\node\inMemoryOTelService.ts:181:12
+    at DefaultIntentRequestHandler.runWithToolCalling (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\defaultIntentRequestHandler.ts:400:19)
+    at DefaultIntentRequestHandler.getResult (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\defaultIntentRequestHandler.ts:156:26)
+    at EditIntentRequestHandler.getResult (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\editCodeIntent.ts:229:18)
+    at AgentIntent.handleRequest (c:\Users\USER\vscode\extensions\copilot\src\extension\intents\node\agentIntent.ts:454:11)
+    at ChatParticipantRequestHandler.getResult (c:\Users\USER\vscode\extensions\copilot\src\extension\prompt\node\chatParticipantRequestHandler.ts:262:14)
+    at ExtHostChatAgent._requestHandler (c:\Users\USER\vscode\extensions\copilot\src\extension\conversation\vscode-node\chatParticipants.ts:267:18)
+    at ExtHostChatAgents2.$invokeAgent (file:///C:/Users/USER/vscode/src/vs/workbench/api/common/extHostChatAgents2.ts:1044:11): [ConversationHistorySummarizer] summarization failed
+2026-10-18 10:40:10.509 [debug] [Agent] summarization failed (budgetExceeded), rendering without summarization
+2026-10-18 10:40:10.516 [trace] Resolving chat model
+2026-10-18 10:40:10.517 [trace] Resolving chat model
+2026-10-18 10:40:10.518 [trace] Built prompt
+2026-10-18 10:40:10.518 [trace] Sending prompt to model
+2026-10-18 10:40:10.519 [trace] Resolving chat model
+2026-10-18 10:40:25.914 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:40:25.916 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:40:26.418 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:40:26.420 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-18 10:41:02.121 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:41:20.703 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:41:21.223 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:41:21.226 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:41:21.231 [info] [CopilotCLIChatSessionContentProvider] listSessions took 8.596100000009756ms
+2026-10-18 10:41:50.392 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:41:53.951 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:41:54.459 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:41:54.461 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:41:54.469 [info] [CopilotCLIChatSessionContentProvider] listSessions took 10.744000000006054ms
+2026-10-18 10:41:56.888 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:42:31.961 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 10:44:00.842 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:44:00.907 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:44:01.422 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:44:01.425 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:44:01.431 [info] [CopilotCLIChatSessionContentProvider] listSessions took 8.556900000025053ms
+2026-10-18 10:44:46.240 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:44:57.104 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:44:57.621 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:44:57.623 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:44:57.634 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.56260000000475ms
+2026-10-18 10:45:03.770 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:46:10.859 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 10:46:17.011 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:46:17.012 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:46:17.525 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:46:17.527 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:46:17.532 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.974900000030175ms
+2026-10-18 10:46:19.225 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:46:20.301 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:46:20.820 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:46:20.822 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:46:20.824 [info] [CopilotCLIChatSessionContentProvider] listSessions took 3.7823000000207685ms
+2026-10-18 10:46:37.290 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:46:49.174 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:46:49.246 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:46:50.368 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:46:50.370 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:46:50.375 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.476699999999255ms
+2026-10-18 10:47:27.350 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 10:50:36.158 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-18 10:50:36.667 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:50:36.669 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:50:36.680 [info] [CopilotCLIChatSessionContentProvider] listSessions took 12.587899999925867ms
+2026-10-18 10:50:37.395 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:51:45.719 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:52:07.689 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:52:08.202 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:52:08.205 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:52:08.214 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.400900000007823ms
+2026-10-18 10:52:09.262 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:52:10.359 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:52:10.870 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:52:10.871 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:52:10.873 [info] [CopilotCLIChatSessionContentProvider] listSessions took 3.2842999999411404ms
+2026-10-18 10:52:13.041 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:52:24.032 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:52:24.550 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:52:24.551 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:52:24.555 [info] [CopilotCLIChatSessionContentProvider] listSessions took 5.035999999963678ms
+2026-10-18 10:52:31.660 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:53:17.405 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 10:53:40.468 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:53:40.472 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:53:40.982 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:53:40.984 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:53:40.990 [info] [CopilotCLIChatSessionContentProvider] listSessions took 7.723200000007637ms
+2026-10-18 10:53:45.293 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:53:57.061 [debug] [Power] CPU speed limit changed: 69% (throttled)
+2026-10-18 10:53:59.065 [debug] [Power] CPU speed limit changed: 71% (throttled)
+2026-10-18 10:53:59.275 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:53:59.793 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:53:59.795 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:53:59.820 [info] [CopilotCLIChatSessionContentProvider] listSessions took 27.43510000000242ms
+2026-10-18 10:54:00.100 [debug] [Power] CPU speed limit changed: 75% (throttled)
+2026-10-18 10:54:01.082 [debug] [Power] CPU speed limit changed: 80% (throttled)
+2026-10-18 10:54:02.083 [debug] [Power] CPU speed limit changed: 77% (throttled)
+2026-10-18 10:54:03.095 [debug] [Power] CPU speed limit changed: 75% (throttled)
+2026-10-18 10:54:04.124 [debug] [Power] CPU speed limit changed: 74% (throttled)
+2026-10-18 10:54:05.119 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-18 10:54:08.928 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:54:12.340 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:54:12.854 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:54:12.856 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:54:12.859 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.762400000006892ms
+2026-10-18 10:54:14.551 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:54:19.816 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:54:20.329 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:54:20.330 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:54:20.336 [info] [CopilotCLIChatSessionContentProvider] listSessions took 7.104199999943376ms
+2026-10-18 10:54:45.387 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:54:50.018 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:54:50.531 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:54:50.534 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:54:50.540 [info] [CopilotCLIChatSessionContentProvider] listSessions took 8.854700000025332ms
+2026-10-18 10:54:52.574 [debug] [Power] CPU speed limit changed: 72% (throttled)
+2026-10-18 10:54:54.593 [debug] [Power] CPU speed limit changed: 76% (throttled)
+2026-10-18 10:54:55.603 [debug] [Power] CPU speed limit changed: 77% (throttled)
+2026-10-18 10:54:56.616 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-18 10:54:57.540 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:55:31.086 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:55:31.595 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:55:31.596 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:55:31.609 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.613699999987148ms
+2026-10-18 10:55:41.770 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:55:43.489 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:55:43.999 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:55:44.000 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:55:44.005 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.239899999927729ms
+2026-10-18 10:55:44.577 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:55:47.416 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:55:47.924 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:55:47.925 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:55:47.928 [info] [CopilotCLIChatSessionContentProvider] listSessions took 3.977199999964796ms
+2026-10-18 10:55:48.938 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:56:18.599 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:56:19.109 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:56:19.110 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:56:19.121 [info] [CopilotCLIChatSessionContentProvider] listSessions took 12.688500000047497ms
+2026-10-18 10:56:50.475 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-18 10:57:09.525 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 10:59:34.138 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 10:59:34.144 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 10:59:34.664 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 10:59:34.665 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 10:59:34.670 [info] [CopilotCLIChatSessionContentProvider] listSessions took 5.566899999976158ms
+2026-10-18 10:59:45.760 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 11:00:44.154 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-18 11:00:46.117 [debug] [Power] CPU speed limit changed: 77% (throttled)
+2026-10-18 11:00:47.131 [debug] [Power] CPU speed limit changed: 76% (throttled)
+2026-10-18 11:00:48.149 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-18 11:09:24.679 [trace] [GithubAccountFilterProvider]::getFilters SKU: undefined, Internal Org: undefined, IsFcv1: undefined, IsSn: undefined, IsVscodeTeamMember: undefined, OrganizationList: undefined
+2026-10-18 11:09:24.679 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2026-10-18 11:09:24.679 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","10.0.0"]]
+2026-10-18 11:09:24.679 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.71.0, Completions Core Version: 1.378.1799
+2026-10-18 11:09:24.679 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: []
+2026-10-18 11:09:24.679 [trace] [PlatformAndReleaseDateFilterProvider]::getFilters Filters: [["X-VSCode-Platform","Windows"]]
+2026-10-18 11:09:24.679 [trace] [WindowKindFilterProvider]::getFilters Filters: [["X-VSCode-WindowKind","editor"]]
+2026-10-18 11:39:24.682 [trace] [GithubAccountFilterProvider]::getFilters SKU: undefined, Internal Org: undefined, IsFcv1: undefined, IsSn: undefined, IsVscodeTeamMember: undefined, OrganizationList: undefined
+2026-10-18 11:39:24.682 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2026-10-18 11:39:24.682 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","10.0.0"]]
+2026-10-18 11:39:24.682 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.71.0, Completions Core Version: 1.378.1799
+2026-10-18 11:39:24.682 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: []
+2026-10-18 11:39:24.682 [trace] [PlatformAndReleaseDateFilterProvider]::getFilters Filters: [["X-VSCode-Platform","Windows"]]
+2026-10-18 11:39:24.682 [trace] [WindowKindFilterProvider]::getFilters Filters: [["X-VSCode-WindowKind","editor"]]
+2026-10-18 11:39:25.039 [trace] [BaseExperimentationService] Refreshed treatments on timer
+2026-10-18 12:09:25.053 [trace] [GithubAccountFilterProvider]::getFilters SKU: undefined, Internal Org: undefined, IsFcv1: undefined, IsSn: undefined, IsVscodeTeamMember: undefined, OrganizationList: undefined
+2026-10-18 12:09:25.054 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2026-10-18 12:09:25.054 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","10.0.0"]]
+2026-10-18 12:09:25.054 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.71.0, Completions Core Version: 1.378.1799
+2026-10-18 12:09:25.054 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: []
+2026-10-18 12:09:25.054 [trace] [PlatformAndReleaseDateFilterProvider]::getFilters Filters: [["X-VSCode-Platform","Windows"]]
+2026-10-18 12:09:25.054 [trace] [WindowKindFilterProvider]::getFilters Filters: [["X-VSCode-WindowKind","editor"]]
+2026-10-18 12:14:01.820 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 12:14:01.826 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 12:14:02.345 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 12:14:02.347 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 12:14:02.352 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.403599999845028ms
+2026-10-18 12:14:05.904 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-18 12:14:06.592 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-18 12:14:07.112 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-18 12:14:07.114 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-18 12:14:07.119 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.00139999948442ms
+2026-10-18 12:14:42.037 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.

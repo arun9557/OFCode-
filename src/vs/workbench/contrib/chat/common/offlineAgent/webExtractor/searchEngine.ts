@@ -3,6 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+import { asText, IRequestService } from '../../../../../../platform/request/common/request.js';
+import { CancellationToken } from '../../../../../../base/common/cancellation.js';
+
 export interface ISearchResult {
 	readonly title: string;
 	readonly url: string;
@@ -13,11 +16,33 @@ export class SearchEngine {
 	/**
 	 * Performs web search using DuckDuckGo HTML without requiring API keys.
 	 */
-	static async search(query: string, maxResults: number = 5): Promise<ISearchResult[]> {
-		try {
-			const encodedQuery = encodeURIComponent(query);
-			const url = `https://html.duckduckgo.com/html/?q=${encodedQuery}`;
+	static async search(query: string, maxResults: number = 5, requestService?: IRequestService): Promise<ISearchResult[]> {
+		const encodedQuery = encodeURIComponent(query);
+		const url = `https://html.duckduckgo.com/html/?q=${encodedQuery}`;
 
+		if (requestService) {
+			try {
+				const context = await requestService.request({
+					type: 'GET',
+					url,
+					headers: {
+						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+						'Accept': 'text/html,application/xhtml+xml',
+					},
+					timeout: 10000,
+					callSite: 'ofcode.searchEngine'
+				}, CancellationToken.None);
+
+				const text = await asText(context);
+				if (text) {
+					return this._parseDuckDuckGoHtml(text, maxResults);
+				}
+			} catch (reqErr) {
+				console.warn('[SearchEngine] IRequestService search failed, falling back to fetch:', reqErr);
+			}
+		}
+
+		try {
 			const res = await fetch(url, {
 				headers: {
 					'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',

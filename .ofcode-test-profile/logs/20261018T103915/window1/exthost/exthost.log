@@ -106,3 +106,709 @@
 2026-10-18 10:39:22.593 [trace] ExtensionService#_callActivateOptional GitHub.copilot-chat
 2026-10-18 10:39:22.593 [trace] ExtHostCommands#executeCommand setContext
 2026-10-18 10:39:22.593 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:24.722 [trace] ExtensionService#_callActivateOptional vscode.terminal-suggest
+2026-10-18 10:39:24.725 [trace] ExtensionService#_callActivateOptional vscode.git-base
+2026-10-18 10:39:24.725 [trace] ExtHostCommands#registerCommand git-base.api.getRemoteSources
+2026-10-18 10:39:24.754 [trace] ExtHostCommands#registerCommand terminal.integrated.suggest.clearCachedGlobals
+2026-10-18 10:39:24.756 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-10-18 10:39:24.756 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/git/out/main
+2026-10-18 10:39:24.756 [trace] ExtensionService#loadExtensionContext vscode.git
+2026-10-18 10:39:24.844 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-18 10:39:24.844 [trace] ExtensionService#loadModule [esm] -> file:///c:/Users/USER/vscode/extensions/github/out/extension.js
+2026-10-18 10:39:24.845 [trace] ExtensionService#loadExtensionContext vscode.github
+2026-10-18 10:39:24.869 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-10-18 10:39:24.869 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/microsoft-authentication/out/extension.js
+2026-10-18 10:39:24.870 [trace] ExtensionService#loadExtensionContext vscode.microsoft-authentication
+2026-10-18 10:39:24.960 [trace] ExtensionService#_callActivateOptional vscode.git
+2026-10-18 10:39:25.041 [trace] ExtensionService#_callActivateOptional vscode.github
+2026-10-18 10:39:25.119 [trace] ExtensionService#_callActivateOptional vscode.microsoft-authentication
+2026-10-18 10:39:25.204 [trace] ExtHostCommands#registerCommand _github.copilot.chat.reportModelFeedbackSurvey
+2026-10-18 10:39:25.205 [trace] ExtHostCommands#registerCommand github.copilot.chat.attachFile
+2026-10-18 10:39:25.205 [trace] ExtHostCommands#registerCommand github.copilot.chat.attachSelection
+2026-10-18 10:39:25.208 [trace] ExtHostCommands#registerCommand github.copilot.debug.extensionState
+2026-10-18 10:39:25.209 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.210 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.210 [trace] ExtHostCommands#registerCommand github.copilot.chat.triggerPermissiveSignIn
+2026-10-18 10:39:25.211 [trace] ExtHostCommands#registerCommand github.copilot.debug.collectDiagnostics
+2026-10-18 10:39:25.211 [trace] ExtHostCommands#registerCommand github.copilot.debug.collectDiagnostics.internal
+2026-10-18 10:39:25.211 [trace] ExtHostCommands#registerCommand github.copilot.debug.showOutputChannel.internal
+2026-10-18 10:39:25.213 [trace] ExtHostCommands#registerCommand github.copilot.debug.togglePowerSaveBlocker
+2026-10-18 10:39:25.216 [trace] ExtHostCommands#registerCommand github.copilot.refreshToken
+2026-10-18 10:39:25.216 [trace] ExtHostCommands#registerCommand github.copilot.debug.showChatLogView
+2026-10-18 10:39:25.216 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.216 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.216 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.217 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.217 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.217 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.217 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.218 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.218 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.218 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.220 [trace] ExtHostCommands#registerCommand github.copilot.chat.startCopilotDebugCommand
+2026-10-18 10:39:25.222 [trace] ExtHostCommands#registerCommand github.copilot.debug.generateSTest
+2026-10-18 10:39:25.222 [trace] ExtHostCommands#registerCommand github.copilot.createLaunchJsonFileWithContents
+2026-10-18 10:39:25.222 [trace] ExtHostCommands#registerCommand github.copilot.startDebugging
+2026-10-18 10:39:25.223 [trace] ExtHostCommands#registerCommand github.copilot.open.walkthrough
+2026-10-18 10:39:25.223 [trace] ExtHostCommands#registerCommand github.copilot.mcp.viewContext7
+2026-10-18 10:39:25.228 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.228 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.228 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.228 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.229 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.229 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.229 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.229 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.230 [trace] ExtHostCommands#registerCommand _github.copilot.getInternalConfigurationInformation
+2026-10-18 10:39:25.230 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.230 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.230 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.231 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.231 [trace] ExtHostCommands#registerCommand github.copilot.survey.signalUsage
+2026-10-18 10:39:25.231 [trace] ExtHostCommands#registerCommand github.copilot.report
+2026-10-18 10:39:25.231 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.languageContext.typescript7.enabled', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:25.233 [trace] ExtHostCommands#registerCommand github.copilot.debug.showContextInspectorView
+2026-10-18 10:39:25.233 [trace] ExtHostCommands#registerCommand github.copilot.debug.logTypeScriptContainers
+2026-10-18 10:39:25.233 [trace] ExtHostCommands#registerCommand github.copilot.nes.prepareRename
+2026-10-18 10:39:25.234 [trace] ExtHostCommands#registerCommand github.copilot.nes.postRename
+2026-10-18 10:39:25.234 [trace] ExtHostCommands#registerCommand github.copilot.debug.validateNesRename
+2026-10-18 10:39:25.234 [trace] ExtHostCommands#registerCommand github.copilot.search.markHelpful
+2026-10-18 10:39:25.234 [trace] ExtHostCommands#registerCommand github.copilot.search.markUnhelpful
+2026-10-18 10:39:25.234 [trace] ExtHostCommands#registerCommand github.copilot.search.feedback
+2026-10-18 10:39:25.234 [trace] ExtHostCommands#registerCommand chat.enableAdditionalUsage
+2026-10-18 10:39:25.235 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.235 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.235 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.235 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.235 [trace] ExtHostCommands#registerCommand github.copilot.chat.notebook.enableFollowCellExecution
+2026-10-18 10:39:25.235 [trace] ExtHostCommands#registerCommand github.copilot.chat.notebook.disableFollowCellExecution
+2026-10-18 10:39:25.238 [trace] ExtHostCommands#registerCommand _copilot.workspaceIndex.signInAgain
+2026-10-18 10:39:25.239 [trace] ExtHostCommands#registerCommand github.copilot.buildRemoteWorkspaceIndex
+2026-10-18 10:39:25.239 [trace] ExtHostCommands#registerCommand github.copilot.enableExternalIngest
+2026-10-18 10:39:25.240 [trace] ExtHostCommands#registerCommand github.copilot.deleteExternalIngestWorkspaceIndex
+2026-10-18 10:39:25.240 [trace] ExtHostCommands#registerCommand github.copilot.debug.collectWorkspaceIndexDiagnostics
+2026-10-18 10:39:25.243 [trace] ExtHostCommands#registerCommand github.copilot.chat.checkoutPullRequestReroute
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.openPullRequestReroute
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand _github.copilot.chat.cloudSessions.searchRepositories
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.openRepository
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.openIssue
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.openPullRequest
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.clearCaches
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.createPullRequestForTask
+2026-10-18 10:39:25.244 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.resolveTask
+2026-10-18 10:39:25.245 [trace] ExtHostCommands#registerCommand github.copilot.chat.cloudSessions.openPullRequestForTask
+2026-10-18 10:39:25.245 [trace] ExtHostCommands#registerCommand github.copilot.cloud.resetWorkspaceConfirmations
+2026-10-18 10:39:25.246 [trace] ExtHostCommands#registerCommand github.copilot.cloud.sessions.openInBrowser
+2026-10-18 10:39:25.246 [trace] ExtHostCommands#registerCommand github.copilot.cloud.sessions.proxy.closeChatSessionPullRequest
+2026-10-18 10:39:25.246 [trace] ExtHostCommands#registerCommand github.copilot.cloud.sessions.installPRExtension
+2026-10-18 10:39:25.250 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.250 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.250 [trace] ExtHostCommands#registerCommand github.copilot.chat.copilotCLI.addFileReference
+2026-10-18 10:39:25.250 [trace] ExtHostCommands#registerCommand github.copilot.chat.copilotCLI.addSelection
+2026-10-18 10:39:25.250 [trace] ExtHostCommands#registerCommand github.copilot.chat.copilotCLI.acceptDiff
+2026-10-18 10:39:25.250 [trace] ExtHostCommands#registerCommand github.copilot.chat.copilotCLI.rejectDiff
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.delete
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand agents.github.copilot.cli.deleteSessions
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.resumeInTerminal
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.rename
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.setTitle
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.newSession
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.newSessionToSide
+2026-10-18 10:39:25.252 [trace] ExtHostCommands#registerCommand github.copilot.cli.openInCopilotCLI
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.openWorktreeInNewWindow
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.openWorktreeInTerminal
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.copyWorktreeBranchName
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.openRepository
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.chat.applyCopilotCLIAgentSessionChanges
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.chat.applyCopilotCLIAgentSessionChanges.apply
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.chat.mergeCopilotCLIAgentSessionChanges.merge
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.chat.mergeCopilotCLIAgentSessionChanges.mergeAndSync
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.sessions.refreshChanges
+2026-10-18 10:39:25.253 [trace] ExtHostCommands#registerCommand github.copilot.sessions.initializeRepository
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.sessions.commit
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.sessions.commitAndSync
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.sessions.sync
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.sessions.discardChanges
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.chat.createPullRequestCopilotCLIAgentSession.createPR
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.chat.createDraftPullRequestCopilotCLIAgentSession.createDraftPR
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.commitToWorktree
+2026-10-18 10:39:25.254 [trace] ExtHostCommands#registerCommand github.copilot.cli.sessions.commitToRepository
+2026-10-18 10:39:25.255 [trace] ExtHostCommands#registerCommand github.copilot.chat.otel.openSettings
+2026-10-18 10:39:25.256 [trace] ExtHostCommands#registerCommand github.copilot.chat.otel.statusActive
+2026-10-18 10:39:25.256 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.256 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.257 [trace] ExtHostCommands#registerCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:39:25.257 [trace] ExtHostCommands#registerCommand github.copilot.chat.otel.flush
+2026-10-18 10:39:25.258 [trace] ExtHostCommands#registerCommand github.copilot.chat.otel.exportAgentTracesDB
+2026-10-18 10:39:25.261 [trace] ExtHostCommands#registerCommand github.copilot.sessionSync.deleteSessions
+2026-10-18 10:39:25.262 [trace] ExtHostCommands#registerCommand github.copilot.sessionSync.deleteSessionFromCloud
+2026-10-18 10:39:25.262 [trace] ExtHostCommands#registerCommand github.copilot.sessionSync.suggest
+2026-10-18 10:39:25.262 [trace] ExtHostCommands#registerCommand github.copilot.sessionSync.reindex
+2026-10-18 10:39:25.262 [trace] ExtHostCommands#registerCommand github.copilot.chronicle.reindex
+2026-10-18 10:39:25.438 [error] Error: Chat model provider for vendor ollama is already registered.
+    at LanguageModelsService.registerLanguageModelProvider (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/contrib/chat/common/languageModels.js:819:13)
+    at MainThreadLanguageModels.$registerLanguageModelProvider (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/api/browser/mainThreadLanguageModels.js:87:49)
+    at RPCProtocol._doInvokeHandler (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/rpcProtocol.js:372:19)
+    at RPCProtocol._invokeHandler (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/rpcProtocol.js:358:35)
+    at RPCProtocol._receiveRequest (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/rpcProtocol.js:298:22)
+    at RPCProtocol._receiveOneMessage (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/rpcProtocol.js:227:14)
+    at UniqueContainer.value (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/common/rpcProtocol.js:114:59)
+    at Emitter._deliver (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:814:16)
+    at Emitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/common/event.js:839:12)
+    at BufferedEmitter.fire (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/base/parts/ipc/common/ipc.net.js:432:23)
+    at MessagePort.<anonymous> (vscode-file://vscode-app/c:/Users/USER/vscode/out/vs/workbench/services/extensions/electron-browser/localProcessExtensionHost.js:319:23)
+2026-10-18 10:39:25.456 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.456 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.456 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.456 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.456 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.457 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.457 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.457 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.457 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:25.457 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:25.458 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.458 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.458 [trace] ExtHostCommands#registerCommand git.showOutput
+2026-10-18 10:39:25.458 [trace] ExtHostCommands#registerCommand git.refresh
+2026-10-18 10:39:25.458 [trace] ExtHostCommands#registerCommand git.openResource
+2026-10-18 10:39:25.458 [trace] ExtHostCommands#registerCommand git.openAllChanges
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand git.openMergeEditor
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand git.continueInLocalClone
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand git.clone
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand git.cloneRecursive
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand _git.cloneRepository
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand _git.checkout
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand _git.pull
+2026-10-18 10:39:25.459 [trace] ExtHostCommands#registerCommand _git.fetchRepository
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand _git.revParse
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand _git.revListCount
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand _git.revParseAbbrevRef
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand _git.mergeBranch
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand git.init
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand git.openRepository
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand git.reopenClosedRepositories
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand git.close
+2026-10-18 10:39:25.460 [trace] ExtHostCommands#registerCommand git.closeOtherRepositories
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.openFile
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.openFile2
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.openHEADFile
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.openChange
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.compareWithWorkspace
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.rename
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.delete
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.stage
+2026-10-18 10:39:25.461 [trace] ExtHostCommands#registerCommand git.stageAll
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.stageAllTracked
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.stageAllUntracked
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.stageAllMerge
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.stageChange
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.diff.stageHunk
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.diff.stageSelection
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.stageSelectedRanges
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.stageFile
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.acceptMerge
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.runGitMerge
+2026-10-18 10:39:25.462 [trace] ExtHostCommands#registerCommand git.runGitMergeDiff3
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.revertChange
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.revertSelectedRanges
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.unstage
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.unstageAll
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.unstageSelectedRanges
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.unstageFile
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.unstageChange
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.clean
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.cleanAll
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.cleanAllTracked
+2026-10-18 10:39:25.463 [trace] ExtHostCommands#registerCommand git.cleanAllUntracked
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commit
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitAmend
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitSigned
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitStaged
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitStagedSigned
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitStagedAmend
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitAll
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitAllSigned
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitAllAmend
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitMessageAccept
+2026-10-18 10:39:25.464 [trace] ExtHostCommands#registerCommand git.commitMessageDiscard
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitEmpty
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitStagedNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitStagedSignedNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitAmendNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitSignedNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitStagedAmendNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitAllNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitAllSignedNoVerify
+2026-10-18 10:39:25.465 [trace] ExtHostCommands#registerCommand git.commitAllAmendNoVerify
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.commitEmptyNoVerify
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.restoreCommitTemplate
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.undoCommit
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.checkout
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.graph.checkout
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.checkoutDetached
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.graph.checkoutDetached
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.branch
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.branchFrom
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.deleteBranch
+2026-10-18 10:39:25.466 [trace] ExtHostCommands#registerCommand git.graph.deleteBranch
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.graph.compareWithRemote
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.graph.compareWithMergeBase
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.graph.compareRef
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.deleteRemoteBranch
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.renameBranch
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.merge
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.mergeAbort
+2026-10-18 10:39:25.467 [trace] ExtHostCommands#registerCommand git.rebase
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.createTag
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.deleteTag
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.migrateWorktreeChanges
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.openWorktreeMergeEditor
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.createWorktree
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.deleteWorktree
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.deleteWorktree2
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.openWorktree
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.openWorktreeInNewWindow
+2026-10-18 10:39:25.468 [trace] ExtHostCommands#registerCommand git.graph.deleteTag
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.deleteRemoteTag
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.fetch
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.fetchPrune
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.fetchAll
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.fetchRef
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.pullFrom
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.pull
+2026-10-18 10:39:25.469 [trace] ExtHostCommands#registerCommand git.pullRebase
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.pullRef
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.push
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.pushForce
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.pushWithTags
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.pushWithTagsForce
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.pushRef
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.cherryPick
+2026-10-18 10:39:25.470 [trace] ExtHostCommands#registerCommand git.graph.cherryPick
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.cherryPickAbort
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.pushTo
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.pushToForce
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.pushTags
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.addRemote
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.removeRemote
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.sync
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git._syncAll
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.syncRebase
+2026-10-18 10:39:25.471 [trace] ExtHostCommands#registerCommand git.publish
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.ignore
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.revealInExplorer
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.revealFileInOS.windows
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.revealFileInOS.mac
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.revealFileInOS.linux
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.stash
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.stashStaged
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.stashIncludeUntracked
+2026-10-18 10:39:25.472 [trace] ExtHostCommands#registerCommand git.stashPop
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashPopLatest
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashPopEditor
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashApply
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashApplyLatest
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashApplyEditor
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashDrop
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashDropAll
+2026-10-18 10:39:25.473 [trace] ExtHostCommands#registerCommand git.stashDropEditor
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.stashView
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.timeline.openDiff
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.timeline.viewCommit
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.timeline.copyCommitId
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.timeline.copyCommitMessage
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.timeline.selectForCompare
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.timeline.compareWithSelected
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.rebaseAbort
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.closeAllDiffEditors
+2026-10-18 10:39:25.474 [trace] ExtHostCommands#registerCommand git.closeAllUnmodifiedEditors
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.openRepositoriesInParentFolders
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.manageUnsafeRepositories
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.viewChanges
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.viewStagedChanges
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.viewUntrackedChanges
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.copyCommitId
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.copyCommitMessage
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.viewCommit
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.copyContentToClipboard
+2026-10-18 10:39:25.475 [trace] ExtHostCommands#registerCommand git.blame.toggleEditorDecoration
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.blame.toggleStatusBarItem
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.createBranch
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.createTag
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.createWorktree
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.checkout
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.checkoutDetached
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.merge
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.rebase
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.createFrom
+2026-10-18 10:39:25.476 [trace] ExtHostCommands#registerCommand git.repositories.compareRef
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.deleteBranch
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.deleteTag
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.stashView
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.stashApply
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.stashPop
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.stashDrop
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.openWorktree
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.openWorktreeInNewWindow
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.deleteWorktree
+2026-10-18 10:39:25.477 [trace] ExtHostCommands#registerCommand git.repositories.worktreeCopyBranchName
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.worktreeCopyCommitHash
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.worktreeCopyPath
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.copyCommitHash
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.copyBranchName
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.copyTagName
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.copyStashName
+2026-10-18 10:39:25.478 [trace] ExtHostCommands#registerCommand git.repositories.stashCopyBranchName
+2026-10-18 10:39:25.481 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.481 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.481 [trace] ExtHostCommands#registerCommand git.api.getRepositories
+2026-10-18 10:39:25.482 [trace] ExtHostCommands#registerCommand git.api.getRepositoryState
+2026-10-18 10:39:25.482 [trace] ExtHostCommands#registerCommand git.api.getRemoteSources
+2026-10-18 10:39:25.482 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.482 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.publish
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.copyVscodeDevLink
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.copyVscodeDevLinkFile
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.copyVscodeDevLinkWithoutRange
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.openOnGitHub
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.graph.openOnGitHub
+2026-10-18 10:39:25.483 [trace] ExtHostCommands#registerCommand github.timeline.openOnGitHub
+2026-10-18 10:39:25.484 [trace] ExtHostCommands#registerCommand github.openOnVscodeDev
+2026-10-18 10:39:25.484 [trace] ExtHostCommands#registerCommand github.createPullRequest
+2026-10-18 10:39:25.484 [trace] ExtHostCommands#registerCommand github.openPullRequest
+2026-10-18 10:39:25.485 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.485 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.485 [info] Eager extensions activated
+2026-10-18 10:39:25.485 [info] [node-compile-cache] extension-host: packaged cache inactive (status: development, configured: C:\Users\USER\vscode\out\vs\base\node-compile-cache\extension-host, active: none)
+2026-10-18 10:39:25.489 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.489 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.609 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-18 10:39:25.610 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/debug-auto-launch/out/extension
+2026-10-18 10:39:25.610 [trace] ExtensionService#loadExtensionContext vscode.debug-auto-launch
+2026-10-18 10:39:25.613 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-18 10:39:25.613 [trace] ExtensionService#loadModule [cjs] -> file:///c:/Users/USER/vscode/extensions/merge-conflict/out/mergeConflictMain
+2026-10-18 10:39:25.613 [trace] ExtensionService#loadExtensionContext vscode.merge-conflict
+2026-10-18 10:39:25.655 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:39:25.655 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:39:25.656 [trace] ExtensionService#_callActivateOptional vscode.debug-auto-launch
+2026-10-18 10:39:25.656 [trace] ExtHostCommands#registerCommand extension.node-debug.toggleAutoAttach
+2026-10-18 10:39:25.656 [trace] ExtensionService#_callActivateOptional vscode.merge-conflict
+2026-10-18 10:39:25.657 [trace] ExtHostCommands#registerCommand merge-conflict.accept.current
+2026-10-18 10:39:25.657 [trace] ExtHostCommands#registerCommand merge-conflict.accept.incoming
+2026-10-18 10:39:25.657 [trace] ExtHostCommands#registerCommand merge-conflict.accept.selection
+2026-10-18 10:39:25.657 [trace] ExtHostCommands#registerCommand merge-conflict.accept.both
+2026-10-18 10:39:25.658 [trace] ExtHostCommands#registerCommand merge-conflict.accept.all-current
+2026-10-18 10:39:25.658 [trace] ExtHostCommands#registerCommand merge-conflict.accept.all-incoming
+2026-10-18 10:39:25.658 [trace] ExtHostCommands#registerCommand merge-conflict.accept.all-both
+2026-10-18 10:39:25.658 [trace] ExtHostCommands#registerCommand merge-conflict.next
+2026-10-18 10:39:25.658 [trace] ExtHostCommands#registerCommand merge-conflict.previous
+2026-10-18 10:39:25.658 [trace] ExtHostCommands#registerCommand merge-conflict.compare
+2026-10-18 10:39:25.758 [trace] ExtHostCommands#executeCommand _workbench.whenAccountPolicySettled
+2026-10-18 10:39:25.902 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.902 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.914 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.915 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.916 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.916 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:25.937 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:25.937 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:30.509 [debug] ProxyResolver#resolveProxy https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream DIRECT 
+2026-10-18 10:39:30.517 [debug] ProxyResolver#loadSystemCertificates from Node.js count (8ms) 114
+2026-10-18 10:39:30.519 [debug] ProxyResolver#filterExpiredCertificates count filtered 108
+2026-10-18 10:39:30.523 [trace] ProxyResolver#tls.connect [{"highWaterMark":16384,"ca":"[229 certs]","servername":"mobile.events.d[32 chars]","session":"null","localAddress":"null","ALPNProtocols":"http/1.1,h2","port":443,"host":"mobile.events.d[32 chars]"}]
+2026-10-18 10:39:31.436 [debug] ProxyResolver#resolveProxy cached https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream DIRECT 
+2026-10-18 10:39:31.436 [trace] ProxyResolver#tls.connect [{"protocol":"https:","hostname":"mobile.events.d[32 chars]","port":443,"path":"null","method":"POST","headers":"[object Object]","agent":"[object Object]","_defaultAgent":"[object Object]","host":"mobile.events.d[32 chars]","lookupProxyAuthorization":"[Function: ]","noDelay":true,"servername":"mobile.events.d[32 chars]","secureEndpoint":true,"_vscodeAdditionalCaCerts":"[108 certs]","keepAlive":true,"scheduling":"lifo","timeout":5000,"defaultPort":443,"_agentKey":"mobile.events.d[57 chars]","encoding":"null","keepAliveInitialDelay":1000}]
+2026-10-18 10:39:33.055 [debug] ProxyResolver#resolveProxy https://api.githubcopilot.com/_ping DIRECT 
+2026-10-18 10:39:33.055 [debug] ProxyResolver#resolveProxy cached https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream DIRECT 
+2026-10-18 10:39:33.268 [debug] ProxyResolver#resolveProxy cached https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream DIRECT 
+2026-10-18 10:39:33.268 [trace] ProxyResolver#tls.connect [{"session":"[object Object]","protocol":"https:","hostname":"mobile.events.d[32 chars]","port":443,"path":"null","method":"POST","headers":"[object Object]","agent":"[object Object]","_defaultAgent":"[object Object]","host":"mobile.events.d[32 chars]","lookupProxyAuthorization":"[Function: ]","noDelay":true,"servername":"mobile.events.d[32 chars]","secureEndpoint":true,"_vscodeAdditionalCaCerts":"[108 certs]","keepAlive":true,"scheduling":"lifo","timeout":5000,"defaultPort":443,"_agentKey":"mobile.events.d[57 chars]","encoding":"null","keepAliveInitialDelay":1000}]
+2026-10-18 10:39:39.680 [debug] ProxyResolver#resolveProxy http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 10:39:40.871 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.871 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.944 [trace] ExtHostCommands#registerCommand github.copilot.interactiveSession.feedback
+2026-10-18 10:39:40.944 [trace] ExtHostCommands#registerCommand github.copilot.chat.compact
+2026-10-18 10:39:40.944 [trace] ExtHostCommands#registerCommand github.copilot.terminal.explainTerminalLastCommand
+2026-10-18 10:39:40.944 [trace] ExtHostCommands#registerCommand github.copilot.terminal.fixTerminalLastCommand
+2026-10-18 10:39:40.944 [trace] ExtHostCommands#registerCommand github.copilot.terminal.generateCommitMessage
+2026-10-18 10:39:40.945 [trace] ExtHostCommands#registerCommand github.copilot.git.generateCommitMessage
+2026-10-18 10:39:40.945 [trace] ExtHostCommands#registerCommand github.copilot.git.resolveMergeConflicts
+2026-10-18 10:39:40.945 [trace] ExtHostCommands#registerCommand github.copilot.devcontainer.generateDevContainerConfig
+2026-10-18 10:39:40.945 [trace] ExtHostCommands#registerCommand github.copilot.chat.openUserPreferences
+2026-10-18 10:39:40.945 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.945 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#registerCommand _github.copilot.openRelativePath
+2026-10-18 10:39:40.946 [trace] ExtHostCommands#registerCommand _github.copilot.openSymbolInFile
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#registerCommand _github.copilot.openSymbolFromReferences
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.947 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.explain
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.explain.palette
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.stagedChanges
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.unstagedChanges
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.changes
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.stagedFileChange
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.unstagedFileChange
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.codeReview.run
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.apply
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.applyAndNext
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.applyShort
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.continueInInlineChat
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.continueInChat
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.discard
+2026-10-18 10:39:40.948 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.discardAndNext
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.discardShort
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.discardAll
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.markHelpful
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.markUnhelpful
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.previous
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.next
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.review.current
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.generate
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.fix
+2026-10-18 10:39:40.949 [trace] ExtHostCommands#registerCommand github.copilot.chat.generateAltText
+2026-10-18 10:39:40.950 [trace] ExtHostCommands#registerCommand github.copilot.createProject
+2026-10-18 10:39:40.950 [trace] ExtHostCommands#registerCommand github.copilot.openFile
+2026-10-18 10:39:40.950 [trace] ExtHostCommands#registerCommand github.copilot.createFile
+2026-10-18 10:39:40.950 [trace] ExtHostCommands#registerCommand github.copilot.executeSearch
+2026-10-18 10:39:40.954 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.showElements
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.hideElements
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.showTools
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.hideTools
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.showNesRequests
+2026-10-18 10:39:40.955 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.hideNesRequests
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.showGhostRequests
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.hideGhostRequests
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand vscode.copilot.chat.showRequestHtmlItem
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.exportLogItem
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.saveCurrentMarkdown
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.exportPromptArchive
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.exportPromptLogsAsJson
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.exportAllPromptLogsAsJson
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.chat.debug.showRawRequestBody
+2026-10-18 10:39:40.956 [trace] ExtHostCommands#registerCommand github.copilot.debug.showOutputChannel
+2026-10-18 10:39:40.957 [trace] ExtHostCommands#registerCommand github.copilot.chat.rerunWithCopilotDebug
+2026-10-18 10:39:40.961 [trace] ExtHostCommands#registerCommand github.copilot.debug.resetVirtualToolGroups
+2026-10-18 10:39:40.961 [trace] ExtHostCommands#registerCommand github.copilot.chat.tools.memory.showMemories
+2026-10-18 10:39:40.961 [trace] ExtHostCommands#registerCommand github.copilot.chat.tools.memory.resolveMemoryFileUri
+2026-10-18 10:39:40.961 [trace] ExtHostCommands#registerCommand github.copilot.chat.tools.memory.clearMemories
+2026-10-18 10:39:40.961 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.961 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.962 [trace] ExtHostCommands#registerCommand github.copilot.debug.workbenchState
+2026-10-18 10:39:40.962 [trace] ExtHostCommands#registerCommand github.copilot.tests.applyMutations
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#registerCommand github.copilot.tests.fixTestFailure.fromInline
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#registerCommand github.copilot.tests.fixTestFailure
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#registerCommand github.copilot.chat.mcp.setup.flow
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#registerCommand github.copilot.chat.mcp.setup.validatePackage
+2026-10-18 10:39:40.963 [trace] ExtHostCommands#registerCommand github.copilot.chat.mcp.setup.check
+2026-10-18 10:39:40.965 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:40.965 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:40.976 [trace] [GitHub.copilot-chat] INVOKE provider '(adapter) => adapter.supportsAutomaticNewSymbolNamesTriggerKind()'
+2026-10-18 10:39:40.976 [trace] [GitHub.copilot-chat] provider DONE after 1ms
+2026-10-18 10:39:41.050 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:41.050 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:41.051 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:39:41.051 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:39:41.052 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.052 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.053 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.053 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.053 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.054 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.054 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.054 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.054 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.054 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.054 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.055 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.055 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.planAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.055 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.implementAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.102 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.102 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.102 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.102 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.additionalTools', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.103 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.askAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.109 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.109 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.110 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.110 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.110 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.110 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:41.110 [warning] [GitHub.copilot-chat] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'github.copilot.chat.exploreAgent.model', provide the URI of a resource or 'null' for any resource.
+2026-10-18 10:39:42.188 [debug] ProxyResolver#resolveProxy https://westus-0.in.applicationinsights.azure.com/v2.1/track DIRECT 
+2026-10-18 10:39:42.188 [trace] ProxyResolver#tls.connect [{"method":"POST","withCredentials":false,"headers":"[object Object]","disableAppInsightsAutoCollection":true,"host":"westus-0.in.app[41 chars]","port":443,"path":"null","agent":"[object Object]","_defaultAgent":"[object Object]","lookupProxyAuthorization":"[Function: ]","noDelay":true,"servername":"westus-0.in.app[41 chars]","secureEndpoint":true,"_vscodeAdditionalCaCerts":"[108 certs]","keepAlive":true,"scheduling":"lifo","timeout":5000,"defaultPort":443,"protocol":"https:","_agentKey":"westus-0.in.app[66 chars]","encoding":"null","keepAliveInitialDelay":1000}]
+2026-10-18 10:39:42.223 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:39:42.224 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:39:50.303 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:39:50.303 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:40:01.403 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-18 10:40:01.621 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-18 10:40:01.634 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:40:02.833 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:40:02.833 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:40:10.489 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-18 10:40:10.516 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-18 10:40:10.525 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:40:11.929 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:40:11.929 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:40:42.877 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:40:42.877 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:40:58.276 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:41:21.231 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:41:21.231 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:41:30.303 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:41:30.303 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:41:42.327 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:41:54.469 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:41:54.469 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:44:01.430 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:44:01.431 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:44:10.542 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:44:11.883 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:44:11.883 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:44:17.057 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:44:18.439 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:44:18.439 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:44:25.603 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:44:25.603 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:44:47.132 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:44:57.634 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:44:57.634 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:46:17.532 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:46:17.532 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:46:20.824 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:46:20.824 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:46:50.374 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:46:50.374 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:50:36.680 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:50:36.680 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:50:39.770 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:50:39.770 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:50:41.742 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:51:00.190 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:51:00.923 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:51:00.923 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:51:20.781 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:51:22.141 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:51:22.141 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:51:29.136 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:51:29.137 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:51:37.464 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:51:38.970 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:51:38.970 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:51:47.859 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:52:08.213 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:52:08.213 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:52:10.873 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:52:10.873 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:52:24.555 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:52:24.555 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:52:26.203 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:52:26.203 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:52:27.312 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:53:40.990 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:53:40.990 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:53:42.771 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:53:42.772 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:53:43.985 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:53:59.820 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:53:59.820 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:54:01.536 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:54:01.536 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:54:02.761 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:54:12.859 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:54:12.859 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:54:20.336 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:54:20.336 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:54:22.145 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:54:22.145 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:54:23.295 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:54:24.683 [debug] ProxyResolver#getCachedProxy network interfaces changed, flushing cache
+2026-10-18 10:54:24.685 [debug] ProxyResolver#resolveProxy http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 10:54:50.540 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:54:50.540 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:54:52.413 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:54:52.414 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 10:54:53.846 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:55:31.608 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:55:31.608 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:55:33.503 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:55:33.503 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:55:34.549 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 10:55:44.005 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:55:44.005 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:55:47.928 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:55:47.928 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:56:19.121 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:56:19.121 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:59:34.669 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 10:59:34.669 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 10:59:36.337 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 10:59:36.337 [trace] [vscode.git] provider DONE after 1ms
+2026-10-18 10:59:37.335 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-18 11:09:24.685 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 11:09:24.685 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 11:24:24.689 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 11:24:24.689 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 11:39:24.701 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 11:39:24.702 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 11:54:24.707 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 11:54:24.707 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 12:09:24.712 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-18 12:09:24.713 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-18 12:14:02.351 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 12:14:02.352 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 12:14:04.106 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-18 12:14:04.107 [trace] [vscode.git] provider DONE after 0ms
+2026-10-18 12:14:07.118 [trace] ExtHostCommands#executeCommand setContext
+2026-10-18 12:14:07.118 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-18 12:14:18.357 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction

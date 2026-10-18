@@ -139,14 +139,20 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 		// Convert tools if provided in options
 		let toolDefs: IOllamaToolDefinition[] | undefined;
 		if (Array.isArray(options.tools)) {
-			toolDefs = options.tools.map(t => ({
-				type: 'function',
-				function: {
-					name: t.name || t.id,
-					description: t.description || t.modelDescription || '',
-					parameters: t.inputSchema || { type: 'object', properties: {} }
-				}
-			}));
+			toolDefs = options.tools.map(t => {
+				const fn = (t as any).function;
+				const name = fn?.name || t.name || t.id;
+				const description = fn?.description || t.description || t.modelDescription || '';
+				const parameters = fn?.parameters || (t as any).parameters || t.inputSchema || { type: 'object', properties: {} };
+				return {
+					type: 'function',
+					function: {
+						name,
+						description,
+						parameters: typeof parameters === 'object' && parameters !== null ? parameters : { type: 'object', properties: {} }
+					}
+				};
+			});
 		}
 
 		const streamGenerator = this._streamChat(rawModelName, ollamaMessages, toolDefs, options, token);
@@ -201,11 +207,21 @@ export class OllamaLanguageModelProvider extends Disposable implements ILanguage
 				if (chunk.message?.tool_calls && chunk.message.tool_calls.length > 0) {
 					for (let i = 0; i < chunk.message.tool_calls.length; i++) {
 						const call = chunk.message.tool_calls[i];
+						let args: Record<string, unknown> = {};
+						if (typeof call.function.arguments === 'string') {
+							try {
+								args = JSON.parse(call.function.arguments);
+							} catch {
+								args = {};
+							}
+						} else if (typeof call.function.arguments === 'object' && call.function.arguments !== null) {
+							args = call.function.arguments;
+						}
 						yield {
 							type: 'tool_use',
 							name: call.function.name,
 							toolCallId: `call_${Date.now()}_${i}`,
-							parameters: call.function.arguments || {}
+							parameters: args
 						};
 					}
 				}

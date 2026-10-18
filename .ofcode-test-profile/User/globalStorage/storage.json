@@ -68,7 +68,7 @@
                     "top": 35,
                     "left": 4,
                     "width": 44,
-                    "height": 733,
+                    "height": 1011,
                     "outerEdges": {
                         "left": true,
                         "right": false,
@@ -80,7 +80,7 @@
                     "top": 35,
                     "left": 48,
                     "width": 170,
-                    "height": 733,
+                    "height": 1011,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -90,9 +90,9 @@
                 },
                 "auxiliaryBar": {
                     "top": 35,
-                    "left": 522,
+                    "left": 1242,
                     "width": 674,
-                    "height": 733,
+                    "height": 1011,
                     "outerEdges": {
                         "left": false,
                         "right": true,
@@ -101,9 +101,9 @@
                     }
                 },
                 "panel": {
-                    "top": 510,
+                    "top": 788,
                     "left": 222,
-                    "width": 296,
+                    "width": 1016,
                     "height": 258,
                     "outerEdges": {
                         "left": false,
@@ -115,8 +115,8 @@
                 "editor": {
                     "top": 35,
                     "left": 222,
-                    "width": 296,
-                    "height": 471,
+                    "width": 1016,
+                    "height": 749,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -132,8 +132,8 @@
             "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332",
             "uiState": {
                 "mode": 1,
-                "x": -1249,
-                "y": 231,
+                "x": 472,
+                "y": 299,
                 "width": 1200,
                 "height": 800
             }

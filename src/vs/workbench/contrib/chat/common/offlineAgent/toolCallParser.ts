@@ -14,64 +14,119 @@ export interface IParsedToolCall {
 export class ToolCallParser {
 	/**
 	 * Extracts tool calls from either Ollama's native tool_calls array,
-	 * or falls back to robust regex matching of JSON blocks if a 3B/7B model outputs them inline.
+	 * or falls back to robust regex matching of tool_call tags, markdown JSON blocks,
+	 * or function call patterns if a 3B/7B/14B model outputs them inline.
 	 */
 	static parse(nativeCalls?: IOllamaToolCall[], rawContent?: string): IParsedToolCall[] {
 		const results: IParsedToolCall[] = [];
+		const seen = new Set<string>();
+
+		const addCall = (name: string, rawParams: unknown): void => {
+			if (!name) {
+				return;
+			}
+			let parameters: Record<string, unknown> = {};
+			if (typeof rawParams === 'string') {
+				try {
+					parameters = JSON.parse(rawParams);
+				} catch {
+					parameters = {};
+				}
+			} else if (typeof rawParams === 'object' && rawParams !== null) {
+				parameters = rawParams as Record<string, unknown>;
+			}
+
+			const key = `${name}:${JSON.stringify(parameters)}`;
+			if (!seen.has(key)) {
+				seen.add(key);
+				results.push({ name, parameters });
+			}
+		};
 
 		if (nativeCalls && nativeCalls.length > 0) {
 			for (const call of nativeCalls) {
 				if (call.function && call.function.name) {
-					results.push({
-						name: call.function.name,
-						parameters: call.function.arguments || {},
-					});
+					addCall(call.function.name, call.function.arguments);
 				}
 			}
-			return results;
+			if (results.length > 0) {
+				return results;
+			}
 		}
 
 		if (!rawContent) {
 			return results;
 		}
 
-		// Fallback 1: Look for ```json ... ``` code blocks containing tool invocation patterns
+		// Pattern 1: <tool_call> ... </tool_call> tags (Qwen 2.5/3, DeepSeek)
+		const toolCallTagRegex = /<tool_call>([\s\S]*?)<\/tool_call>/gi;
+		let tagMatch: RegExpExecArray | null;
+		while ((tagMatch = toolCallTagRegex.exec(rawContent)) !== null) {
+			try {
+				const trimmed = tagMatch[1].trim();
+				const parsed = JSON.parse(trimmed);
+				const name = parsed.name || parsed.tool || parsed.function?.name;
+				const params = parsed.arguments || parsed.parameters || parsed.input || parsed.args || parsed.function?.arguments || {};
+				if (name) {
+					addCall(name, params);
+				}
+			} catch {
+				// Try nested matching if inner content contains json
+			}
+		}
+
+		// Pattern 2: <function=name> ... </function> (Llama-3 / Hermes)
+		const fnTagRegex = /<function=([^>]+)>([\s\S]*?)<\/function>/gi;
+		while ((tagMatch = fnTagRegex.exec(rawContent)) !== null) {
+			const name = tagMatch[1].trim();
+			try {
+				const params = JSON.parse(tagMatch[2].trim());
+				addCall(name, params);
+			} catch {
+				addCall(name, {});
+			}
+		}
+
+		// Pattern 3: [TOOL_CALL: name(args)]
+		const bracketRegex = /\[TOOL_CALL:\s*([a-zA-Z0-9_-]+)\s*\(([\s\S]*?)\)\]/gi;
+		while ((tagMatch = bracketRegex.exec(rawContent)) !== null) {
+			const name = tagMatch[1].trim();
+			try {
+				const params = JSON.parse(tagMatch[2].trim());
+				addCall(name, params);
+			} catch {
+				addCall(name, {});
+			}
+		}
+
+		// Pattern 4: ```json ... ``` or ``` ... ``` code blocks containing tool invocation patterns
 		const jsonBlockRegex = /```(?:json)?\s*(\{[\s\S]*?\})\s*```/g;
 		let match: RegExpExecArray | null;
-
 		while ((match = jsonBlockRegex.exec(rawContent)) !== null) {
 			try {
 				const parsed = JSON.parse(match[1]);
-				if (parsed.name && (parsed.parameters || parsed.arguments)) {
-					results.push({
-						name: parsed.name,
-						parameters: parsed.parameters || parsed.arguments || {},
-					});
-				} else if (parsed.tool && (parsed.input || parsed.parameters)) {
-					results.push({
-						name: parsed.tool,
-						parameters: parsed.input || parsed.parameters || {},
-					});
+				const name = parsed.name || parsed.tool || parsed.function?.name;
+				const params = parsed.parameters || parsed.arguments || parsed.input || parsed.args || parsed.function?.arguments;
+				if (name && params !== undefined) {
+					addCall(name, params);
 				}
 			} catch {
 				// Ignore malformed JSON block
 			}
 		}
 
-		if (results.length > 0) {
-			return results;
-		}
-
-		// Fallback 2: Look for raw {"name": "...", "parameters": {...}} objects anywhere in text
-		const rawObjectRegex = /\{\s*"(?:tool|name)"\s*:\s*"([^"]+)"\s*,\s*"(?:parameters|arguments|input)"\s*:\s*(\{[\s\S]*?\})\s*\}/g;
+		// Pattern 5: Look for raw {"name": "...", "parameters": {...}} or {"tool": "...", "arguments": {...}} objects anywhere in text
+		const rawObjectRegex = /\{\s*"(?:tool|name)"\s*:\s*"([^"]+)"\s*,\s*"(?:parameters|arguments|input|args)"\s*:\s*(\{[\s\S]*?\}|"[^"]*")\s*\}/g;
 		while ((match = rawObjectRegex.exec(rawContent)) !== null) {
 			try {
 				const name = match[1];
-				const params = JSON.parse(match[2]);
-				results.push({
-					name,
-					parameters: params,
-				});
+				let params: unknown;
+				try {
+					params = JSON.parse(match[2]);
+				} catch {
+					params = match[2];
+				}
+				addCall(name, params);
 			} catch {
 				// Ignore malformed JSON snippet
 			}

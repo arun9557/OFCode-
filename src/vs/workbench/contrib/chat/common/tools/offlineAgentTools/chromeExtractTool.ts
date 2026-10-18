@@ -46,12 +46,14 @@ interface IChromeExtractInput {
 	maxTokens?: number;
 }
 
+import { IRequestService } from '../../../../../../platform/request/common/request.js';
+
 export class ChromeExtractTool extends Disposable implements IToolImpl {
 	private readonly _webExtractorService: WebExtractorService;
 
-	constructor() {
+	constructor(@IRequestService requestService: IRequestService) {
 		super();
-		this._webExtractorService = new WebExtractorService();
+		this._webExtractorService = new WebExtractorService(requestService);
 	}
 
 	async prepareToolInvocation(context: IToolInvocationPreparationContext, token: CancellationToken): Promise<IPreparedToolInvocation | undefined> {

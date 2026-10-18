@@ -7,4 +7,9 @@ export const enum OfflineAgentToolId {
 	HighRag = 'vscode_highRag',
 	ChromeExtract = 'vscode_chromeExtract',
 	GitHubExplore = 'vscode_githubExplore',
+	ReadFile = 'ofcode_readFile',
+	WriteFile = 'ofcode_writeFile',
+	EditFile = 'ofcode_editFile',
+	ListFiles = 'ofcode_listFiles',
+	RunCommand = 'ofcode_runCommand',
 }

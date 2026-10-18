@@ -1,0 +1,7 @@
+2026-10-18 12:15:11.626 [info] [main] Log level: Trace
+2026-10-18 12:15:11.626 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-10-18 12:15:11.626 [info] [main] Using git "2.56.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2026-10-18 12:15:11.626 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-18 12:15:11.626 [trace] [Model][doInitialScan] Settings: autoRepositoryDetection=true, openRepositoryInParentFolders=prompt
+2026-10-18 12:15:11.626 [trace] [Model][onDidChangeWorkspaceFolders] Workspace folders: []
+2026-10-18 12:15:11.626 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
