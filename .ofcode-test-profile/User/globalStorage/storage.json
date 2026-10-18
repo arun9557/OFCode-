@@ -57,7 +57,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 178,
             "auxiliaryBarWidth": 754,
             "statusBarHeight": 28,
             "windowBorder": false,
@@ -68,7 +68,7 @@
                     "top": 35,
                     "left": 4,
                     "width": 44,
-                    "height": 733,
+                    "height": 1011,
                     "outerEdges": {
                         "left": true,
                         "right": false,
@@ -76,11 +76,23 @@
                         "bottom": true
                     }
                 },
+                "sideBar": {
+                    "top": 35,
+                    "left": 48,
+                    "width": 178,
+                    "height": 1011,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
                 "auxiliaryBar": {
                     "top": 35,
-                    "left": 450,
+                    "left": 1170,
                     "width": 746,
-                    "height": 733,
+                    "height": 1011,
                     "outerEdges": {
                         "left": false,
                         "right": true,
@@ -89,9 +101,9 @@
                     }
                 },
                 "panel": {
-                    "top": 510,
-                    "left": 52,
-                    "width": 394,
+                    "top": 788,
+                    "left": 230,
+                    "width": 936,
                     "height": 258,
                     "outerEdges": {
                         "left": false,
@@ -102,9 +114,9 @@
                 },
                 "editor": {
                     "top": 35,
-                    "left": 52,
-                    "width": 394,
-                    "height": 471,
+                    "left": 230,
+                    "width": 936,
+                    "height": 749,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -119,9 +131,9 @@
         "lastActiveWindow": {
             "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332",
             "uiState": {
-                "mode": 1,
-                "x": 73,
-                "y": 0,
+                "mode": 0,
+                "x": -1907,
+                "y": 194,
                 "width": 1200,
                 "height": 800
             }
