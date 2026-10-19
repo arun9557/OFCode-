@@ -40,3 +40,124 @@
 2026-10-19 13:28:01.030 [trace] Scanned system extensions: 96
 2026-10-19 13:28:02.507 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
 2026-10-19 13:28:02.509 [trace] Scanned user extensions: 0
+2026-10-19 13:28:03.223 [debug] User data changed
+2026-10-19 13:28:03.818 [trace] Started scanning system extensions
+2026-10-19 13:28:03.819 [trace] Started scanning dev system extensions
+2026-10-19 13:28:03.819 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:28:03.823 [trace] Scanned user extensions: 0
+2026-10-19 13:28:03.836 [trace] Scanned dev system extensions: 3
+2026-10-19 13:28:03.840 [trace] Scanned system extensions: 96
+2026-10-19 13:28:08.300 [debug] User data changed
+2026-10-19 13:28:10.814 [trace] [logs cleanup]: Starting to clean up old logs.
+2026-10-19 13:28:18.518 [debug] User data changed
+2026-10-19 13:28:18.928 [debug] User data changed
+2026-10-19 13:28:19.907 [debug] User data changed
+2026-10-19 13:28:20.386 [debug] User data changed
+2026-10-19 13:28:21.978 [debug] User data changed
+2026-10-19 13:28:23.556 [debug] User data changed
+2026-10-19 13:28:30.821 [trace] [storage cleanup]: Starting to clean up workspace storage folders for unused empty workspaces.
+2026-10-19 13:28:42.927 [debug] User data changed
+2026-10-19 13:28:44.544 [debug] User data changed
+2026-10-19 13:28:47.126 [trace] PolicyConfiguration#onDidChangePolicies []
+2026-10-19 13:28:47.127 [trace] PolicyConfiguration#update []
+2026-10-19 13:28:47.449 [trace] [Marketplace] Setting manifest unavailable
+2026-10-19 13:28:47.450 [trace] Started scanning system extensions
+2026-10-19 13:28:47.450 [trace] Started scanning dev system extensions
+2026-10-19 13:28:47.451 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:28:47.528 [trace] Scanned dev system extensions: 3
+2026-10-19 13:28:47.545 [trace] Scanned system extensions: 96
+2026-10-19 13:28:47.556 [trace] Scanned user extensions: 0
+2026-10-19 13:28:47.949 [trace] Started scanning system extensions
+2026-10-19 13:28:47.949 [trace] Started scanning dev system extensions
+2026-10-19 13:28:47.949 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:28:47.957 [trace] Scanned user extensions: 0
+2026-10-19 13:28:47.979 [trace] Scanned dev system extensions: 3
+2026-10-19 13:28:47.988 [trace] Scanned system extensions: 96
+2026-10-19 13:28:48.013 [trace] Started scanning system extensions
+2026-10-19 13:28:48.014 [trace] Started scanning dev system extensions
+2026-10-19 13:28:48.014 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:28:48.020 [trace] Scanned user extensions: 0
+2026-10-19 13:28:48.039 [trace] Scanned dev system extensions: 3
+2026-10-19 13:28:48.046 [trace] Scanned system extensions: 96
+2026-10-19 13:28:48.194 [trace] Started scanning system extensions
+2026-10-19 13:28:48.194 [trace] Started scanning dev system extensions
+2026-10-19 13:28:48.194 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:28:48.199 [trace] Scanned user extensions: 0
+2026-10-19 13:28:48.214 [trace] Scanned dev system extensions: 3
+2026-10-19 13:28:48.220 [trace] Scanned system extensions: 96
+2026-10-19 13:28:48.305 [debug] User data changed
+2026-10-19 13:28:48.495 [debug] User data changed
+2026-10-19 13:28:48.720 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:28:48.723 [trace] Scanned user extensions: 0
+2026-10-19 13:28:50.568 [debug] User data changed
+2026-10-19 13:28:55.785 [debug] User data changed
+2026-10-19 13:29:00.976 [debug] User data changed
+2026-10-19 13:29:02.582 [debug] User data changed
+2026-10-19 13:29:06.180 [debug] User data changed
+2026-10-19 13:29:16.261 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:29:16.263 [trace] Scanned user extensions: 0
+2026-10-19 13:29:16.398 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:29:16.405 [trace] Scanned user extensions: 0
+2026-10-19 13:29:16.845 [debug] User data changed
+2026-10-19 13:29:24.495 [debug] User data changed
+2026-10-19 13:29:29.699 [debug] User data changed
+2026-10-19 13:29:53.710 [debug] User data changed
+2026-10-19 13:30:10.222 [debug] User data changed
+2026-10-19 13:30:10.848 [debug] User data changed
+2026-10-19 13:30:15.239 [trace] PolicyConfiguration#onDidChangePolicies []
+2026-10-19 13:30:15.239 [trace] PolicyConfiguration#update []
+2026-10-19 13:30:15.465 [trace] [Marketplace] Setting manifest unavailable
+2026-10-19 13:30:15.466 [trace] Started scanning system extensions
+2026-10-19 13:30:15.466 [trace] Started scanning dev system extensions
+2026-10-19 13:30:15.466 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:30:15.517 [trace] Scanned user extensions: 0
+2026-10-19 13:30:15.546 [trace] Scanned dev system extensions: 3
+2026-10-19 13:30:15.555 [trace] Scanned system extensions: 96
+2026-10-19 13:30:15.559 [trace] Started scanning system extensions
+2026-10-19 13:30:15.559 [trace] Started scanning dev system extensions
+2026-10-19 13:30:15.559 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:30:15.610 [trace] Scanned dev system extensions: 3
+2026-10-19 13:30:15.614 [trace] Scanned system extensions: 96
+2026-10-19 13:30:15.642 [trace] Scanned user extensions: 0
+2026-10-19 13:30:15.959 [debug] User data changed
+2026-10-19 13:30:16.225 [trace] Started scanning system extensions
+2026-10-19 13:30:16.225 [trace] Started scanning dev system extensions
+2026-10-19 13:30:16.226 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:30:16.229 [trace] Scanned user extensions: 0
+2026-10-19 13:30:16.246 [trace] Scanned dev system extensions: 3
+2026-10-19 13:30:16.254 [trace] Scanned system extensions: 96
+2026-10-19 13:30:16.291 [trace] Started scanning system extensions
+2026-10-19 13:30:16.291 [trace] Started scanning dev system extensions
+2026-10-19 13:30:16.291 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:30:16.296 [trace] Scanned user extensions: 0
+2026-10-19 13:30:16.319 [trace] Scanned dev system extensions: 3
+2026-10-19 13:30:16.327 [trace] Scanned system extensions: 96
+2026-10-19 13:30:16.376 [debug] User data changed
+2026-10-19 13:30:16.546 [trace] Started scanning system extensions
+2026-10-19 13:30:16.547 [trace] Started scanning dev system extensions
+2026-10-19 13:30:16.547 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:30:16.554 [trace] Scanned user extensions: 0
+2026-10-19 13:30:16.571 [trace] Scanned dev system extensions: 3
+2026-10-19 13:30:16.576 [trace] Scanned system extensions: 96
+2026-10-19 13:30:16.968 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/USER/.ofcode-dev/extensions/extensions.json","path":"/c:/Users/USER/.ofcode-dev/extensions/extensions.json","scheme":"vscode-userdata"}
+2026-10-19 13:30:16.970 [trace] Scanned user extensions: 0
+2026-10-19 13:30:19.064 [debug] User data changed
+2026-10-19 13:30:21.220 [debug] User data changed
+2026-10-19 13:30:35.719 [debug] User data changed
+2026-10-19 13:30:37.089 [debug] User data changed
+2026-10-19 13:30:42.312 [debug] User data changed
+2026-10-19 13:30:45.795 [debug] User data changed
+2026-10-19 13:30:47.558 [debug] User data changed
+2026-10-19 13:31:05.171 [debug] User data changed
+2026-10-19 13:31:08.263 [debug] User data changed
+2026-10-19 13:31:10.776 [debug] User data changed
+2026-10-19 13:31:15.355 [debug] User data changed
+2026-10-19 13:31:15.434 [debug] User data changed
+2026-10-19 13:31:15.669 [debug] User data changed
+2026-10-19 13:31:15.780 [debug] User data changed
+2026-10-19 13:31:16.364 [debug] User data changed
+2026-10-19 13:31:17.347 [debug] User data changed
+2026-10-19 13:31:17.457 [debug] User data changed
+2026-10-19 13:31:57.339 [debug] User data changed
+2026-10-19 13:31:58.715 [debug] User data changed
+2026-10-19 13:33:03.273 [debug] User data changed

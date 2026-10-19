@@ -1594,3 +1594,3328 @@ URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmY
   Read: 2026-10-18T06:47:13.900Z
 
 === End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===
+Total sessions: 5
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: add this vedio on readme fiel  ---
+  Resource: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Provider Type: copilotcli
+  Provider Label: Copilot CLI
+  Status: Completed
+  Icon: copilot
+  Badge: $(workspace-untrusted) bitai
+  Timing:
+    Created: 2026-05-07T14:24:36.052Z
+    Last Request Started: 2026-05-07T14:24:36.052Z
+    Last Request Ended: 2026-05-07T14:24:36.052Z
+  Changes: 0 files, +0 -0
+  Metadata:
+    isolationMode: workspace
+    workingDirectoryPath: x:\Users\bitai
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T05:09:48.838Z
+
+--- Session: hye  ---
+  Resource: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-17T08:49:47.499Z
+    Last Request Started: 2026-10-17T09:42:18.706Z
+    Last Request Ended: 2026-10-17T09:42:18.793Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-17T09:42:18.797Z
+
+--- Session: he ---
+  Resource: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Provider Type: local
+  Provider Label: Local
+  Status: Failed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T04:16:41.164Z
+    Last Request Started: 2026-10-18T04:16:43.363Z
+    Last Request Ended: 2026-10-18T04:16:47.557Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T04:16:47.562Z
+
+--- Session: hy ---
+  Resource: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T05:09:48.792Z
+    Last Request Started: 2026-10-18T06:44:02.599Z
+    Last Request Ended: 2026-10-18T06:44:19.701Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:44:19.705Z
+
+--- Session: https://coffeeandjunk.com/articles/ isss article ke bare mai batao yaha kya hai  ---
+  Resource: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-18T06:45:10.858Z
+    Last Request Started: 2026-10-18T06:46:33.827Z
+    Last Request Ended: 2026-10-18T06:47:13.886Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): 2026-10-18T06:47:13.900Z
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 5
+
+URI: vscode-chat-session://local/MmFlNGNhMWUtMWIxYi00MzVkLWFlZDMtY2RjMjJkM2Y3MDZl
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-17T09:42:18.797Z
+
+URI: copilotcli:/1c7469c7-71fa-4738-847e-6002380669e2
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T05:09:48.838Z
+
+URI: vscode-chat-session://local/Yzg2MTU5ODQtNTNhMS00NTE4LWJjMWItNmVhOWVmMzJhODNh
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T04:16:47.562Z
+
+URI: vscode-chat-session://local/ZWJmNjRlYWMtMWE3Yi00OWMxLTkyMTctYzc2NmYyZGI4ZTA1
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:44:19.705Z
+
+URI: vscode-chat-session://local/MjI0MjIxYzgtMDZmZS00OGYzLWJlZTgtMDdjNGVlNmEyMmYz
+  Archived: undefined
+  Pinned: undefined
+  Read: 2026-10-18T06:47:13.900Z
+
+=== End Session States ===

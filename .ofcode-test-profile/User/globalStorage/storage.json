@@ -67,8 +67,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
-            "auxiliaryBarWidth": 1228,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 682,
             "statusBarHeight": 28,
             "windowBorder": false,
             "modernUI": true,
@@ -78,7 +78,7 @@
                     "top": 35,
                     "left": 4,
                     "width": 44,
-                    "height": 1011,
+                    "height": 733,
                     "outerEdges": {
                         "left": true,
                         "right": false,
@@ -89,8 +89,8 @@
                 "sideBar": {
                     "top": 35,
                     "left": 48,
-                    "width": 300,
-                    "height": 1011,
+                    "width": 170,
+                    "height": 733,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -100,9 +100,9 @@
                 },
                 "auxiliaryBar": {
                     "top": 35,
-                    "left": 696,
-                    "width": 1220,
-                    "height": 1011,
+                    "left": 522,
+                    "width": 674,
+                    "height": 733,
                     "outerEdges": {
                         "left": false,
                         "right": true,
@@ -111,9 +111,9 @@
                     }
                 },
                 "panel": {
-                    "top": 788,
-                    "left": 352,
-                    "width": 340,
+                    "top": 510,
+                    "left": 222,
+                    "width": 296,
                     "height": 258,
                     "outerEdges": {
                         "left": false,
@@ -124,9 +124,9 @@
                 },
                 "editor": {
                     "top": 35,
-                    "left": 352,
-                    "width": 340,
-                    "height": 749,
+                    "left": 222,
+                    "width": 296,
+                    "height": 471,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -142,9 +142,9 @@
             "folder": "file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage",
             "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\ba6525f818b4e87b6b0f3245ef6a72e7",
             "uiState": {
-                "mode": 0,
-                "x": 200,
-                "y": 90,
+                "mode": 1,
+                "x": 473,
+                "y": 287,
                 "width": 1200,
                 "height": 800
             }
@@ -169,8 +169,8 @@
     ],
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 300,
-            "auxiliaryBarWidth": 1228,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 682,
             "workspaces": {
                 "b240a2bc34db31fa01a3d9259ad96835": {
                     "sideBarVisible": true,
