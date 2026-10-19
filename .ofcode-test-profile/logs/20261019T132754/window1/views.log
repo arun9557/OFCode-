@@ -1,0 +1,13 @@
+2026-10-19 13:27:59.840 [trace] Added views:workbench.panel.chat.view.copilot in workbench.panel.chat
+2026-10-19 13:27:59.840 [trace] Added views:outline,timeline in workbench.view.explorer
+2026-10-19 13:27:59.840 [trace] Added views:workbench.view.search in workbench.view.search
+2026-10-19 13:27:59.840 [trace] Added views:workbench.scm in workbench.view.scm
+2026-10-19 13:27:59.840 [trace] Added views:workbench.panel.markers.view in workbench.panel.markers
+2026-10-19 13:27:59.841 [trace] Added views:workbench.panel.output in workbench.panel.output
+2026-10-19 13:27:59.841 [trace] Added views:terminal in terminal
+2026-10-19 13:27:59.841 [trace] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2026-10-19 13:28:00.612 [trace] Added views:workbench.debug.welcome in workbench.view.debug
+2026-10-19 13:28:00.648 [trace] Added views:workbench.views.extensions.installed in workbench.view.extensions
+2026-10-19 13:28:00.703 [trace] Added views:workbench.views.mcp.installed in workbench.view.extensions
+2026-10-19 13:28:00.764 [trace] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2026-10-19 13:28:00.964 [trace] Removed views:workbench.views.mcp.installed from workbench.view.extensions

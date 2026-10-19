@@ -1,0 +1,59 @@
+2026-10-19 13:27:54.315 [trace] PolicyConfiguration#initialize
+2026-10-19 13:27:54.315 [trace] PolicyConfiguration#updatePolicyDefinitions ["update.mode","update.channel","update.enableWindowsBackgroundUpdates","update.showReleaseNotes","update.showPostInstallInfo","update.titleBar","http.useLocalProxyConfiguration","http.electronFetch","http.proxy","http.proxyStrictSSL","http.proxyKerberosServicePrincipal","http.noProxy","http.proxyAuthorization","http.proxySupport","http.systemCertificates","http.systemCertificatesNode","http.experimental.systemCertificatesV2","http.fetchAdditionalSupport","http.webSocketAdditionalSupport","http.experimental.networkInterfaceCheckInterval","telemetry.telemetryLevel","telemetry.feedback.enabled","telemetry.enableTelemetry","extensions.allowed","chat.agentHost.ahpJsonlLoggingEnabled","chat.agentMerge.enabled","chat.agentMerge.addressReviews","chat.agentMerge.fixCI","chat.agentMerge.resolveConflicts","chat.agentMerge.mergePullRequest","chat.agentMerge.mergeMethod","chat.agentMerge.replyAttribution","chat.agentHost.moveChats.enabled","chat.agentHost.experimental.titleGeneration","chat.artifactTools.enabled","chat.canvases.enabled","chat.agentHost.experimental.autoAttachPullRequests","chat.agentHost.experimental.markdownPlanRichLinks","chat.agentHost.experimental.overlapProviderPreparation","chat.agentHost.experimental.prewarmSessions","chat.experimental.workspaceSnapshot","chat.agentHost.agentOrchestrationLimits","chat.agentHost.systemProxy.enabled","chat.agentHost.githubMcpServer.enabled","chat.agentHost.experimental.mcpToolRouting","chat.agentHost.claudeAgent.enabled","chat.agentHost.byokModels.enabled","chat.agentHost.codexAgent.enabled","chat.agentHost.codexAgent.sdkRoot","chat.agentHost.codexAgent.codexHome","chat.agentHost.codexAgent.binaryArgs","chat.agentHost.otel.enabled","chat.agentHost.otel.exporterType","chat.agentHost.otel.otlpEndpoint","chat.agentHost.otel.captureContent","chat.agentHost.otel.outfile","chat.agentHost.otel.dbSpanExporter.enabled","chat.agentHost.otel.otlpProtocol","chat.agentHost.otel.captureIdentity","chat.agentHost.otel.serviceName","chat.agentHost.otel.resourceAttributes","chat.agentHost.otel.headers"]
+2026-10-19 13:27:54.316 [trace] NativePolicyService#_updatePolicyDefinitions - Found 16 policy definitions
+2026-10-19 13:27:54.316 [trace] Creating watcher for productName CodeOSS
+2026-10-19 13:27:54.316 [trace] NativePolicyService#_onDidPolicyChange - Updated policy values: {}
+2026-10-19 13:27:54.316 [trace] PolicyConfiguration#update ["update.mode","telemetry.telemetryLevel","telemetry.feedback.enabled","extensions.allowed","chat.agentHost.claudeAgent.enabled","chat.agentHost.codexAgent.enabled","chat.agentHost.otel.enabled","chat.agentHost.otel.exporterType","chat.agentHost.otel.otlpEndpoint","chat.agentHost.otel.captureContent","chat.agentHost.otel.outfile","chat.agentHost.otel.otlpProtocol","chat.agentHost.otel.captureIdentity","chat.agentHost.otel.serviceName","chat.agentHost.otel.resourceAttributes","chat.agentHost.otel.headers"]
+2026-10-19 13:27:54.316 [trace] [File Watcher (node.js)] Request to start watching: c:\Program Files\GitHubCopilot\managed-settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-19 13:27:54.316 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Program Files\GitHubCopilot\managed-settings.json (error: Error: ENOENT: no such file or directory, stat 'c:\Program Files\GitHubCopilot\managed-settings.json')
+2026-10-19 13:27:54.316 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Program Files\GitHubCopilot\managed-settings.json (correlationId: undefined)
+2026-10-19 13:27:54.316 [debug] Starting VS Code
+2026-10-19 13:27:54.316 [debug] from: c:\Users\USER\vscode
+2026-10-19 13:27:54.316 [debug] args: {"_":[],"diff":false,"merge":false,"add":false,"remove":false,"goto":false,"new-window":false,"reuse-window":false,"agents":false,"wait":false,"user-data-dir":".\\.ofcode-test-profile","help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":false,"log":["trace"],"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-extension":["vscode.vscode-api-tests"],"disable-lcd-text":false,"disable-gpu":false,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"skip-sessions-welcome":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"share-secrets-with-agents-app":false,"transient":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"do-not-include-pack-dependencies":false,"trace":false,"trace-memory-infra":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"enable-rdp-display-tracking":false,"disable-layout-restore":false,"disable-experiments":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"C:\\Users\\USER\\vscode\\.ofcode-test-profile\\logs\\20261019T132754"}
+2026-10-19 13:27:54.316 [info] [node-compile-cache] main: packaged cache inactive (status: development, configured: C:\Users\USER\vscode\out\vs\base\node-compile-cache\main, active: none)
+2026-10-19 13:27:54.316 [trace] Resolving machine identifier...
+2026-10-19 13:27:54.316 [trace] Resolving SQM identifier...
+2026-10-19 13:27:54.316 [trace] Resolving devDevice identifier...
+2026-10-19 13:27:54.316 [trace] Resolved machine identifier: cee3ceb4903829885ff3e02648663e45a11d28030f88015c9c0beedb5a1c9914
+2026-10-19 13:27:54.316 [trace] Resolved SQM identifier: {A5E98D93-3E2B-4422-8CEF-1094F19139EF}
+2026-10-19 13:27:54.316 [trace] Resolved devDevice identifier: 38967825-30d1-463a-a0b1-af8eba09902c
+2026-10-19 13:27:54.316 [trace] Main->SharedProcess#connect
+2026-10-19 13:27:54.316 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.automationProfile.linux","terminal.integrated.automationProfile.osx","terminal.integrated.automationProfile.windows","terminal.integrated.agentHostProfile.linux","terminal.integrated.agentHostProfile.osx","terminal.integrated.agentHostProfile.windows","terminal.integrated.profiles.windows","terminal.integrated.profiles.osx","terminal.integrated.profiles.linux","terminal.integrated.useWslProfiles","terminal.integrated.inheritEnv","terminal.integrated.persistentSessionScrollback","terminal.integrated.showLinkHover","terminal.integrated.ignoreProcessNames"]
+2026-10-19 13:27:54.316 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.defaultProfile.linux","terminal.integrated.defaultProfile.osx","terminal.integrated.defaultProfile.windows"]
+2026-10-19 13:27:54.316 [trace] PolicyConfiguration#update []
+2026-10-19 13:27:54.316 [trace] PolicyConfiguration#update []
+2026-10-19 13:27:54.316 [trace] StorageMainService: creating application storage
+2026-10-19 13:27:54.316 [info] StorageMainService: creating application shared storage
+2026-10-19 13:27:54.316 [trace] ElectronURLListener: waiting for window to be ready to handle URLs...
+2026-10-19 13:27:54.316 [trace] lifecycle (main): phase changed (value: 2)
+2026-10-19 13:27:54.316 [trace] windowsManager#open
+2026-10-19 13:27:54.316 [trace] windowsManager#open pathsToOpen [{"backupPath":"C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332"}]
+2026-10-19 13:27:54.316 [trace] windowsManager#doOpenEmpty {"restore":true,"forceNewWindow":true}
+2026-10-19 13:27:54.317 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\vscode\.ofcode-test-profile\User'
+2026-10-19 13:27:54.318 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\USER\vscode\.ofcode-test-profile\User\settings.json'
+2026-10-19 13:27:54.398 [info] [CSS_DEV] DONE, 489 css modules (94ms)
+2026-10-19 13:27:54.399 [trace] IPC Object URL: Registered new channel vscode:f7e0514d-42e8-42c5-b6a4-2d0376cb14a8.
+2026-10-19 13:27:54.400 [trace] window#validateWindowState: validating window state on 2 display(s) {"mode":1,"x":472,"y":299,"width":1200,"height":800}
+2026-10-19 13:27:54.400 [trace] window#validateWindowState: multi-monitor working area {"x":0,"y":0,"width":1920,"height":1080}
+2026-10-19 13:27:54.400 [trace] window#ctor: using window state {"mode":1,"x":472,"y":299,"width":1200,"height":800}
+2026-10-19 13:27:54.423 [trace] window#load: attempt to load window (id: 1)
+2026-10-19 13:27:54.430 [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 0, emptyToRestore: 1, maybeOpenEmptyWindow: false)
+2026-10-19 13:27:54.432 [trace] lifecycle (main): phase changed (value: 3)
+2026-10-19 13:27:54.434 [trace] resolveShellEnv(): skipped (Windows)
+2026-10-19 13:27:54.443 [info] update#setState disabled
+2026-10-19 13:27:54.445 [info] [shared storage] Creating shared storage database at 'c:\Users\USER\.ofcode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+2026-10-19 13:27:54.445 [info] [shared storage] Initializing fallback application storage (path: c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage\state.vscdb)
+2026-10-19 13:27:54.461 [info] [shared storage] Fallback application storage initialized with 79 items
+2026-10-19 13:27:54.464 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-19 13:27:54.464 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-19 13:27:54.464 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-19 13:27:54.465 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-19 13:27:54.537 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-19 13:27:54.537 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-19 13:27:54.538 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2026-10-19 13:27:54.538 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-19 13:27:54.538 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\USER\vscode\.ofcode-test-profile\User\globalStorage
+2026-10-19 13:27:54.539 [debug] User data changed
+2026-10-19 13:27:54.979 [trace] resolveShellEnv(): skipped (Windows)
+2026-10-19 13:27:55.077 [trace] [File Watcher (node.js)] Request to stop watching: c:\Program Files\GitHubCopilot\managed-settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-10-19 13:27:55.077 [trace] [File Watcher (node.js)] stopping file watcher (c:\Program Files\GitHubCopilot\managed-settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))

@@ -1,0 +1,13 @@
+2026-10-19 13:30:03.743 [trace] Sending request 'initialize - (0)'.
+2026-10-19 13:30:03.768 [error] Debugger listening on ws://127.0.0.1:6475/f882a5c4-cbf4-4bb5-8ab7-863c09f33f7f
+2026-10-19 13:30:03.768 [error] For help, see: https://nodejs.org/learn/getting-started/debugging
+2026-10-19 13:30:03.872 [trace] Received response 'initialize - (0)' in 131ms.
+2026-10-19 13:30:03.872 [trace] Sending notification 'initialized'.
+2026-10-19 13:30:03.877 [trace] Sending notification 'workspace/didChangeConfiguration'.
+2026-10-19 13:30:03.877 [trace] Received request 'workspace/diagnostic/refresh - (0)'.
+2026-10-19 13:30:03.878 [trace] Sending response 'workspace/diagnostic/refresh - (0)'. Processing request took 0ms
+2026-10-19 13:30:03.882 [trace] Sending notification 'json/schemaAssociations'.
+2026-10-19 13:30:03.882 [trace] Sending request 'json/languageStatus - (1)'.
+2026-10-19 13:30:03.884 [trace] Received request 'workspace/diagnostic/refresh - (1)'.
+2026-10-19 13:30:03.884 [trace] Sending response 'workspace/diagnostic/refresh - (1)'. Processing request took 1ms
+2026-10-19 13:30:03.885 [trace] Received response 'json/languageStatus - (1)' in 3ms.

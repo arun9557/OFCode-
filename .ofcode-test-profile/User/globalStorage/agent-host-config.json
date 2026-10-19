@@ -274,6 +274,9 @@
 	"autoApprovePolicyRestricted": false,
 	"workspaceTrust": {
 		"enabled": true,
-		"trustedUris": []
+		"trustedUris": [
+			"file:///c%3A/Users/USER/Pictures/Screenshots",
+			"file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage"
+		]
 	}
 }

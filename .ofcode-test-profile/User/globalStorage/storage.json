@@ -4,7 +4,14 @@
     "telemetry.devDeviceId": "38967825-30d1-463a-a0b1-af8eba09902c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///c%3A/Users/USER/Pictures/Screenshots"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage"
+            }
+        ],
         "emptyWindows": [
             {
                 "backupFolder": "1792226966332"
@@ -13,52 +20,55 @@
     },
     "windowControlHeight": 35,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///c%3A/Users/USER/Pictures/Screenshots": "__default__profile__",
+            "file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage": "__default__profile__"
+        },
         "emptyWindows": {
             "1792226966332": "__default__profile__"
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#121314",
+    "themeBackground": "#0b0914",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#bfbfbf",
-            "background": "#121314",
-            "editorBackground": "#121314",
-            "titleBarBackground": "#191a1b",
-            "titleBarInactiveBackground": "#121314",
+            "background": "#0b0914",
+            "editorBackground": "#0b0914",
+            "titleBarBackground": "#090710",
+            "titleBarInactiveBackground": "#07050e",
             "titleBarBorder": "#2a2b2c",
-            "activityBarBackground": "#191a1b",
+            "activityBarBackground": "#090710",
             "activityBarBorder": "#2a2b2c",
-            "modernActivityBarBackground": "#191a1b",
-            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBackground": "#090710",
+            "modernActivityBarInactiveBackground": "#090710",
             "modernActivityBarBorder": "#252526",
             "modernPanelBorder": "#2a2b2c",
-            "modernUIShellBackground": "#191a1b",
-            "modernUIInactiveShellBackground": "#121314",
-            "sideBarBackground": "#191a1b",
-            "sideBarBorder": "#2a2b2c",
-            "panelBackground": "#191a1b",
+            "modernUIShellBackground": "#090710",
+            "modernUIInactiveShellBackground": "#07050e",
+            "sideBarBackground": "#110d1d",
+            "sideBarBorder": "#261e3f",
+            "panelBackground": "#0e0b18",
             "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
             "editorBorder": "#2a2b2c",
             "surfaceBackground": "#191a1b",
             "surfaceBorder": "#2a2b2c",
             "agentsPanelBackground": "#191a1b",
             "agentsPanelBorder": "#2a2b2c",
-            "statusBarBackground": "#191a1b",
+            "statusBarBackground": "#130e24",
             "statusBarInactiveBackground": "#121314",
-            "statusBarBorder": "#2a2b2c",
-            "statusBarNoFolderBackground": "#191a1b"
+            "statusBarBorder": "#2e234e",
+            "statusBarNoFolderBackground": "#0e0b18"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
-            "auxiliaryBarWidth": 682,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 1228,
             "statusBarHeight": 28,
             "windowBorder": false,
             "modernUI": true,
@@ -79,7 +89,7 @@
                 "sideBar": {
                     "top": 35,
                     "left": 48,
-                    "width": 170,
+                    "width": 300,
                     "height": 1011,
                     "outerEdges": {
                         "left": false,
@@ -90,8 +100,8 @@
                 },
                 "auxiliaryBar": {
                     "top": 35,
-                    "left": 1242,
-                    "width": 674,
+                    "left": 696,
+                    "width": 1220,
                     "height": 1011,
                     "outerEdges": {
                         "left": false,
@@ -102,8 +112,8 @@
                 },
                 "panel": {
                     "top": 788,
-                    "left": 222,
-                    "width": 1016,
+                    "left": 352,
+                    "width": 340,
                     "height": 258,
                     "outerEdges": {
                         "left": false,
@@ -114,8 +124,8 @@
                 },
                 "editor": {
                     "top": 35,
-                    "left": 222,
-                    "width": 1016,
+                    "left": 352,
+                    "width": 340,
                     "height": 749,
                     "outerEdges": {
                         "left": false,
@@ -129,11 +139,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\1792226966332",
+            "folder": "file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage",
+            "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\ba6525f818b4e87b6b0f3245ef6a72e7",
             "uiState": {
-                "mode": 1,
-                "x": 472,
-                "y": 299,
+                "mode": 0,
+                "x": 200,
+                "y": 90,
                 "width": 1200,
                 "height": 800
             }
@@ -158,10 +169,18 @@
     ],
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 280,
-            "auxiliaryBarWidth": 300,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 1228,
             "workspaces": {
                 "b240a2bc34db31fa01a3d9259ad96835": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "46f372ee94b17a17a8b9f50d318a21e1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "44fbd0522bcc2d5a1c449a9ca9b34dc1": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": true
                 }

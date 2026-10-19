@@ -1,0 +1,118 @@
+Total sessions: 0
+
+=== Agent Sessions (Loaded cached sessions) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Loaded cached sessions) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 0
+
+=== Agent Sessions (Sessions resolved from providers) ===
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: makewebpage folder ke andar ik simple webpage baanao  ---
+  Resource: vscode-chat-session://local/MWM2YmZjNjItM2I5Yy00NjZlLWE3MjYtNGVhMjNhYzJmOGUz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-19T07:58:48.843Z
+    Last Request Started: 2026-10-19T07:59:52.015Z
+    Last Request Ended: 2026-10-19T08:00:09.757Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
+Total sessions: 1
+
+=== Agent Sessions (Sessions resolved from providers) ===
+--- Session: makewebpage folder ke andar ik simple webpage baanao  ---
+  Resource: vscode-chat-session://local/MWM2YmZjNjItM2I5Yy00NjZlLWE3MjYtNGVhMjNhYzJmOGUz
+  Provider Type: local
+  Provider Label: Local
+  Status: Completed
+  Icon: chat-sparkle
+  Timing:
+    Created: 2026-10-19T07:58:48.843Z
+    Last Request Started: 2026-10-19T07:59:52.015Z
+    Last Request Ended: 2026-10-19T08:00:09.757Z
+  State:
+    Archived (provider): N/A
+    Archived (computed): false
+    Archived (stored): N/A
+    Pinned: false
+    Pinned (stored): N/A
+    Read: true
+    Read date (stored): N/A
+
+=== End Agent Sessions ===
+=== Session States ===
+Total stored states: 0
+
+=== End Session States ===
