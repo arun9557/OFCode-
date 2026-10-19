@@ -1,0 +1,185 @@
+2026-10-19 13:51:21.381 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-10-19 13:51:21.381 [trace] [GithubAccountFilterProvider]::getFilters SKU: undefined, Internal Org: undefined, IsFcv1: undefined, IsSn: undefined, IsVscodeTeamMember: undefined, OrganizationList: undefined
+2026-10-19 13:51:21.381 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2026-10-19 13:51:21.381 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","10.0.0"]]
+2026-10-19 13:51:21.381 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.71.0, Completions Core Version: 1.378.1799
+2026-10-19 13:51:21.381 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: []
+2026-10-19 13:51:21.381 [trace] [PlatformAndReleaseDateFilterProvider]::getFilters Filters: [["X-VSCode-Platform","Windows"]]
+2026-10-19 13:51:21.381 [trace] [WindowKindFilterProvider]::getFilters Filters: [["X-VSCode-WindowKind","editor"]]
+2026-10-19 13:51:21.381 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-10-19 13:51:21.381 [info] Using the Electron fetcher.
+2026-10-19 13:51:21.381 [trace] [BaseExperimentationService] Initial fetch completed
+2026-10-19 13:51:21.381 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-10-19 13:51:21.381 [debug] [context keys] Updating context keys.
+2026-10-19 13:51:21.381 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.381 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.381 [trace] Resolving chat model
+2026-10-19 13:51:21.381 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:21.381 [trace] [NES][ModelsService][constructor] computing models
+2026-10-19 13:51:21.381 [trace] [NES][ModelsService][aggregateModels] adding built-in default model: useSlashModels true, fetchedNesModels undefined
+2026-10-19 13:51:21.381 [trace] [NES][ModelsService][aggregateModels] Adding default model configuration: copilot-nes-oct
+2026-10-19 13:51:21.381 [trace] [NES][ModelsService][constructor] computing current model
+2026-10-19 13:51:21.381 [trace] [NES][ModelsService][constructor] computing model info
+2026-10-19 13:51:21.381 [trace] [NES][Feature] Return: void
+2026-10-19 13:51:21.381 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.381 [trace] ChatStatusWorkspaceIndexingStatus::_writeStatusItem()
+2026-10-19 13:51:21.381 [trace] ChatStatusWorkspaceIndexingStatus::updateStatusItem(id=1): starting
+2026-10-19 13:51:21.381 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-10-19 13:51:21.381 [debug] [CopilotCLI] Starting MCP HTTP server for VS Code Copilot CLI...
+2026-10-19 13:51:21.381 [trace] [OTel] Instrumentation disabled
+2026-10-19 13:51:21.381 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.381 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-10-19 13:51:21.381 [info] BYOK: fetching known models list
+2026-10-19 13:51:21.381 [trace] [CopilotCLI] Generated socket path: \\.\pipe\mcp-1a9e8719-047b-4f5c-bc01-1bf5b4eca0b9.sock
+2026-10-19 13:51:21.381 [trace] ChatStatusWorkspaceIndexingStatus::_writeStatusItem()
+2026-10-19 13:51:21.381 [info] activationBlocker from 'languageModelAccess' took for 55ms
+2026-10-19 13:51:21.381 [debug] [CopilotCLI] HTTP server listening on socket
+2026-10-19 13:51:21.381 [debug] [CopilotCLI] Registering push notifications...
+2026-10-19 13:51:21.381 [debug] [CopilotCLI] Registered selection change notification
+2026-10-19 13:51:21.381 [debug] [CopilotCLI] Registered diagnostics change notification
+2026-10-19 13:51:21.381 [trace] [CopilotCLI] Creating lock file in: C:\Users\USER\.copilot\ide
+2026-10-19 13:51:21.381 [debug] [CopilotCLI] [runtimeBridge] in-process mode: loading the native runtime .node addon into this process
+2026-10-19 13:51:21.381 [debug] [Power] Initial power state: on AC power, thermal state: unknown, system idle time: 0s
+2026-10-19 13:51:21.381 [trace] copilotCloudSessionsProvider#provideChatSessionProviderOptions Start
+2026-10-19 13:51:21.381 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-19 13:51:21.381 [warning] [CopilotCLITerminalIntegration] Failed to prepare the local Rust shim: Error: The local build at C:\development\vsc\vscode\copilot_shim\target\debug\copilot.exe is not a Rust Copilot shim.
+2026-10-19 13:51:21.381 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-10-19 13:51:21.382 [warning] [CopilotCLITerminalIntegration] No usable stored Rust shim is available; terminals run copilot from PATH.
+2026-10-19 13:51:21.416 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-10-19 13:51:21.416 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-10-19 13:51:21.416 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-10-19 13:51:21.419 [debug] Send fetcher telemetry: Exclude other windows.
+2026-10-19 13:51:21.437 [debug] [CopilotCLI] Created lock file: C:\Users\USER\.copilot\ide\38b6c907-9c65-4e10-8e75-a448aedb74f5.lock
+2026-10-19 13:51:21.437 [info] [CopilotCLI] MCP server started. Lock file: C:\Users\USER\.copilot\ide\38b6c907-9c65-4e10-8e75-a448aedb74f5.lock
+2026-10-19 13:51:21.437 [info] [CopilotCLI] Server URI: pipe:%5C%5C.%5Cpipe%5Cmcp-1a9e8719-047b-4f5c-bc01-1bf5b4eca0b9.sock#%2Fmcp
+2026-10-19 13:51:21.439 [debug] [CopilotCLI] Removed stale lock file for PID 10600: C:\Users\USER\.copilot\ide\6ee83579-6cfc-4110-8feb-85e4cc520027.lock
+2026-10-19 13:51:21.439 [info] [CopilotCLI] Cleaned up 1 stale lock file(s).
+2026-10-19 13:51:21.447 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:51:21.497 [trace] [GitServiceImpl] Initial repository discovery finished: 0 repositories found.
+2026-10-19 13:51:21.498 [debug] copilotCloudSessionsProvider#provideChatSessionItems: repoIds=[], isAgentSessionsWorkspace=false
+2026-10-19 13:51:21.498 [debug] copilotCloudSessionsProvider#provideChatSessionItems: fetched 0 grouped sessions
+2026-10-19 13:51:21.498 [debug] copilotCloudSessionsProvider#provideChatSessionItems: returning 0 sessions (0 filtered out, 0 explicitly resolved)
+2026-10-19 13:51:21.521 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:21.768 [warning] GitHub login failed
+2026-10-19 13:51:21.769 [trace] Should request permissive session upgrade: false - not signed in
+2026-10-19 13:51:21.770 [info] [CopilotCLIChatSessionContentProvider] listSessions took 413.83680000000004ms
+2026-10-19 13:51:21.807 [trace] No authentication token available for getCopilotAgentModels
+2026-10-19 13:51:21.807 [trace] [getCopilotAgentModels] No permissive GitHub session
+2026-10-19 13:51:21.818 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.825 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.825 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.825 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.825 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.828 [debug] You are not signed in to GitHub. Please sign in to use Copilot.
+2026-10-19 13:51:21.828 [info] [context keys] Setting context key: github.copilot.interactiveSession.gitHubLoginFailed
+2026-10-19 13:51:21.828 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.843 [trace] No authentication token available for getRecentlyCommittedRepositories
+2026-10-19 13:51:21.843 [trace] Failed to fetch recently committed repos: PermissiveAuthRequiredError: Permissive authentication is required
+2026-10-19 13:51:21.847 [debug] copilotCloudSessionsProvider#provideChatSessionProviderOptions: Returning options: [
+  {
+    "id": "repositories",
+    "name": "Repository",
+    "description": "Select repository",
+    "icon": {
+      "id": "repo"
+    },
+    "items": [],
+    "commands": [
+      {
+        "command": "github.copilot.chat.cloudSessions.openRepository",
+        "title": "Browse repositories..."
+      }
+    ]
+  }
+]
+2026-10-19 13:51:21.848 [warning] GitHub login failed
+2026-10-19 13:51:21.862 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.862 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.862 [debug] Finished handling auth change event.
+2026-10-19 13:51:21.862 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-utility-small' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.862 [trace] Resolving chat model
+2026-10-19 13:51:21.863 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.869 [warning] GitHub login failed
+2026-10-19 13:51:21.874 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.874 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-utility' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.874 [trace] Resolving chat model
+2026-10-19 13:51:21.874 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.877 [warning] GitHub login failed
+2026-10-19 13:51:21.879 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.880 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-nano' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.880 [trace] Resolving chat model
+2026-10-19 13:51:21.880 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:51:21.882 [warning] GitHub login failed
+2026-10-19 13:51:21.884 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:21.884 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-luna' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:51:26.529 [debug] Send fetcher telemetry: Other window won.
+2026-10-19 13:51:30.747 [info] ConversationFeature: BYOK models available
+2026-10-19 13:51:30.747 [info] ConversationFeature: Activating contributions
+2026-10-19 13:51:30.747 [debug] ConversationFeature: Skipping search provider registration - no GitHub session available
+2026-10-19 13:51:30.747 [debug] ConversationFeature: Skipping settings search provider registration - no GitHub session available
+2026-10-19 13:51:30.747 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-19 13:51:30.753 [warning] Unable to fetch remote agents because user is not signed in.
+2026-10-19 13:51:30.753 [info] activationBlocker from 'conversationFeature' took for 9668ms
+2026-10-19 13:51:30.765 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:30.798 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:51:30.798 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:30.828 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:30.878 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:51:30.912 [info] [CopilotCLIChatSessionContentProvider] listSessions took 114.83300000000054ms
+2026-10-19 13:51:30.912 [info] [CopilotCLIChatSessionContentProvider] listSessions took 114.84809999999925ms
+2026-10-19 13:51:30.938 [trace] No authentication token available for getCurrentAuthedUser
+2026-10-19 13:51:30.938 [trace] [GitHubOrgChatResourcesService] User is not signed in
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.939 [trace] [GitHubOrgCustomAgentProvider] No organization available for providing agents
+2026-10-19 13:51:30.950 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:51:30.971 [info] [CopilotCLIChatSessionContentProvider] listSessions took 22.168499999999767ms
+2026-10-19 13:51:30.971 [info] [CopilotCLIChatSessionContentProvider] listSessions took 21.196599999999307ms
+2026-10-19 13:51:30.997 [trace] [PlanAgentProvider] Wrote agent file: vscode-userdata:/c%3A/Users/USER/vscode/.ofcode-test-profile/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-19 13:51:31.020 [trace] [AskAgentProvider] Wrote agent file: vscode-userdata:/c%3A/Users/USER/vscode/.ofcode-test-profile/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-19 13:51:31.031 [trace] [ExploreAgentProvider] Wrote agent file: vscode-userdata:/c%3A/Users/USER/vscode/.ofcode-test-profile/User/globalStorage/github.copilot-chat/explore-agent/Explore.agent.md
+2026-10-19 13:51:31.070 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:31.071 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:31.071 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:31.071 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:31.072 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:31.072 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:31.238 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:31.241 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:51:32.797 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:51:32.852 [trace] [GitHubOrgInstructionsProvider] No organization available for providing agents
+2026-10-19 13:51:33.302 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:51:33.305 [info] [CopilotCLIChatSessionContentProvider] listSessions took 3.6309000000001106ms
+2026-10-19 13:51:49.050 [trace] [CopilotCLI] [DIFF] getActiveDiffByTab: tab is not a diff tab
+2026-10-19 13:54:25.906 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-19 13:56:17.521 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:56:53.216 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:56:53.907 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:56:54.417 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:56:54.421 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.895700000051875ms
+2026-10-19 13:57:57.553 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-19 13:58:30.166 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-19 13:59:14.942 [debug] [Power] CPU speed limit changed: 77% (throttled)
+2026-10-19 13:59:16.887 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-19 13:59:52.275 [debug] [Power] CPU speed limit changed: 82% (throttled)
+2026-10-19 13:59:53.233 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-19 14:00:33.733 [debug] [Power] CPU speed limit changed: 87% (throttled)
+2026-10-19 14:00:34.748 [debug] [Power] CPU speed limit changed: 84% (throttled)
+2026-10-19 14:00:35.821 [debug] [Power] CPU speed limit changed: 83% (throttled)
+2026-10-19 14:00:37.772 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-19 14:02:58.678 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 14:02:58.751 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 14:02:59.413 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 14:02:59.835 [info] [CopilotCLIChatSessionContentProvider] listSessions took 424.84779999998864ms
+2026-10-19 14:03:01.701 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 14:03:44.429 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 14:03:45.069 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 14:03:45.737 [info] [CopilotCLIChatSessionContentProvider] listSessions took 670.2754999999888ms
+2026-10-19 14:03:47.438 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 14:03:53.876 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 14:03:54.615 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 14:03:55.170 [info] [CopilotCLIChatSessionContentProvider] listSessions took 556.1376999999629ms

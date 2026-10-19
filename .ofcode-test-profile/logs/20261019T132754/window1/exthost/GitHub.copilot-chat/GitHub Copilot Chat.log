@@ -506,3 +506,618 @@
 2026-10-19 13:34:06.871 [debug] [CopilotCLI] Found 12 JSONL sessions
 2026-10-19 13:34:06.874 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.479499999986729ms
 2026-10-19 13:34:07.395 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:34:29.795 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-19 13:36:59.466 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2026-10-19 13:36:59.978 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:36:59.980 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.25259999994887ms
+2026-10-19 13:37:00.494 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:38:01.840 [trace] Resolving chat model
+2026-10-19 13:38:01.840 [trace] Resolving chat model
+2026-10-19 13:38:01.843 [trace] [panel] chat request received from extension host
+2026-10-19 13:38:01.844 [trace] Resolving chat model
+2026-10-19 13:38:01.844 [trace] Resolving chat model
+2026-10-19 13:38:01.845 [trace] Resolving chat model
+2026-10-19 13:38:01.845 [trace] Processing intent
+2026-10-19 13:38:01.845 [trace] Resolving chat model
+2026-10-19 13:38:01.846 [trace] Processed intent
+2026-10-19 13:38:01.847 [trace] Resolving chat model
+2026-10-19 13:38:01.848 [info] [VoiceProgress] loop request=fallback_1792397281811_0 configured=true voice=false subagent=true stream=true
+2026-10-19 13:38:01.848 [trace] Resolving chat model
+2026-10-19 13:38:01.851 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:38:01.868 [trace] Resolving chat model
+2026-10-19 13:38:01.869 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:01.876 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:02.004 [trace] Resolving chat model
+2026-10-19 13:38:02.005 [trace] Resolving chat model
+2026-10-19 13:38:02.005 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:38:02.014 [warning] GitHub login failed
+2026-10-19 13:38:02.017 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:38:02.017 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-nano' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:38:02.017 [trace] Resolving chat model
+2026-10-19 13:38:02.017 [debug] Getting CopilotToken (force: undefined)...
+2026-10-19 13:38:02.020 [warning] GitHub login failed
+2026-10-19 13:38:02.023 [debug] Getting CopilotToken (force: undefined) threw error: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:38:02.023 [trace] [LanguageModelAccess] No utility alias resolved for 'copilot-dictation-cleanup-luna' in background: CodeExpectedError: GitHubLoginFailed
+2026-10-19 13:38:02.026 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-19 13:38:02.046 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:02.104 [trace] Resolving chat model
+2026-10-19 13:38:02.105 [trace] Resolving chat model
+2026-10-19 13:38:02.167 [trace] Built prompt
+2026-10-19 13:38:02.167 [trace] Sending prompt to model
+2026-10-19 13:38:04.573 [trace] [InlineChatProgressMessages] Fetched 10 messages for edit
+2026-10-19 13:38:06.540 [trace] [InlineChatProgressMessages] Fetched 10 messages for generate
+2026-10-19 13:38:16.369 [trace] Resolving chat model
+2026-10-19 13:38:16.371 [trace] Resolving chat model
+2026-10-19 13:38:16.371 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:16.378 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:16.382 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:16.470 [debug] [MemoryTool] Created memory file: /memories/repo/index.html
+2026-10-19 13:38:16.472 [trace] Resolving chat model
+2026-10-19 13:38:16.475 [info] Latest entry: ccreq:latest.copilotmd
+2026-10-19 13:38:16.475 [trace] Resolving chat model
+2026-10-19 13:38:16.483 [trace] Resolving chat model
+2026-10-19 13:38:16.486 [trace] Built prompt
+2026-10-19 13:38:16.486 [trace] Sending prompt to model
+2026-10-19 13:38:18.517 [trace] Resolving chat model
+2026-10-19 13:38:18.518 [trace] Resolving chat model
+2026-10-19 13:38:18.519 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:18.521 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:18.523 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:18.538 [trace] Resolving chat model
+2026-10-19 13:38:18.540 [trace] Resolving chat model
+2026-10-19 13:38:18.549 [trace] Resolving chat model
+2026-10-19 13:38:18.552 [trace] Built prompt
+2026-10-19 13:38:18.552 [trace] Sending prompt to model
+2026-10-19 13:38:23.320 [trace] Resolving chat model
+2026-10-19 13:38:23.321 [trace] Resolving chat model
+2026-10-19 13:38:23.321 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:23.324 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:23.328 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:23.345 [trace] Resolving chat model
+2026-10-19 13:38:23.347 [trace] Resolving chat model
+2026-10-19 13:38:23.356 [trace] Resolving chat model
+2026-10-19 13:38:23.359 [trace] Built prompt
+2026-10-19 13:38:23.359 [trace] Sending prompt to model
+2026-10-19 13:38:23.395 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:38:28.167 [trace] Resolving chat model
+2026-10-19 13:38:28.169 [trace] Resolving chat model
+2026-10-19 13:38:28.169 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:28.172 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:28.177 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:28.215 [trace] Resolving chat model
+2026-10-19 13:38:28.217 [trace] Resolving chat model
+2026-10-19 13:38:28.225 [trace] Resolving chat model
+2026-10-19 13:38:28.232 [trace] Built prompt
+2026-10-19 13:38:28.232 [trace] Sending prompt to model
+2026-10-19 13:38:28.284 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:38:28.800 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:38:28.802 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.060900000040419ms
+2026-10-19 13:38:33.086 [trace] Resolving chat model
+2026-10-19 13:38:33.087 [trace] Resolving chat model
+2026-10-19 13:38:33.087 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:33.089 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:33.091 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:33.124 [trace] Resolving chat model
+2026-10-19 13:38:33.130 [trace] Resolving chat model
+2026-10-19 13:38:33.141 [trace] Resolving chat model
+2026-10-19 13:38:33.145 [trace] Built prompt
+2026-10-19 13:38:33.145 [trace] Sending prompt to model
+2026-10-19 13:38:35.636 [trace] [CopilotCLI] [DIFF] getActiveDiffByTab: tab is not a diff tab
+2026-10-19 13:38:35.707 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:38:37.475 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:38:37.983 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:38:37.990 [trace] Resolving chat model
+2026-10-19 13:38:37.992 [info] [CopilotCLIChatSessionContentProvider] listSessions took 9.946300000010524ms
+2026-10-19 13:38:37.994 [trace] Resolving chat model
+2026-10-19 13:38:37.995 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:38.001 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:38.004 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:38.034 [trace] Resolving chat model
+2026-10-19 13:38:38.036 [trace] Resolving chat model
+2026-10-19 13:38:38.042 [trace] Resolving chat model
+2026-10-19 13:38:38.047 [trace] Built prompt
+2026-10-19 13:38:38.047 [trace] Sending prompt to model
+2026-10-19 13:38:42.887 [trace] Resolving chat model
+2026-10-19 13:38:42.888 [trace] Resolving chat model
+2026-10-19 13:38:42.888 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:42.890 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:42.894 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:42.921 [trace] Resolving chat model
+2026-10-19 13:38:42.923 [trace] Resolving chat model
+2026-10-19 13:38:42.934 [trace] Resolving chat model
+2026-10-19 13:38:42.937 [trace] Built prompt
+2026-10-19 13:38:42.937 [trace] Sending prompt to model
+2026-10-19 13:38:47.801 [trace] Resolving chat model
+2026-10-19 13:38:47.803 [trace] Resolving chat model
+2026-10-19 13:38:47.804 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:47.806 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:47.808 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:47.842 [trace] Resolving chat model
+2026-10-19 13:38:47.923 [trace] Resolving chat model
+2026-10-19 13:38:47.924 [trace] Resolving chat model
+2026-10-19 13:38:47.929 [trace] Built prompt
+2026-10-19 13:38:47.929 [trace] Sending prompt to model
+2026-10-19 13:38:52.845 [trace] Resolving chat model
+2026-10-19 13:38:52.847 [trace] Resolving chat model
+2026-10-19 13:38:52.848 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:52.850 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:52.852 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:52.883 [trace] Resolving chat model
+2026-10-19 13:38:52.885 [trace] Resolving chat model
+2026-10-19 13:38:52.901 [trace] Resolving chat model
+2026-10-19 13:38:52.904 [trace] Built prompt
+2026-10-19 13:38:52.904 [trace] Sending prompt to model
+2026-10-19 13:38:57.774 [trace] Resolving chat model
+2026-10-19 13:38:57.776 [trace] Resolving chat model
+2026-10-19 13:38:57.776 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:38:57.780 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:38:57.782 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:38:57.807 [trace] Resolving chat model
+2026-10-19 13:38:57.811 [trace] Resolving chat model
+2026-10-19 13:38:57.820 [trace] Resolving chat model
+2026-10-19 13:38:57.823 [trace] Built prompt
+2026-10-19 13:38:57.823 [trace] Sending prompt to model
+2026-10-19 13:39:02.681 [trace] Resolving chat model
+2026-10-19 13:39:02.683 [trace] Resolving chat model
+2026-10-19 13:39:02.683 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:39:02.685 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:39:02.687 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:39:02.715 [trace] Resolving chat model
+2026-10-19 13:39:02.717 [trace] Resolving chat model
+2026-10-19 13:39:02.729 [trace] Resolving chat model
+2026-10-19 13:39:02.732 [trace] Built prompt
+2026-10-19 13:39:02.732 [trace] Sending prompt to model
+2026-10-19 13:39:07.597 [trace] Resolving chat model
+2026-10-19 13:39:07.598 [trace] Resolving chat model
+2026-10-19 13:39:07.599 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:39:07.600 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:39:07.602 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:39:07.632 [trace] Resolving chat model
+2026-10-19 13:39:07.634 [debug] [ConversationHistorySummarizer] context at 82% — starting background compaction
+2026-10-19 13:39:07.635 [trace] Resolving chat model
+2026-10-19 13:39:07.645 [trace] Resolving chat model
+2026-10-19 13:39:07.649 [trace] Built prompt
+2026-10-19 13:39:07.649 [trace] Sending prompt to model
+2026-10-19 13:39:18.511 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:39:40.507 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-19 13:39:44.421 [debug] [ConversationHistorySummarizer] background compaction completed (3360 chars, roundId=da60fa4f-eb70-4f03-a067-9816c1536ee9)
+2026-10-19 13:39:49.264 [trace] Resolving chat model
+2026-10-19 13:39:49.266 [trace] Resolving chat model
+2026-10-19 13:39:49.266 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:39:49.269 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:39:49.272 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:39:49.272 [debug] [ConversationHistorySummarizer] applying completed background summary (roundId=da60fa4f-eb70-4f03-a067-9816c1536ee9)
+2026-10-19 13:39:49.459 [trace] Resolving chat model
+2026-10-19 13:39:49.463 [trace] Resolving chat model
+2026-10-19 13:39:49.474 [trace] Resolving chat model
+2026-10-19 13:39:49.476 [trace] Built prompt
+2026-10-19 13:39:49.476 [trace] Sending prompt to model
+2026-10-19 13:39:55.249 [trace] Resolving chat model
+2026-10-19 13:39:55.251 [trace] Resolving chat model
+2026-10-19 13:39:55.251 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:39:55.253 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:39:55.255 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:39:55.289 [trace] Resolving chat model
+2026-10-19 13:39:55.291 [trace] Resolving chat model
+2026-10-19 13:39:55.304 [trace] Resolving chat model
+2026-10-19 13:39:55.307 [trace] Built prompt
+2026-10-19 13:39:55.307 [trace] Sending prompt to model
+2026-10-19 13:40:00.139 [trace] Resolving chat model
+2026-10-19 13:40:00.140 [trace] Resolving chat model
+2026-10-19 13:40:00.140 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:00.142 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:00.146 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:00.174 [trace] Resolving chat model
+2026-10-19 13:40:00.175 [trace] Resolving chat model
+2026-10-19 13:40:00.195 [trace] Resolving chat model
+2026-10-19 13:40:00.200 [trace] Built prompt
+2026-10-19 13:40:00.200 [trace] Sending prompt to model
+2026-10-19 13:40:05.047 [trace] Resolving chat model
+2026-10-19 13:40:05.049 [trace] Resolving chat model
+2026-10-19 13:40:05.050 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:05.052 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:05.054 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:05.080 [trace] Resolving chat model
+2026-10-19 13:40:05.082 [trace] Resolving chat model
+2026-10-19 13:40:05.100 [trace] Resolving chat model
+2026-10-19 13:40:05.103 [trace] Built prompt
+2026-10-19 13:40:05.103 [trace] Sending prompt to model
+2026-10-19 13:40:09.954 [trace] Resolving chat model
+2026-10-19 13:40:09.955 [trace] Resolving chat model
+2026-10-19 13:40:09.955 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:09.958 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:09.960 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:09.992 [trace] Resolving chat model
+2026-10-19 13:40:09.996 [trace] Resolving chat model
+2026-10-19 13:40:10.008 [trace] Resolving chat model
+2026-10-19 13:40:10.012 [trace] Built prompt
+2026-10-19 13:40:10.012 [trace] Sending prompt to model
+2026-10-19 13:40:14.893 [trace] Resolving chat model
+2026-10-19 13:40:14.895 [trace] Resolving chat model
+2026-10-19 13:40:14.895 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:14.898 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:14.900 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:14.936 [trace] Resolving chat model
+2026-10-19 13:40:14.938 [trace] Resolving chat model
+2026-10-19 13:40:14.954 [trace] Resolving chat model
+2026-10-19 13:40:14.957 [trace] Built prompt
+2026-10-19 13:40:14.957 [trace] Sending prompt to model
+2026-10-19 13:40:19.835 [trace] Resolving chat model
+2026-10-19 13:40:19.836 [trace] Resolving chat model
+2026-10-19 13:40:19.836 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:19.838 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:19.840 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:19.874 [trace] Resolving chat model
+2026-10-19 13:40:19.876 [trace] Resolving chat model
+2026-10-19 13:40:19.890 [trace] Resolving chat model
+2026-10-19 13:40:19.892 [trace] Built prompt
+2026-10-19 13:40:19.892 [trace] Sending prompt to model
+2026-10-19 13:40:24.802 [trace] Resolving chat model
+2026-10-19 13:40:24.804 [trace] Resolving chat model
+2026-10-19 13:40:24.804 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:24.806 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:24.808 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:24.842 [trace] Resolving chat model
+2026-10-19 13:40:24.846 [trace] Resolving chat model
+2026-10-19 13:40:24.856 [trace] Resolving chat model
+2026-10-19 13:40:24.859 [trace] Built prompt
+2026-10-19 13:40:24.859 [trace] Sending prompt to model
+2026-10-19 13:40:29.781 [trace] Resolving chat model
+2026-10-19 13:40:29.783 [trace] Resolving chat model
+2026-10-19 13:40:29.783 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:29.786 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:29.787 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:29.818 [trace] Resolving chat model
+2026-10-19 13:40:29.821 [debug] [ConversationHistorySummarizer] context at 83% — starting background compaction
+2026-10-19 13:40:29.821 [trace] Resolving chat model
+2026-10-19 13:40:29.838 [trace] Resolving chat model
+2026-10-19 13:40:29.840 [trace] Built prompt
+2026-10-19 13:40:29.840 [trace] Sending prompt to model
+2026-10-19 13:40:34.771 [trace] Resolving chat model
+2026-10-19 13:40:34.773 [trace] Resolving chat model
+2026-10-19 13:40:34.773 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:40:34.776 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:40:34.778 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:40:34.816 [trace] Resolving chat model
+2026-10-19 13:40:34.819 [trace] Resolving chat model
+2026-10-19 13:40:34.842 [trace] Resolving chat model
+2026-10-19 13:40:34.846 [trace] Built prompt
+2026-10-19 13:40:34.846 [trace] Sending prompt to model
+2026-10-19 13:41:12.535 [debug] [ConversationHistorySummarizer] background compaction completed (3361 chars, roundId=955897cf-44d0-4561-9750-96356e531dec)
+2026-10-19 13:41:17.689 [trace] Resolving chat model
+2026-10-19 13:41:17.691 [trace] Resolving chat model
+2026-10-19 13:41:17.691 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:17.698 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:17.702 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:17.702 [debug] [ConversationHistorySummarizer] applying completed background summary (roundId=955897cf-44d0-4561-9750-96356e531dec)
+2026-10-19 13:41:17.891 [trace] Resolving chat model
+2026-10-19 13:41:17.893 [trace] Resolving chat model
+2026-10-19 13:41:17.910 [trace] Resolving chat model
+2026-10-19 13:41:17.915 [trace] Built prompt
+2026-10-19 13:41:17.915 [trace] Sending prompt to model
+2026-10-19 13:41:23.387 [trace] Resolving chat model
+2026-10-19 13:41:23.389 [trace] Resolving chat model
+2026-10-19 13:41:23.389 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:23.392 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:23.394 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:23.427 [trace] Resolving chat model
+2026-10-19 13:41:23.430 [trace] Resolving chat model
+2026-10-19 13:41:23.453 [trace] Resolving chat model
+2026-10-19 13:41:23.456 [trace] Built prompt
+2026-10-19 13:41:23.456 [trace] Sending prompt to model
+2026-10-19 13:41:28.446 [trace] Resolving chat model
+2026-10-19 13:41:28.449 [trace] Resolving chat model
+2026-10-19 13:41:28.450 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:28.452 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:28.454 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:28.484 [trace] Resolving chat model
+2026-10-19 13:41:28.486 [trace] Resolving chat model
+2026-10-19 13:41:28.505 [trace] Resolving chat model
+2026-10-19 13:41:28.509 [trace] Built prompt
+2026-10-19 13:41:28.509 [trace] Sending prompt to model
+2026-10-19 13:41:33.489 [trace] Resolving chat model
+2026-10-19 13:41:33.490 [trace] Resolving chat model
+2026-10-19 13:41:33.490 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:33.493 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:33.494 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:33.537 [trace] Resolving chat model
+2026-10-19 13:41:33.539 [trace] Resolving chat model
+2026-10-19 13:41:33.558 [trace] Resolving chat model
+2026-10-19 13:41:33.561 [trace] Built prompt
+2026-10-19 13:41:33.561 [trace] Sending prompt to model
+2026-10-19 13:41:38.549 [trace] Resolving chat model
+2026-10-19 13:41:38.551 [trace] Resolving chat model
+2026-10-19 13:41:38.552 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:38.553 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:38.555 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:38.589 [trace] Resolving chat model
+2026-10-19 13:41:38.591 [trace] Resolving chat model
+2026-10-19 13:41:38.607 [trace] Resolving chat model
+2026-10-19 13:41:38.610 [trace] Built prompt
+2026-10-19 13:41:38.610 [trace] Sending prompt to model
+2026-10-19 13:41:43.654 [trace] Resolving chat model
+2026-10-19 13:41:43.656 [trace] Resolving chat model
+2026-10-19 13:41:43.656 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:43.658 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:43.660 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:43.711 [trace] Resolving chat model
+2026-10-19 13:41:43.733 [trace] Resolving chat model
+2026-10-19 13:41:43.738 [trace] Resolving chat model
+2026-10-19 13:41:43.741 [trace] Built prompt
+2026-10-19 13:41:43.741 [trace] Sending prompt to model
+2026-10-19 13:41:48.814 [trace] Resolving chat model
+2026-10-19 13:41:48.817 [trace] Resolving chat model
+2026-10-19 13:41:48.817 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:48.820 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:48.822 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:48.854 [trace] Resolving chat model
+2026-10-19 13:41:48.856 [trace] Resolving chat model
+2026-10-19 13:41:48.876 [trace] Resolving chat model
+2026-10-19 13:41:48.879 [trace] Built prompt
+2026-10-19 13:41:48.880 [trace] Sending prompt to model
+2026-10-19 13:41:53.977 [trace] Resolving chat model
+2026-10-19 13:41:53.978 [trace] Resolving chat model
+2026-10-19 13:41:53.979 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:41:53.985 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:41:53.987 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:41:54.019 [trace] Resolving chat model
+2026-10-19 13:41:54.021 [debug] [ConversationHistorySummarizer] context at 83% — starting background compaction
+2026-10-19 13:41:54.022 [trace] Resolving chat model
+2026-10-19 13:41:54.044 [trace] Resolving chat model
+2026-10-19 13:41:54.051 [trace] Built prompt
+2026-10-19 13:41:54.051 [trace] Sending prompt to model
+2026-10-19 13:42:25.296 [debug] [ConversationHistorySummarizer] background compaction completed (3361 chars, roundId=ca7661a7-b719-4fd3-8244-2ab971552cd1)
+2026-10-19 13:42:30.306 [trace] Resolving chat model
+2026-10-19 13:42:30.308 [trace] Resolving chat model
+2026-10-19 13:42:30.308 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:42:30.311 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:42:30.314 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:42:30.314 [debug] [ConversationHistorySummarizer] applying completed background summary (roundId=ca7661a7-b719-4fd3-8244-2ab971552cd1)
+2026-10-19 13:42:30.501 [trace] Resolving chat model
+2026-10-19 13:42:30.503 [trace] Resolving chat model
+2026-10-19 13:42:30.521 [trace] Resolving chat model
+2026-10-19 13:42:30.524 [trace] Built prompt
+2026-10-19 13:42:30.524 [trace] Sending prompt to model
+2026-10-19 13:42:35.887 [trace] Resolving chat model
+2026-10-19 13:42:35.888 [trace] Resolving chat model
+2026-10-19 13:42:35.889 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:42:35.891 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:42:35.893 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:42:35.929 [trace] Resolving chat model
+2026-10-19 13:42:35.932 [trace] Resolving chat model
+2026-10-19 13:42:35.953 [trace] Resolving chat model
+2026-10-19 13:42:35.956 [trace] Built prompt
+2026-10-19 13:42:35.956 [trace] Sending prompt to model
+2026-10-19 13:42:40.918 [trace] Resolving chat model
+2026-10-19 13:42:40.920 [trace] Resolving chat model
+2026-10-19 13:42:40.921 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:42:40.923 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:42:40.925 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:42:40.959 [trace] Resolving chat model
+2026-10-19 13:42:40.961 [trace] Resolving chat model
+2026-10-19 13:42:40.984 [trace] Resolving chat model
+2026-10-19 13:42:40.987 [trace] Built prompt
+2026-10-19 13:42:40.987 [trace] Sending prompt to model
+2026-10-19 13:42:45.957 [trace] Resolving chat model
+2026-10-19 13:42:45.958 [trace] Resolving chat model
+2026-10-19 13:42:45.959 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:42:45.961 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:42:45.963 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:42:46.009 [trace] Resolving chat model
+2026-10-19 13:42:46.012 [trace] Resolving chat model
+2026-10-19 13:42:46.043 [trace] Resolving chat model
+2026-10-19 13:42:46.046 [trace] Built prompt
+2026-10-19 13:42:46.046 [trace] Sending prompt to model
+2026-10-19 13:42:51.047 [trace] Resolving chat model
+2026-10-19 13:42:51.052 [trace] Resolving chat model
+2026-10-19 13:42:51.052 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:42:51.054 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:42:51.056 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:42:51.089 [trace] Resolving chat model
+2026-10-19 13:42:51.090 [trace] Resolving chat model
+2026-10-19 13:42:51.111 [trace] Resolving chat model
+2026-10-19 13:42:51.114 [trace] Built prompt
+2026-10-19 13:42:51.114 [trace] Sending prompt to model
+2026-10-19 13:42:56.129 [trace] Resolving chat model
+2026-10-19 13:42:56.130 [trace] Resolving chat model
+2026-10-19 13:42:56.130 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:42:56.134 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:42:56.136 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:42:56.168 [trace] Resolving chat model
+2026-10-19 13:42:56.170 [trace] Resolving chat model
+2026-10-19 13:42:56.209 [trace] Resolving chat model
+2026-10-19 13:42:56.212 [trace] Built prompt
+2026-10-19 13:42:56.212 [trace] Sending prompt to model
+2026-10-19 13:43:01.271 [trace] Resolving chat model
+2026-10-19 13:43:01.273 [trace] Resolving chat model
+2026-10-19 13:43:01.273 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:43:01.275 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:43:01.278 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:43:01.319 [trace] Resolving chat model
+2026-10-19 13:43:01.323 [trace] Resolving chat model
+2026-10-19 13:43:01.339 [trace] Resolving chat model
+2026-10-19 13:43:01.342 [trace] Built prompt
+2026-10-19 13:43:01.342 [trace] Sending prompt to model
+2026-10-19 13:43:06.430 [trace] Resolving chat model
+2026-10-19 13:43:06.433 [trace] Resolving chat model
+2026-10-19 13:43:06.434 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:43:06.437 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:43:06.438 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:43:06.472 [trace] Resolving chat model
+2026-10-19 13:43:06.474 [debug] [ConversationHistorySummarizer] context at 80% — starting background compaction
+2026-10-19 13:43:06.474 [trace] Resolving chat model
+2026-10-19 13:43:06.498 [trace] Resolving chat model
+2026-10-19 13:43:06.504 [trace] Built prompt
+2026-10-19 13:43:06.504 [trace] Sending prompt to model
+2026-10-19 13:43:11.672 [trace] Resolving chat model
+2026-10-19 13:43:11.674 [trace] Resolving chat model
+2026-10-19 13:43:11.674 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:43:11.676 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:43:11.678 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:43:11.724 [trace] Resolving chat model
+2026-10-19 13:43:11.726 [trace] Resolving chat model
+2026-10-19 13:43:11.754 [trace] Resolving chat model
+2026-10-19 13:43:11.758 [trace] Built prompt
+2026-10-19 13:43:11.758 [trace] Sending prompt to model
+2026-10-19 13:43:15.556 [debug] [Power] CPU speed limit changed: 60% (throttled)
+2026-10-19 13:43:16.570 [debug] [Power] CPU speed limit changed: 57% (throttled)
+2026-10-19 13:43:17.570 [debug] [Power] CPU speed limit changed: 58% (throttled)
+2026-10-19 13:43:18.584 [debug] [Power] CPU speed limit changed: 54% (throttled)
+2026-10-19 13:43:19.595 [debug] [Power] CPU speed limit changed: 55% (throttled)
+2026-10-19 13:43:20.609 [debug] [Power] CPU speed limit changed: 52% (throttled)
+2026-10-19 13:43:21.619 [debug] [Power] CPU speed limit changed: 49% (throttled)
+2026-10-19 13:43:22.626 [debug] [Power] CPU speed limit changed: 45% (throttled)
+2026-10-19 13:43:23.637 [debug] [Power] CPU speed limit changed: 44% (throttled)
+2026-10-19 13:43:25.699 [debug] [Power] CPU speed limit changed: 42% (throttled)
+2026-10-19 13:43:27.689 [debug] [Power] CPU speed limit changed: 41% (throttled)
+2026-10-19 13:43:30.729 [debug] [Power] CPU speed limit changed: 43% (throttled)
+2026-10-19 13:43:31.737 [debug] [Power] CPU speed limit changed: 46% (throttled)
+2026-10-19 13:43:32.751 [debug] [Power] CPU speed limit changed: 50% (throttled)
+2026-10-19 13:43:33.760 [debug] [Power] CPU speed limit changed: 53% (throttled)
+2026-10-19 13:43:34.773 [debug] [Power] CPU speed limit changed: 58% (throttled)
+2026-10-19 13:43:35.786 [debug] [Power] CPU speed limit changed: 61% (throttled)
+2026-10-19 13:43:36.795 [debug] [Power] CPU speed limit changed: 62% (throttled)
+2026-10-19 13:43:37.806 [debug] [Power] CPU speed limit changed: 65% (throttled)
+2026-10-19 13:43:38.811 [debug] [Power] CPU speed limit changed: 68% (throttled)
+2026-10-19 13:43:39.825 [debug] [Power] CPU speed limit changed: 73% (throttled)
+2026-10-19 13:43:40.837 [debug] [Power] CPU speed limit changed: 75% (throttled)
+2026-10-19 13:43:41.853 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-19 13:43:49.959 [debug] [ConversationHistorySummarizer] background compaction completed (3369 chars, roundId=a53a7a27-75cb-4ac5-b6d3-00df93a19e5a)
+2026-10-19 13:43:55.126 [trace] Resolving chat model
+2026-10-19 13:43:55.128 [trace] Resolving chat model
+2026-10-19 13:43:55.128 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:43:55.131 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:43:55.136 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:43:55.136 [debug] [ConversationHistorySummarizer] applying completed background summary (roundId=a53a7a27-75cb-4ac5-b6d3-00df93a19e5a)
+2026-10-19 13:43:55.335 [trace] Resolving chat model
+2026-10-19 13:43:55.337 [trace] Resolving chat model
+2026-10-19 13:43:55.362 [trace] Resolving chat model
+2026-10-19 13:43:55.365 [trace] Built prompt
+2026-10-19 13:43:55.366 [trace] Sending prompt to model
+2026-10-19 13:44:01.353 [trace] Resolving chat model
+2026-10-19 13:44:01.355 [trace] Resolving chat model
+2026-10-19 13:44:01.356 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:01.359 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:01.360 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:01.419 [trace] Resolving chat model
+2026-10-19 13:44:01.421 [trace] Resolving chat model
+2026-10-19 13:44:01.462 [trace] Resolving chat model
+2026-10-19 13:44:01.465 [trace] Built prompt
+2026-10-19 13:44:01.465 [trace] Sending prompt to model
+2026-10-19 13:44:06.444 [trace] Resolving chat model
+2026-10-19 13:44:06.446 [trace] Resolving chat model
+2026-10-19 13:44:06.446 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:06.448 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:06.452 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:06.495 [trace] Resolving chat model
+2026-10-19 13:44:06.497 [trace] Resolving chat model
+2026-10-19 13:44:06.522 [trace] Resolving chat model
+2026-10-19 13:44:06.525 [trace] Built prompt
+2026-10-19 13:44:06.525 [trace] Sending prompt to model
+2026-10-19 13:44:11.550 [trace] Resolving chat model
+2026-10-19 13:44:11.554 [trace] Resolving chat model
+2026-10-19 13:44:11.554 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:11.557 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:11.559 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:11.619 [trace] Resolving chat model
+2026-10-19 13:44:11.621 [trace] Resolving chat model
+2026-10-19 13:44:11.664 [trace] Resolving chat model
+2026-10-19 13:44:11.669 [trace] Built prompt
+2026-10-19 13:44:11.669 [trace] Sending prompt to model
+2026-10-19 13:44:16.777 [trace] Resolving chat model
+2026-10-19 13:44:16.780 [trace] Resolving chat model
+2026-10-19 13:44:16.780 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:16.782 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:16.784 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:16.820 [trace] Resolving chat model
+2026-10-19 13:44:16.822 [trace] Resolving chat model
+2026-10-19 13:44:16.847 [trace] Resolving chat model
+2026-10-19 13:44:16.852 [trace] Built prompt
+2026-10-19 13:44:16.853 [trace] Sending prompt to model
+2026-10-19 13:44:21.941 [trace] Resolving chat model
+2026-10-19 13:44:21.943 [trace] Resolving chat model
+2026-10-19 13:44:21.944 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:21.946 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:21.949 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:21.998 [trace] Resolving chat model
+2026-10-19 13:44:22.005 [trace] Resolving chat model
+2026-10-19 13:44:22.025 [trace] Resolving chat model
+2026-10-19 13:44:22.028 [trace] Built prompt
+2026-10-19 13:44:22.028 [trace] Sending prompt to model
+2026-10-19 13:44:27.172 [trace] Resolving chat model
+2026-10-19 13:44:27.174 [trace] Resolving chat model
+2026-10-19 13:44:27.174 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:27.177 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:27.179 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:27.225 [trace] Resolving chat model
+2026-10-19 13:44:27.240 [trace] Resolving chat model
+2026-10-19 13:44:27.275 [trace] Resolving chat model
+2026-10-19 13:44:27.281 [trace] Built prompt
+2026-10-19 13:44:27.281 [trace] Sending prompt to model
+2026-10-19 13:44:31.337 [debug] [Power] CPU speed limit changed: 62% (throttled)
+2026-10-19 13:44:32.347 [debug] [Power] CPU speed limit changed: 61% (throttled)
+2026-10-19 13:44:32.403 [trace] Resolving chat model
+2026-10-19 13:44:32.405 [trace] Resolving chat model
+2026-10-19 13:44:32.406 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:44:32.408 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:44:32.410 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:44:32.454 [trace] Resolving chat model
+2026-10-19 13:44:32.457 [debug] [ConversationHistorySummarizer] context at 83% — starting background compaction
+2026-10-19 13:44:32.458 [trace] Resolving chat model
+2026-10-19 13:44:32.486 [trace] Resolving chat model
+2026-10-19 13:44:32.491 [trace] Built prompt
+2026-10-19 13:44:32.491 [trace] Sending prompt to model
+2026-10-19 13:44:33.363 [debug] [Power] CPU speed limit changed: 65% (throttled)
+2026-10-19 13:44:34.378 [debug] [Power] CPU speed limit changed: 61% (throttled)
+2026-10-19 13:44:36.379 [debug] [Power] CPU speed limit changed: 60% (throttled)
+2026-10-19 13:44:37.390 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-19 13:45:07.709 [debug] [Power] CPU speed limit changed: 70% (throttled)
+2026-10-19 13:45:08.314 [debug] [ConversationHistorySummarizer] background compaction completed (3436 chars, roundId=bc7bbff7-27d8-4185-83a8-c6c1ef0d5e43)
+2026-10-19 13:45:08.710 [debug] [Power] CPU speed limit changed: 68% (throttled)
+2026-10-19 13:45:09.724 [debug] [Power] CPU speed limit changed: 63% (throttled)
+2026-10-19 13:45:10.725 [debug] [Power] CPU speed limit changed: 67% (throttled)
+2026-10-19 13:45:11.740 [debug] [Power] CPU speed limit changed: 64% (throttled)
+2026-10-19 13:45:13.382 [trace] Resolving chat model
+2026-10-19 13:45:13.385 [trace] Resolving chat model
+2026-10-19 13:45:13.386 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:45:13.389 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:45:13.392 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:45:13.392 [debug] [ConversationHistorySummarizer] applying completed background summary (roundId=bc7bbff7-27d8-4185-83a8-c6c1ef0d5e43)
+2026-10-19 13:45:13.610 [trace] Resolving chat model
+2026-10-19 13:45:13.612 [trace] Resolving chat model
+2026-10-19 13:45:13.640 [trace] Resolving chat model
+2026-10-19 13:45:13.643 [trace] Built prompt
+2026-10-19 13:45:13.643 [trace] Sending prompt to model
+2026-10-19 13:45:13.763 [debug] [Power] CPU speed limit changed: 65% (throttled)
+2026-10-19 13:45:15.775 [debug] [Power] CPU speed limit changed: 67% (throttled)
+2026-10-19 13:45:16.790 [debug] [Power] CPU speed limit changed: 100% 
+2026-10-19 13:45:19.629 [trace] Resolving chat model
+2026-10-19 13:45:19.631 [trace] Resolving chat model
+2026-10-19 13:45:19.632 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:45:19.635 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:45:19.639 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:45:19.683 [trace] Resolving chat model
+2026-10-19 13:45:19.686 [trace] Resolving chat model
+2026-10-19 13:45:19.709 [trace] Resolving chat model
+2026-10-19 13:45:19.712 [trace] Built prompt
+2026-10-19 13:45:19.712 [trace] Sending prompt to model
+2026-10-19 13:45:24.694 [trace] Resolving chat model
+2026-10-19 13:45:24.696 [trace] Resolving chat model
+2026-10-19 13:45:24.696 [trace] [AutomaticInstructionsCollector] includeReferencedInstructions is disabled. Skipping referenced instructions.
+2026-10-19 13:45:24.698 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-19 13:45:24.700 [debug] [Agent] rendering with budget=10742 (baseBudget: 16384, toolTokens: 4448, totalTools: 21, toolSearchEnabled: false), summarizationEnabled=true
+2026-10-19 13:45:24.740 [trace] Resolving chat model
+2026-10-19 13:45:24.742 [trace] Resolving chat model
+2026-10-19 13:45:24.783 [trace] Resolving chat model
+2026-10-19 13:45:24.790 [trace] Built prompt
+2026-10-19 13:45:24.790 [trace] Sending prompt to model
+2026-10-19 13:45:29.797 [trace] Resolving chat model
+2026-10-19 13:45:33.963 [debug] [Power] CPU speed limit changed: 58% (throttled)
+2026-10-19 13:45:34.969 [debug] [Power] CPU speed limit changed: 57% (throttled)
+2026-10-19 13:45:35.978 [debug] [Power] CPU speed limit changed: 52% (throttled)
+2026-10-19 13:45:38.047 [debug] [Power] CPU speed limit changed: 50% (throttled)
+2026-10-19 13:45:39.077 [debug] [Power] CPU speed limit changed: 53% (throttled)
+2026-10-19 13:45:40.092 [debug] [Power] CPU speed limit changed: 56% (throttled)
+2026-10-19 13:45:41.024 [debug] [Power] CPU speed limit changed: 60% (throttled)
+2026-10-19 13:45:42.036 [debug] [Power] CPU speed limit changed: 65% (throttled)
+2026-10-19 13:45:43.039 [debug] [Power] CPU speed limit changed: 100% 

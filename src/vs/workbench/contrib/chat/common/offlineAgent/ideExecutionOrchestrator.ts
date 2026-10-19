@@ -58,7 +58,6 @@ export class IDEExecutionOrchestrator extends Disposable {
 	private static readonly MAX_SELF_HEAL_RETRIES = 3;
 	private static readonly DIAGNOSTICS_WAIT_MS = 800;
 	private static readonly FILE_BLOCK_REGEX = /\/\/\s*filepath:\s*(\S+)\s*\n([\s\S]*?)(?=\/\/\s*filepath:|\s*$)/gi;
-	private static readonly XML_FILE_REGEX = /<ofcode_file\s+path="([^"]+)">([\s\S]*?)<\/ofcode_file>/gi;
 	private static readonly CMD_REGEX = /<ofcode_cmd>([\s\S]*?)<\/ofcode_cmd>/gi;
 
 	constructor(

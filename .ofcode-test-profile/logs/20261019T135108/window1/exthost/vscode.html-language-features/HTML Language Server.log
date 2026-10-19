@@ -1,0 +1,128 @@
+2026-10-19 13:51:49.972 [trace] Sending request 'initialize - (0)'.
+2026-10-19 13:51:49.994 [error] Debugger listening on ws://127.0.0.1:8852/72f77d96-5568-4ecb-b984-daf59a096689
+2026-10-19 13:51:49.994 [error] For help, see: https://nodejs.org/learn/getting-started/debugging
+2026-10-19 13:51:50.502 [trace] Received response 'initialize - (0)' in 535ms.
+2026-10-19 13:51:50.502 [trace] Sending notification 'initialized'.
+2026-10-19 13:51:50.508 [trace] Sending notification 'textDocument/didOpen'.
+2026-10-19 13:51:50.508 [trace] Sending notification 'workspace/didChangeConfiguration'.
+2026-10-19 13:51:50.508 [trace] Sending request 'textDocument/diagnostic - (1)'.
+2026-10-19 13:51:50.508 [trace] Sending notification 'html/customDataChanged'.
+2026-10-19 13:51:50.508 [trace] Sending request 'html/semanticTokenLegend - (2)'.
+2026-10-19 13:51:50.510 [trace] Received request 'client/registerCapability - (0)'.
+2026-10-19 13:51:50.510 [trace] Sending response 'client/registerCapability - (0)'. Processing request took 0ms
+2026-10-19 13:51:50.511 [trace] Received request 'workspace/diagnostic/refresh - (1)'.
+2026-10-19 13:51:50.511 [trace] Sending notification '$/cancelRequest'.
+2026-10-19 13:51:50.511 [trace] Sending response 'workspace/diagnostic/refresh - (1)'. Processing request took 0ms
+2026-10-19 13:51:50.512 [trace] Received request 'workspace/configuration - (2)'.
+2026-10-19 13:51:50.512 [trace] Sending response 'workspace/configuration - (2)'. Processing request took 1ms
+2026-10-19 13:51:50.512 [trace] Received response 'html/semanticTokenLegend - (2)' in 4ms.
+2026-10-19 13:51:50.514 [trace] Received response 'textDocument/diagnostic - (1)' in 6ms. Request failed: Request cancelled (-32800).
+2026-10-19 13:51:50.514 [trace] Sending request 'textDocument/diagnostic - (3)'.
+2026-10-19 13:51:50.514 [trace] Received response 'textDocument/diagnostic - (3)' in 1ms.
+2026-10-19 13:51:50.523 [trace] Sending request 'textDocument/documentSymbol - (4)'.
+2026-10-19 13:51:50.523 [trace] Sending request 'textDocument/documentColor - (5)'.
+2026-10-19 13:51:50.524 [trace] Received response 'textDocument/documentSymbol - (4)' in 1ms.
+2026-10-19 13:51:50.525 [trace] Received response 'textDocument/documentColor - (5)' in 2ms.
+2026-10-19 13:51:50.532 [trace] Sending request 'textDocument/documentLink - (6)'.
+2026-10-19 13:51:50.533 [trace] Received response 'textDocument/documentLink - (6)' in 1ms.
+2026-10-19 13:51:50.841 [trace] Sending request 'textDocument/documentSymbol - (7)'.
+2026-10-19 13:51:50.842 [trace] Sending request 'textDocument/foldingRange - (8)'.
+2026-10-19 13:51:50.843 [trace] Received response 'textDocument/documentSymbol - (7)' in 2ms.
+2026-10-19 13:51:50.844 [trace] Received response 'textDocument/foldingRange - (8)' in 2ms.
+2026-10-19 13:51:50.990 [trace] Sending request 'html/semanticTokens - (9)'.
+2026-10-19 13:51:50.990 [trace] Received response 'html/semanticTokens - (9)' in 0ms.
+2026-10-19 13:51:58.220 [trace] Sending notification 'textDocument/didChange'.
+2026-10-19 13:51:58.220 [trace] Sending request 'textDocument/diagnostic - (10)'.
+2026-10-19 13:51:58.221 [trace] Received response 'textDocument/diagnostic - (10)' in 1ms.
+2026-10-19 13:51:58.551 [trace] Sending request 'textDocument/foldingRange - (11)'.
+2026-10-19 13:51:58.552 [trace] Received response 'textDocument/foldingRange - (11)' in 0ms.
+2026-10-19 13:51:58.612 [trace] Sending request 'textDocument/documentSymbol - (12)'.
+2026-10-19 13:51:58.613 [trace] Received response 'textDocument/documentSymbol - (12)' in 1ms.
+2026-10-19 13:51:58.681 [trace] Sending request 'html/semanticTokens - (13)'.
+2026-10-19 13:51:58.682 [trace] Received response 'html/semanticTokens - (13)' in 0ms.
+2026-10-19 13:51:58.756 [trace] Sending request 'textDocument/documentSymbol - (14)'.
+2026-10-19 13:51:58.756 [trace] Received response 'textDocument/documentSymbol - (14)' in 1ms.
+2026-10-19 13:51:59.738 [trace] Sending request 'textDocument/documentLink - (15)'.
+2026-10-19 13:51:59.738 [trace] Sending request 'textDocument/documentColor - (16)'.
+2026-10-19 13:51:59.738 [trace] Received response 'textDocument/documentLink - (15)' in 0ms.
+2026-10-19 13:51:59.738 [trace] Received response 'textDocument/documentColor - (16)' in 1ms.
+2026-10-19 13:52:06.591 [trace] Sending notification 'textDocument/didChange'.
+2026-10-19 13:52:06.591 [trace] Sending request 'textDocument/diagnostic - (17)'.
+2026-10-19 13:52:06.593 [trace] Received response 'textDocument/diagnostic - (17)' in 1ms.
+2026-10-19 13:52:06.914 [trace] Sending request 'textDocument/foldingRange - (18)'.
+2026-10-19 13:52:06.915 [trace] Received response 'textDocument/foldingRange - (18)' in 1ms.
+2026-10-19 13:52:06.989 [trace] Sending request 'textDocument/documentSymbol - (19)'.
+2026-10-19 13:52:06.989 [trace] Received response 'textDocument/documentSymbol - (19)' in 1ms.
+2026-10-19 13:52:07.072 [trace] Sending request 'html/semanticTokens - (20)'.
+2026-10-19 13:52:07.072 [trace] Received response 'html/semanticTokens - (20)' in 0ms.
+2026-10-19 13:52:07.122 [trace] Sending request 'textDocument/documentSymbol - (21)'.
+2026-10-19 13:52:07.122 [trace] Received response 'textDocument/documentSymbol - (21)' in 1ms.
+2026-10-19 13:52:07.682 [trace] Sending request 'textDocument/hover - (22)'.
+2026-10-19 13:52:07.682 [trace] Received response 'textDocument/hover - (22)' in 1ms.
+2026-10-19 13:52:08.099 [trace] Sending request 'textDocument/documentLink - (23)'.
+2026-10-19 13:52:08.099 [trace] Sending request 'textDocument/documentColor - (24)'.
+2026-10-19 13:52:08.099 [trace] Received response 'textDocument/documentLink - (23)' in 0ms.
+2026-10-19 13:52:08.099 [trace] Received response 'textDocument/documentColor - (24)' in 0ms.
+2026-10-19 13:52:14.923 [trace] Sending notification 'textDocument/didChange'.
+2026-10-19 13:52:14.923 [trace] Sending request 'textDocument/diagnostic - (25)'.
+2026-10-19 13:52:14.924 [trace] Received response 'textDocument/diagnostic - (25)' in 2ms.
+2026-10-19 13:52:15.240 [trace] Sending request 'textDocument/foldingRange - (26)'.
+2026-10-19 13:52:15.240 [trace] Received response 'textDocument/foldingRange - (26)' in 0ms.
+2026-10-19 13:52:15.310 [trace] Sending request 'textDocument/documentSymbol - (27)'.
+2026-10-19 13:52:15.311 [trace] Received response 'textDocument/documentSymbol - (27)' in 1ms.
+2026-10-19 13:52:15.405 [trace] Sending request 'html/semanticTokens - (28)'.
+2026-10-19 13:52:15.406 [trace] Received response 'html/semanticTokens - (28)' in 0ms.
+2026-10-19 13:52:15.463 [trace] Sending request 'textDocument/documentSymbol - (29)'.
+2026-10-19 13:52:15.463 [trace] Received response 'textDocument/documentSymbol - (29)' in 0ms.
+2026-10-19 13:52:16.431 [trace] Sending request 'textDocument/documentLink - (30)'.
+2026-10-19 13:52:16.432 [trace] Sending request 'textDocument/documentColor - (31)'.
+2026-10-19 13:52:16.432 [trace] Received response 'textDocument/documentLink - (30)' in 1ms.
+2026-10-19 13:52:16.432 [trace] Received response 'textDocument/documentColor - (31)' in 1ms.
+2026-10-19 13:52:23.569 [trace] Sending notification 'textDocument/didChange'.
+2026-10-19 13:52:23.570 [trace] Sending request 'textDocument/diagnostic - (32)'.
+2026-10-19 13:52:23.571 [trace] Received response 'textDocument/diagnostic - (32)' in 2ms.
+2026-10-19 13:52:23.888 [trace] Sending request 'textDocument/foldingRange - (33)'.
+2026-10-19 13:52:23.889 [trace] Received response 'textDocument/foldingRange - (33)' in 1ms.
+2026-10-19 13:52:23.958 [trace] Sending request 'textDocument/documentSymbol - (34)'.
+2026-10-19 13:52:23.960 [trace] Received response 'textDocument/documentSymbol - (34)' in 2ms.
+2026-10-19 13:52:24.031 [trace] Sending request 'html/semanticTokens - (35)'.
+2026-10-19 13:52:24.032 [trace] Received response 'html/semanticTokens - (35)' in 1ms.
+2026-10-19 13:52:24.112 [trace] Sending request 'textDocument/documentSymbol - (36)'.
+2026-10-19 13:52:24.113 [trace] Received response 'textDocument/documentSymbol - (36)' in 1ms.
+2026-10-19 13:52:25.076 [trace] Sending request 'textDocument/documentLink - (37)'.
+2026-10-19 13:52:25.077 [trace] Sending request 'textDocument/documentColor - (38)'.
+2026-10-19 13:52:25.077 [trace] Received response 'textDocument/documentLink - (37)' in 1ms.
+2026-10-19 13:52:25.077 [trace] Received response 'textDocument/documentColor - (38)' in 1ms.
+2026-10-19 13:52:32.115 [trace] Sending notification 'textDocument/didChange'.
+2026-10-19 13:52:32.115 [trace] Sending request 'textDocument/diagnostic - (39)'.
+2026-10-19 13:52:32.116 [trace] Received response 'textDocument/diagnostic - (39)' in 1ms.
+2026-10-19 13:52:32.421 [trace] Sending request 'textDocument/foldingRange - (40)'.
+2026-10-19 13:52:32.422 [trace] Received response 'textDocument/foldingRange - (40)' in 1ms.
+2026-10-19 13:52:32.468 [trace] Sending request 'textDocument/documentSymbol - (41)'.
+2026-10-19 13:52:32.468 [trace] Received response 'textDocument/documentSymbol - (41)' in 1ms.
+2026-10-19 13:52:32.600 [trace] Sending request 'html/semanticTokens - (42)'.
+2026-10-19 13:52:32.601 [trace] Received response 'html/semanticTokens - (42)' in 0ms.
+2026-10-19 13:52:32.643 [trace] Sending request 'textDocument/documentSymbol - (43)'.
+2026-10-19 13:52:32.644 [trace] Received response 'textDocument/documentSymbol - (43)' in 1ms.
+2026-10-19 13:52:33.621 [trace] Sending request 'textDocument/documentLink - (44)'.
+2026-10-19 13:52:33.621 [trace] Sending request 'textDocument/documentColor - (45)'.
+2026-10-19 13:52:33.621 [trace] Received response 'textDocument/documentLink - (44)' in 0ms.
+2026-10-19 13:52:33.622 [trace] Received response 'textDocument/documentColor - (45)' in 1ms.
+2026-10-19 13:57:32.322 [trace] Sending notification 'textDocument/didChange'.
+2026-10-19 13:57:32.322 [trace] Sending request 'textDocument/diagnostic - (46)'.
+2026-10-19 13:57:32.323 [trace] Received response 'textDocument/diagnostic - (46)' in 1ms.
+2026-10-19 13:57:32.629 [trace] Sending request 'textDocument/foldingRange - (47)'.
+2026-10-19 13:57:32.630 [trace] Received response 'textDocument/foldingRange - (47)' in 1ms.
+2026-10-19 13:57:32.696 [trace] Sending request 'textDocument/documentSymbol - (48)'.
+2026-10-19 13:57:32.697 [trace] Received response 'textDocument/documentSymbol - (48)' in 1ms.
+2026-10-19 13:57:32.793 [trace] Sending request 'html/semanticTokens - (49)'.
+2026-10-19 13:57:32.793 [trace] Received response 'html/semanticTokens - (49)' in 0ms.
+2026-10-19 13:57:32.855 [trace] Sending request 'textDocument/documentSymbol - (50)'.
+2026-10-19 13:57:32.856 [trace] Received response 'textDocument/documentSymbol - (50)' in 1ms.
+2026-10-19 13:57:33.823 [trace] Sending request 'textDocument/documentLink - (51)'.
+2026-10-19 13:57:33.823 [trace] Sending request 'textDocument/documentColor - (52)'.
+2026-10-19 13:57:33.824 [trace] Received response 'textDocument/documentLink - (51)' in 1ms.
+2026-10-19 13:57:33.824 [trace] Received response 'textDocument/documentColor - (52)' in 1ms.
+2026-10-19 14:03:57.155 [trace] Sending request 'shutdown - (53)'.
+2026-10-19 14:03:57.155 [trace] Received response 'shutdown - (53)' in 4ms.
+2026-10-19 14:03:57.155 [trace] Sending notification 'exit'.

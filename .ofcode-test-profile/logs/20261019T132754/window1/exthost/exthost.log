@@ -2297,3 +2297,229 @@
 2026-10-19 13:33:36.471 [trace] ExtHostCommands#executeCommand _setContext
 2026-10-19 13:34:06.873 [trace] ExtHostCommands#executeCommand setContext
 2026-10-19 13:34:06.874 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:36:59.980 [trace] ExtHostCommands#executeCommand setContext
+2026-10-19 13:36:59.980 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:37:03.537 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-19 13:37:03.537 [trace] [vscode.git] provider DONE after 0ms
+2026-10-19 13:37:12.241 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-19 13:37:52.116 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-19 13:37:52.117 [trace] [vscode.git] provider DONE after 0ms
+2026-10-19 13:37:53.422 [trace] [DiagnosticCollection] change many (extension, owner, uris) vscode.extension-editing extension-editing [[{"$mid":1,"fsPath":"input-1","_sep":1,"external":"chatSessionInput:input-1","path":"input-1","scheme":"chatSessionInput"},null]]
+2026-10-19 13:37:54.937 [trace] [vscode.git] INVOKE provider '(adapter) => adapter.provideLinks(URI.revive(resource), token)'
+2026-10-19 13:37:54.937 [trace] [vscode.git] provider DONE after 1ms
+2026-10-19 13:37:59.425 [trace] ExtHostCommands#$executeContributedCommand github.copilot.chat.otel.recordUserInteraction
+2026-10-19 13:38:01.838 [trace] [LanguageModelProxy](GitHub.copilot-chat) Could not find model 'ollama:qwen2.5-coder:14b' in local cache. Trying to resolve model again.
+2026-10-19 13:38:01.848 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:02.104 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:16.369 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:16.475 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:16.475 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:16.482 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:18.517 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:18.540 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:18.540 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:18.544 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:23.320 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:23.347 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:23.348 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:23.354 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:28.167 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:28.216 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:28.217 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:28.223 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:28.802 [trace] ExtHostCommands#executeCommand setContext
+2026-10-19 13:38:28.802 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:38:33.086 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:33.130 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:33.130 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:33.139 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:35.635 [trace] ExtHostCommands#executeCommand setContext
+2026-10-19 13:38:35.635 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:38:35.636 [trace] ExtHostCommands#executeCommand setContext
+2026-10-19 13:38:35.636 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:38:37.511 [trace] ExtHostCommands#executeCommand setContext
+2026-10-19 13:38:37.511 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:38:37.990 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:37.992 [trace] ExtHostCommands#executeCommand setContext
+2026-10-19 13:38:37.992 [trace] ExtHostCommands#executeCommand _setContext
+2026-10-19 13:38:38.035 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:38.036 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:38.040 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:42.887 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:42.923 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:42.923 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:42.929 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:47.801 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:47.923 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:47.923 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:47.924 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:52.845 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:52.884 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:52.885 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:52.897 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:57.774 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:57.810 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:38:57.811 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:38:57.818 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:02.681 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:02.717 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:02.717 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:02.725 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:07.597 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:07.634 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:07.635 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:07.643 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:49.264 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:49.463 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:49.463 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:49.472 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:55.249 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:55.290 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:39:55.291 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:39:55.299 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:00.139 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:00.175 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:00.175 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:00.190 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:05.048 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:05.081 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:05.082 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:05.093 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:09.954 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:09.996 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:09.996 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:10.006 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:14.893 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:14.938 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:14.938 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:14.953 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:19.835 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:19.876 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:19.876 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:19.885 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:24.802 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:24.845 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:24.846 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:24.855 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:29.781 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:29.821 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:29.821 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:29.835 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:34.771 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:34.818 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:40:34.819 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:40:34.836 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:17.689 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:17.893 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:17.893 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:17.906 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:23.387 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:23.429 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:23.430 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:23.445 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:28.446 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:28.486 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:28.486 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:28.501 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:33.489 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:33.538 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:33.539 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:33.554 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:38.549 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:38.591 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:38.591 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:38.603 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:43.654 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:43.733 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:43.733 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:43.737 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:48.814 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:48.856 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:48.856 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:48.872 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:53.977 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:54.022 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:41:54.022 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:41:54.039 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:30.306 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:30.503 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:30.503 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:30.517 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:35.887 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:35.931 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:35.932 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:35.947 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:40.918 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:40.960 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:40.961 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:40.977 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:45.957 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:46.011 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:46.012 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:46.035 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:51.047 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:51.090 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:51.090 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:51.107 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:56.129 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:56.170 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:42:56.170 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:42:56.201 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:01.271 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:01.323 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:01.323 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:01.335 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:06.430 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:06.474 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:06.474 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:06.492 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:11.672 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:11.726 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:11.726 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:11.747 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:55.126 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:55.337 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:43:55.338 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:43:55.356 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:01.353 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:01.421 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:01.421 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:01.459 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:06.444 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:06.496 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:06.497 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:06.513 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:11.550 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:11.621 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:11.621 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:11.660 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:16.777 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:16.822 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:16.822 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:16.842 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:21.941 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:22.004 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:22.005 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:22.021 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:27.172 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:27.240 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:27.240 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:27.261 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:32.403 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:32.458 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:44:32.458 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:44:32.480 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:45:13.382 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:45:13.612 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:45:13.612 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:45:13.632 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:45:19.177 [debug] ProxyResolver#getCachedProxy network interfaces unchanged
+2026-10-19 13:45:19.177 [debug] ProxyResolver#resolveProxy cached http://169.254.169.254/metadata/instance/compute DIRECT 
+2026-10-19 13:45:19.630 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:45:19.685 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:45:19.686 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:45:19.705 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:45:24.694 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:45:24.741 [debug] [TreeView:copilot-chat] refresh start changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}
+2026-10-19 13:45:24.742 [trace] ExtHostCommands#executeCommand vscode.testing.getControllersWithTests
+2026-10-19 13:45:24.774 [debug] [TreeView:copilot-chat] refresh done changed=1 nodesToClear=0 elements.size=0 nodes.size=0 handles={"changed":["<root>"],"roots":[],"clearing":[]}

@@ -1,0 +1,31 @@
+2026-10-19 13:51:21.442 [info] [main] Log level: Trace
+2026-10-19 13:51:21.442 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-10-19 13:51:21.442 [info] [main] Using git "2.56.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2026-10-19 13:51:21.442 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-19 13:51:21.443 [trace] [Model][doInitialScan] Settings: autoRepositoryDetection=true, openRepositoryInParentFolders=prompt
+2026-10-19 13:51:21.443 [trace] [Model][onDidChangeWorkspaceFolders] Workspace folders: [c:\Users\USER\Pictures\Screenshots\makewebpage]
+2026-10-19 13:51:21.443 [trace] [Model][scanWorkspaceFolders] Workspace folder: c:\Users\USER\Pictures\Screenshots\makewebpage
+2026-10-19 13:51:21.443 [trace] [Model][openRepository] Repository: c:\Users\USER\Pictures\Screenshots\makewebpage
+2026-10-19 13:51:21.443 [trace] [Model][scanWorkspaceFolders] Workspace scan settings: repositoryScanMaxDepth=1; repositoryScanIgnoredFolders=[node_modules]; scanRepositories=[]
+2026-10-19 13:51:21.443 [trace] [Model][scanWorkspaceFolders] Workspace scan sub folders: []
+2026-10-19 13:51:21.496 [info] > git rev-parse --show-toplevel [60ms]
+2026-10-19 13:51:21.496 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-19 13:51:21.496 [trace] [Model][openRepository] Opening repository for path='c:\Users\USER\Pictures\Screenshots\makewebpage' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+2026-10-19 13:51:21.497 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-19 13:51:49.122 [trace] [Model][onDidChangeVisibleTextEditors] Open repository for editor resource c:\Users\USER\Pictures\Screenshots\makewebpage\index.html
+2026-10-19 13:51:49.122 [trace] [Model][openRepository] Repository: c:\Users\USER\Pictures\Screenshots\makewebpage
+2026-10-19 13:51:49.176 [info] > git rev-parse --show-toplevel [48ms]
+2026-10-19 13:51:49.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-19 13:51:49.177 [trace] [Model][openRepository] Opening repository for path='c:\Users\USER\Pictures\Screenshots\makewebpage' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

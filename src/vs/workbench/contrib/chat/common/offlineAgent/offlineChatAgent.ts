@@ -23,8 +23,7 @@ import {
 	ILanguageModelsService,
 	IChatMessage,
 	ChatMessageRole,
-	IChatResponsePart,
-	ILanguageModelChatMetadata
+	IChatResponsePart
 } from '../languageModels.js';
 import { ILanguageModelToolsService, IToolInvocation } from '../tools/languageModelToolsService.js';
 import { WebExtractorService } from './webExtractor/webExtractorService.js';
@@ -34,20 +33,21 @@ import { OllamaClient } from './ollamaClient.js';
 import { ToolCallParser } from './toolCallParser.js';
 import { IDEExecutionOrchestrator } from './ideExecutionOrchestrator.js';
 import { KiroSpecEngine } from './kiroSpecEngine.js';
+import { IOllamaServerManager } from './ollamaServerManager.js';
 
 import { IRequestService } from '../../../../../platform/request/common/request.js';
 
 export const OFFLINE_AGENT_ID = 'ofcode.offlineAgent';
 
-const OFCODE_AGENT_TOOLS = [
-	'vscode_chromeExtract',
-	'vscode_highRag',
-	'vscode_githubExplore',
-	'ofcode_readFile',
+export const OFCODE_STRICT_TOOL_WHITELIST = [
 	'ofcode_writeFile',
+	'ofcode_readFile',
 	'ofcode_editFile',
 	'ofcode_listFiles',
-	'ofcode_runCommand'
+	'ofcode_runCommand',
+	'vscode_highRag',
+	'vscode_chromeExtract',
+	'vscode_githubExplore'
 ] as const;
 
 export class OfflineChatAgent extends Disposable implements IChatAgentImplementation {
@@ -61,6 +61,7 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 		@ILanguageModelsService private readonly _languageModelsService: ILanguageModelsService,
 		@ILanguageModelToolsService private readonly _languageModelToolsService: ILanguageModelToolsService,
 		@IRequestService private readonly _requestService: IRequestService,
+		@IOllamaServerManager private readonly _serverManager: IOllamaServerManager,
 		@IInstantiationService instantiationService: IInstantiationService,
 	) {
 		super();
@@ -98,18 +99,42 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 		let targetModelId = ollamaModelIds[0];
 		const userSelectedModel = request.userSelectedModelId;
 		if (userSelectedModel) {
-			const matched = ollamaModelIds.find(id =>
-				id === userSelectedModel ||
-				id.replace('ollama/', 'ollama:') === userSelectedModel ||
-				id.replace('ollama:', 'ollama/') === userSelectedModel ||
-				id.replace(/^ollama[:/]/, '') === userSelectedModel.replace(/^ollama[:/]/, '')
-			);
+			const cleanUser = userSelectedModel.replace(/^ollama[:/]/, '').toLowerCase();
+			const matched = ollamaModelIds.find(id => {
+				const cleanId = id.replace(/^ollama[:/]/, '').toLowerCase();
+				return id === userSelectedModel ||
+					cleanId === cleanUser ||
+					cleanId.includes(cleanUser) ||
+					cleanUser.includes(cleanId);
+			});
 			if (matched) {
 				targetModelId = matched;
-			} else {
-				targetModelId = ollamaModelIds[0];
+			}
+		} else {
+			// If activeModel is configured in server manager, check if it matches
+			const active = this._serverManager.activeModel;
+			if (active) {
+				const cleanActive = active.replace(/^ollama[:/]/, '').toLowerCase();
+				const matchedActive = ollamaModelIds.find(id => {
+					const cleanId = id.replace(/^ollama[:/]/, '').toLowerCase();
+					return cleanId === cleanActive || cleanId.includes(cleanActive);
+				});
+				if (matchedActive) {
+					targetModelId = matchedActive;
+				}
+			}
+			// If still generic or unselected, prioritize coder models (e.g. qwen2.5-coder)
+			if (!targetModelId || !/coder|code/i.test(targetModelId)) {
+				const coderModel = ollamaModelIds.find(id => /coder|code/i.test(id));
+				if (coderModel) {
+					targetModelId = coderModel;
+				}
 			}
 		}
+
+		// Keep the status bar and server manager in sync with the active model
+		const cleanModelName = targetModelId.replace(/^ollama[:/]/, '');
+		this._serverManager.setActiveModel(cleanModelName).catch(() => {});
 
 		// =========================================================================
 		// Handle /spec command — Kiro Spec-Driven Development
@@ -205,27 +230,19 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 			return {};
 		}
 
-		const modelMetadata: ILanguageModelChatMetadata | undefined =
-			this._languageModelsService.lookupLanguageModel(targetModelId) ??
-			this._languageModelsService.lookupLanguageModel(ollamaModelIds[0]);
-
-		// Collect registered tools and guarantee OFCode agent tools are always included
-		const registeredTools = Array.from(this._languageModelToolsService.getTools(modelMetadata));
-		for (const toolId of OFCODE_AGENT_TOOLS) {
-			if (!registeredTools.some(t => t.id === toolId)) {
-				const tool = this._languageModelToolsService.getTool(toolId);
-				if (tool) {
-					registeredTools.push(tool);
-				}
+		// Strictly expose ONLY whitelisted OFCode tools to avoid confusing local Ollama models with internal tools
+		const requestTools: Array<{ type: 'function'; name: string; description: string; parameters: object }> = [];
+		for (const toolId of OFCODE_STRICT_TOOL_WHITELIST) {
+			const tool = this._languageModelToolsService.getTool(toolId);
+			if (tool) {
+				requestTools.push({
+					type: 'function',
+					name: tool.id,
+					description: tool.modelDescription || tool.userDescription || tool.displayName || tool.id,
+					parameters: (tool.inputSchema as any) || { type: 'object', properties: {} }
+				});
 			}
 		}
-
-		const requestTools = registeredTools.map(tool => ({
-			type: 'function' as const,
-			name: tool.id,
-			description: tool.modelDescription || tool.userDescription || tool.displayName || tool.id,
-			parameters: (tool.inputSchema as any) || { type: 'object', properties: {} }
-		}));
 
 		// Build system prompt with strict refusal override, agentic tool awareness, and IDE orchestrator instructions
 		const messages: IChatMessage[] = [
@@ -235,21 +252,20 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 					type: 'text',
 					value: 'You are OFCode, a full-featured Agentic AI IDE (like Cursor, Windsurf, Kiro.dev, and AntiGravity) powered by Ollama.\n' +
 						'You HAVE FULL ACCESS to external websites, live web scraping, GitHub, the local filesystem, AST High-RAG, and the integrated terminal ' +
-						'through your built-in tools (`vscode_chromeExtract`, `vscode_highRag`, `vscode_githubExplore`, `ofcode_readFile`, `ofcode_writeFile`, `ofcode_editFile`, `ofcode_listFiles`, `ofcode_runCommand`).\n\n' +
+						'through your built-in tools (`ofcode_writeFile`, `ofcode_readFile`, `ofcode_editFile`, `ofcode_listFiles`, `ofcode_runCommand`, `vscode_highRag`, `vscode_chromeExtract`, `vscode_githubExplore`).\n\n' +
 						'THE OFCODE IDE HOST AUTOMATICALLY:\n' +
 						'• Pre-fetches any URLs in the user prompt (content appears as [IDE Pre-Fetched Web Content])\n' +
 						'• Scans the workspace file tree and injects relevant AST/RAG context\n' +
-						'• Writes files you generate to disk when you use "// filepath: path" markers or <ofcode_file path="...">...</ofcode_file> XML blocks\n' +
-						'• Executes terminal commands from <ofcode_cmd>command</ofcode_cmd> blocks\n' +
+						'• Writes files you generate to disk when you call `ofcode_writeFile` OR output `// filepath: path` markers OR `<ofcode_file path="...">...</ofcode_file>` XML blocks OR markdown code blocks\n' +
+						'• Executes terminal commands from `ofcode_runCommand` or <ofcode_cmd>command</ofcode_cmd> blocks\n' +
 						'• Checks compiler/linter diagnostics after each file write and auto-loops to fix errors\n\n' +
 						'CRITICAL OPERATING RULES:\n' +
-						'1. NEVER say "I do not have access to external websites or the internet", "I cannot browse the web", or "I cannot access files". The IDE Host handles all of this for you.\n' +
-						'2. When the user asks about an external URL or web topic, inspect the provided extracted content or immediately invoke `vscode_chromeExtract`.\n' +
-						'3. When the user asks about codebase, files, functions, or project structure, invoke `ofcode_readFile`, `ofcode_listFiles`, or `vscode_highRag`.\n' +
-						'4. When asked to write or edit code, use `ofcode_writeFile` / `ofcode_editFile` OR output files with "// filepath:" markers. The IDE will auto-apply both.\n' +
-						'5. When asked to run commands, run tests, or execute scripts, use `ofcode_runCommand` OR output <ofcode_cmd>command</ofcode_cmd> blocks.\n' +
-						'6. Tag every generated file block with `// filepath: relative/path/to/file.ext` so the IDE can auto-apply it.\n' +
-						'7. Always be direct, concise, proactive, and helpful.'
+						'1. NEVER call `inline_chat_exit` or cancel tasks. NEVER say "Operation cancelled" or "User requested to cancel" unless the user explicitly said "cancel".\n' +
+						'2. ACTION-FIRST FILE CREATION: When the user asks to build, create, or edit a webpage, website, app, or file (even in Hindi/Hinglish like "makewebpage folder ke andar ik simple webpage baanao", "webpage banao", "file banao"), you MUST IMMEDIATELY write the complete code files using `ofcode_writeFile(path, content)` AND/OR output complete files using `<ofcode_file path="index.html">...code...</ofcode_file>` or `// filepath: index.html`.\n' +
+						'3. NEVER finish without writing the files. Always create complete, beautiful, working code files (HTML, CSS, JS) directly in the workspace.\n' +
+						'4. NEVER say "I do not have access to external websites or the internet", "I cannot browse the web", or "I cannot access files". The IDE Host handles all of this for you.\n' +
+						'5. Tag every generated file with `<ofcode_file path="path/to/file.ext">` or `// filepath: path/to/file.ext` so the IDE can auto-apply it to disk.\n' +
+						'6. Always write full, production-ready code with modern UI, rich CSS styling, and responsive layout without placeholders.'
 				}]
 			}
 		];
@@ -332,6 +348,8 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 		// with IDE Orchestrator auto-apply & self-healing diagnostics
 		// =========================================================================
 		const maxTurns = 8;
+		let filesCreatedOrWritten = 0;
+
 		for (let turn = 0; turn < maxTurns; turn++) {
 			if (token.isCancellationRequested) {
 				break;
@@ -392,6 +410,7 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 				const execResult = await this._orchestrator.applyResponse(
 					currentTurnAssistantText, progress, token
 				);
+				filesCreatedOrWritten += execResult.filesWritten.length;
 
 				// ─── Phase 3: Self-Healing Diagnostics ───────────────
 				if (execResult.filesWritten.length > 0) {
@@ -429,6 +448,7 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 								}
 							}
 							const fixExecResult = await this._orchestrator.applyResponse(fixText, progress, token);
+							filesCreatedOrWritten += fixExecResult.filesWritten.length;
 							if (fixExecResult.filesWritten.length > 0) {
 								errors = await this._orchestrator.checkDiagnostics(fixExecResult.filesWritten, progress);
 							} else {
@@ -458,6 +478,26 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 				}
 			}
 
+			// Filter out blocked exit tools from both native and fallback parsing
+			const BLOCKED_TOOLS = new Set(['inline_chat_exit', 'chat_exit', 'exit', 'cancel_task']);
+			const safeToolCalls = toolUseParts.filter(p => !BLOCKED_TOOLS.has(p.name));
+			if (safeToolCalls.length === 0 && toolUseParts.length > 0) {
+				// Model only tried to call blocked exit tools!
+				if (filesCreatedOrWritten === 0) {
+					messages.push({
+						role: ChatMessageRole.User,
+						content: [{
+							type: 'text',
+							value: 'Do not exit or cancel. You have not created or written any files yet. Call ofcode_writeFile or output <ofcode_file path="..."> blocks with the complete code now.'
+						}]
+					});
+					continue;
+				}
+				break;
+			}
+			toolUseParts.length = 0;
+			toolUseParts.push(...safeToolCalls);
+
 			// Append the assistant tool_use message to history
 			for (const call of toolUseParts) {
 				messages.push({
@@ -475,6 +515,27 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 			for (const call of toolUseParts) {
 				if (token.isCancellationRequested) {
 					break;
+				}
+
+				if (call.name === 'task_complete') {
+					if (filesCreatedOrWritten === 0) {
+						progress([{
+							kind: 'markdownContent',
+							content: new MarkdownString(`> ⚠️ **IDE Guard:** Intercepted premature \`task_complete\` before files were written. Prompting model to create files...\n\n`)
+						}]);
+						messages.push({
+							role: ChatMessageRole.User,
+							content: [{
+								type: 'text',
+								value: 'You have not created or written any files yet. Call ofcode_writeFile or output <ofcode_file path="..."> blocks with the complete code first.'
+							}]
+						});
+						continue;
+					}
+				}
+
+				if (call.name === 'ofcode_writeFile') {
+					filesCreatedOrWritten++;
 				}
 
 				progress([{

@@ -6,17 +6,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/Users/USER/Pictures/Screenshots"
-            },
-            {
                 "folderUri": "file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1792226966332"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -24,9 +17,7 @@
             "file:///c%3A/Users/USER/Pictures/Screenshots": "__default__profile__",
             "file:///c%3A/Users/USER/Pictures/Screenshots/makewebpage": "__default__profile__"
         },
-        "emptyWindows": {
-            "1792226966332": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#0b0914",
@@ -78,7 +69,7 @@
                     "top": 35,
                     "left": 4,
                     "width": 44,
-                    "height": 733,
+                    "height": 735,
                     "outerEdges": {
                         "left": true,
                         "right": false,
@@ -90,7 +81,7 @@
                     "top": 35,
                     "left": 48,
                     "width": 170,
-                    "height": 733,
+                    "height": 735,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -100,9 +91,9 @@
                 },
                 "auxiliaryBar": {
                     "top": 35,
-                    "left": 522,
+                    "left": 524,
                     "width": 674,
-                    "height": 733,
+                    "height": 735,
                     "outerEdges": {
                         "left": false,
                         "right": true,
@@ -111,9 +102,9 @@
                     }
                 },
                 "panel": {
-                    "top": 510,
+                    "top": 512,
                     "left": 222,
-                    "width": 296,
+                    "width": 298,
                     "height": 258,
                     "outerEdges": {
                         "left": false,
@@ -125,8 +116,8 @@
                 "editor": {
                     "top": 35,
                     "left": 222,
-                    "width": 296,
-                    "height": 471,
+                    "width": 298,
+                    "height": 473,
                     "outerEdges": {
                         "left": false,
                         "right": false,
@@ -143,10 +134,10 @@
             "backupPath": "C:\\Users\\USER\\vscode\\.ofcode-test-profile\\Backups\\ba6525f818b4e87b6b0f3245ef6a72e7",
             "uiState": {
                 "mode": 1,
-                "x": 122,
-                "y": 64,
-                "width": 1200,
-                "height": 800
+                "x": -1419,
+                "y": 215,
+                "width": 1203,
+                "height": 802
             }
         },
         "openedWindows": []
