@@ -10,19 +10,28 @@ import { CommandsRegistry } from '../../../../platform/commands/common/commands.
 import { INotificationService } from '../../../../platform/notification/common/notification.js';
 import { IProgress, IProgressService, IProgressStep, ProgressLocation } from '../../../../platform/progress/common/progress.js';
 import { IQuickInputService, IQuickPickItem } from '../../../../platform/quickinput/common/quickInput.js';
+import { IStorageService, StorageScope, StorageTarget } from '../../../../platform/storage/common/storage.js';
 import { IWorkbenchContribution } from '../../../common/contributions.js';
 import { IStatusbarEntry, IStatusbarEntryAccessor, IStatusbarService, StatusbarAlignment } from '../../../services/statusbar/browser/statusbar.js';
 import { IOllamaServerManager } from '../common/offlineAgent/ollamaServerManager.js';
 
+export type OFCodeAgentMode = 'vibe' | 'spec';
+
 interface IOllamaActionItem extends IQuickPickItem {
-	readonly action: 'start' | 'restart' | 'stop' | 'switchModel' | 'pullModel' | 'unloadModel' | 'configureParams';
+	readonly action: 'start' | 'restart' | 'stop' | 'switchModel' | 'pullModel' | 'unloadModel' | 'configureParams' | 'toggleMode' | 'toggleHooks';
 	readonly modelName?: string;
 }
 
 export class OllamaStatusBarContribution extends Disposable implements IWorkbenchContribution {
 	static readonly ID = 'chat.ollamaStatusBarContribution';
 
+	private static readonly MODE_STORAGE_KEY = 'ofcode.agentMode';
+	private static readonly HOOKS_STORAGE_KEY = 'ofcode.agentHooks.enabled';
+
 	private _statusbarEntry: IStatusbarEntryAccessor | undefined;
+	private _modeEntry: IStatusbarEntryAccessor | undefined;
+	private _agentMode: OFCodeAgentMode;
+	private _hooksEnabled: boolean;
 
 	constructor(
 		@IStatusbarService private readonly _statusbarService: IStatusbarService,
@@ -30,8 +39,21 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 		@IQuickInputService private readonly _quickInputService: IQuickInputService,
 		@IProgressService private readonly _progressService: IProgressService,
 		@INotificationService private readonly _notificationService: INotificationService,
+		@IStorageService private readonly _storageService: IStorageService,
 	) {
 		super();
+
+		// Restore persisted agent mode and hooks state
+		this._agentMode = (this._storageService.get(
+			OllamaStatusBarContribution.MODE_STORAGE_KEY,
+			StorageScope.PROFILE,
+			'vibe'
+		) as OFCodeAgentMode) || 'vibe';
+		this._hooksEnabled = this._storageService.getBoolean(
+			OllamaStatusBarContribution.HOOKS_STORAGE_KEY,
+			StorageScope.PROFILE,
+			false
+		);
 
 		this._register(this._serverManager.onDidChangeStatus(() => this._updateStatusBar()));
 		this._register(this._serverManager.onDidChangeActiveModel(() => this._updateStatusBar()));
@@ -39,6 +61,15 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 
 		this._registerCommands();
 		this._updateStatusBar();
+		this._updateModeEntry();
+	}
+
+	get agentMode(): OFCodeAgentMode {
+		return this._agentMode;
+	}
+
+	get hooksEnabled(): boolean {
+		return this._hooksEnabled;
 	}
 
 	private _formatContextLength(tokens: number): string {
@@ -54,6 +85,7 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 		const activeModel = this._serverManager.activeModel;
 		const config = this._serverManager.config;
 		const ctxFormatted = this._formatContextLength(config.contextLength);
+		const modeLabel = this._agentMode === 'vibe' ? '⚡Vibe' : '📋Spec';
 
 		let entryProps: IStatusbarEntry;
 
@@ -61,17 +93,17 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 			const modelLabel = activeModel || 'No Model';
 			entryProps = {
 				name: localize('ollamaStatus', "Ollama Status"),
-				text: `$(vm-running) Ollama: ${modelLabel} (${ctxFormatted})`,
-				ariaLabel: `Ollama is running with model ${modelLabel}`,
-				tooltip: localize('ollamaRunningTooltip', "Ollama Local Server: Running\nActive Model: {0} ({1} context)\nClick to open OFCode Ollama Control Center", modelLabel, ctxFormatted),
+				text: `$(sparkle) OFCode [${modeLabel}] • Ollama: ${modelLabel} (${ctxFormatted})`,
+				ariaLabel: `OFCode ${modeLabel} mode. Ollama is running with model ${modelLabel}`,
+				tooltip: localize('ollamaRunningTooltip', "OFCode Kiro-Style Agentic IDE\nMode: {0}\nOllama: Running — {1} ({2} context)\nHooks: {3}\nClick to open Control Center", modeLabel, modelLabel, ctxFormatted, this._hooksEnabled ? 'ON' : 'OFF'),
 				command: 'ofcode.ollama.openControlCenter',
 				kind: 'standard'
 			};
 		} else if (status === 'Starting') {
 			entryProps = {
 				name: localize('ollamaStatus', "Ollama Status"),
-				text: `$(sync~spin) Ollama: Starting...`,
-				ariaLabel: 'Ollama server is starting',
+				text: `$(sparkle) OFCode [${modeLabel}] • $(sync~spin) Starting...`,
+				ariaLabel: 'OFCode — Ollama server is starting',
 				tooltip: localize('ollamaStartingTooltip', "Ollama server is initializing... Click to view controls"),
 				command: 'ofcode.ollama.openControlCenter',
 				kind: 'standard'
@@ -79,8 +111,8 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 		} else {
 			entryProps = {
 				name: localize('ollamaStatus', "Ollama Status"),
-				text: `$(error) Ollama: Offline (Click to Start)`,
-				ariaLabel: 'Ollama is offline',
+				text: `$(sparkle) OFCode [${modeLabel}] • $(error) Offline`,
+				ariaLabel: 'OFCode — Ollama is offline',
 				tooltip: localize('ollamaOfflineTooltip', "Ollama is not running. Click to start the local Ollama server."),
 				command: 'ofcode.ollama.openControlCenter',
 				backgroundColor: themeColorFromId('statusBarItem.warningBackground')
@@ -97,6 +129,33 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 				100.05
 			);
 			this._register(this._statusbarEntry);
+		}
+	}
+
+	private _updateModeEntry(): void {
+		const modeIcon = this._agentMode === 'vibe' ? '$(zap)' : '$(list-ordered)';
+		const modeText = this._agentMode === 'vibe' ? 'Vibe' : 'Spec';
+		const hooksIcon = this._hooksEnabled ? '$(check)' : '$(circle-slash)';
+
+		const entryProps: IStatusbarEntry = {
+			name: localize('ofcodeMode', "OFCode Mode"),
+			text: `${modeIcon} ${modeText} • Hooks: ${hooksIcon}`,
+			ariaLabel: `OFCode mode: ${modeText}. Hooks: ${this._hooksEnabled ? 'enabled' : 'disabled'}`,
+			tooltip: localize('modeTooltip', "Click to toggle between ⚡ Vibe Mode and 📋 Spec Mode"),
+			command: 'ofcode.toggleMode',
+			kind: 'standard'
+		};
+
+		if (this._modeEntry) {
+			this._modeEntry.update(entryProps);
+		} else {
+			this._modeEntry = this._statusbarService.addEntry(
+				entryProps,
+				'ofcode.mode.status',
+				StatusbarAlignment.RIGHT,
+				100.04
+			);
+			this._register(this._modeEntry);
 		}
 	}
 
@@ -128,6 +187,48 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 		this._register(CommandsRegistry.registerCommand('ofcode.ollama.configureParams', () => {
 			this._showConfigureParamsPicker();
 		}));
+
+		this._register(CommandsRegistry.registerCommand('ofcode.toggleMode', () => {
+			this._toggleAgentMode();
+		}));
+
+		this._register(CommandsRegistry.registerCommand('ofcode.toggleHooks', () => {
+			this._toggleHooks();
+		}));
+	}
+
+	private _toggleAgentMode(): void {
+		this._agentMode = this._agentMode === 'vibe' ? 'spec' : 'vibe';
+		this._storageService.store(
+			OllamaStatusBarContribution.MODE_STORAGE_KEY,
+			this._agentMode,
+			StorageScope.PROFILE,
+			StorageTarget.USER
+		);
+		this._notificationService.info(
+			this._agentMode === 'vibe'
+				? 'OFCode: Switched to ⚡ Vibe Mode — Fast direct execution'
+				: 'OFCode: Switched to 📋 Spec Mode — Kiro Spec-Driven development'
+		);
+		this._updateStatusBar();
+		this._updateModeEntry();
+	}
+
+	private _toggleHooks(): void {
+		this._hooksEnabled = !this._hooksEnabled;
+		this._storageService.store(
+			OllamaStatusBarContribution.HOOKS_STORAGE_KEY,
+			this._hooksEnabled,
+			StorageScope.PROFILE,
+			StorageTarget.USER
+		);
+		this._notificationService.info(
+			this._hooksEnabled
+				? 'OFCode Agent Hooks: Enabled — auto-fix on save is now active'
+				: 'OFCode Agent Hooks: Disabled — files will not be auto-checked on save'
+		);
+		this._updateStatusBar();
+		this._updateModeEntry();
 	}
 
 	private async _openControlCenter(): Promise<void> {
@@ -137,6 +238,23 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 		const config = this._serverManager.config;
 
 		const items: Array<IOllamaActionItem | { type: 'separator'; label: string }> = [];
+
+		// --- Section 0: OFCode Agent Mode & Hooks ---
+		items.push({ type: 'separator', label: localize('agentModeHeader', "OFCode Agent Mode") });
+		items.push({
+			label: this._agentMode === 'vibe'
+				? localize('switchToSpec', "$(list-ordered) Switch to 📋 Spec Mode (Kiro Spec-Driven)")
+				: localize('switchToVibe', "$(zap) Switch to ⚡ Vibe Mode (Fast Direct Execution)"),
+			description: `Current: ${this._agentMode === 'vibe' ? '⚡ Vibe' : '📋 Spec'}`,
+			action: 'toggleMode'
+		});
+		items.push({
+			label: this._hooksEnabled
+				? localize('disableHooks', "$(circle-slash) Disable Agent Hooks (auto-fix on save)")
+				: localize('enableHooks', "$(check) Enable Agent Hooks (auto-fix on save)"),
+			description: `Hooks: ${this._hooksEnabled ? 'ON' : 'OFF'}`,
+			action: 'toggleHooks'
+		});
 
 		// --- Section 1: Server Controls ---
 		items.push({ type: 'separator', label: localize('serverControlsHeader', "Server Controls") });
@@ -203,7 +321,7 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 		});
 
 		const pick = await this._quickInputService.pick(items as IOllamaActionItem[], {
-			placeHolder: localize('controlCenterPlaceholder', "OFCode Ollama Control Center - Status: {0}", this._serverManager.status),
+			placeHolder: localize('controlCenterPlaceholder', "OFCode Kiro-Style Agentic IDE • Control Center — Status: {0}", this._serverManager.status),
 			matchOnDescription: true,
 			matchOnDetail: true
 		});
@@ -236,6 +354,12 @@ export class OllamaStatusBarContribution extends Disposable implements IWorkbenc
 				break;
 			case 'configureParams':
 				this._showConfigureParamsPicker();
+				break;
+			case 'toggleMode':
+				this._toggleAgentMode();
+				break;
+			case 'toggleHooks':
+				this._toggleHooks();
 				break;
 		}
 	}

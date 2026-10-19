@@ -165,6 +165,8 @@ import { OfflineChatAgentContribution } from '../common/offlineAgent/offlineChat
 import { IOllamaServerManager } from '../common/offlineAgent/ollamaServerManager.js';
 import { OllamaServerManagerService } from './ollamaServerManagerService.js';
 import { OllamaStatusBarContribution } from './ollamaStatusBarContribution.js';
+import { OFCodeKiroThemeContribution } from './ofcodeKiroThemeContribution.js';
+import { AgentHooksService } from '../common/offlineAgent/agentHooksService.js';
 import './voiceClient/micCaptureService.js';
 import './voiceClient/ttsPlaybackService.js';
 import './voiceClient/voiceClientService.js';
@@ -3347,6 +3349,8 @@ registerWorkbenchContribution2(OfflineWorkspaceToolsContribution.ID, OfflineWork
 registerWorkbenchContribution2(OllamaProviderContribution.ID, OllamaProviderContribution, WorkbenchPhase.BlockRestore);
 registerWorkbenchContribution2(OfflineChatAgentContribution.ID, OfflineChatAgentContribution, WorkbenchPhase.BlockRestore);
 registerWorkbenchContribution2(OllamaStatusBarContribution.ID, OllamaStatusBarContribution, WorkbenchPhase.BlockRestore);
+registerWorkbenchContribution2(OFCodeKiroThemeContribution.ID, OFCodeKiroThemeContribution, WorkbenchPhase.BlockRestore);
+registerWorkbenchContribution2(AgentHooksService.ID, AgentHooksService, WorkbenchPhase.AfterRestored);
 registerWorkbenchContribution2(ClientToolSetsContribution.ID, ClientToolSetsContribution, WorkbenchPhase.Eventually);
 registerWorkbenchContribution2(UsagesToolContribution.ID, UsagesToolContribution, WorkbenchPhase.BlockRestore);
 registerWorkbenchContribution2(RenameToolContribution.ID, RenameToolContribution, WorkbenchPhase.BlockRestore);

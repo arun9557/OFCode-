@@ -32,6 +32,8 @@ import { HighRagService } from './highRag/highRagService.js';
 import { EmbeddingClient } from './highRag/embeddingClient.js';
 import { OllamaClient } from './ollamaClient.js';
 import { ToolCallParser } from './toolCallParser.js';
+import { IDEExecutionOrchestrator } from './ideExecutionOrchestrator.js';
+import { KiroSpecEngine } from './kiroSpecEngine.js';
 
 import { IRequestService } from '../../../../../platform/request/common/request.js';
 
@@ -52,17 +54,22 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 
 	private readonly _webExtractorService: WebExtractorService;
 	private readonly _highRagService: HighRagService;
+	private readonly _orchestrator: IDEExecutionOrchestrator;
+	private readonly _specEngine: KiroSpecEngine;
 
 	constructor(
 		@ILanguageModelsService private readonly _languageModelsService: ILanguageModelsService,
 		@ILanguageModelToolsService private readonly _languageModelToolsService: ILanguageModelToolsService,
 		@IRequestService private readonly _requestService: IRequestService,
+		@IInstantiationService instantiationService: IInstantiationService,
 	) {
 		super();
 		this._webExtractorService = new WebExtractorService(this._requestService);
 		const ollamaClient = new OllamaClient();
 		const embeddingClient = new EmbeddingClient(ollamaClient);
 		this._highRagService = new HighRagService(embeddingClient);
+		this._orchestrator = instantiationService.createInstance(IDEExecutionOrchestrator);
+		this._specEngine = instantiationService.createInstance(KiroSpecEngine);
 	}
 
 	async invoke(
@@ -104,6 +111,100 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 			}
 		}
 
+		// =========================================================================
+		// Handle /spec command — Kiro Spec-Driven Development
+		// =========================================================================
+		if (request.command === 'spec') {
+			const idea = request.message.replace(/^\/spec\s*/i, '').trim() || request.message;
+			await this._specEngine.runSpec(
+				idea,
+				targetModelId,
+				this._orchestrator,
+				this._webExtractorService,
+				this._highRagService,
+				progress,
+				token,
+			);
+			return {};
+		}
+
+		// =========================================================================
+		// Handle /vibe command — Fast direct execution mode
+		// =========================================================================
+		if (request.command === 'vibe') {
+			progress([{
+				kind: 'markdownContent',
+				content: new MarkdownString(`> ⚡ **Vibe Mode:** Direct execution — skipping spec generation\n\n`)
+			}]);
+			// Fall through to normal execution with a note
+		}
+
+		// =========================================================================
+		// Handle /web command — Force web search
+		// =========================================================================
+		if (request.command === 'web') {
+			const query = request.message.replace(/^\/web\s*/i, '').trim() || request.message;
+			progress([{
+				kind: 'markdownContent',
+				content: new MarkdownString(`> 🔍 **Web Search:** \`${query}\`...\n\n`)
+			}]);
+			try {
+				const searchResults = await this._webExtractorService.searchAndExtract(query, 3, 3000);
+				if (searchResults.extractedMarkdown?.trim()) {
+					progress([{
+						kind: 'markdownContent',
+						content: new MarkdownString(searchResults.extractedMarkdown)
+					}]);
+				}
+			} catch (err) {
+				progress([{
+					kind: 'markdownContent',
+					content: new MarkdownString(`> ⚠️ Web search failed: ${err instanceof Error ? err.message : String(err)}\n\n`)
+				}]);
+			}
+			return {};
+		}
+
+		// =========================================================================
+		// Handle /cmd command — Direct terminal execution
+		// =========================================================================
+		if (request.command === 'cmd') {
+			const cmd = request.message.replace(/^\/cmd\s*/i, '').trim() || request.message;
+			// Route through the runCommand tool
+			const tool = this._languageModelToolsService.getTool('ofcode_runCommand');
+			if (tool) {
+				progress([{
+					kind: 'markdownContent',
+					content: new MarkdownString(`> 🖥️ **Executing:** \`${cmd}\`\n\n`)
+				}]);
+				try {
+					const toolResult = await this._languageModelToolsService.invokeTool(
+						{
+							callId: `cmd_${Date.now()}`,
+							toolId: 'ofcode_runCommand',
+							parameters: { command: cmd },
+							context: { sessionResource: request.sessionResource }
+						},
+						async () => 0,
+						token
+					);
+					if (toolResult?.content) {
+						const resultText = toolResult.content.map(p => p.kind === 'text' ? p.value : '').join('\n');
+						progress([{
+							kind: 'markdownContent',
+							content: new MarkdownString(resultText)
+						}]);
+					}
+				} catch (err) {
+					progress([{
+						kind: 'markdownContent',
+						content: new MarkdownString(`> ⚠️ Command failed: ${err instanceof Error ? err.message : String(err)}\n\n`)
+					}]);
+				}
+			}
+			return {};
+		}
+
 		const modelMetadata: ILanguageModelChatMetadata | undefined =
 			this._languageModelsService.lookupLanguageModel(targetModelId) ??
 			this._languageModelsService.lookupLanguageModel(ollamaModelIds[0]);
@@ -126,22 +227,29 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 			parameters: (tool.inputSchema as any) || { type: 'object', properties: {} }
 		}));
 
-		// Build system prompt with strict refusal override & agentic tool awareness
+		// Build system prompt with strict refusal override, agentic tool awareness, and IDE orchestrator instructions
 		const messages: IChatMessage[] = [
 			{
 				role: ChatMessageRole.System,
 				content: [{
 					type: 'text',
-					value: 'You are OFCode, a full-featured Agentic AI IDE (like Cursor, Windsurf, and AntiGravity) powered by Ollama.\n' +
+					value: 'You are OFCode, a full-featured Agentic AI IDE (like Cursor, Windsurf, Kiro.dev, and AntiGravity) powered by Ollama.\n' +
 						'You HAVE FULL ACCESS to external websites, live web scraping, GitHub, the local filesystem, AST High-RAG, and the integrated terminal ' +
 						'through your built-in tools (`vscode_chromeExtract`, `vscode_highRag`, `vscode_githubExplore`, `ofcode_readFile`, `ofcode_writeFile`, `ofcode_editFile`, `ofcode_listFiles`, `ofcode_runCommand`).\n\n' +
+						'THE OFCODE IDE HOST AUTOMATICALLY:\n' +
+						'• Pre-fetches any URLs in the user prompt (content appears as [IDE Pre-Fetched Web Content])\n' +
+						'• Scans the workspace file tree and injects relevant AST/RAG context\n' +
+						'• Writes files you generate to disk when you use "// filepath: path" markers or <ofcode_file path="...">...</ofcode_file> XML blocks\n' +
+						'• Executes terminal commands from <ofcode_cmd>command</ofcode_cmd> blocks\n' +
+						'• Checks compiler/linter diagnostics after each file write and auto-loops to fix errors\n\n' +
 						'CRITICAL OPERATING RULES:\n' +
-						'1. NEVER say "I do not have access to external websites or the internet", "I cannot browse the web", or "I cannot access files". You have active tools for all of these.\n' +
+						'1. NEVER say "I do not have access to external websites or the internet", "I cannot browse the web", or "I cannot access files". The IDE Host handles all of this for you.\n' +
 						'2. When the user asks about an external URL or web topic, inspect the provided extracted content or immediately invoke `vscode_chromeExtract`.\n' +
 						'3. When the user asks about codebase, files, functions, or project structure, invoke `ofcode_readFile`, `ofcode_listFiles`, or `vscode_highRag`.\n' +
-						'4. When asked to write or edit code, invoke `ofcode_writeFile` or `ofcode_editFile`.\n' +
-						'5. When asked to run commands, run tests, or execute scripts, invoke `ofcode_runCommand`.\n' +
-						'6. Always be direct, concise, proactive, and helpful.'
+						'4. When asked to write or edit code, use `ofcode_writeFile` / `ofcode_editFile` OR output files with "// filepath:" markers. The IDE will auto-apply both.\n' +
+						'5. When asked to run commands, run tests, or execute scripts, use `ofcode_runCommand` OR output <ofcode_cmd>command</ofcode_cmd> blocks.\n' +
+						'6. Tag every generated file block with `// filepath: relative/path/to/file.ext` so the IDE can auto-apply it.\n' +
+						'7. Always be direct, concise, proactive, and helpful.'
 				}]
 			}
 		];
@@ -175,68 +283,22 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 		}
 
 		// =========================================================================
-		// Proactive Agentic Pre-Router (Auto-URL Scrape, Auto-Web Search, Auto-RAG)
+		// Phase 1: IDE Orchestrator — Proactive Context Enrichment
 		// =========================================================================
 		let userPrompt = request.message;
 
-		// 1. Auto URL Extraction: If user prompt contains http:// or https://, extract immediately
-		const urlMatches = userPrompt.match(/https?:\/\/[^\s<>'")]+/gi);
-		if (urlMatches && urlMatches.length > 0) {
-			for (const url of urlMatches) {
-				if (token.isCancellationRequested) {
-					break;
-				}
-				progress([{
-					kind: 'markdownContent',
-					content: new MarkdownString(`> 🌐 **Extracting web content from** \`${url}\`...\n\n`)
-				}]);
-				try {
-					const extracted = await this._webExtractorService.extractUrl(url, 3500);
-					if (extracted.extractedMarkdown && extracted.extractedMarkdown.trim().length > 0) {
-						userPrompt = `[Extracted Web Content from ${url}]:\n${extracted.extractedMarkdown}\n\n[System Directive]: The contents of ${url} have been extracted and provided above. Do not claim you cannot access the link. Answer the user request directly using this extracted content.\n\n---\n\n${userPrompt}`;
-						progress([{
-							kind: 'markdownContent',
-							content: new MarkdownString(`> ✅ Extracted clean content (${extracted.extractedMarkdown.length} characters) from \`${url}\`\n\n`)
-						}]);
-					}
-				} catch (urlErr) {
-					progress([{
-						kind: 'markdownContent',
-						content: new MarkdownString(`> ⚠️ Failed to auto-extract \`${url}\`: ${urlErr instanceof Error ? urlErr.message : String(urlErr)}\n\n`)
-					}]);
-				}
-			}
-		}
+		userPrompt = await this._orchestrator.enrichPrompt(
+			userPrompt,
+			this._webExtractorService,
+			this._highRagService,
+			progress,
+			token,
+		);
 
-		// 2. Auto Web Search: If user asks to search the web, fetch latest docs, or query online
-		const searchTrigger = /(?:search\s+(?:the\s+)?web|search\s+online|latest\s+docs|chrome\s+se\s+nikaalo|search\s+google|google\s+search)/i;
-		if (searchTrigger.test(userPrompt) && (!urlMatches || urlMatches.length === 0)) {
-			const cleanQuery = userPrompt.replace(searchTrigger, '').trim() || userPrompt;
-			progress([{
-				kind: 'markdownContent',
-				content: new MarkdownString(`> 🔍 **Searching the web:** \`${cleanQuery}\`...\n\n`)
-			}]);
+		// Handle /rag command explicitly
+		if (request.command === 'rag') {
 			try {
-				const searchResults = await this._webExtractorService.searchAndExtract(cleanQuery, 2, 2500);
-				if (searchResults.extractedMarkdown && searchResults.extractedMarkdown.trim().length > 0) {
-					userPrompt = `[Web Search Results for "${cleanQuery}"]:\n${searchResults.extractedMarkdown}\n\n---\n\n${userPrompt}`;
-					progress([{
-						kind: 'markdownContent',
-						content: new MarkdownString(`> ✅ Retrieved top web results for \`${cleanQuery}\`\n\n`)
-					}]);
-				}
-			} catch (searchErr) {
-				progress([{
-					kind: 'markdownContent',
-					content: new MarkdownString(`> ⚠️ Web search query failed: ${searchErr instanceof Error ? searchErr.message : String(searchErr)}\n\n`)
-				}]);
-			}
-		}
-
-		// 3. Auto Codebase Context: If user asks about AST High-RAG, call graph, or symbols
-		if (/\b(high-rag|ast|call graph|symbol lookup)\b/i.test(userPrompt) || request.command === 'rag') {
-			try {
-				const ragResult = await this._highRagService.search(userPrompt, 1500);
+				const ragResult = await this._highRagService.search(userPrompt, 2000);
 				if (ragResult.formattedContext) {
 					userPrompt = `[High-RAG Code Context]:\n${ragResult.formattedContext}\n\n---\n\n${userPrompt}`;
 					progress([{
@@ -267,6 +329,7 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 
 		// =========================================================================
 		// Agentic Loop: Execute native & inline tool calls up to 8 turns
+		// with IDE Orchestrator auto-apply & self-healing diagnostics
 		// =========================================================================
 		const maxTurns = 8;
 		for (let turn = 0; turn < maxTurns; turn++) {
@@ -319,6 +382,61 @@ export class OfflineChatAgent extends Disposable implements IChatAgentImplementa
 							toolCallId: chunk.toolCallId,
 							parameters: chunk.parameters || {}
 						});
+					}
+				}
+			}
+
+			// ─── Phase 2: IDE Orchestrator Auto-Apply ────────────────
+			// Parse inline file/cmd blocks from the assistant's text response
+			if (currentTurnAssistantText) {
+				const execResult = await this._orchestrator.applyResponse(
+					currentTurnAssistantText, progress, token
+				);
+
+				// ─── Phase 3: Self-Healing Diagnostics ───────────────
+				if (execResult.filesWritten.length > 0) {
+					let errors = await this._orchestrator.checkDiagnostics(
+						execResult.filesWritten, progress
+					);
+
+					let healAttempt = 0;
+					while (errors.length > 0 && healAttempt < this._orchestrator.maxSelfHealRetries) {
+						healAttempt++;
+						progress([{
+							kind: 'markdownContent',
+							content: new MarkdownString(`> 🔧 **IDE Self-Healing:** Auto-retry ${healAttempt}/${this._orchestrator.maxSelfHealRetries}...\n\n`)
+						}]);
+
+						const fixPrompt = this._orchestrator.buildSelfHealingPrompt(errors, healAttempt);
+						messages.push({
+							role: ChatMessageRole.User,
+							content: [{ type: 'text', value: fixPrompt }]
+						});
+
+						// Get fix from Ollama
+						try {
+							const fixResponse = await this._languageModelsService.sendChatRequest(
+								targetModelId, undefined, messages, { tools: requestTools }, token
+							);
+							let fixText = '';
+							for await (const chunkOrArray of fixResponse.stream) {
+								const chunks: IChatResponsePart[] = Array.isArray(chunkOrArray) ? chunkOrArray : [chunkOrArray];
+								for (const chunk of chunks) {
+									if (chunk.type === 'text') {
+										fixText += chunk.value;
+										progress([{ kind: 'markdownContent', content: new MarkdownString(chunk.value) }]);
+									}
+								}
+							}
+							const fixExecResult = await this._orchestrator.applyResponse(fixText, progress, token);
+							if (fixExecResult.filesWritten.length > 0) {
+								errors = await this._orchestrator.checkDiagnostics(fixExecResult.filesWritten, progress);
+							} else {
+								break;
+							}
+						} catch {
+							break;
+						}
 					}
 				}
 			}
@@ -429,8 +547,8 @@ export class OfflineChatAgentContribution extends Disposable implements IWorkben
 		const agentData: IChatAgentData = {
 			id: OFFLINE_AGENT_ID,
 			name: 'OFCode',
-			fullName: 'OFCode Local AI Agent',
-			description: '100% Offline Agentic Coding Assistant powered by Ollama',
+			fullName: 'OFCode Kiro-Style Agentic IDE',
+			description: 'Autonomous Agentic IDE with Spec-Driven Development, Self-Healing Diagnostics, and full IDE-Ollama symbiosis.',
 			isDefault: true,
 			isCore: true,
 			locations: [
@@ -441,11 +559,14 @@ export class OfflineChatAgentContribution extends Disposable implements IWorkben
 			],
 			modes: [ChatModeKind.Agent, ChatModeKind.Ask, ChatModeKind.Edit],
 			slashCommands: [
-				{ name: 'rag', description: 'Search codebase with AST High-RAG' },
-				{ name: 'web', description: 'Search & extract web docs' },
-				{ name: 'github', description: 'Explore GitHub repos & issues' },
-				{ name: 'file', description: 'Read, write, or patch workspace files' },
-				{ name: 'terminal', description: 'Execute shell commands in terminal' }
+				{ name: 'spec', description: '📋 Spec Mode: Generate requirements, design, tasks & execute (Kiro-style)' },
+				{ name: 'vibe', description: '⚡ Vibe Mode: Fast direct execution without spec generation' },
+				{ name: 'rag', description: '🧠 Search codebase with AST High-RAG' },
+				{ name: 'web', description: '🌐 Search & extract web docs' },
+				{ name: 'cmd', description: '🖥️ Execute terminal commands directly' },
+				{ name: 'github', description: '🐙 Explore GitHub repos & issues' },
+				{ name: 'file', description: '📄 Read, write, or patch workspace files' },
+				{ name: 'terminal', description: '💻 Execute shell commands in terminal' }
 			],
 			disambiguation: [],
 			metadata: {},
