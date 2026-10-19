@@ -289,26 +289,80 @@ export class IDEExecutionOrchestrator extends Disposable {
 		const blocks: IFileBlock[] = [];
 		const seen = new Set<string>();
 
+		const addBlock = (rawPath: string, rawContent: string): void => {
+			const cleanPath = rawPath.trim().replace(/^['"]|['"]$/g, '');
+			const cleanContent = rawContent.trim();
+			if (cleanPath && cleanContent && !seen.has(cleanPath)) {
+				seen.add(cleanPath);
+				blocks.push({ path: cleanPath, content: cleanContent });
+			}
+		};
+
 		// Pattern 1: // filepath: path\n<code>
 		let match: RegExpExecArray | null;
 		const regex1 = new RegExp(IDEExecutionOrchestrator.FILE_BLOCK_REGEX.source, 'gi');
 		while ((match = regex1.exec(text)) !== null) {
-			const path = match[1].trim();
-			const content = match[2].trim();
-			if (path && content && !seen.has(path)) {
-				seen.add(path);
-				blocks.push({ path, content });
-			}
+			addBlock(match[1], match[2]);
 		}
 
-		// Pattern 2: <ofcode_file path="...">...</ofcode_file>
-		const regex2 = new RegExp(IDEExecutionOrchestrator.XML_FILE_REGEX.source, 'gi');
-		while ((match = regex2.exec(text)) !== null) {
-			const path = match[1].trim();
-			const content = match[2].trim();
-			if (path && content && !seen.has(path)) {
-				seen.add(path);
-				blocks.push({ path, content });
+		// Pattern 2: <ofcode_file path="...">...</ofcode_file> or <file path="...">
+		const xmlRegex = /<(?:ofcode_file|file)\s+(?:path|name)="([^"]+)">([\s\S]*?)<\/(?:ofcode_file|file)>/gi;
+		while ((match = xmlRegex.exec(text)) !== null) {
+			addBlock(match[1], match[2]);
+		}
+
+		// Pattern 3: Code blocks with filename in fence
+		// e.g. ```html:index.html or ```html filename="index.html"
+		const fenceWithFilenameRegex = /```[a-zA-Z0-9_-]*(?::|\s+(?:filename|file|path)=["']?)([^\s\n"'>]+)["']?\s*\n([\s\S]*?)```/g;
+		while ((match = fenceWithFilenameRegex.exec(text)) !== null) {
+			addBlock(match[1], match[2]);
+		}
+
+		// Pattern 4: Code blocks with leading comment indicating filename
+		// e.g. ```html\n<!-- index.html --> or ```css\n/* style.css */ or ```js\n// script.js
+		const fenceWithCommentRegex = /```(?:html|css|js|javascript|ts|typescript|py|python|json|jsx|tsx)?\s*\n(?:\s*(?:\/\/|#|\/\*|<!--)\s*([a-zA-Z0-9_.-]+\.[a-zA-Z0-9]+)(?:\s*\*\/|-->)?)\s*\n([\s\S]*?)```/g;
+		while ((match = fenceWithCommentRegex.exec(text)) !== null) {
+			addBlock(match[1], match[2]);
+		}
+
+		// Pattern 5: Markdown heading/bold preceding code block
+		// e.g. **index.html**:\n```html\n...``` or ### `style.css`\n```css\n...```
+		const preHeadingRegex = /(?:###?\s*`?|\*\*|__)([a-zA-Z0-9_.-]+\.[a-zA-Z0-9]{1,5})(?:`?|\*\*|__):?\s*\n+```[a-zA-Z0-9_-]*\s*\n([\s\S]*?)```/g;
+		while ((match = preHeadingRegex.exec(text)) !== null) {
+			addBlock(match[1], match[2]);
+		}
+
+		// Pattern 6 (Fallback): If still NO file blocks were found, but the model output standalone markdown code blocks
+		// (e.g. ```html, ```css, ```js), infer standard filenames so the user code is never lost!
+		if (blocks.length === 0) {
+			const genericFenceRegex = /```(html|css|javascript|js|typescript|ts|python|py)\s*\n([\s\S]*?)```/g;
+			let htmlCount = 0;
+			let cssCount = 0;
+			let jsCount = 0;
+
+			while ((match = genericFenceRegex.exec(text)) !== null) {
+				const lang = match[1].toLowerCase();
+				const content = match[2].trim();
+				if (content.length > 20 && content.includes('\n')) {
+					let inferredName = '';
+					if (lang === 'html') {
+						inferredName = htmlCount === 0 ? 'index.html' : `page${htmlCount + 1}.html`;
+						htmlCount++;
+					} else if (lang === 'css') {
+						inferredName = cssCount === 0 ? 'style.css' : `styles${cssCount + 1}.css`;
+						cssCount++;
+					} else if (lang === 'javascript' || lang === 'js') {
+						inferredName = jsCount === 0 ? 'script.js' : `script${jsCount + 1}.js`;
+						jsCount++;
+					} else if (lang === 'typescript' || lang === 'ts') {
+						inferredName = 'index.ts';
+					} else if (lang === 'python' || lang === 'py') {
+						inferredName = 'app.py';
+					}
+					if (inferredName) {
+						addBlock(inferredName, content);
+					}
+				}
 			}
 		}
 
@@ -344,7 +398,14 @@ export class IDEExecutionOrchestrator extends Disposable {
 		}
 		const folders = this._workspaceContextService.getWorkspace().folders;
 		if (folders.length > 0) {
-			return joinPath(folders[0].uri, pathStr);
+			const rootUri = folders[0].uri;
+			const rootFolderName = (folders[0].name || rootUri.path.split('/').pop() || '').toLowerCase();
+			let cleanPath = pathStr.replace(/^\.[/\\]+/, '');
+			const normalized = cleanPath.replace(/\\/g, '/');
+			if (rootFolderName && normalized.toLowerCase().startsWith(`${rootFolderName}/`)) {
+				cleanPath = cleanPath.substring(rootFolderName.length + 1);
+			}
+			return joinPath(rootUri, cleanPath);
 		}
 		return URI.file(pathStr);
 	}

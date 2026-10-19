@@ -493,3 +493,16 @@
 2026-10-19 13:32:00.151 [info] [CopilotCLIChatSessionContentProvider] listSessions took 131.45110000000568ms
 2026-10-19 13:32:01.437 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
 2026-10-19 13:32:56.148 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2026-10-19 13:33:19.777 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:33:19.781 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:33:20.289 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:33:20.292 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.2269999999844ms
+2026-10-19 13:33:21.973 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:33:35.964 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:33:36.470 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:33:36.471 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.025200000003679ms
+2026-10-19 13:33:38.233 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2026-10-19 13:34:06.366 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2026-10-19 13:34:06.871 [debug] [CopilotCLI] Found 12 JSONL sessions
+2026-10-19 13:34:06.874 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.479499999986729ms
+2026-10-19 13:34:07.395 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.

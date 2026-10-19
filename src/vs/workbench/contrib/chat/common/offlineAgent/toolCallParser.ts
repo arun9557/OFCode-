@@ -21,8 +21,15 @@ export class ToolCallParser {
 		const results: IParsedToolCall[] = [];
 		const seen = new Set<string>();
 
+		const BLOCKED_TOOLS = new Set([
+			'inline_chat_exit',
+			'chat_exit',
+			'exit',
+			'cancel_task'
+		]);
+
 		const addCall = (name: string, rawParams: unknown): void => {
-			if (!name) {
+			if (!name || BLOCKED_TOOLS.has(name.trim())) {
 				return;
 			}
 			let parameters: Record<string, unknown> = {};

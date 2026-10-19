@@ -15,10 +15,33 @@ import { IFileService } from '../../../../platform/files/common/files.js';
 import { IInstantiationService } from '../../../../platform/instantiation/common/instantiation.js';
 import { IWorkspaceContextService } from '../../../../platform/workspace/common/workspace.js';
 import { IWorkbenchContribution } from '../../../common/contributions.js';
+import { IEditorService } from '../../../services/editor/common/editorService.js';
 import { ITerminalInstance, ITerminalService } from '../../terminal/browser/terminal.js';
 import { createToolSimpleTextResult } from '../common/tools/builtinTools/toolHelpers.js';
 import { CountTokensCallback, IPreparedToolInvocation, IToolData, IToolImpl, IToolInvocation, IToolInvocationPreparationContext, IToolResult, ToolDataSource, ToolProgress, ILanguageModelToolsService } from '../common/tools/languageModelToolsService.js';
 import { OfflineAgentToolId } from '../common/tools/offlineAgentTools/offlineAgentToolIds.js';
+
+// ==========================================
+// Workspace Path Resolution Helper
+// ==========================================
+
+export function resolveWorkspaceUri(workspaceContextService: IWorkspaceContextService, pathStr: string): URI {
+	if (pathStr.startsWith('/') || /^[a-zA-Z]:[\\/]/.test(pathStr)) {
+		return URI.file(pathStr);
+	}
+	const folders = workspaceContextService.getWorkspace().folders;
+	if (folders.length > 0) {
+		const rootUri = folders[0].uri;
+		const rootFolderName = (folders[0].name || rootUri.path.split('/').pop() || '').toLowerCase();
+		let cleanPath = pathStr.replace(/^\.[/\\]+/, '');
+		const normalized = cleanPath.replace(/\\/g, '/');
+		if (rootFolderName && normalized.toLowerCase().startsWith(`${rootFolderName}/`)) {
+			cleanPath = cleanPath.substring(rootFolderName.length + 1);
+		}
+		return joinPath(rootUri, cleanPath);
+	}
+	return URI.file(pathStr);
+}
 
 // ==========================================
 // 1. ofcode_readFile
@@ -53,14 +76,7 @@ export class ReadFileTool extends Disposable implements IToolImpl {
 	}
 
 	private _resolveUri(pathStr: string): URI {
-		if (pathStr.startsWith('/') || /^[a-zA-Z]:[\\/]/.test(pathStr)) {
-			return URI.file(pathStr);
-		}
-		const folders = this._workspaceContextService.getWorkspace().folders;
-		if (folders.length > 0) {
-			return joinPath(folders[0].uri, pathStr);
-		}
-		return URI.file(pathStr);
+		return resolveWorkspaceUri(this._workspaceContextService, pathStr);
 	}
 
 	async prepareToolInvocation(context: IToolInvocationPreparationContext, token: CancellationToken): Promise<IPreparedToolInvocation | undefined> {
@@ -123,20 +139,14 @@ export const WriteFileToolData: IToolData = {
 export class WriteFileTool extends Disposable implements IToolImpl {
 	constructor(
 		@IFileService private readonly _fileService: IFileService,
-		@IWorkspaceContextService private readonly _workspaceContextService: IWorkspaceContextService
+		@IWorkspaceContextService private readonly _workspaceContextService: IWorkspaceContextService,
+		@IEditorService private readonly _editorService: IEditorService
 	) {
 		super();
 	}
 
 	private _resolveUri(pathStr: string): URI {
-		if (pathStr.startsWith('/') || /^[a-zA-Z]:[\\/]/.test(pathStr)) {
-			return URI.file(pathStr);
-		}
-		const folders = this._workspaceContextService.getWorkspace().folders;
-		if (folders.length > 0) {
-			return joinPath(folders[0].uri, pathStr);
-		}
-		return URI.file(pathStr);
+		return resolveWorkspaceUri(this._workspaceContextService, pathStr);
 	}
 
 	async prepareToolInvocation(context: IToolInvocationPreparationContext, token: CancellationToken): Promise<IPreparedToolInvocation | undefined> {
@@ -159,6 +169,11 @@ export class WriteFileTool extends Disposable implements IToolImpl {
 				await this._fileService.createFolder(parent);
 			}
 			await this._fileService.writeFile(uri, VSBuffer.fromString(input.content));
+			try {
+				await this._editorService.openEditor({ resource: uri });
+			} catch {
+				// Non-fatal if opening editor fails
+			}
 			return createToolSimpleTextResult(`Successfully saved file '${input.path}' (${input.content.length} characters written).`);
 		} catch (err) {
 			return createToolSimpleTextResult(`Error writing file ${input.path}: ${err instanceof Error ? err.message : String(err)}`);
@@ -199,14 +214,7 @@ export class EditFileTool extends Disposable implements IToolImpl {
 	}
 
 	private _resolveUri(pathStr: string): URI {
-		if (pathStr.startsWith('/') || /^[a-zA-Z]:[\\/]/.test(pathStr)) {
-			return URI.file(pathStr);
-		}
-		const folders = this._workspaceContextService.getWorkspace().folders;
-		if (folders.length > 0) {
-			return joinPath(folders[0].uri, pathStr);
-		}
-		return URI.file(pathStr);
+		return resolveWorkspaceUri(this._workspaceContextService, pathStr);
 	}
 
 	async prepareToolInvocation(context: IToolInvocationPreparationContext, token: CancellationToken): Promise<IPreparedToolInvocation | undefined> {

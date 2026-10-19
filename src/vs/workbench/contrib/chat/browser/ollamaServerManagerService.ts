@@ -120,7 +120,9 @@ export class OllamaServerManagerService extends Disposable implements IOllamaSer
 			try {
 				const models = await this._client.listModels();
 				if (models.length > 0) {
-					await this.setActiveModel(models[0].name);
+					// Prioritize coder models (e.g. qwen2.5-coder) over generic models
+					const coder = models.find(m => /coder|code/i.test(m.name));
+					await this.setActiveModel(coder ? coder.name : models[0].name);
 				}
 			} catch {
 				// Ignore if tags cannot be fetched

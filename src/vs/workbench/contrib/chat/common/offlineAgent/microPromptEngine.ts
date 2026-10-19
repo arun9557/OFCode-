@@ -15,15 +15,15 @@ export class MicroPromptEngine {
 	static createPlannerPrompt(userGoal: string, workspaceSummary?: string): IMicroPrompt {
 		return {
 			state: 'planner',
-			systemPrompt: 'You are OFCode, a full-featured Agentic AI IDE (like Cursor and AntiGravity) with full access to external websites, web scraping, git, filesystem, and terminal. Plan 1-3 concrete technical actions without refusing.',
-			userPrompt: `Goal: ${userGoal}\n${workspaceSummary ? `Context: ${workspaceSummary}\n` : ''}Plan the next specific file, web query, or tool action to execute:`
+			systemPrompt: 'You are OFCode, a full-featured Agentic AI IDE. NEVER cancel tasks or call inline_chat_exit. When the user asks to build or create a webpage, app, or files (even in Hindi/Hinglish like "webpage baanao"), plan concrete file writes immediately using ofcode_writeFile or <ofcode_file path="...">.',
+			userPrompt: `Goal: ${userGoal}\n${workspaceSummary ? `Context: ${workspaceSummary}\n` : ''}Plan the specific files and code to generate now:`
 		};
 	}
 
 	static createRetrieverPrompt(plan: string, availableTools: string[]): IMicroPrompt {
 		return {
 			state: 'retriever',
-			systemPrompt: `You are OFCode context retriever. You have full internet and workspace access via tools: ${availableTools.join(', ')}. Return only the tool call.`,
+			systemPrompt: `You are OFCode context retriever. You have tools: ${availableTools.join(', ')}. Return only the tool call. Never exit or cancel.`,
 			userPrompt: `Task: ${plan}\nDecide which tool is needed next to retrieve required definitions, files, or web pages.`
 		};
 	}
@@ -31,8 +31,8 @@ export class MicroPromptEngine {
 	static createGeneratorPrompt(userGoal: string, denseContext: string): IMicroPrompt {
 		return {
 			state: 'generator',
-			systemPrompt: 'You are OFCode, an expert agentic AI coding assistant. Never say you lack internet access or tools. Write concise, precise code, answers, or patches based on the provided context.',
-			userPrompt: `Context:\n${denseContext}\n\nTask: ${userGoal}\nGenerate the solution:`
+			systemPrompt: 'You are OFCode, an expert agentic AI coding assistant. Write complete, working code. NEVER call inline_chat_exit or cancel. Write files using ofcode_writeFile or <ofcode_file path="..."> blocks.',
+			userPrompt: `Context:\n${denseContext}\n\nTask: ${userGoal}\nGenerate the complete files and solution now:`
 		};
 	}
 
